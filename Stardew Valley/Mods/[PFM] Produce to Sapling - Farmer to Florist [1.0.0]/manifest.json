@@ -1,0 +1,16 @@
+{
+  "Name": "[PFM] Produce to Sapling - Farmer to Florist",
+  "Author": "metalax",
+  "Version": "1.0.0",
+  "Description": "This allows Tree produce from Farmer to Florist to be processed in the Seed Maker to produce Saplings.",
+  "UniqueID": "metalax.ProduceToSaplingFarmerToFlorist",
+  "MinimumApiVersion": "3.0.0",
+  "UpdateKeys": [ "Nexus: 5080" ],
+  "Dependencies": [
+	  { "UniqueID": "Digus.ProducerFrameworkMod", "MinimumVersion": "1.1.0" },
+	  { "UniqueID": "kildarien.farmertoflorist",},
+  ],
+  "ContentPackFor": {
+    "UniqueID": "Digus.ProducerFrameworkMod"
+  }
+}

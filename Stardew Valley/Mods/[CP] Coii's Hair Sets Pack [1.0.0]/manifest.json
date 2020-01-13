@@ -1,0 +1,11 @@
+{
+   "Name": "Coii's Hair Sets Pack",
+   "Author": "Coii",
+   "Version": "1.0",
+   "Description": "Adds to farmer's hairstyles.",
+   "UniqueID": "Coii.Hairstyles",
+   "MinimumApiVersion": "2.5",
+   "ContentPackFor": {
+     "UniqueID": "Pathoschild.ContentPatcher",
+  }
+}

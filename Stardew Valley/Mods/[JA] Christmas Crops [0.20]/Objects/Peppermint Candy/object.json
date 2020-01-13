@@ -1,0 +1,40 @@
+{
+	"Name": "Peppermint Candy",
+	"Description": "A delicious minty treat, guaranteed to give you a sugar rush.",
+	"Category": "Cooking",
+	"Edibility": 15,
+	"EdibleBuffs": {
+		"Farming": 0,
+		"Fishing": 0,
+		"Mining": 0,
+		"Luck": 0,
+		"Foraging": 0,
+		"MaxStamina": 0,
+		"MagnetRadius": 0,
+		"Speed": 0,
+		"Defense": 0,
+		"Attack": 2,
+		"Duration": 30,
+  },
+	"Price": 25,
+	"IsColored": false,
+	"Recipe": {
+		"ResultCount": 10,
+		"Ingredients": [
+		  {
+			"Object": 245,
+			"Count": 4
+		  }
+		],
+		"CanPurchase": true,
+		"PurchaseFrom": "Pierre",
+		"PurchasePrice": 250,
+		"PurchaseRequirements": [
+		  "r 0.50"
+		]
+  },
+	"CanPurchase": true,
+	"PurchaseFrom": "Pierre",
+	"PurchasePrice": 45,
+	"PurchaseRequirements": null
+}

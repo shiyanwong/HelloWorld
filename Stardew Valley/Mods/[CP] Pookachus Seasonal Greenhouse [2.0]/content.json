@@ -1,0 +1,10 @@
+{
+	"Format": "1.8",
+	"Changes": [
+		{
+			"Action": "Load",
+			"Target": "Maps/Greenhouse",
+			"FromFile": "assets/Greenhouse_{{season}}.tbin"
+		}
+	]
+}

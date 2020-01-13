@@ -1,0 +1,20 @@
+{
+  "Name": "BFAV Bulls",
+  "Author": "Trent XV",
+  "Version": "2.1.2",
+  "Description": "Adds Bulls as Farm Animals.",
+  "UniqueID": "BFAVBulls",
+  "MinimumApiVersion": "2.5",
+  "UpdateKeys": [ "Nexus:4136"],
+    "Dependencies": [ {
+	  "UniqueID": "Paritee.BetterFarmAnimalVariety",
+	},
+	{
+	  "UniqueID": "ManurePack"},
+{
+	  "UniqueID": "spacechase0.JsonAssets",
+	}	],
+  "ContentPackFor": {
+    "UniqueID": "Paritee.BetterFarmAnimalVariety"
+  },
+}

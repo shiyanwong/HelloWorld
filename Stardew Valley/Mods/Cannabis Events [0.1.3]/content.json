@@ -1,0 +1,262 @@
+{
+	"Format": "1.6",
+	"Changes": [
+		///Dialogue
+		{
+				"LogName": "AbigailDialogue",
+					"Action": "EditData",
+					 "Target": "Characters/Dialogue/Abigail",
+					 "Entries": {
+						 "Wed2": "Have you ever smoked weed in a cemetery?#$e#The dead don't mind if you do.",
+						 "Thu2": "I think some Purple Haze will help me eat my dad's dinner.",
+						 "Sat2": "Someone told me to lick the frogs before.#$e#I don't think frogs will taste very good.",
+						 "summer_2": "Strawberry Cough grows best this time of year.",
+						 "summertue2": "Oh, that aroma is Amazing!$h#$e#Someone must be growing White Widow.",
+
+					 }
+				 },
+			{
+        "LogName": "HarveyDialogue",
+          "Action": "EditData",
+           "Target": "Characters/Dialogue/Harvey",
+           "Entries": {
+             "Mon": "We sell a few over-the-counter medicines at the clinic... Unfortunately no Cannabis.#$e#If you ever smoke to much, feel free to stop by.",
+             "Tue2": "Bruises, Glaucoma, and Arthritis can all be treated with Cannabis, and I can't prescribe  or sell to anyone.$a",
+             "Wed": "I cant prescribe  it, but I can recommend that you smoke a joint for luck!$h",
+             "Thu": "Concentrates are much stronger, while you will be more lucky; you will also move much slower#$e#I myself prefer flower over concentrates$h",
+             "Fri": "One day I will be able to prescribe  Cannabis#$e#One day....",
+             "Sat": "We should smoke a bowl one day.#$e#It will have to be on a Saturday because I have work.",
+             "Sun": "If only I could sell Cannabis like Pierre and Sandy...#$e#I need to travel to neighboring towns to make ends meat!",
+             "summer_Mon": "Remember, in the summer heat smoking cannabis can lead to severe dehydration. So stay Hydrated.#$e#Don't forget drink plenty of water!",
+             "summer_Fri": "People don't get sick much during summer. So, with all my free time I grow Cannabis.#$e#When Mayor Lewis fixes that law I will have the best starters in town!$h",
+           }
+         },
+         {
+           "LogName": "SebastianDialogue",
+           "Action": "EditData",
+           "Target": "Characters/Dialogue/Sebastian",
+           "Entries": {
+             "Mon2": "Things are going well with the bill...#$e#I'm glad you are helping me through this, even if it's just so you can grow weed.",
+             "Tue2": "I don't understand your need to pity me...I know the mayor told you to be my friend.#$e#Well I still enjoy your company even if there are other motives.",
+             "Thu2": "I've been talking to my mom about renovating the basement.$h#$e#I'm thinking that we push back the north wall for a large grow room!!$h",
+             "Sat2": "You know, I should be doing something productive right now. I just lose focus too fast...$s#$b#Maybe I should smoke a Sativa?",
+             "Sun2": "Having a good weekend? ...nice.#$e#I have been working on a hybrid...",
+             "fall_1": "I sure hope you invested in a greenhouse. This is the last month for any Cannabis plant.",
+						 "Tue4": "I was online looking at lights and hydroponic setups. They are all a really great price!$h#$e#If I can convince my parents to let me expand my basement, I may ask you for some cuttings.",
+						 "cannabis_event1": "Thank you.$h#$b#You are a good friend @",
+						 "cannabis_event2": "That's a dick move @, I thought we were friends",
+           }
+         },
+				 ///Events
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/Farm",
+			"When": {
+				"Weather": "Sun",
+				"HasMod": "PPJA.cannabiskit",
+			},
+			"Entries": {
+				"420100/f Sebastian 250/t 600 1800": "continue/64 15/farmer 64 16 2 Sebastian 64 18 0
+				/pause 100
+				/speak Sebastian \"The day is finally here!!$h\"
+				/speak Sebastian \"I have spent so long convincing the townspeople about the benefits of Cannabis and today the town finally voted for bill 420 to legalize Cannabis!$h\"
+				/speak Sebastian \"So this means as of today you can start growing many Cannabis crops on your farm.$h\"
+				/speak Sebastian \"Now for the best starters you'll want to speak with Sandy, but Pierre does also have a limited selection at The General Store.$h\"
+				/speak Sebastian \"Harvey was going to sell starters; but, due to some issues he is unable to sell anything.$s\"
+				/speak Sebastian \"As for growing, you may want to space your crops since they require truss to grow, which makes them difficult to pass. $n\"
+				/speak Sebastian \"Really nothing is different from your other crops, so water daily and they'll keep producing.$h\"
+				/speak Sebastian \"I know you'll be hard at work....$s\"
+				/speak Sebastian \"so don't forget about me. OK....$s\"
+				/speak Sebastian \"I am head of the Cannabis Advisory Board.....$n\"
+				/speak Sebastian \"so if I am unhappy I could lose focus and this new law may change.$s\"
+				/speak Sebastian \"Well, good luck with the new crops.$n\"
+				/faceDirection Sebastian 2
+				/move Sebastian 0 1 0
+				/speak Sebastian \"Just so you know my favorite strain is Northern Lights$h\"
+				/move Sebastian 10 0 1
+				/end",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/Farm",
+			"When": {
+				"Weather": "Sun",
+				"HasMod": "PPJA.cannabiskit",
+				"HasSeenEvent": "123456"
+			},
+			"Entries": {
+				"420101/f Sebastian 250/f Lewis 250/t 600 1800": "continue/64 15/farmer 64 16 2 Lewis 64 18 0
+				/pause 100
+				/speak Lewis \"What a wonderful time it is to be alive!!$h\"
+				/speak Lewis \"There are many wonderful things I have planed!!$h\"
+				/speak Lewis \"I suppose you are wondering why I am here?$n\"
+				/speak Lewis \"Well, since we have legalized Cannabis, we have a sudden increase in the town's budget.$h\"
+				/speak Lewis \"So, I am here to tell you all of the wonderful things we have planned!!$h\"
+				/jump Lewis 5
+				/speak Lewis \"Oh, I probably shouldn't be jumping...$s\"
+				/speak Lewis \"But I haven't had an issue with my Arthritis since I started my Cannabis regiment!!$h\"
+				/speak Lewis \"Well anyway..$n\"
+				/speak Lewis \"We have many new plans...$n\"
+				/speak Lewis \"First, there are many people in town that have Medical needs and soon they will be mailing you their requests.$n\"
+				/speak Lewis \"Second, with the additional revenue we will soon be hosting the first Valley Cannabis Cup!!$h\"
+				/speak Lewis \"Lastly, Sebastian is key to keeping this bill alive.$n\"
+				/speak Lewis \"He doesn't have very many friends, not because he is unlikeable, but because lobbying for the bill keeps him tied to his computer away from people.$s\"
+				/speak Lewis \"That's everything!!$h\"
+				/speak Lewis \"Now if you don't mind..$n\"
+				/faceDirection Lewis 2
+				/move Lewis 0 1 0
+				/speak Lewis \"I am going to play hopscotch with the children!!$h\"
+				/move Lewis 10 0 1
+				/end",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/Town",
+			"When": {
+				"Weather": "Sun",
+				"HasFlag": "JojaMember",
+				"HasMod": "PPJA.cannabiskit",
+
+			},
+			"Entries": {
+				"420102/f Sebastian 250/f Pierre 250/t 0900 1300": "continue/40 58/farmer 40 58 1 Pierre 42 58 3
+				/pause 100
+				/speak Pierre \"I may just be able to survive this Joja madness thanks to your crops $h\"
+				/speak Pierre \"If only Joja hadn't sold that additional membership. $s\"
+				/speak Pierre \"I may have been able to continue just selling traditional crops. $n\"
+				/speak Pierre \"But, as long as I keep some form of Cannabis in stock, I should be able to compete with Joja. $n\"
+				/speak Pierre \"Luckily, Cannabis is not legal across the nation, so Joja is unable to interfere with my sales. $h\"
+				/speak Pierre \"Also, if you ever find out who bought that Joja membership.. $3\"
+				/speak Pierre \"I don't care what you do.. $3\"
+				/speak Pierre \"Make it hurt. $3\"
+				/speak Pierre \"I have to get back to the store, Keep up the good work!! $h\"
+				/end"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/Town",
+			"When": {
+				"Weather": "Sun",
+				"HasMod": "PPJA.cannabiskit",
+
+			},
+			"Entries": {
+				"420103/f Sebastian 250/t 0800 1200": "continue/28 60/farmer 28 60 1 Lewis 30 60 3
+				/pause 100
+				/speak Lewis \"I am so excited!!! $h\"
+				/speak Lewis \"Have you heard about the other places that have legalized Cannabis?! $h\"
+				/speak Lewis \"They have had so much money in tax revenue, that they don't know what to do with it!!! $h\"
+				/speak Lewis \"I have no doubt in my mind that you will grow high quality cannabis on your farm. $h\"
+				/speak Lewis \"How do I know, you ask? $h\"
+				/move Lewis -1 0 3
+				/speak Lewis \"Well don't tell anyone, but...$n\"
+				/speak Lewis \"Pierre sometimes gives me some freebies in exchange for some mayorly help to aid him in the struggle with Joja. $h\"
+				/speak Lewis \"But as long as you keep growing quality Cannabis, I think he will do just fine.$h\"
+				/speak Lewis \"Now I know everyone wants to smoke a joint with the mayor. $h\"
+				/speak Lewis \"And I do wish I could smoke a joint with you right now.. $s\"
+				/speak Lewis \"But I have mayorly duties to attend to. $s\"
+				/speak Lewis \"So, good luck on your new adventure! $h\"
+				/move Lewis 4 0 1
+				/speak Lewis \"and remember...$n\"
+				/move Lewis -4 0 3
+				/speak Lewis \"Cannabis may make you really lucky, but it slows you down too. $h\"
+				/move Lewis 0 5 2
+				/end"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/ScienceHouse",
+			"When": {
+				"HasMod": "PPJA.cannabiskit",
+			},
+			"Entries": {
+				"420104/f Sebastian 1000/t 1200 1800": "jaunty/6 23/farmer 6 23 0 Robin 5 18 2 Sebastian 13 20 3 Demetrius 18 20 3
+				/viewport move 0 -2 1000
+				/move Sebastian -6 0 3 true
+				/move Robin 0 2 2
+				/speak Sebastian \"Mother...\"
+				/emote Robin 8
+				/faceDirection Robin 1
+				/speak Sebastian \"I would like to ask you a favor. Oh, hi @, I'm glad you are here too.\"
+				/speak Robin \"What's going on honey?\"
+				/speak Sebastian \"I was wondering if you...\"
+				/speak Demetrius \"Hey, Robin...\"
+				/move Demetrius -9 0 3 true
+				/faceDirection Sebastian 1
+				/move Demetrius 0 2 2 true
+				/move Demetrius -1 0 3 true
+				/faceDirection Sebastian 2
+				/speak Demetrius \"Oh, hi @. What's going on?\"
+				/speak Robin \"Sebastian was just about to ask me for some assistance.\"
+				/faceDirection Sebastian 3
+				/speak Sebastian \"Does he really need to be here..\"
+				/speak Demetrius \"I can leave if you need some privacy.\"
+				/speak Robin \"You need to get used to Demetrius being here, whatever you want to ask me you can ask him as well.\"
+				/speak Sebastian \"It's just... if he is here I know you won't hear me out\"
+				/speak Demetrius \"Sebastian, I'm a scientist, we listen to reason. I'm sure if you present a valid argument we can come to an agreement.$h\"
+				/speak Robin \"You also don't seem to mind @ being here.\"
+				/speak Sebastian \"Fine, if I have to..$a\"
+				/speak Sebastian \"I wanted to know if you could assist me in expanding my room in the basement\"
+				/speak Robin \"Sebby, you already have the entire basement, why would need to expand your room?\"
+				/emote Demetrius 16
+				/speak Demetrius \"Not to mention, expanding into the mountain will be quite difficult, with the composition of the mountain.\"
+				/speak Sebastian \"Thank you Demetrius...we all wanted to know that...\"
+				/speak Robin \"If you can give me a good reason I will consider it, but you will owe me.#$b#I'm your mother, you know I'll remember\"
+				/speak Sebastian \"So...#$b#As you may have heard already, but if not, I am head of the Cannabis Board responsible for bill 420.\"
+				/speak Demetrius \"You're on the....\"
+				/speak Sebastian \"Please can I finish..$a\"
+				/emote Robin 16
+				/speak Robin \"SEBBY, Attitude!\"
+				/speak Sebastian \"sorry...$s\"
+				/speak Demetrius \"Honey, no need. I should not have interrupted.\"
+				/emote Sebastian 8
+				/speak Sebastian \"thank you...$h\"
+				/speak Demetrius \"No need, now what were you asking?$h\"
+				/speak Sebastian \"Well... With all of the hard work I've done for the town, I was hoping I could use he extra space to grow cannabis\"
+				/emote Robin 16 true
+				/speak Robin \"ABSOLUTLY NOT!!! Drugs are not something I want in this household!!$a\"
+				/speak Demetrius \"Now Robin, let's think about this.\"
+				/speak Robin \"WHAT IS THERE TO THINK ABOUT!!$a\"
+				/speak Demetrius \"Well I know it may come as a surprise, but I am in favor of this endeavor.$h\"
+				/emote Sebastian 16 true
+				/emote Robin 16 true
+				/emote farmer 16 true
+				/pause 100
+				/speak Robin \"What do you mean you support this endeavor? Don't you remember, Cannabis is a gateway drug!\"
+				/speak Demetrius \"Well, there is a lot of research showing that it causes less harm than alcohol.\"
+				/speak Demetrius \"I also have been thinking. If Harvey is able so sell Cannabis, then he will need extra quality control.\"
+				/speak Demetrius \"And we all know Sebastian's room has the best quality control of all! hehe.$h\"
+				/speak Demetrius \"Not to mention the extra money, I'm sure the difficult renovation will pay for itself!$h\"
+				/speak Robin \"That may be so I still don't feel comfortable having that stuff in my house.\"
+				/speak Robin \"Oh Sebby, I don't know what to do, Demetrius seems fully on board and that means so much to me. But...\"
+				/speak Sebastian \"@ has been growing Cannabis on his farm for a while! I'm sure he has some insight!$h^@ has been growing cannabis on her farm for a while! She knows everything about cannabis!$h\"
+				/speak Demetrius \"@ is a very trustworthy person, I would consider what he has to say.\"
+				/faceDirection Robin 2 true
+				/faceDirection Sebastian 2 true
+				/faceDirection Demetrius 2 true
+				/speak Robin \"Well I feel like I hardly know you @, but they are my family, so if they trust your opinion, then I will as well.\"
+				/speak Sebastian \"$q 420 null#So what do you say @?#$r 420 20 cannabis_event1#It's an excellent business adventure.#$r 420 -20 cannabis_event2#I should be the only source of Cannabis.\"
+				/faceDirection Robin 1
+				/faceDirection Sebastian 3
+				/speak Robin \"$p 420#Well I guess I could consider it, but I will need detailed plans.|@ makes a good point, you could destroy his business^@'s right, Her business could be ruined!\"
+				/speak Sebastian \"$p 420#I already have the plans made! I'll go get them!$h|I hate you @! I cant wait to move to the city!$a\"
+				/move Sebastian 5 0 2
+				/move Sebastian 0 2 2
+				/warp Sebastian -1000 -1000
+				/speak Demetrius \"$p 420#I'm glad to know you are such an honorable person @.|You know I don't think there would be an issue with competition @.\"
+				/speak Demetrius \"$p 420#I am going to see if Sebastian would like some help with plant genetics.|I'm going back to my lab.\"
+				/move Demetrius 0 -2 0 true
+				/move Demetrius 5 0 2 true
+				/move Demetrius 0 2 0
+				/warp Demetrius -1000 -1000
+				/speak Robin \"$p 420#This may actually may be a good thing for us...$h|I think I will still discuss this further with Demetrius.\"
+				/speak Robin \"$p 420#Thanks for your help @!!$h|If he goes to the city, I might not see him again...$s\"
+				/end",
+			}
+		}
+	]
+}

@@ -1,0 +1,10 @@
+{
+	"Name": "Manure Pack for Bulls",
+    "Author": "TrentXV",
+    "Version": "1.0.1",
+    "Description": "Adds Manure that is used to produce Fertilizers",
+    "UniqueID": "ManurePack",
+    "ContentPackFor": {
+    	"UniqueID": "spacechase0.JsonAssets"
+    },
+}

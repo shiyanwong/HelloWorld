@@ -1,0 +1,18 @@
+{
+   "Name": "Prospurrity Processing",
+   "Author": "lanterncat",
+   "Version": "1.3.2",
+   "Description": "Machines to process the items from Prospurrity",
+   "UniqueID": "Prospurr.processing",
+   "MinimumApiVersion": "3.0.0",
+   "UpdateKeys": [""],
+   "Dependencies": [ {
+       "UniqueID": "Prospurr.items",
+	},
+{
+       "UniqueID": "Prospurrity",
+    }	],
+   "ContentPackFor": {
+	"UniqueID": "Platonymous.CustomFarming"
+   }
+}

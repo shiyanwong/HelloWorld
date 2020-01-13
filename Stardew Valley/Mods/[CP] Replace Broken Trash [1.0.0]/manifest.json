@@ -1,0 +1,12 @@
+{
+    "Name": "Replace Broken Trash",
+    "Author": "Strobe",
+    "Version": "1.0.0",
+    "Description": "replaces broken glasses and CD with a bottle.",
+    "UniqueID": "Strobe.ReplaceBrokenTrash",
+    "MinimumApiVersion": "2.5",
+    "UpdateKeys": [""],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    },
+}

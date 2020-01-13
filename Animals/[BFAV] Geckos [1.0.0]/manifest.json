@@ -1,0 +1,11 @@
+{
+   "Name": "Moya's Geckos",
+   "Author": "Moya",
+   "Version": "1.0.0",
+   "Description": "Adds Geckos.",
+   "UniqueID": "Moya.Geckos",
+   "MinimumApiVersion": "2.5",
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   }
+}

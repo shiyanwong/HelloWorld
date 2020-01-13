@@ -1,0 +1,44 @@
+[
+//Mouse-Ear Cress Seeds
+	{ //Mouse-Ear Cress
+		"ProducerName": "Seed Maker",
+		"InputIdentifier": "Mouse-Ear Cress",
+		"MinutesUntilReady": 20,
+		"OutputIdentifier": "Mouse-Ear Cress Seeds",
+		"OutputStack": 1,
+		"OutputMaxStack": 3,
+		"SilverQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "Mouse-Ear Cress Seeds",
+			"OutputStack": 2,
+			"OutputMaxStack": 4
+		},        
+		"GoldQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "Mouse-Ear Cress Seeds",
+			"OutputStack": 3,
+			"OutputMaxStack": 5
+		},        
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "Mouse-Ear Cress Seeds",
+			"OutputStack": 4,
+			"OutputMaxStack": 6
+		},
+		"AdditionalOutputs": [
+			{
+				"OutputProbability": 0.005,
+				"OutputIdentifier": "499",
+				"OutputStack": 1
+			},
+			{
+				"OutputProbability": 0.0199,
+				"OutputIdentifier": "770",
+				"OutputStack": 1,
+				"OutputMaxStack": 4
+			}
+		],
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+]

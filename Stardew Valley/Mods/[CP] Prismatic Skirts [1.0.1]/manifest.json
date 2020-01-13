@@ -1,0 +1,13 @@
+{
+  "Name": "Prismatic Skirts & Dresses",
+  "Author": "SurfingMimikyu",
+  "Version": "1.0.1",
+  "Description": "Adds a new prismatic counterpart for each skirt type.",
+  "UniqueID": "SurfingMimikyu.PrismaticSkirt",
+  "MinimumApiVersion": "2.11.0",
+  "UpdateKeys": ["Nexus:4719"],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher",
+    "MinimumVersion": "1.11.0"
+  }
+}

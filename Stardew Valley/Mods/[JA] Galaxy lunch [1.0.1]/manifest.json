@@ -1,0 +1,12 @@
+{
+	"Name": "Galaxy Lunch",
+    "Author": "Vanillin",
+    "Version": "1.1.0",
+    "MinimumApiVersion": "3.0.0",
+    "Description": "Galaxy Lunch for JsonAssets",
+    "UniqueID": "Vanillin.GalaxyLunch",
+	"UpdateKeys": [ "Nexus:4669" ],
+    "ContentPackFor": {
+    "UniqueID": "spacechase0.JsonAssets"
+    },
+}

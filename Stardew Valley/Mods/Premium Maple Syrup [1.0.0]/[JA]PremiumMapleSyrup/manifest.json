@@ -1,0 +1,17 @@
+{
+   "Name": "[JA]Premium Maple Syrup",
+   "Author": "Discord42",
+   "Description": "Adds new item for Evaporator machine. Requires CFR and JA to work properly.",
+   "Version": "1.0.0",
+   "MinimumApiVersion": "2.11.2",
+   "UniqueID": "discord.ja.premiummaplesyrup",
+   "ContentPackFor": {
+       "UniqueID": "spacechase0.JsonAssets"
+    },
+   "Dependencies": [
+ {
+      "UniqueID": "Platonymous.CustomFarming",
+      "IsRequired": true,
+   },
+],
+}

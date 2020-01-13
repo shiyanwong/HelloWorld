@@ -1,0 +1,25 @@
+{
+  "Name": "Manure Grinder",
+  "Description": "Grinds higher quality manure into smaller pieces, producing more.",
+  "Recipe": {
+        "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": 335,
+            "Count": 5,
+        }, 
+		],
+		"CanPurchase": false,
+		"SkillUnlockName": "Farming",
+		"SkillUnlockLevel": 9,
+		},
+  "ProvidesLight": false,
+	"CanPurchase": true,
+	"PurchaseFrom": "SheilaShopIcon",
+	"PurchasePrice": 5000,
+	"PurchaseRequirements": null,
+	
+  // Translations
+  "NameLocalization": { "es": "" },
+  "DescriptionLocalization": { "es": "" },
+}

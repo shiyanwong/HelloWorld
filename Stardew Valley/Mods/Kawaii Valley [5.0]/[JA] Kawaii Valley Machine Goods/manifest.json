@@ -1,0 +1,10 @@
+{
+   "Name": "Kawaii Valley Machine Goods",
+   "Author": "PoppiPan",
+   "Description": "All the items for the Kawaii Valley mod, which requires CFR and JA.",
+   "Version": "3.0",
+   "UniqueID": "Kawaii_Valley_MG",
+   "ContentPackFor": {
+       "UniqueID": "spacechase0.JsonAssets"
+    },
+}

@@ -1,0 +1,8 @@
+{
+  "Name": "Manure",
+  "Description": "It can be used to craft fertilizers.",
+  "Edibility": -300,
+  "Price": 30,
+  "IsColored": false,
+  "Recipe": null
+}

@@ -1,0 +1,17 @@
+﻿{
+	"Name": "[PFM] Manure Machine Add-on",
+	"Author": "PPJA",
+	"Version": "1.0.1",
+	"Description": "Adds producing rules for Manure Machines for BFAV Bulls.",
+	"UniqueID": "PFManureMachines",
+	"MinimumApiVersion": "3.0.0",
+	"UpdateKeys": [],
+	/*"Dependencies": [
+		{
+			"UniqueID": "YourName.YourOthersPacksAndMods"
+		}
+	],*/
+	"ContentPackFor": {
+		"UniqueID": "DIGUS.ProducerFrameworkMod"
+	}
+}

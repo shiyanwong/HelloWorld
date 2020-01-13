@@ -1,0 +1,17 @@
+﻿{
+  "Name": "Advanced Tech-CFR",
+  "Author": "Kove",
+  "Version": "1.0.0",
+  "Description": "Add new machines,especially the mulitary-using things.",
+  "UniqueID": "KV.AdvancedTechCFR",
+  "ContentPackFor": {
+    "UniqueID": "Platonymous.CustomFarming",
+    "MinimumVersion": "2.9.10"
+  },
+  "Dependencies": [
+   {
+      "UniqueID": "KV.AdvancedTechJA",
+      "IsRequired": true,
+   },
+]
+}

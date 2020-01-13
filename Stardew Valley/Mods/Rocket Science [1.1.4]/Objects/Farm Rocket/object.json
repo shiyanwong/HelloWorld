@@ -1,0 +1,22 @@
+{
+  "Name": "Farm Rocket",
+  "Description": "Ultimate crafting!",
+  "Category": "Gem",
+  "Edibility": -300,
+  "Price": 90000000,
+  "IsColored": false,
+  "Recipe": {
+    "ResultCount": 1,
+    "Ingredients":
+	[
+      { "Object": "Bionic Rocket part", "Count": 100, },
+      { "Object": "Rocket Battery",  "Count": 100, },
+      { "Object": "Rocket Engine" ,"Count": 100, },
+    ],
+    "CanPurchase": true,
+    "PurchaseFrom": "Krobus",
+    "PurchasePrice": 1000000,
+    "PurchaseRequirements":
+[ "y 3", ],
+},  
+}

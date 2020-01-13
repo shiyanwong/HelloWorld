@@ -1,0 +1,105 @@
+{
+    "Format": "1.8",
+    "ConfigSchema": {
+        "version": {
+            "AllowValues": "decorated, clean",
+            "Default": "decorated"
+        },
+        "gameplay": {
+            "AllowValues": "singleplayer, multiplayer",
+            "Default": "singleplayer"
+        }
+    },
+    "Changes": [
+        //pet bowl
+        //empty
+        {
+            "Action": "EditImage",
+            "Target": "Maps/{{season}}_outdoorsTileSheet",
+            "FromFile": "assets/petbowl.png",
+            "FromArea": {
+                "X": 0,
+                "Y": 0,
+                "Width": 32,
+                "Height": 32
+            },
+            "ToArea": {
+                "X": 192,
+                "Y": 1232,
+                "Width": 32,
+                "Height": 32
+            },
+            "When": {
+                "FarmType": "Standard"
+            }
+        },
+        //full
+        {
+            "Action": "EditImage",
+            "Target": "Maps/{{season}}_outdoorsTileSheet",
+            "FromFile": "assets/petbowl.png",
+            "FromArea": {
+                "X": 32,
+                "Y": 0,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 224,
+                "Y": 1232,
+                "Width": 16,
+                "Height": 16
+            },
+            "When": {
+                "FarmType": "Standard"
+            }
+        },
+        //farm
+        {
+            "Action": "Load",
+            "Target": "Maps/Farm",
+            "FromFile": "assets/cdf_{{version}}_{{gameplay}}.tbin",
+            "When": {
+                "FarmType": "Standard"
+            }
+        },
+        //forest
+        {
+            "Action": "Load",
+            "Target": "Maps/Forest",
+            "FromFile": "assets/forest.tbin",
+            "When": {
+                "FarmType": "Standard",
+                "HasMod:FlashShifter.StardewValleyExpandedALL": false,
+                "HasMod:DaisyNiko.StardewValleyReimagined": false
+            }
+        },
+        //bus stop
+        {
+            "Action": "Load",
+            "Target": "Maps/BusStop",
+            "FromFile": "assets/busstop.tbin",
+            "When": {
+                "FarmType": "Standard",
+                "HasMod:FlashShifter.StardewValleyExpandedALL": false,
+                "HasMod:DaisyNiko.StardewValleyReimagined": false
+            }
+        },
+        //strings
+        {
+            "Action": "EditData",
+            "Target": "Strings/StringsFromMaps",
+            "Entries": {
+                "cdf.1": "> Main Street^> Bus Stop",
+                "cdf.2": "@ Farm^> Bus Stop",
+                "cdf.3": "` Backwoods",
+                "cdf.4": "` Farmhouse^@ Orchard^> Fields^",
+                "cdf.5": "@ To Main Street",
+                "cdf.6": "To Greenhouse",
+                "cdf.7": "1 Main Street",
+                "cdf.8": "2 Main Street",
+                "cdf.9": "3 Main Street"
+            }
+        }
+    ]
+}

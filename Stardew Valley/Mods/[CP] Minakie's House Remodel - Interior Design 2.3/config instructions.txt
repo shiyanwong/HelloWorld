@@ -1,0 +1,41 @@
+
+Contact: Minakie#7516 on Discord
+
+
+// KITCHEN
+- The kitchen recolor can be turned "on" (default) or "off".
+- You can choose between "beige" or "chocolate" (default) colors.
+
+
+// FIREPLACE
+- The white fireplace recolor can be turned "on" (default) or "off".
+- You can add a bird or cat (or both simultaneously) or a decoration on top of your fireplace by turning the respective options "on" or "off" (default).
+- The bird options are "babychick", "blackbird", "budgieblue", "budgiegreen", "dove", "nightingale", "parrot", "pigeon", and "sparrow" (default).
+- The cat options are "black", "blue", "brown", "grey", "liver", "orange", "siamese", "silver", "tabby" (default), "white", and "yellow".
+- The decor options are "books" (default), "juniplant", and "toys".
+
+
+// COLUMN
+- The column recolor can be turned "on" (default) or "off".
+- The options are "books" (default), "office", "bathroom", "clothes", "food", "gothic", "toys", and "misc".
+- Since the location of the column in the house changes based on which House Upgrade level you have, it's possible to set different looks for the column for different house upgrades.
+
+
+// DOUBLE BED
+- The white double bed recolor can be turned "on" (default) or "off".
+- You can choose between "minakie" (default) or "white" bed sheets.
+- You can choose between "blue", "brown", "green", "grey", "orange", "pink", "purple", "red", "white" (default), or "yellow" accents for the pillows.
+
+
+// SINGLE BED
+- The white single beds recolor can be turned "on" (default) or "off".
+- You can choose between "minakie" (default) or "white" bed sheets.
+- You can choose between "blue", "brown", "green", "grey", "orange", "pink", "purple", "red", "white" (default), or "yellow" accents for the pillows.
+
+
+// CRIB
+- The crib recolor can be turned "on" (default) or "off".
+- You can choose between "beech", "birch", "mahogany", "oak", "walnut", or "white" wood for the crib frame.
+- You can choose between "minakie" (default) or "white" sheets and pillow.
+- You can turn the crib toys (baby bottle, teddy bear, and toy horse) "on" or "off" (default).
+- The accents on the pillow and teddy bear can be "blue", "brown", "green", "grey", "orange", "pink", "purple", "red", "white", or "yellow" (default).

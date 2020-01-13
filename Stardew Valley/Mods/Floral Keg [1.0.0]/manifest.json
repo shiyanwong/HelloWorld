@@ -1,0 +1,11 @@
+﻿{
+  "Name": "Floral Keg",
+  "Author": "Moya",
+  "Version": "1.0.0",
+  "Description": "Make flowers into wine! Uses Custom Farming Redux.",
+  "UniqueID": "Moya.FloralKeg",
+  "ContentPackFor": {
+    "UniqueID": "Platonymous.CustomFarming",
+    "MinimumVersion": "2.9.10"
+  }
+}

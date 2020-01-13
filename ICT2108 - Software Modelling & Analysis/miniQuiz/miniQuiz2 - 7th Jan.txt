@@ -1,0 +1,48 @@
+1. 
+Functional Requirement describe the interaction between the system and its environment, independent of its implementation.
+Non-Functional Requirement constrain the implementation of the system
+
+2. 
+Moving target problem
+ - Requirements changed as software develops
+
+3.
+Main Dangers
+ - Regression faults [Changes in some areas cause errors in seemingly unrelated aspects of the software]
+ - Redesign/Reimplementation [ Too many changes to the requirements lead to a huge alteration in the system]
+
+4. 
+3 things requirements should be
+- Complete [ Everything that matters is covered in the document. All conditions under which the requirement applies are stated.]
+- Consistent [ There are no conflicts between requirements.]
+- Verifiable [ The built system can be checked to see if requirement is met.]
+- Traceable [ The source of the requirement can be traced, and it can be tracked throughout the system (e.g., to the design, code, test, and documentation). ]
+- Modifiable [ Changes to the requirements can be accommodated.]
+- Feasible [ The requirement is doable and can be accomplished within budget and schedule.]
+- Unambiguous [ Every statement has one interpretation that can be easily derived from the requirement statement.]
+- Correct [ The facts related to the requirement are accurate, and it is technically and legally possible.]
+- Design Independent [ It does not pose a specific implementation solution.]
+
+5.
+3 Categories for Non-Functional Requirement
+- Product Requirements [ Specify or constrain the behaviour of the Software]
+- Organizational Requirements [ Broad system requirements derived from policies and procedures in the orginzations.]
+- External Requirements [ Derived from factor external to the system and its development process]
+
+6.
+Actor;
+- Who will use/support/maintain the system?
+- Who will use the results from the system?
+- Doesn’t need to be a human : external devices/systems (e.g., “Bank”)
+- Have Associations with Use Cases
+- entity that interact with the system
+
+Use Case;
+- Specific action needed to be performed in/by the system
+- Specifying what tasks are performed by the system users
+
+Generalisation used to represent inheritance relationship. E.g., “ Withdrawal ” shares the same specification with “ Transaction ” but carries extra details
+
+Include - An essential, dependant, additional Use Case
+
+Extend - An independent, nonessential, additional Use Case

@@ -1,0 +1,136 @@
+{
+  "name": "[CFR] Goldfish Bowl & Koi Tank",
+  "author": "TrentXV&HisameArtwork",
+  "version": "1.0.0",
+  "machines": [
+       {
+      "id": 25,
+      "name": "Goldfish Bowl",
+      "description": "An elegant bowl to keep your goldfish, feed them and they might reproduce.",
+      "category": "Crafting",
+      "texture": "fishbowl.png",
+      "tileindex": 0,
+      "readyindex": 17,
+      "frames": 16,
+      "forsale": false,
+      "crafting": "709 15 338 5 153 1 1146 1 1147 1 1148 1 1149 1 1150 1 -2 3",
+      "pulsate": false,
+      "fps": 4,
+      "production": [
+        {
+          "item": "random:Goldfish,Lionhead,Comet,Telescope, Celestial Eye",
+          "time": 10800,
+          "stack": 5,
+          "materials": [
+            {
+              "name": "Fish Food",
+          }
+          ]
+        }, ]
+		},
+ {
+      "id": 125,
+      "name": "Spring Koi Tank",
+      "description": "An elegant tank to keep your spring koi, feed them and they might reproduce.",
+      "category": "Crafting",
+      "texture": "Springtank.png",
+      "tileindex": 0,
+      "readyindex": 4,
+      "frames": 3,
+      "forsale": false,
+	  "crafting": "335 5 338 5 153 1 1123 1 1077 1 -2 3",
+      "pulsate": false,
+      "fps": 1,
+      "production": [
+        {
+          "item": "random:Yamabuki Koi,Kohaku Koi",
+          "time": 10800,
+          "stack": 4,
+          "materials": [
+            {
+              "name": "Fish Food",
+          }
+          ]
+        }, 		
+      ]
+    },
+	{
+      "id": 126,
+      "name": "Summer Koi Tank",
+      "description": "An elegant tank to keep your summer koi, feed them and they might reproduce.",
+      "category": "Crafting",
+      "texture": "Summertank.png",
+      "tileindex": 0,
+      "readyindex": 4,
+      "frames": 3,
+      "forsale": false,
+      "crafting": "335 5 338 5 153 1 1122 1 1082 1 -2 3",
+      "pulsate": false,
+      "fps": 1,
+      "production": [
+        {
+          "item": "random:Ki Utsuri Koi,Sanke Koi",
+          "time": 10800,
+          "stack": 4,
+          "materials": [
+            {
+              "name": "Fish Food",
+          }
+          ]
+        }, 	
+  ]
+},
+{
+      "id": 127,
+      "name": "Fall Koi Tank",
+      "description": "An elegant tank to keep your fall koi, feed them and they might reproduce.",
+      "category": "Crafting",
+      "texture": "Falltank.png",
+      "tileindex": 0,
+      "readyindex": 4,
+      "frames": 3,
+      "forsale": false,
+      "crafting": "335 5 338 5 153 1 1121 1 1078 1 -2 3",
+      "pulsate": false,
+      "fps": 1,
+      "production": [
+        {
+          "item": "random:Tancho Koi,Ghost Koi",
+          "time": 10800,
+          "stack": 4,
+          "materials": [
+            {
+              "name": "Fish Food",
+          }
+          ]
+        }, 	
+  ]
+},
+{
+      "id": 128,
+      "name": "Winter Koi Tank",
+      "description": "An elegant tank to keep your winter koi, feed them and they might reproduce.",
+      "category": "Crafting",
+      "texture": "Wintertank.png",
+      "tileindex": 0,
+      "readyindex": 4,
+      "frames": 3,
+      "forsale": false,
+      "crafting": "335 5 338 5 153 1 1079 1 1081 1 -2 3",
+      "pulsate": false,
+      "fps": 1,
+      "production": [
+        {
+          "item": "random:Hi Utsuri Koi,Shiro Utsuri Koi",
+          "time": 10800,
+          "stack": 4,
+          "materials": [
+            {
+              "name": "Fish Food",
+          }
+          ]
+        }, 	
+  ]
+},
+        ],
+		}

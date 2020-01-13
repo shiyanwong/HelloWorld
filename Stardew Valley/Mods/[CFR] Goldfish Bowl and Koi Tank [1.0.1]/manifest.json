@@ -1,0 +1,23 @@
+﻿{
+  "Name": "Goldfish Bowl and Koi Tan",
+  "Author": "TrentXV&HisameArtwork",
+  "Version": "1.0.1",
+  "Description": "Adds a bowl and a tank that lets you breed goldfish breeds and koi.",
+  "UniqueID": "GBKT",
+  "ContentPackFor": {
+    "UniqueID": "Platonymous.CustomFarming",
+    "MinimumVersion": "2.9.10"
+  },
+   "Dependencies": [
+   {
+      "UniqueID": "NewFishRecipe",
+      "IsRequired": true
+   },
+   ],
+    "Dependencies": [
+   {
+      "UniqueID": "MoreFish",
+      "IsRequired": true
+   }
+  ],
+}

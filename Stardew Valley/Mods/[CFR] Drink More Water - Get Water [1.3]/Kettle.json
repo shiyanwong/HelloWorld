@@ -1,0 +1,34 @@
+{
+	"useid": "Warilized.MakeWater",
+	"machines": [
+	{
+		"id": 0,
+		"name": "Kettle",
+		"description": "Boil 4 cups of Raw Water to 4 glass of drinkable water. Needs 1 Wood to operate",
+		"category": "Crafting",
+        "crafting": "388 10 390 5",
+		"texture": "Kettle.png",
+		"tileindex": 0,
+		"pulsate": true,
+		"frames": 0,
+		"forsale": true,
+		"shop": "Robin",
+		"price": 250,
+		"starter": {
+			"Index": 388,
+			"Stack": 1
+		},
+		"production": [
+		{
+			"item": "Water",
+			"time": 20,
+			"stack": 4,
+			"materials": [
+				{
+				"item": "Raw Water",
+				"stack": 4
+				}
+			]
+		}]
+	}]
+}

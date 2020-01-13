@@ -1,0 +1,12 @@
+{
+    "Name": "Rabbit Floof",
+    "Author": "DaisyNiko",
+    "Version": "1.2.1",
+    "Description": "a bunny-friendly replacement for the Rabbit's Foot",
+    "UniqueID": "DaisyNiko.RabbitFloof",
+    "MinimumApiVersion": "2.5",
+    "UpdateKeys": ["Nexus:3637"],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}

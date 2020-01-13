@@ -1,0 +1,24 @@
+{
+  "Name": "L. Deer Milk",
+  "Description": "A large carton of deer's milk,it's rich in protein and fat.",
+  "Category": "Milk",
+  "Edibility": 28,
+  "EdibleIsDrink": true,
+  "EdibleBuffs": null,
+  "Price": 550,
+  "IsColored": false,
+  "GiftTastes": {
+	"Hate": ["Kent"],
+	},
+	"ContextTags": 
+        [
+        "color_white",
+		"drink_item",
+		"milk_item", 
+		"deer_milk_item"
+        ],
+// Spanish translation
+  "NameLocalization": { "es": "Leche de venado XXL" },
+  "DescriptionLocalization": { "es": "Un cartón grande de leche de venado, es rico en proteínas y grasas." }, 
+}
+ 	

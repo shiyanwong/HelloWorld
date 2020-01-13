@@ -1,0 +1,10 @@
+{
+   "Name": "Witch's Valley Machine Goods",
+   "Author": "PoppiPan",
+   "Description": "All the items for the Witch's Valley mod, which requires CFR and JA.",
+   "Version": "1.0.0",
+   "UniqueID": "Witch_Valley_MG",
+   "ContentPackFor": {
+       "UniqueID": "spacechase0.JsonAssets"
+    },
+}

@@ -1,0 +1,43 @@
+{
+	"Name": "Gingerbread",
+	"Description": "Fresh baked, seasoned with ginger.",
+	"Category": "Cooking",
+	"Edibility": 50,
+	"EdibleBuffs": {
+		"Farming": 0,
+		"Fishing": 0,
+		"Mining": 0,
+		"Luck": 0,
+		"Foraging": 0,
+		"MaxStamina": 0,
+		"MagnetRadius": 0,
+		"Speed": 0,
+		"Defense": 1,
+		"Attack": 0,
+		"Duration": 120,
+  },
+	"Price": 250,
+	"IsColored": false,
+	"Recipe": {
+		"ResultCount": 2,
+		"Ingredients": [
+		  {
+			"Object": 246,
+			"Count": 2
+		  },
+		  {
+			"Object": 184,
+			"Count": 1
+		  },
+		  {
+			"Object": 245,
+			"Count": 2
+		  },
+		],
+		"IsDefault": true,
+  },
+	"CanPurchase": true,
+	"PurchaseFrom": "Pierre",
+	"PurchasePrice": 325,
+	"PurchaseRequirements": null
+}

@@ -1,0 +1,12 @@
+﻿[
+	{
+		"ProducerName": "Fertilizer Mixer", //Only 1 frame
+		"AlternateFrameProducing": false, 
+		"AlternateFrameWhenReady": false, 
+	},
+	{
+		"ProducerName": "Manure Grinder", //Only 1 frame
+		"AlternateFrameProducing": false, 
+		"AlternateFrameWhenReady": false, 
+	},
+]

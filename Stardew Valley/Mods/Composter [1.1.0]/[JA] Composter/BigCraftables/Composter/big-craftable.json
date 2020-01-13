@@ -1,0 +1,37 @@
+{
+    "Name": "Composter",
+    "Description": "Produces quality fertilizer from sap and fish. May produce extra depending on the quality of the fish.",
+    "Price": 1,
+    "ProvidesLight": false,
+    "ReserveNextIndex": true,
+    "Recipe": {
+        "ResultCount": 1,
+        "Ingredients": [
+            {
+                "Object": 709,
+                "Count": 25
+            },
+            {
+                "Object": 725,
+                "Count": 1
+            },
+            {
+                "Object": 334,
+                "Count": 5
+            },
+            {
+                "Object": 368,
+                "Count": 50
+            }
+        ],
+        "CanPurchase": true,
+        "PurchaseFrom": "Pierre",
+        "PurchasePrice": 2000
+    },
+    "NameLocalization": {
+        "de": "Komposter"
+    },
+    "DescriptionLocalization": {
+        "de": "Produziert Qualitätsdünger aus Harz und Fisch. Kann je nach Qualität des Fisches mehr produzieren."
+    }
+}

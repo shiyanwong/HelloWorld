@@ -1,0 +1,27 @@
+{
+  "Name": "Strawberry Milk",
+  "Description": "Milk flavored with fresh strawberries.",
+  "Category": "Cooking",
+  "Edibility": 50,
+  "EdibleIsDrink": true,
+  "EdibleBuffs": null,
+  "Price": 300,
+  "IsColored": false,
+  "Recipe": {
+    "ResultCount": 1,
+    "Ingredients": [
+      {
+        "Object": 400,
+        "Count": 1,
+      },
+      {
+        "Object": 184,
+        "Count": 1,
+      }
+    ],
+    "CanPurchase": true,
+    "PurchaseFrom": "Gus",
+    "PurchasePrice": 500,
+    "PurchaseRequirements":  null,
+  }
+}

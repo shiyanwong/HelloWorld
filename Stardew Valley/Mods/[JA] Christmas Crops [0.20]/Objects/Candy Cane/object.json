@@ -1,0 +1,40 @@
+{
+	"Name": "Candy Cane",
+	"Description": "A minty, cane-shaped treat.",
+	"Category": "Cooking",
+	"Edibility": 25,
+	"EdibleBuffs": {
+		"Farming": 0,
+		"Fishing": 0,
+		"Mining": 0,
+		"Luck": 0,
+		"Foraging": 0,
+		"MaxStamina": 0,
+		"MagnetRadius": 0,
+		"Speed": 1,
+		"Defense": 0,
+		"Attack": 0,
+		"Duration": 200,
+  },
+	"Price": 100,
+	"IsColored": false,
+	"Recipe": {
+		"ResultCount": 1,
+		"Ingredients": [
+		  {
+			"Object": "Peppermint Candy",
+			"Count": 3
+		  }
+		],
+		"CanPurchase": true,
+		"PurchaseFrom": "Pierre",
+		"PurchasePrice": 450,
+		"PurchaseRequirements": [
+		  "r 0.50"
+		]
+  },
+	"CanPurchase": true,
+	"PurchaseFrom": "Pierre",
+	"PurchasePrice": 185,
+	"PurchaseRequirements": null
+}

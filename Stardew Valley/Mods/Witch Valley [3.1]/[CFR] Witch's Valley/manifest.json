@@ -1,0 +1,16 @@
+{
+   "Name": "Witch's Valley",
+   "Author": "PoppiPan",
+   "Description": "Witch's Valley CustomFarmingRedux file ",
+   "Version": "2.0",
+   "UniqueID": "Witch_Valley_CFR",
+   "ContentPackFor": {
+       "UniqueID": "Platonymous.CustomFarming"
+    },
+"Dependencies": [
+   {
+      "UniqueID": "Witch_Valley_MG",
+      "IsRequired": true,
+   },
+]
+}

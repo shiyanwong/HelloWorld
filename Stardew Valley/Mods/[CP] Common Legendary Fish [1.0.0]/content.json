@@ -1,0 +1,89 @@
+{
+    "Format": "1.4",
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Fish",
+            "Entries": {
+							"163": "Legend/110/mixed/50/50/600 2000/spring summer fall winter/rainy/688 .05/0/1/0/10"
+				    }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Fish.de-DE",
+            "Entries": {
+							"163": "Legend/110/mixed/50/50/600 2000/spring summer fall winter/rainy/688 .05/0/1/0/10/Legende"
+				    }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Fish.es-ES",
+            "Entries": {
+							"163": "Legend/110/mixed/50/50/600 2000/spring summer fall winter/rainy/688 .05/0/1/0/10/Leyenda"
+				    }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Fish.fr-FR",
+            "Entries": {
+							"163": "Legend/110/mixed/50/50/600 2000/spring summer fall winter/rainy/688 .05/0/1/0/10/Légende"
+				    }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Fish.hu-HU",
+            "Entries": {
+							"163": "Legend/110/mixed/50/50/600 2000/spring summer fall winter/rainy/688 .05/0/1/0/10/Legenda"
+				    }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Fish.it-IT",
+            "Entries": {
+							"163": "Legend/110/mixed/50/50/600 2000/spring summer fall winter/rainy/688 .05/0/1/0/10/Leggenda"
+				    }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Fish.ja-JP",
+            "Entries": {
+							"163": "Legend/110/mixed/50/50/600 2000/spring summer fall winter/rainy/688 .05/0/1/0/10/レジェンド"
+				    }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Fish.ko-KR",
+            "Entries": {
+							"163": "Legend/110/mixed/50/50/600 2000/spring summer fall winter/rainy/688 .05/0/1/0/10/전설의 물고기"
+				    }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Fish.pt-BR",
+            "Entries": {
+							"163": "Legend/110/mixed/50/50/600 2000/spring summer fall winter/rainy/688 .05/0/1/0/10/A Lenda"
+				    }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Fish.ru-RU",
+            "Entries": {
+							"163": "Legend/110/mixed/50/50/600 2000/spring summer fall winter/rainy/688 .05/0/1/0/10/Легенда"
+				    }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Fish.tr-TR",
+            "Entries": {
+							"163": "Legend/110/mixed/50/50/600 2000/spring summer fall winter/rainy/688 .05/0/1/0/10/Efsane"
+				    }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Fish.zh-CN",
+            "Entries": {
+							"163": "Legend/110/mixed/50/50/600 2000/spring summer fall winter/rainy/688 .05/0/1/0/10/传说之鱼"
+				    }
+        }
+    ]
+}

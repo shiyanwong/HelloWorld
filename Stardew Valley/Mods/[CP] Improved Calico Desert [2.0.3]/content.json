@@ -1,0 +1,93 @@
+{
+  "Format": "1.9",
+  "ConfigSchema": {
+	"ExpandPond": {"AllowValues" : "enabled, disabled",
+	"Default": "enabled"},
+},
+  "Changes": [
+      {
+	"Action": "Load",
+	"Target": "Maps/Desert",
+	"FromFile": "assets//Maps/Desert.xnb",
+	"When": {"ExpandPond": "enabled"}
+       },
+
+      {
+	"Action": "EditImage",
+	"PatchMode": "Overlay",
+	"Target": "Content/DesertTiles",
+	"FromFile": "assets/Content/DesertTiles.xnb",
+       },
+
+      {
+	"Action": "EditImage",
+	"PatchMode": "Overlay",
+	"Target": "Maps/DesertTiles",
+	"FromFile": "assets/Maps/DesertTiles.xnb",
+       },
+
+      {
+	"Action": "EditImage",
+	"PatchMode": "Overlay",
+	"Target": "Maps/DesertTiles.es-ES",
+	"FromFile": "assets/Maps/DesertTiles.es-ES.xnb",
+       },
+
+      {
+	"Action": "EditImage",
+	"PatchMode": "Overlay",
+	"Target": "Maps/DesertTiles.fr-FR",
+	"FromFile": "assets/Maps/DesertTiles.fr-FR.xnb",
+       },
+
+      {
+	"Action": "EditImage",
+	"PatchMode": "Overlay",
+	"Target": "Maps/DesertTiles.hu-HU",
+	"FromFile": "assets/Maps/DesertTiles.hu-HU.xnb",
+       }, 	
+
+      {
+	"Action": "EditImage",
+	"PatchMode": "Overlay",
+	"Target": "Maps/DesertTiles.it-IT",
+	"FromFile": "assets/Maps/DesertTiles.it-IT.xnb",
+       },
+
+      {
+	"Action": "EditImage",
+	"PatchMode": "Overlay",
+	"Target": "Maps/DesertTiles.ja-JP",
+	"FromFile": "assets/Maps/DesertTiles.ja-JP.xnb",
+       },
+
+      {
+	"Action": "EditImage",
+	"PatchMode": "Overlay",
+	"Target": "Maps/DesertTiles.ko-KR",
+	"FromFile": "assets/Maps/DesertTiles.ko-KR.xnb",
+       },
+
+      {
+	"Action": "EditImage",
+	"PatchMode": "Overlay",
+	"Target": "Maps/DesertTiles.pt-BR",
+	"FromFile": "assets/Maps/DesertTiles.pt-BR.xnb",
+       },
+
+      {
+	"Action": "EditImage",
+	"PatchMode": "Overlay",
+	"Target": "Maps/DesertTiles.tr-TR",
+	"FromFile": "assets/Maps/DesertTiles.tr-TR.xnb",
+       },
+
+      {
+	"Action": "EditImage",
+	"PatchMode": "Overlay",
+	"Target": "Maps/DesertTiles.zh-CN",
+	"FromFile": "assets/Maps/DesertTiles.zh-CN.xnb",
+       }
+   ]
+
+}

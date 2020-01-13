@@ -1,0 +1,12 @@
+{
+  "Name": "Nady's Beehouses",
+  "Author": "Nady",
+  "Version": "1.0.0",
+  "Description": "A retexture of the beehouse to turn it into a beehive.",
+  "UniqueID": "oomps62.HudsonValleyBeehouses",
+  "MinimumApiVersion": "2.5",
+  "UpdateKeys": [],
+  "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+  }
+}

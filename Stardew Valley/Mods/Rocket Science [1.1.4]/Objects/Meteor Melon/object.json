@@ -1,0 +1,21 @@
+{
+  "Name": "Meteor Melon",
+  "Description": "Hot as Sun.",
+  "Category": "Fruit",
+  "Edibility": -300,
+  "Price": 9000,
+  "IsColored": false,
+    "Recipe": {
+    "ResultCount": 1,
+    "Ingredients":
+	[
+      { "Object": "Disc", "Count": 10, },
+    ],
+    "CanPurchase": true,
+    "PurchaseFrom": "Krobus",
+    "PurchasePrice": 1000,
+    "PurchaseRequirements":
+[ "y 3", ],
+},  
+
+}

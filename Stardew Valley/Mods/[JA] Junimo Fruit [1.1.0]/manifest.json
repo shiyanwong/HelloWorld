@@ -1,0 +1,11 @@
+{
+   "Name": "Junimo Fruit",
+   "Author": "xiaoye97",
+   "Description": "Junimo Fruit",
+   "Version": "1.1.0",
+   "MinimumApiVersion": "2.11.2",
+   "UniqueID": "xiaoye97.junimofruit",
+    "ContentPackFor": {
+      "UniqueID": "spacechase0.JsonAssets"
+    }
+}

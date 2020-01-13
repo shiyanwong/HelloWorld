@@ -1,0 +1,3092 @@
+{
+  "ForageSpawnEnabled": true,
+  "LargeObjectSpawnEnabled": false,
+  "OreSpawnEnabled": false,
+  "MonsterSpawnEnabled": true,
+  "Forage_Spawn_Settings": {
+    "Areas": [
+      {
+        "SpringItemIndex": null,
+        "SummerItemIndex": null,
+        "FallItemIndex": [
+          60,
+          62,
+          64,
+          66,
+          68,
+          70,
+          72,
+          74,
+          80,
+          82,
+          84,
+          86,
+          126,
+          386,
+          684,
+          746,
+          766,
+          767,
+          768,
+          769
+        ],
+        "WinterItemIndex": null,
+        "UniqueAreaID": "Beach Hunt",
+        "MapName": "Beach",
+        "MinimumSpawnsPerDay": 10,
+        "MaximumSpawnsPerDay": 10,
+        "IncludeTerrainTypes": [
+          "Diggable",
+          "Grass"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "High",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 2200,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": "junimoMeep1"
+        },
+        "ExtraConditions": {
+          "Years": [
+            "1-10"
+          ],
+          "Seasons": [
+            "Fall"
+          ],
+          "Days": [
+            "27"
+          ],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "SpringItemIndex": null,
+        "SummerItemIndex": null,
+        "FallItemIndex": [
+          60,
+          62,
+          64,
+          66,
+          68,
+          70,
+          72,
+          74,
+          80,
+          82,
+          84,
+          86,
+          126,
+          386,
+          684,
+          746,
+          766,
+          767,
+          768,
+          769
+        ],
+        "WinterItemIndex": null,
+        "UniqueAreaID": "BackWoods Hunt",
+        "MapName": "Backwoods",
+        "MinimumSpawnsPerDay": 6,
+        "MaximumSpawnsPerDay": 6,
+        "IncludeTerrainTypes": [
+          "Diggable",
+          "Grass"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "High",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 2200,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": "junimoMeep1"
+        },
+        "ExtraConditions": {
+          "Years": [
+            "1-10"
+          ],
+          "Seasons": [
+            "Fall"
+          ],
+          "Days": [
+            "27"
+          ],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "SpringItemIndex": null,
+        "SummerItemIndex": null,
+        "FallItemIndex": [
+          60,
+          62,
+          64,
+          66,
+          68,
+          70,
+          72,
+          74,
+          80,
+          82,
+          84,
+          86,
+          126,
+          386,
+          684,
+          746,
+          766,
+          767,
+          768,
+          769
+        ],
+        "WinterItemIndex": null,
+        "UniqueAreaID": "BusStop Hunt",
+        "MapName": "BusStop",
+        "MinimumSpawnsPerDay": 6,
+        "MaximumSpawnsPerDay": 6,
+        "IncludeTerrainTypes": [
+          "Diggable",
+          "Grass"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "High",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 2200,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": "junimoMeep1"
+        },
+        "ExtraConditions": {
+          "Years": [
+            "1-10"
+          ],
+          "Seasons": [
+            "Fall"
+          ],
+          "Days": [
+            "27"
+          ],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "SpringItemIndex": null,
+        "SummerItemIndex": null,
+        "FallItemIndex": [
+          60,
+          62,
+          64,
+          66,
+          68,
+          70,
+          72,
+          74,
+          80,
+          82,
+          84,
+          86,
+          126,
+          386,
+          684,
+          746,
+          766,
+          767,
+          768,
+          769
+        ],
+        "WinterItemIndex": null,
+        "UniqueAreaID": "Desert Hunt",
+        "MapName": "Desert",
+        "MinimumSpawnsPerDay": 10,
+        "MaximumSpawnsPerDay": 10,
+        "IncludeTerrainTypes": [
+          "Diggable",
+          "Grass"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "High",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 2200,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": "junimoMeep1"
+        },
+        "ExtraConditions": {
+          "Years": [
+            "1-10"
+          ],
+          "Seasons": [
+            "Fall"
+          ],
+          "Days": [
+            "27"
+          ],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "SpringItemIndex": null,
+        "SummerItemIndex": null,
+        "FallItemIndex": [
+          60,
+          62,
+          64,
+          66,
+          68,
+          70,
+          72,
+          74,
+          80,
+          82,
+          84,
+          86,
+          126,
+          386,
+          684,
+          746,
+          766,
+          767,
+          768,
+          769
+        ],
+        "WinterItemIndex": null,
+        "UniqueAreaID": "Forest Hunt",
+        "MapName": "Forest",
+        "MinimumSpawnsPerDay": 12,
+        "MaximumSpawnsPerDay": 12,
+        "IncludeTerrainTypes": [
+          "Diggable",
+          "Grass"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "High",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 2200,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": "junimoMeep1"
+        },
+        "ExtraConditions": {
+          "Years": [
+            "1-10"
+          ],
+          "Seasons": [
+            "Fall"
+          ],
+          "Days": [
+            "27"
+          ],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "SpringItemIndex": null,
+        "SummerItemIndex": null,
+        "FallItemIndex": [
+          60,
+          62,
+          64,
+          66,
+          68,
+          70,
+          72,
+          74,
+          80,
+          82,
+          84,
+          86,
+          126,
+          386,
+          684,
+          746,
+          766,
+          767,
+          768,
+          769
+        ],
+        "WinterItemIndex": null,
+        "UniqueAreaID": "Mountain Hunt",
+        "MapName": "Mountain",
+        "MinimumSpawnsPerDay": 10,
+        "MaximumSpawnsPerDay": 10,
+        "IncludeTerrainTypes": [
+          "Diggable",
+          "Grass"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "High",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 2200,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": "junimoMeep1"
+        },
+        "ExtraConditions": {
+          "Years": [
+            "1-10"
+          ],
+          "Seasons": [
+            "Fall"
+          ],
+          "Days": [
+            "27"
+          ],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "SpringItemIndex": null,
+        "SummerItemIndex": null,
+        "FallItemIndex": [
+          60,
+          62,
+          64,
+          66,
+          68,
+          70,
+          72,
+          74,
+          80,
+          82,
+          84,
+          86,
+          126,
+          386,
+          684,
+          746,
+          766,
+          767,
+          768,
+          769
+        ],
+        "WinterItemIndex": null,
+        "UniqueAreaID": "Railroad Hunt",
+        "MapName": "Railroad",
+        "MinimumSpawnsPerDay": 6,
+        "MaximumSpawnsPerDay": 6,
+        "IncludeTerrainTypes": [
+          "Diggable",
+          "Grass"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "High",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 2200,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": "junimoMeep1"
+        },
+        "ExtraConditions": {
+          "Years": [
+            "1-10"
+          ],
+          "Seasons": [
+            "Fall"
+          ],
+          "Days": [
+            "27"
+          ],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "SpringItemIndex": null,
+        "SummerItemIndex": null,
+        "FallItemIndex": [
+          60,
+          62,
+          64,
+          66,
+          68,
+          70,
+          72,
+          74,
+          80,
+          82,
+          84,
+          86,
+          126,
+          386,
+          684,
+          746,
+          766,
+          767,
+          768,
+          769
+        ],
+        "WinterItemIndex": null,
+        "UniqueAreaID": "Town Hunt",
+        "MapName": "Town",
+        "MinimumSpawnsPerDay": 4,
+        "MaximumSpawnsPerDay": 4,
+        "IncludeTerrainTypes": [
+          "Diggable",
+          "Grass"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "High",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 2200,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": "junimoMeep1"
+        },
+        "ExtraConditions": {
+          "Years": [
+            "1-10"
+          ],
+          "Seasons": [
+            "Fall"
+          ],
+          "Days": [
+            "27"
+          ],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "SpringItemIndex": null,
+        "SummerItemIndex": null,
+        "FallItemIndex": [
+          60,
+          62,
+          64,
+          66,
+          68,
+          70,
+          72,
+          74,
+          80,
+          82,
+          84,
+          86,
+          126,
+          386,
+          684,
+          746,
+          766,
+          767,
+          768,
+          769
+        ],
+        "WinterItemIndex": null,
+        "UniqueAreaID": "Woods Hunt",
+        "MapName": "Woods",
+        "MinimumSpawnsPerDay": 5,
+        "MaximumSpawnsPerDay": 5,
+        "IncludeTerrainTypes": [
+          "Diggable",
+          "Grass"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "High",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 2200,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": "junimoMeep1"
+        },
+        "ExtraConditions": {
+          "Years": [
+            "1-10"
+          ],
+          "Seasons": [
+            "Fall"
+          ],
+          "Days": [
+            "27"
+          ],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "SpringItemIndex": null,
+        "SummerItemIndex": null,
+        "FallItemIndex": [
+          60,
+          62,
+          64,
+          66,
+          68,
+          70,
+          72,
+          74,
+          80,
+          82,
+          84,
+          86,
+          126,
+          386,
+          684,
+          746,
+          766,
+          767,
+          768,
+          769
+        ],
+        "WinterItemIndex": null,
+        "UniqueAreaID": "Farm Hunt",
+        "MapName": "Farm",
+        "MinimumSpawnsPerDay": 12,
+        "MaximumSpawnsPerDay": 12,
+        "IncludeTerrainTypes": [
+          "Diggable",
+          "Grass"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "High",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 2200,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": "junimoMeep1"
+        },
+        "ExtraConditions": {
+          "Years": [
+            "1-10"
+          ],
+          "Seasons": [
+            "Fall"
+          ],
+          "Days": [
+            "27"
+          ],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      }
+    ],
+    "PercentExtraSpawnsPerForagingLevel": 2,
+    "SpringItemIndex": [],
+    "SummerItemIndex": [],
+    "FallItemIndex": [],
+    "WinterItemIndex": [],
+    "CustomTileIndex": []
+  },
+  "Large_Object_Spawn_Settings": {
+    "Areas": [
+      {
+        "ObjectTypes": [
+          "Stump"
+        ],
+        "FindExistingObjectLocations": true,
+        "PercentExtraSpawnsPerSkillLevel": 0,
+        "RelatedSkill": "Foraging",
+        "UniqueAreaID": "Farm large object area 1",
+        "MapName": "Farm",
+        "MinimumSpawnsPerDay": 999,
+        "MaximumSpawnsPerDay": 999,
+        "IncludeTerrainTypes": [],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "High",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": null
+      }
+    ],
+    "CustomTileIndex": []
+  },
+  "Ore_Spawn_Settings": {
+    "Areas": [
+      {
+        "MiningLevelRequired": null,
+        "StartingSpawnChance": null,
+        "LevelTenSpawnChance": null,
+        "UniqueAreaID": "Farm ore area 1",
+        "MapName": "Farm",
+        "MinimumSpawnsPerDay": 1,
+        "MaximumSpawnsPerDay": 5,
+        "IncludeTerrainTypes": [
+          "Quarry"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "High",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": null
+      }
+    ],
+    "PercentExtraSpawnsPerMiningLevel": 0,
+    "MiningLevelRequired": {
+      "Stone": 0,
+      "Geode": 0,
+      "FrozenGeode": 5,
+      "MagmaGeode": 8,
+      "Gem": 6,
+      "Copper": 0,
+      "Iron": 4,
+      "Gold": 7,
+      "Iridium": 9,
+      "Mystic": 10,
+      "Diamond": 6,
+      "Ruby": 6,
+      "Jade": 6,
+      "Amethyst": 6,
+      "Topaz": 6,
+      "Emerald": 6,
+      "Aquamarine": 6
+    },
+    "StartingSpawnChance": {
+      "Stone": 66,
+      "Geode": 8,
+      "FrozenGeode": 4,
+      "MagmaGeode": 2,
+      "Gem": 5,
+      "Copper": 21,
+      "Iron": 15,
+      "Gold": 10,
+      "Iridium": 1,
+      "Mystic": 1,
+      "Diamond": 0,
+      "Ruby": 0,
+      "Jade": 0,
+      "Amethyst": 0,
+      "Topaz": 0,
+      "Emerald": 0,
+      "Aquamarine": 0
+    },
+    "LevelTenSpawnChance": {
+      "Stone": 48,
+      "Geode": 2,
+      "FrozenGeode": 2,
+      "MagmaGeode": 2,
+      "Gem": 5,
+      "Copper": 16,
+      "Iron": 13,
+      "Gold": 10,
+      "Iridium": 1,
+      "Mystic": 1,
+      "Diamond": 0,
+      "Ruby": 0,
+      "Jade": 0,
+      "Amethyst": 0,
+      "Topaz": 0,
+      "Emerald": 0,
+      "Aquamarine": 0
+    },
+    "CustomTileIndex": []
+  },
+  "Monster_Spawn_Settings": {
+    "Areas": [
+      {
+        "MonsterTypes": [
+          {
+            "MonsterName": "Green Slime",
+            "Settings": {}
+          },
+          {
+            "MonsterName": "Ghost",
+            "Settings": {}
+          },
+          {
+            "MonsterName": "Skeleton",
+            "Settings": {}
+          },
+          {
+            "MonsterName": "Stone Golem",
+            "Settings": {}
+          },
+          {
+            "MonsterName": "Wilderness Golem",
+            "Settings": {}
+          },
+          {
+            "MonsterName": "Mummy",
+            "Settings": {}
+          },
+          {
+            "MonsterName": "Shadow Brute",
+            "Settings": {}
+          },
+          {
+            "MonsterName": "Bat",
+            "Settings": {}
+          }
+        ],
+        "UniqueAreaID": "BackWoods Monsters Y1",
+        "MapName": "Backwoods",
+        "MinimumSpawnsPerDay": 2,
+        "MaximumSpawnsPerDay": 3,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "High",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 2200,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": "crystal"
+        },
+        "ExtraConditions": {
+          "Years": [
+            "1"
+          ],
+          "Seasons": [
+            "Fall"
+          ],
+          "Days": [
+            "27"
+          ],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "MonsterTypes": [
+          {
+            "MonsterName": "Bat",
+            "Settings": {
+              "HP": 18,
+              "Damage": 4,
+              "EXP": 6
+            }
+          },
+          {
+            "MonsterName": "Dust Sprite",
+            "Settings": {
+              "HP": 25,
+              "Damage": 4,
+              "EXP": 6
+            }
+          },
+          {
+            "MonsterName": "Ghost",
+            "Settings": {
+              "HP": 40,
+              "Damage": 6,
+              "EXP": 25
+            }
+          },
+          {
+            "MonsterName": "Green Slime",
+            "Settings": {
+              "HP": 15,
+              "Damage": 4,
+              "EXP": 10
+            }
+          },
+          {
+            "MonsterName": "Mummy",
+            "Settings": {
+              "HP": 130,
+              "Damage": 18,
+              "EXP": 40
+            }
+          },
+          {
+            "MonsterName": "Shadow Brute",
+            "Settings": {
+              "HP": 90,
+              "Damage": 12,
+              "EXP": 25
+            }
+          },
+          {
+            "MonsterName": "Stone Golem",
+            "Settings": {
+              "HP": 30,
+              "Damage": 4,
+              "EXP": 15
+            }
+          },
+          {
+            "MonsterName": "Wilderness Golem",
+            "Settings": {
+              "HP": 20,
+              "Damage": 4,
+              "EXP": 15
+            }
+          },
+          {
+            "MonsterName": "Skeleton",
+            "Settings": {
+              "HP": 90,
+              "Damage": 6,
+              "EXP": 20
+            }
+          }
+        ],
+        "UniqueAreaID": "BusStop Monsters Y1",
+        "MapName": "BusStop",
+        "MinimumSpawnsPerDay": 2,
+        "MaximumSpawnsPerDay": 3,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "High",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 2200,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": "crystal"
+        },
+        "ExtraConditions": {
+          "Years": [
+            "1"
+          ],
+          "Seasons": [
+            "Fall"
+          ],
+          "Days": [
+            "27"
+          ],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "MonsterTypes": [
+          {
+            "MonsterName": "Bat",
+            "Settings": {
+              "HP": 18,
+              "Damage": 4,
+              "EXP": 6
+            }
+          },
+          {
+            "MonsterName": "Dust Sprite",
+            "Settings": {
+              "HP": 25,
+              "Damage": 4,
+              "EXP": 6
+            }
+          },
+          {
+            "MonsterName": "Ghost",
+            "Settings": {
+              "HP": 40,
+              "Damage": 6,
+              "EXP": 25
+            }
+          },
+          {
+            "MonsterName": "Green Slime",
+            "Settings": {
+              "HP": 15,
+              "Damage": 4,
+              "EXP": 10
+            }
+          },
+          {
+            "MonsterName": "Mummy",
+            "Settings": {
+              "HP": 130,
+              "Damage": 18,
+              "EXP": 40
+            }
+          },
+          {
+            "MonsterName": "Shadow Brute",
+            "Settings": {
+              "HP": 90,
+              "Damage": 12,
+              "EXP": 25
+            }
+          },
+          {
+            "MonsterName": "Stone Golem",
+            "Settings": {
+              "HP": 30,
+              "Damage": 4,
+              "EXP": 15
+            }
+          },
+          {
+            "MonsterName": "Wilderness Golem",
+            "Settings": {
+              "HP": 20,
+              "Damage": 4,
+              "EXP": 15
+            }
+          },
+          {
+            "MonsterName": "Skeleton",
+            "Settings": {
+              "HP": 90,
+              "Damage": 6,
+              "EXP": 20
+            }
+          }
+        ],
+        "UniqueAreaID": "Beach Monsters Y1",
+        "MapName": "Beach",
+        "MinimumSpawnsPerDay": 2,
+        "MaximumSpawnsPerDay": 3,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "High",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 2200,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": "crystal"
+        },
+        "ExtraConditions": {
+          "Years": [
+            "1"
+          ],
+          "Seasons": [
+            "Fall"
+          ],
+          "Days": [
+            "27"
+          ],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "MonsterTypes": [
+          {
+            "MonsterName": "Bat",
+            "Settings": {
+              "HP": 18,
+              "Damage": 4,
+              "EXP": 6
+            }
+          },
+          {
+            "MonsterName": "Dust Sprite",
+            "Settings": {
+              "HP": 25,
+              "Damage": 4,
+              "EXP": 6
+            }
+          },
+          {
+            "MonsterName": "Ghost",
+            "Settings": {
+              "HP": 40,
+              "Damage": 6,
+              "EXP": 25
+            }
+          },
+          {
+            "MonsterName": "Green Slime",
+            "Settings": {
+              "HP": 15,
+              "Damage": 4,
+              "EXP": 10
+            }
+          },
+          {
+            "MonsterName": "Mummy",
+            "Settings": {
+              "HP": 130,
+              "Damage": 18,
+              "EXP": 40
+            }
+          },
+          {
+            "MonsterName": "Shadow Brute",
+            "Settings": {
+              "HP": 90,
+              "Damage": 12,
+              "EXP": 25
+            }
+          },
+          {
+            "MonsterName": "Stone Golem",
+            "Settings": {
+              "HP": 30,
+              "Damage": 4,
+              "EXP": 15
+            }
+          },
+          {
+            "MonsterName": "Wilderness Golem",
+            "Settings": {
+              "HP": 20,
+              "Damage": 4,
+              "EXP": 15
+            }
+          },
+          {
+            "MonsterName": "Skeleton",
+            "Settings": {
+              "HP": 90,
+              "Damage": 6,
+              "EXP": 20
+            }
+          }
+        ],
+        "UniqueAreaID": "Desert Monsters Y1",
+        "MapName": "Desert",
+        "MinimumSpawnsPerDay": 4,
+        "MaximumSpawnsPerDay": 6,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "High",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 2200,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": "crystal"
+        },
+        "ExtraConditions": {
+          "Years": [
+            "1"
+          ],
+          "Seasons": [
+            "Fall"
+          ],
+          "Days": [
+            "27"
+          ],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "MonsterTypes": [
+          {
+            "MonsterName": "Bat",
+            "Settings": {
+              "HP": 18,
+              "Damage": 4,
+              "EXP": 6
+            }
+          },
+          {
+            "MonsterName": "Dust Sprite",
+            "Settings": {
+              "HP": 25,
+              "Damage": 4,
+              "EXP": 6
+            }
+          },
+          {
+            "MonsterName": "Ghost",
+            "Settings": {
+              "HP": 40,
+              "Damage": 6,
+              "EXP": 25
+            }
+          },
+          {
+            "MonsterName": "Green Slime",
+            "Settings": {
+              "HP": 15,
+              "Damage": 4,
+              "EXP": 10
+            }
+          },
+          {
+            "MonsterName": "Mummy",
+            "Settings": {
+              "HP": 130,
+              "Damage": 18,
+              "EXP": 40
+            }
+          },
+          {
+            "MonsterName": "Shadow Brute",
+            "Settings": {
+              "HP": 90,
+              "Damage": 12,
+              "EXP": 25
+            }
+          },
+          {
+            "MonsterName": "Stone Golem",
+            "Settings": {
+              "HP": 30,
+              "Damage": 4,
+              "EXP": 15
+            }
+          },
+          {
+            "MonsterName": "Wilderness Golem",
+            "Settings": {
+              "HP": 20,
+              "Damage": 4,
+              "EXP": 15
+            }
+          },
+          {
+            "MonsterName": "Skeleton",
+            "Settings": {
+              "HP": 90,
+              "Damage": 6,
+              "EXP": 20
+            }
+          }
+        ],
+        "UniqueAreaID": "Farm Monsters Y1",
+        "MapName": "Farm",
+        "MinimumSpawnsPerDay": 4,
+        "MaximumSpawnsPerDay": 8,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "High",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 2200,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": "crystal"
+        },
+        "ExtraConditions": {
+          "Years": [
+            "1"
+          ],
+          "Seasons": [
+            "Fall"
+          ],
+          "Days": [
+            "27"
+          ],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "MonsterTypes": [
+          {
+            "MonsterName": "Bat",
+            "Settings": {
+              "HP": 18,
+              "Damage": 4,
+              "EXP": 6
+            }
+          },
+          {
+            "MonsterName": "Dust Sprite",
+            "Settings": {
+              "HP": 25,
+              "Damage": 4,
+              "EXP": 6
+            }
+          },
+          {
+            "MonsterName": "Ghost",
+            "Settings": {
+              "HP": 40,
+              "Damage": 6,
+              "EXP": 25
+            }
+          },
+          {
+            "MonsterName": "Green Slime",
+            "Settings": {
+              "HP": 15,
+              "Damage": 4,
+              "EXP": 10
+            }
+          },
+          {
+            "MonsterName": "Mummy",
+            "Settings": {
+              "HP": 130,
+              "Damage": 18,
+              "EXP": 40
+            }
+          },
+          {
+            "MonsterName": "Shadow Brute",
+            "Settings": {
+              "HP": 90,
+              "Damage": 12,
+              "EXP": 25
+            }
+          },
+          {
+            "MonsterName": "Stone Golem",
+            "Settings": {
+              "HP": 30,
+              "Damage": 4,
+              "EXP": 15
+            }
+          },
+          {
+            "MonsterName": "Wilderness Golem",
+            "Settings": {
+              "HP": 20,
+              "Damage": 4,
+              "EXP": 15
+            }
+          },
+          {
+            "MonsterName": "Skeleton",
+            "Settings": {
+              "HP": 90,
+              "Damage": 6,
+              "EXP": 20
+            }
+          }
+        ],
+        "UniqueAreaID": "Forest Monsters Y1",
+        "MapName": "Farm",
+        "MinimumSpawnsPerDay": 3,
+        "MaximumSpawnsPerDay": 7,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "High",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 2200,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": "crystal"
+        },
+        "ExtraConditions": {
+          "Years": [
+            "1"
+          ],
+          "Seasons": [
+            "Fall"
+          ],
+          "Days": [
+            "27"
+          ],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "MonsterTypes": [
+          {
+            "MonsterName": "Bat",
+            "Settings": {
+              "HP": 18,
+              "Damage": 4,
+              "EXP": 6
+            }
+          },
+          {
+            "MonsterName": "Dust Sprite",
+            "Settings": {
+              "HP": 25,
+              "Damage": 4,
+              "EXP": 6
+            }
+          },
+          {
+            "MonsterName": "Ghost",
+            "Settings": {
+              "HP": 40,
+              "Damage": 6,
+              "EXP": 25
+            }
+          },
+          {
+            "MonsterName": "Green Slime",
+            "Settings": {
+              "HP": 15,
+              "Damage": 4,
+              "EXP": 10
+            }
+          },
+          {
+            "MonsterName": "Mummy",
+            "Settings": {
+              "HP": 130,
+              "Damage": 18,
+              "EXP": 40
+            }
+          },
+          {
+            "MonsterName": "Shadow Brute",
+            "Settings": {
+              "HP": 90,
+              "Damage": 12,
+              "EXP": 25
+            }
+          },
+          {
+            "MonsterName": "Stone Golem",
+            "Settings": {
+              "HP": 30,
+              "Damage": 4,
+              "EXP": 15
+            }
+          },
+          {
+            "MonsterName": "Wilderness Golem",
+            "Settings": {
+              "HP": 20,
+              "Damage": 4,
+              "EXP": 15
+            }
+          },
+          {
+            "MonsterName": "Skeleton",
+            "Settings": {
+              "HP": 90,
+              "Damage": 6,
+              "EXP": 20
+            }
+          }
+        ],
+        "UniqueAreaID": "Mountain Monsters Y1",
+        "MapName": "Mountain",
+        "MinimumSpawnsPerDay": 2,
+        "MaximumSpawnsPerDay": 4,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "High",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 2200,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": "crystal"
+        },
+        "ExtraConditions": {
+          "Years": [
+            "1"
+          ],
+          "Seasons": [
+            "Fall"
+          ],
+          "Days": [
+            "27"
+          ],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "MonsterTypes": [
+          {
+            "MonsterName": "Bat",
+            "Settings": {
+              "HP": 18,
+              "Damage": 4,
+              "EXP": 6
+            }
+          },
+          {
+            "MonsterName": "Dust Sprite",
+            "Settings": {
+              "HP": 25,
+              "Damage": 4,
+              "EXP": 6
+            }
+          },
+          {
+            "MonsterName": "Ghost",
+            "Settings": {
+              "HP": 40,
+              "Damage": 6,
+              "EXP": 25
+            }
+          },
+          {
+            "MonsterName": "Green Slime",
+            "Settings": {
+              "HP": 15,
+              "Damage": 4,
+              "EXP": 10
+            }
+          },
+          {
+            "MonsterName": "Mummy",
+            "Settings": {
+              "HP": 130,
+              "Damage": 18,
+              "EXP": 40
+            }
+          },
+          {
+            "MonsterName": "Shadow Brute",
+            "Settings": {
+              "HP": 90,
+              "Damage": 12,
+              "EXP": 25
+            }
+          },
+          {
+            "MonsterName": "Stone Golem",
+            "Settings": {
+              "HP": 30,
+              "Damage": 4,
+              "EXP": 15
+            }
+          },
+          {
+            "MonsterName": "Wilderness Golem",
+            "Settings": {
+              "HP": 20,
+              "Damage": 4,
+              "EXP": 15
+            }
+          },
+          {
+            "MonsterName": "Skeleton",
+            "Settings": {
+              "HP": 90,
+              "Damage": 6,
+              "EXP": 20
+            }
+          }
+        ],
+        "UniqueAreaID": "Railroad Monsters Y1",
+        "MapName": "Railroad",
+        "MinimumSpawnsPerDay": 2,
+        "MaximumSpawnsPerDay": 4,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "High",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 2200,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": "crystal"
+        },
+        "ExtraConditions": {
+          "Years": [
+            "1"
+          ],
+          "Seasons": [
+            "Fall"
+          ],
+          "Days": [
+            "27"
+          ],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "MonsterTypes": [
+          {
+            "MonsterName": "Bat",
+            "Settings": {
+              "HP": 18,
+              "Damage": 4,
+              "EXP": 6
+            }
+          },
+          {
+            "MonsterName": "Dust Sprite",
+            "Settings": {
+              "HP": 25,
+              "Damage": 4,
+              "EXP": 6
+            }
+          },
+          {
+            "MonsterName": "Ghost",
+            "Settings": {
+              "HP": 40,
+              "Damage": 6,
+              "EXP": 25
+            }
+          },
+          {
+            "MonsterName": "Green Slime",
+            "Settings": {
+              "HP": 15,
+              "Damage": 4,
+              "EXP": 10
+            }
+          },
+          {
+            "MonsterName": "Mummy",
+            "Settings": {
+              "HP": 130,
+              "Damage": 18,
+              "EXP": 40
+            }
+          },
+          {
+            "MonsterName": "Shadow Brute",
+            "Settings": {
+              "HP": 90,
+              "Damage": 12,
+              "EXP": 25
+            }
+          },
+          {
+            "MonsterName": "Stone Golem",
+            "Settings": {
+              "HP": 30,
+              "Damage": 4,
+              "EXP": 15
+            }
+          },
+          {
+            "MonsterName": "Wilderness Golem",
+            "Settings": {
+              "HP": 20,
+              "Damage": 4,
+              "EXP": 15
+            }
+          },
+          {
+            "MonsterName": "Skeleton",
+            "Settings": {
+              "HP": 90,
+              "Damage": 6,
+              "EXP": 20
+            }
+          }
+        ],
+        "UniqueAreaID": "Town Monsters Y1",
+        "MapName": "Town",
+        "MinimumSpawnsPerDay": 1,
+        "MaximumSpawnsPerDay": 4,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "High",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 2200,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": "crystal"
+        },
+        "ExtraConditions": {
+          "Years": [
+            "1"
+          ],
+          "Seasons": [
+            "Fall"
+          ],
+          "Days": [
+            "27"
+          ],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "MonsterTypes": [
+          {
+            "MonsterName": "Bat",
+            "Settings": {
+              "HP": 18,
+              "Damage": 4,
+              "EXP": 6
+            }
+          },
+          {
+            "MonsterName": "Dust Sprite",
+            "Settings": {
+              "HP": 25,
+              "Damage": 4,
+              "EXP": 6
+            }
+          },
+          {
+            "MonsterName": "Ghost",
+            "Settings": {
+              "HP": 40,
+              "Damage": 6,
+              "EXP": 25
+            }
+          },
+          {
+            "MonsterName": "Green Slime",
+            "Settings": {
+              "HP": 15,
+              "Damage": 4,
+              "EXP": 10
+            }
+          },
+          {
+            "MonsterName": "Mummy",
+            "Settings": {
+              "HP": 130,
+              "Damage": 18,
+              "EXP": 40
+            }
+          },
+          {
+            "MonsterName": "Shadow Brute",
+            "Settings": {
+              "HP": 90,
+              "Damage": 12,
+              "EXP": 25
+            }
+          },
+          {
+            "MonsterName": "Stone Golem",
+            "Settings": {
+              "HP": 30,
+              "Damage": 4,
+              "EXP": 15
+            }
+          },
+          {
+            "MonsterName": "Wilderness Golem",
+            "Settings": {
+              "HP": 20,
+              "Damage": 4,
+              "EXP": 15
+            }
+          },
+          {
+            "MonsterName": "Skeleton",
+            "Settings": {
+              "HP": 90,
+              "Damage": 6,
+              "EXP": 20
+            }
+          }
+        ],
+        "UniqueAreaID": "Woods Monsters Y1",
+        "MapName": "Woods",
+        "MinimumSpawnsPerDay": 2,
+        "MaximumSpawnsPerDay": 3,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "High",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 2200,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": "crystal"
+        },
+        "ExtraConditions": {
+          "Years": [
+            "1"
+          ],
+          "Seasons": [
+            "Fall"
+          ],
+          "Days": [
+            "27"
+          ],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "MonsterTypes": [
+          {
+            "MonsterName": "Bat",
+            "Settings": {
+              "HP": 18,
+              "Damage": 4,
+              "EXP": 6
+            }
+          },
+          {
+            "MonsterName": "Dust Sprite",
+            "Settings": {
+              "HP": 25,
+              "Damage": 4,
+              "EXP": 6
+            }
+          },
+          {
+            "MonsterName": "Ghost",
+            "Settings": {
+              "HP": 40,
+              "Damage": 6,
+              "EXP": 25
+            }
+          },
+          {
+            "MonsterName": "Green Slime",
+            "Settings": {
+              "HP": 15,
+              "Damage": 4,
+              "EXP": 10
+            }
+          },
+          {
+            "MonsterName": "Mummy",
+            "Settings": {
+              "HP": 130,
+              "Damage": 18,
+              "EXP": 40
+            }
+          },
+          {
+            "MonsterName": "Shadow Brute",
+            "Settings": {
+              "HP": 90,
+              "Damage": 12,
+              "EXP": 25
+            }
+          },
+          {
+            "MonsterName": "Stone Golem",
+            "Settings": {
+              "HP": 30,
+              "Damage": 4,
+              "EXP": 15
+            }
+          },
+          {
+            "MonsterName": "Wilderness Golem",
+            "Settings": {
+              "HP": 20,
+              "Damage": 4,
+              "EXP": 15
+            }
+          },
+          {
+            "MonsterName": "Skeleton",
+            "Settings": {
+              "HP": 90,
+              "Damage": 6,
+              "EXP": 20
+            }
+          }
+        ],
+        "UniqueAreaID": "Farm Monsters Y2",
+        "MapName": "Farm",
+        "MinimumSpawnsPerDay": 3,
+        "MaximumSpawnsPerDay": 6,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "High",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 2200,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": "crystal"
+        },
+        "ExtraConditions": {
+          "Years": [
+            "2-10"
+          ],
+          "Seasons": [
+            "Fall"
+          ],
+          "Days": [
+            "27"
+          ],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "MonsterTypes": [
+          {
+            "MonsterName": "Bat",
+            "Settings": {
+              "HP": 14,
+              "Damage": 3,
+              "EXP": 6
+            }
+          },
+          {
+            "MonsterName": "Dust Sprite",
+            "Settings": {
+              "HP": 18,
+              "Damage": 3,
+              "EXP": 6
+            }
+          },
+          {
+            "MonsterName": "Ghost",
+            "Settings": {
+              "HP": 30,
+              "Damage": 4,
+              "EXP": 25
+            }
+          },
+          {
+            "MonsterName": "Green Slime",
+            "Settings": {
+              "HP": 10,
+              "Damage": 3,
+              "EXP": 10
+            }
+          },
+          {
+            "MonsterName": "Mummy",
+            "Settings": {
+              "HP": 110,
+              "Damage": 14,
+              "EXP": 40
+            }
+          },
+          {
+            "MonsterName": "Shadow Brute",
+            "Settings": {
+              "HP": 70,
+              "Damage": 9,
+              "EXP": 25
+            }
+          },
+          {
+            "MonsterName": "Stone Golem",
+            "Settings": {
+              "HP": 20,
+              "Damage": 3,
+              "EXP": 15
+            }
+          },
+          {
+            "MonsterName": "Wilderness Golem",
+            "Settings": {
+              "HP": 15,
+              "Damage": 3,
+              "EXP": 15
+            }
+          },
+          {
+            "MonsterName": "Skeleton",
+            "Settings": {
+              "HP": 75,
+              "Damage": 5,
+              "EXP": 20
+            }
+          }
+        ],
+        "UniqueAreaID": "BackWoods Monsters Y2",
+        "MapName": "Backwoods",
+        "MinimumSpawnsPerDay": 2,
+        "MaximumSpawnsPerDay": 3,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "High",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 2200,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": "crystal"
+        },
+        "ExtraConditions": {
+          "Years": [
+            "2-10"
+          ],
+          "Seasons": [
+            "Fall"
+          ],
+          "Days": [
+            "27"
+          ],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "MonsterTypes": [
+          {
+            "MonsterName": "Bat",
+            "Settings": {
+              "HP": 14,
+              "Damage": 3,
+              "EXP": 6
+            }
+          },
+          {
+            "MonsterName": "Dust Sprite",
+            "Settings": {
+              "HP": 18,
+              "Damage": 3,
+              "EXP": 6
+            }
+          },
+          {
+            "MonsterName": "Ghost",
+            "Settings": {
+              "HP": 30,
+              "Damage": 4,
+              "EXP": 25
+            }
+          },
+          {
+            "MonsterName": "Green Slime",
+            "Settings": {
+              "HP": 10,
+              "Damage": 3,
+              "EXP": 10
+            }
+          },
+          {
+            "MonsterName": "Mummy",
+            "Settings": {
+              "HP": 110,
+              "Damage": 14,
+              "EXP": 40
+            }
+          },
+          {
+            "MonsterName": "Shadow Brute",
+            "Settings": {
+              "HP": 70,
+              "Damage": 9,
+              "EXP": 25
+            }
+          },
+          {
+            "MonsterName": "Stone Golem",
+            "Settings": {
+              "HP": 20,
+              "Damage": 3,
+              "EXP": 15
+            }
+          },
+          {
+            "MonsterName": "Wilderness Golem",
+            "Settings": {
+              "HP": 15,
+              "Damage": 3,
+              "EXP": 15
+            }
+          },
+          {
+            "MonsterName": "Skeleton",
+            "Settings": {
+              "HP": 75,
+              "Damage": 5,
+              "EXP": 20
+            }
+          }
+        ],
+        "UniqueAreaID": "BusStop Monsters Y2",
+        "MapName": "BusStop",
+        "MinimumSpawnsPerDay": 1,
+        "MaximumSpawnsPerDay": 2,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "High",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 2200,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": "crystal"
+        },
+        "ExtraConditions": {
+          "Years": [
+            "2-10"
+          ],
+          "Seasons": [
+            "Fall"
+          ],
+          "Days": [
+            "27"
+          ],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "MonsterTypes": [
+          {
+            "MonsterName": "Bat",
+            "Settings": {
+              "HP": 14,
+              "Damage": 3,
+              "EXP": 6
+            }
+          },
+          {
+            "MonsterName": "Dust Sprite",
+            "Settings": {
+              "HP": 18,
+              "Damage": 3,
+              "EXP": 6
+            }
+          },
+          {
+            "MonsterName": "Ghost",
+            "Settings": {
+              "HP": 30,
+              "Damage": 4,
+              "EXP": 25
+            }
+          },
+          {
+            "MonsterName": "Green Slime",
+            "Settings": {
+              "HP": 10,
+              "Damage": 3,
+              "EXP": 10
+            }
+          },
+          {
+            "MonsterName": "Mummy",
+            "Settings": {
+              "HP": 110,
+              "Damage": 14,
+              "EXP": 40
+            }
+          },
+          {
+            "MonsterName": "Shadow Brute",
+            "Settings": {
+              "HP": 70,
+              "Damage": 9,
+              "EXP": 25
+            }
+          },
+          {
+            "MonsterName": "Stone Golem",
+            "Settings": {
+              "HP": 20,
+              "Damage": 3,
+              "EXP": 15
+            }
+          },
+          {
+            "MonsterName": "Wilderness Golem",
+            "Settings": {
+              "HP": 15,
+              "Damage": 3,
+              "EXP": 15
+            }
+          },
+          {
+            "MonsterName": "Skeleton",
+            "Settings": {
+              "HP": 75,
+              "Damage": 5,
+              "EXP": 20
+            }
+          }
+        ],
+        "UniqueAreaID": "Beach Monsters Y2",
+        "MapName": "Beach",
+        "MinimumSpawnsPerDay": 1,
+        "MaximumSpawnsPerDay": 2,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "High",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 2200,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": "crystal"
+        },
+        "ExtraConditions": {
+          "Years": [
+            "2-10"
+          ],
+          "Seasons": [
+            "Fall"
+          ],
+          "Days": [
+            "27"
+          ],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "MonsterTypes": [
+          {
+            "MonsterName": "Bat",
+            "Settings": {
+              "HP": 14,
+              "Damage": 3,
+              "EXP": 6
+            }
+          },
+          {
+            "MonsterName": "Dust Sprite",
+            "Settings": {
+              "HP": 18,
+              "Damage": 3,
+              "EXP": 6
+            }
+          },
+          {
+            "MonsterName": "Ghost",
+            "Settings": {
+              "HP": 30,
+              "Damage": 4,
+              "EXP": 25
+            }
+          },
+          {
+            "MonsterName": "Green Slime",
+            "Settings": {
+              "HP": 10,
+              "Damage": 3,
+              "EXP": 10
+            }
+          },
+          {
+            "MonsterName": "Mummy",
+            "Settings": {
+              "HP": 110,
+              "Damage": 14,
+              "EXP": 40
+            }
+          },
+          {
+            "MonsterName": "Shadow Brute",
+            "Settings": {
+              "HP": 70,
+              "Damage": 9,
+              "EXP": 25
+            }
+          },
+          {
+            "MonsterName": "Stone Golem",
+            "Settings": {
+              "HP": 20,
+              "Damage": 3,
+              "EXP": 15
+            }
+          },
+          {
+            "MonsterName": "Wilderness Golem",
+            "Settings": {
+              "HP": 15,
+              "Damage": 3,
+              "EXP": 15
+            }
+          },
+          {
+            "MonsterName": "Skeleton",
+            "Settings": {
+              "HP": 75,
+              "Damage": 5,
+              "EXP": 20
+            }
+          }
+        ],
+        "UniqueAreaID": "Desert Monsters Y2",
+        "MapName": "Desert",
+        "MinimumSpawnsPerDay": 4,
+        "MaximumSpawnsPerDay": 8,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "High",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 2200,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": "crystal"
+        },
+        "ExtraConditions": {
+          "Years": [
+            "2-10"
+          ],
+          "Seasons": [
+            "Fall"
+          ],
+          "Days": [
+            "27"
+          ],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "MonsterTypes": [
+          {
+            "MonsterName": "Bat",
+            "Settings": {
+              "HP": 14,
+              "Damage": 3,
+              "EXP": 6
+            }
+          },
+          {
+            "MonsterName": "Dust Sprite",
+            "Settings": {
+              "HP": 18,
+              "Damage": 3,
+              "EXP": 6
+            }
+          },
+          {
+            "MonsterName": "Ghost",
+            "Settings": {
+              "HP": 30,
+              "Damage": 4,
+              "EXP": 25
+            }
+          },
+          {
+            "MonsterName": "Green Slime",
+            "Settings": {
+              "HP": 10,
+              "Damage": 3,
+              "EXP": 10
+            }
+          },
+          {
+            "MonsterName": "Mummy",
+            "Settings": {
+              "HP": 110,
+              "Damage": 14,
+              "EXP": 40
+            }
+          },
+          {
+            "MonsterName": "Shadow Brute",
+            "Settings": {
+              "HP": 70,
+              "Damage": 9,
+              "EXP": 25
+            }
+          },
+          {
+            "MonsterName": "Stone Golem",
+            "Settings": {
+              "HP": 20,
+              "Damage": 3,
+              "EXP": 15
+            }
+          },
+          {
+            "MonsterName": "Wilderness Golem",
+            "Settings": {
+              "HP": 15,
+              "Damage": 3,
+              "EXP": 15
+            }
+          },
+          {
+            "MonsterName": "Skeleton",
+            "Settings": {
+              "HP": 75,
+              "Damage": 5,
+              "EXP": 20
+            }
+          }
+        ],
+        "UniqueAreaID": "Forest Monsters Y2",
+        "MapName": "Forest",
+        "MinimumSpawnsPerDay": 3,
+        "MaximumSpawnsPerDay": 7,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "High",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 2200,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": "crystal"
+        },
+        "ExtraConditions": {
+          "Years": [
+            "2-10"
+          ],
+          "Seasons": [
+            "Fall"
+          ],
+          "Days": [
+            "27"
+          ],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "MonsterTypes": [
+          {
+            "MonsterName": "Bat",
+            "Settings": {
+              "HP": 14,
+              "Damage": 3,
+              "EXP": 6
+            }
+          },
+          {
+            "MonsterName": "Dust Sprite",
+            "Settings": {
+              "HP": 18,
+              "Damage": 3,
+              "EXP": 6
+            }
+          },
+          {
+            "MonsterName": "Ghost",
+            "Settings": {
+              "HP": 30,
+              "Damage": 4,
+              "EXP": 25
+            }
+          },
+          {
+            "MonsterName": "Green Slime",
+            "Settings": {
+              "HP": 10,
+              "Damage": 3,
+              "EXP": 10
+            }
+          },
+          {
+            "MonsterName": "Mummy",
+            "Settings": {
+              "HP": 110,
+              "Damage": 14,
+              "EXP": 40
+            }
+          },
+          {
+            "MonsterName": "Shadow Brute",
+            "Settings": {
+              "HP": 70,
+              "Damage": 9,
+              "EXP": 25
+            }
+          },
+          {
+            "MonsterName": "Stone Golem",
+            "Settings": {
+              "HP": 20,
+              "Damage": 3,
+              "EXP": 15
+            }
+          },
+          {
+            "MonsterName": "Wilderness Golem",
+            "Settings": {
+              "HP": 15,
+              "Damage": 3,
+              "EXP": 15
+            }
+          },
+          {
+            "MonsterName": "Skeleton",
+            "Settings": {
+              "HP": 75,
+              "Damage": 5,
+              "EXP": 20
+            }
+          }
+        ],
+        "UniqueAreaID": "Mountain Monsters Y2",
+        "MapName": "Mountain",
+        "MinimumSpawnsPerDay": 2,
+        "MaximumSpawnsPerDay": 4,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "High",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 2200,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": "crystal"
+        },
+        "ExtraConditions": {
+          "Years": [
+            "2-10"
+          ],
+          "Seasons": [
+            "Fall"
+          ],
+          "Days": [
+            "27"
+          ],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "MonsterTypes": [
+          {
+            "MonsterName": "Bat",
+            "Settings": {
+              "HP": 14,
+              "Damage": 3,
+              "EXP": 6
+            }
+          },
+          {
+            "MonsterName": "Dust Sprite",
+            "Settings": {
+              "HP": 18,
+              "Damage": 3,
+              "EXP": 6
+            }
+          },
+          {
+            "MonsterName": "Ghost",
+            "Settings": {
+              "HP": 30,
+              "Damage": 4,
+              "EXP": 25
+            }
+          },
+          {
+            "MonsterName": "Green Slime",
+            "Settings": {
+              "HP": 10,
+              "Damage": 3,
+              "EXP": 10
+            }
+          },
+          {
+            "MonsterName": "Mummy",
+            "Settings": {
+              "HP": 110,
+              "Damage": 14,
+              "EXP": 40
+            }
+          },
+          {
+            "MonsterName": "Shadow Brute",
+            "Settings": {
+              "HP": 70,
+              "Damage": 9,
+              "EXP": 25
+            }
+          },
+          {
+            "MonsterName": "Stone Golem",
+            "Settings": {
+              "HP": 20,
+              "Damage": 3,
+              "EXP": 15
+            }
+          },
+          {
+            "MonsterName": "Wilderness Golem",
+            "Settings": {
+              "HP": 15,
+              "Damage": 3,
+              "EXP": 15
+            }
+          },
+          {
+            "MonsterName": "Skeleton",
+            "Settings": {
+              "HP": 75,
+              "Damage": 5,
+              "EXP": 20
+            }
+          }
+        ],
+        "UniqueAreaID": "Railroad Monsters Y2",
+        "MapName": "Railroad",
+        "MinimumSpawnsPerDay": 2,
+        "MaximumSpawnsPerDay": 3,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "High",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 2200,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": "crystal"
+        },
+        "ExtraConditions": {
+          "Years": [
+            "2-10"
+          ],
+          "Seasons": [
+            "Fall"
+          ],
+          "Days": [
+            "27"
+          ],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "MonsterTypes": [
+          {
+            "MonsterName": "Bat",
+            "Settings": {
+              "HP": 14,
+              "Damage": 3,
+              "EXP": 6
+            }
+          },
+          {
+            "MonsterName": "Dust Sprite",
+            "Settings": {
+              "HP": 18,
+              "Damage": 3,
+              "EXP": 6
+            }
+          },
+          {
+            "MonsterName": "Ghost",
+            "Settings": {
+              "HP": 30,
+              "Damage": 4,
+              "EXP": 25
+            }
+          },
+          {
+            "MonsterName": "Green Slime",
+            "Settings": {
+              "HP": 10,
+              "Damage": 3,
+              "EXP": 10
+            }
+          },
+          {
+            "MonsterName": "Mummy",
+            "Settings": {
+              "HP": 110,
+              "Damage": 14,
+              "EXP": 40
+            }
+          },
+          {
+            "MonsterName": "Shadow Brute",
+            "Settings": {
+              "HP": 70,
+              "Damage": 9,
+              "EXP": 25
+            }
+          },
+          {
+            "MonsterName": "Stone Golem",
+            "Settings": {
+              "HP": 20,
+              "Damage": 3,
+              "EXP": 15
+            }
+          },
+          {
+            "MonsterName": "Wilderness Golem",
+            "Settings": {
+              "HP": 15,
+              "Damage": 3,
+              "EXP": 15
+            }
+          },
+          {
+            "MonsterName": "Skeleton",
+            "Settings": {
+              "HP": 75,
+              "Damage": 5,
+              "EXP": 20
+            }
+          }
+        ],
+        "UniqueAreaID": "Town Monsters Y2",
+        "MapName": "Town",
+        "MinimumSpawnsPerDay": 1,
+        "MaximumSpawnsPerDay": 5,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "High",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 2200,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": "crystal"
+        },
+        "ExtraConditions": {
+          "Years": [
+            "2-10"
+          ],
+          "Seasons": [
+            "Fall"
+          ],
+          "Days": [
+            "27"
+          ],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "MonsterTypes": [
+          {
+            "MonsterName": "Bat",
+            "Settings": {
+              "HP": 14,
+              "Damage": 3,
+              "EXP": 6
+            }
+          },
+          {
+            "MonsterName": "Dust Sprite",
+            "Settings": {
+              "HP": 18,
+              "Damage": 3,
+              "EXP": 6
+            }
+          },
+          {
+            "MonsterName": "Ghost",
+            "Settings": {
+              "HP": 30,
+              "Damage": 4,
+              "EXP": 25
+            }
+          },
+          {
+            "MonsterName": "Green Slime",
+            "Settings": {
+              "HP": 10,
+              "Damage": 3,
+              "EXP": 10
+            }
+          },
+          {
+            "MonsterName": "Mummy",
+            "Settings": {
+              "HP": 110,
+              "Damage": 14,
+              "EXP": 40
+            }
+          },
+          {
+            "MonsterName": "Shadow Brute",
+            "Settings": {
+              "HP": 70,
+              "Damage": 9,
+              "EXP": 25
+            }
+          },
+          {
+            "MonsterName": "Stone Golem",
+            "Settings": {
+              "HP": 20,
+              "Damage": 3,
+              "EXP": 15
+            }
+          },
+          {
+            "MonsterName": "Wilderness Golem",
+            "Settings": {
+              "HP": 15,
+              "Damage": 3,
+              "EXP": 15
+            }
+          },
+          {
+            "MonsterName": "Skeleton",
+            "Settings": {
+              "HP": 75,
+              "Damage": 5,
+              "EXP": 20
+            }
+          }
+        ],
+        "UniqueAreaID": "Woods Monsters Y2",
+        "MapName": "Woods",
+        "MinimumSpawnsPerDay": 2,
+        "MaximumSpawnsPerDay": 3,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "High",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 2200,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": "crystal"
+        },
+        "ExtraConditions": {
+          "Years": [
+            "2-10"
+          ],
+          "Seasons": [
+            "Fall"
+          ],
+          "Days": [
+            "27"
+          ],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "MonsterTypes": [
+          {
+            "MonsterName": "Bat",
+            "Settings": {
+              "HP": 14,
+              "Damage": 3,
+              "EXP": 6
+            }
+          },
+          {
+            "MonsterName": "Dust Sprite",
+            "Settings": {
+              "HP": 18,
+              "Damage": 3,
+              "EXP": 6
+            }
+          },
+          {
+            "MonsterName": "Ghost",
+            "Settings": {
+              "HP": 30,
+              "Damage": 4,
+              "EXP": 25
+            }
+          },
+          {
+            "MonsterName": "Green Slime",
+            "Settings": {
+              "HP": 10,
+              "Damage": 3,
+              "EXP": 10
+            }
+          },
+          {
+            "MonsterName": "Mummy",
+            "Settings": {
+              "HP": 110,
+              "Damage": 14,
+              "EXP": 40
+            }
+          },
+          {
+            "MonsterName": "Shadow Brute",
+            "Settings": {
+              "HP": 70,
+              "Damage": 9,
+              "EXP": 25
+            }
+          },
+          {
+            "MonsterName": "Stone Golem",
+            "Settings": {
+              "HP": 20,
+              "Damage": 3,
+              "EXP": 15
+            }
+          },
+          {
+            "MonsterName": "Wilderness Golem",
+            "Settings": {
+              "HP": 15,
+              "Damage": 3,
+              "EXP": 15
+            }
+          },
+          {
+            "MonsterName": "Skeleton",
+            "Settings": {
+              "HP": 75,
+              "Damage": 5,
+              "EXP": 20
+            }
+          }
+        ],
+        "UniqueAreaID": "Farm monster area 1",
+        "MapName": "Farm",
+        "MinimumSpawnsPerDay": 0,
+        "MaximumSpawnsPerDay": 0,
+        "IncludeTerrainTypes": [],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "High",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": null
+      }
+    ],
+    "CustomTileIndex": []
+  },
+  "QuarryTileIndex": [
+    556,
+    558,
+    583,
+    606,
+    607,
+    608,
+    630,
+    635,
+    636,
+    680,
+    681,
+    685
+  ],
+  "File_Conditions": {
+    "FarmTypes": [],
+    "FarmerNames": [],
+    "SaveFileNames": [],
+    "OtherMods": {},
+    "ResetMainDataFolder": false
+  }
+}

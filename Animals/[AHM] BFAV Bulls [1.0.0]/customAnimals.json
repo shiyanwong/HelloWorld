@@ -1,0 +1,16 @@
+[
+  {
+      "Name": "Bull",
+      "MinimalNumberOfMeat": 5,
+	  "MaximumNumberOfMeat": 20,
+	  "MinimumDaysBetweenTreats": 5,
+	  "LikedTreats": [
+		78,
+		264,
+		300,
+		184
+      ],
+      "MinimumDaysUtillBirth": null,
+      "CanUseDeluxeItemForPregnancy": false
+    },    
+]

@@ -1,0 +1,233 @@
+﻿{
+    "Format": "1.6",
+    "Changes": [
+        //sprite
+        {
+            "Action": "EditImage",
+            "Target": "Maps/springobjects",
+            "FromFile": "assets/floof.png",
+            "FromArea": {
+                "X": 0,
+                "Y": 0,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 224,
+                "Y": 288,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        //english
+        {
+            "Action": "EditData",
+            "Target": "Data/ObjectInformation",
+            "Fields": {
+                "446": {
+                    "0": "Rabbit Floof",
+                    "4": "Rabbit Floof",
+                    "5": "A very soft floof from a very happy bunny."
+                }
+            }            
+        },
+        {
+            "Action": "EditData",
+            "Target": "Strings/Locations",
+            "Entries": {
+                "Town_SpecialCharmQuestion": "Driver: Hey, kid... I need a lucky break... Why don't 'cha bring me a Rabbit Floof? I'll make it worth your while.",
+                "Town_specialCharmNoFoot": "Driver: Come back when you got a Rabbit Floof on ya, kid."
+            }
+        },
+
+        //portuguese
+        {
+            "Action": "EditData",
+            "Target": "Data/ObjectInformation",
+            "Fields": {
+                "446": {
+                    "0": "Rabbit Floof",
+                    "4": "Tufo de Coelho",
+                    "5": "Um tufo bem macio de um coelhinho bem feliz."
+                }
+            },
+            "When": {
+                "language": "pt"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Strings/Locations",
+            "Entries": {
+                "Town_SpecialCharmQuestion": "Motorista: Ei, você... Preciso de um golpe de sorte... que tal você me trazer um 'Tufo de Coelho'? Eu garanto que valerá a pena para você.",
+                "Town_specialCharmNoFoot": "Motorista: Volte depois que encontrar um 'Tufo de Coelho'."
+            },
+            "When": {
+                "language": "pt"
+            }
+        },
+
+        //spanish
+        {
+            "Action": "EditData",
+            "Target": "Data/ObjectInformation",
+            "Fields": {
+                "446": {
+                    "0": "Rabbit Floof",
+                    "4": "Pelusa de Conejo",
+                    "5": "Una pelusa muy esponjosa de un conejo muy feliz."
+                }
+            },
+            "When": {
+                "language": "es"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Strings/Locations",
+            "Entries": {
+                "Town_SpecialCharmQuestion": "Conductor: Eh, chico... Necesito un poco de suerte. ¿Por qué no me traes una \"Pelusa de Conejo\"? Te lo compensaré.",
+                "Town_specialCharmNoFoot": "Conductor: Vuelve cuando tengas una \"Pelusa de Donejo\"."
+            },
+            "When": {
+                "language": "es"
+            }
+        },
+
+        //italian
+        {
+            "Action": "EditData",
+            "Target": "Data/ObjectInformation",
+            "Fields": {
+                "446": {
+                    "0": "Rabbit Floof",
+                    "4": "Batuffolo di Coniglio",
+                    "5": "Pelo molto soffice di un coniglio molto felice."
+                }
+            },
+            "When": {
+                "language": "it"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Strings/Locations",
+            "Entries": {
+                "Town_SpecialCharmQuestion": "Guidatore: Ehi giovane... Mi serve 'n colpo di fortuna... perché non mi porti 'na 'Batuffolo di Coniglio'? Ti ricompenserò.",
+                "Town_specialCharmNoFoot": "Guidatore: Torna quando c'avrai una 'Batuffolo di Coniglio', giovane."
+            },
+            "When": {
+                "language": "it"
+            }
+        },
+
+        //german
+        {
+            "Action": "EditData",
+            "Target": "Data/ObjectInformation",
+            "Fields": {
+                "446": {
+                    "0": "Rabbit Floof",
+                    "4": "Hasenflaum",
+                    "5": "Ein sehr weiches Flaum von einem sehr glücklichen Kaninchen."
+                }
+            },
+            "When": {
+                "language": "de"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Strings/Locations",
+            "Entries": {
+                "Town_SpecialCharmQuestion": "Fahrer: Hey, Kid. Ich brauche etwas Glück. Warum besorgst du mir nicht eine Hasenflaum? Ich werde dich dafür fürstlich entlohnen.",
+                "Town_specialCharmNoFoot": "Fahrer: Komm zurück, wenn du eine Hasenflaum dabei hast, Kid."
+            },
+            "When": {
+                "language": "de"
+            }
+        },
+
+        //hungarian
+        {
+            "Action": "EditData",
+            "Target": "Data/ObjectInformation",
+            "Fields": {
+                "446": {
+                    "0": "Rabbit Floof",
+                    "4": "Nyúl Bojt",
+                    "5": "Egy nagyon puha nyúlszőr csomó egy nagyon boldog nyuszitól."
+                }
+            },
+            "When": {
+                "language": "hu"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Strings/Locations",
+            "Entries": {
+                "Town_SpecialCharmQuestion": "Sofőr: Hé kölyök... Szerencsére fáj a fogam... Mé' nem hozol nekem egy 'Yúl Bojt'? Hálásan megjutalmazlak érte.",
+                "Town_specialCharmNoFoot": "Sofőr: Majd gyere vissza kölyök, ha van nálad egy 'Yúl Bojt'."
+            },
+            "When": {
+                "language": "hu"
+            }
+        },
+
+        //french
+        {
+            "Action": "EditData",
+            "Target": "Data/ObjectInformation",
+            "Fields": {
+                "446": {
+                    "0": "Rabbit Floof",
+                    "4": "Floof de Lapin",
+                    "5": "Une touffe de poils vraiment très douce d'un lapin très heureux."
+                }
+            },
+            "When": {
+                "language": "fr"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Strings/Locations",
+            "Entries": {
+                "Town_SpecialCharmQuestion": "Chauffeur : Hé... j'aurais bien besoin d'un porte-bonheur... tu peux m'apporter un 'Floof de Lapin' ? Je te revaudrai ça.",
+                "Town_specialCharmNoFoot": "Chauffeur : Reviens me voir quand tu auras un Floof de Lapin."
+            },
+            "When": {
+                "language": "fr"
+            }
+        },
+
+        //russian
+        {
+            "Action": "EditData",
+            "Target": "Data/ObjectInformation",
+            "Fields": {
+                "446": {
+                    "0": "Rabbit Floof",
+                    "4": "пух кролика",
+                    "5": "очень мягкий пух от действительно счастливого кролика."
+                }
+            },
+            "When": {
+                "language": "ru"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Strings/Locations",
+            "Entries": {
+                "Town_SpecialCharmQuestion": "Водитель: Привет. Мне не помешает немного удачи... Принесешь мне пух кролика? А я хорошо заплачу.",
+                "Town_specialCharmNoFoot": "Водитель: Возвращайся, когда найдешь пух кролика."
+            },
+            "When": {
+                "language": "ru"
+            }
+        }
+    ]
+}
+

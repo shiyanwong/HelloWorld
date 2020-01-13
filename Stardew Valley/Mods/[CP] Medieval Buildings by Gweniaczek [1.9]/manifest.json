@@ -1,0 +1,11 @@
+{
+   "Name": "Medieval_buildings",
+   "Author": "Gweniaczek",
+   "Version": "1.9",
+   "Description": "Medieval buildings matching Flower Valley",
+   "UniqueID": "Gweniaczek.Medieval_buildings",
+   "UpdateKeys": ["Nexus:4542"],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher",
+      }
+}

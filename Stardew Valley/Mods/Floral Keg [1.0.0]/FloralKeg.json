@@ -1,0 +1,542 @@
+{
+  "useid": "Moya.FloralKeg",
+  "machines": [
+    {
+      "id": 0,
+      "name": "Floral Keg",
+      "description": "Turns flowers into wine. Standard recipe calls for four flowers and two sugars for one bottle of wine. (Interprets fruit as fruit blossoms.)",
+      "category": "Crafting",
+      "crafting": "338 30 577 1",
+      "texture": "floralkeg.png",
+      "tileindex": 0,
+      "pulsate": true,
+      "frames": 0,
+      "starter": {
+        "index": 245,
+        "stack": 2
+      },
+	  "forsale": true,
+	  "shop": "Gus",
+	  "price": 10000,
+      "production": [
+        // Specifying dandelions and daffodils, as they're considered forage by the game.
+		{
+          "name": "Wine",
+          "decription": "A light and delicious floral wine",
+          "prefix": true,
+          "colored": false,
+          "index": 348,
+          "price": "(100 + input) * 4",
+          "time": 10,
+          "texture": "floralwine.png",
+          "tileindex": 0,
+          "materials": [
+            {
+              "index": 22,
+              "stack": 4
+            }
+          ]
+        },
+        {
+          "name": "Wine",
+          "decription": "A light and delicious floral wine",
+          "prefix": true,
+          "colored": false,
+          "index": 348,
+          "price": "(100 + input) * 4",
+          "time": 1,
+          "texture": "floralwine.png",
+          "tileindex": 0,
+          "materials": [
+            {
+              "index": 18,
+              "stack": 4
+            }
+          ]
+        },
+		// Now specifying a few PPJA and vanilla vegetables that can actually be used to make wine. Also found some recipes featuring PPJA forage, so I'm popping those in as well.
+		{
+          "name": "Wine",
+          "decription": "A sweet and delicious spiced wine",
+          "prefix": true,
+          "colored": false,
+          "index": 348,
+          "price": "(100 + input) * 4",
+          "time": 1,
+          "texture": "floralwine.png",
+          "tileindex": 0,
+          "materials": [
+            {
+              "item": "Vanilla",
+              "stack": 4
+            }
+          ]
+        },
+		{
+          "name": "Cinnamon Wine",
+          "decription": "A sweet and delicious spiced wine",
+          "prefix": false,
+          "colored": false,
+          "index": 348,
+          "price": "(100 + input) * 4",
+          "time": 1,
+          "texture": "floralwine.png",
+          "tileindex": 0,
+          "materials": [
+            {
+              "item": "Cinnamon Sticks",
+              "stack": 4
+            }
+          ]
+        },
+		{
+          "name": "Wine",
+          "decription": "A sweet and delicious spiced wine",
+          "prefix": true,
+          "colored": false,
+          "index": 348,
+          "price": "(100 + input) * 4",
+          "time": 1,
+          "texture": "floralwine.png",
+          "tileindex": 0,
+          "materials": [
+            {
+              "item": "Clover",
+              "stack": 4
+            }
+          ]
+        },
+		{
+          "name": "Wine",
+          "decription": "A sweet and delicious spiced wine",
+          "prefix": true,
+          "colored": false,
+          "index": 348,
+          "price": "(100 + input) * 4",
+          "time": 1,
+          "texture": "floralwine.png",
+          "tileindex": 0,
+          "materials": [
+            {
+              "item": "Ginger",
+              "stack": 4
+            }
+          ]
+        },
+		{
+          "name": "Wine",
+          "decription": "A delicately flavored wine sometimes used medicinally",
+          "prefix": true,
+          "colored": false,
+          "index": 348,
+          "price": "(100 + input) * 4",
+          "time": 1,
+          "texture": "floralwine.png",
+          "tileindex": 0,
+          "materials": [
+            {
+              "item": "Aloe",
+              "stack": 4
+            }
+          ]
+        },
+		{
+          "name": "White Chocolate Wine",
+          "decription": "A sweet and delicious spiced wine",
+          "prefix": false,
+          "colored": false,
+          "index": 348,
+          "price": "(100 + input) * 4",
+          "time": 1,
+          "texture": "floralwine.png",
+          "tileindex": 0,
+          "materials": [
+            {
+              "item": "Cocoa Pod",
+              "stack": 4
+            }
+          ]
+        },
+		{
+          "name": "Wine",
+          "decription": "A sweet and delicious spiced wine",
+          "prefix": true,
+          "colored": false,
+          "index": 348,
+          "price": "(100 + input) * 4",
+          "time": 1,
+          "texture": "floralwine.png",
+          "tileindex": 0,
+          "materials": [
+            {
+              "item": "Cassia",
+              "stack": 4
+            }
+          ]
+        },
+		{
+          "name": "Wine",
+          "decription": "A sweet and delicious spiced wine",
+          "prefix": true,
+          "colored": false,
+          "index": 348,
+          "price": "(100 + input) * 4",
+          "time": 1,
+          "texture": "floralwine.png",
+          "tileindex": 0,
+          "materials": [
+            {
+              "item": "Avocado",
+              "stack": 4
+            }
+          ]
+        },
+		{
+          "name": "Wine",
+          "decription": "A sweet and delicious spiced wine",
+          "prefix": true,
+          "colored": false,
+          "index": 348,
+          "price": "(100 + input) * 4",
+          "time": 1,
+          "texture": "floralwine.png",
+          "tileindex": 0,
+          "materials": [
+            {
+              "item": "Barley",
+              "stack": 4
+            }
+          ]
+        },
+		{
+          "name": "Kasiri",
+          "decription": "Also known as Cassava Beer",
+          "prefix": false,
+          "colored": false,
+          "index": 346,
+          "price": "(100 + input) * 4",
+          "time": 1,
+          "texture": "floralbeer.png",
+          "tileindex": 0,
+          "materials": [
+            {
+              "item": "Cassava",
+              "stack": 4
+            }
+          ]
+        },
+		{
+          "name": "Wine",
+          "decription": "A sweet and delicious spiced wine",
+          "prefix": true,
+          "colored": false,
+          "index": 348,
+          "price": "(100 + input) * 4",
+          "time": 1,
+          "texture": "floralwine.png",
+          "tileindex": 0,
+          "materials": [
+            {
+              "item": "Habanero",
+              "stack": 4
+            }
+          ]
+        },
+		{
+          "name": "Wine",
+          "decription": "A sweet and delicious spiced wine",
+          "prefix": true,
+          "colored": false,
+          "index": 348,
+          "price": "(100 + input) * 4",
+          "time": 1,
+          "texture": "floralwine.png",
+          "tileindex": 0,
+          "materials": [
+            {
+              "item": "Licorice",
+              "stack": 4
+            }
+          ]
+        },
+		{
+          "name": "Wine",
+          "decription": "A sweet and delicious spiced wine",
+          "prefix": true,
+          "colored": false,
+          "index": 348,
+          "price": "(100 + input) * 4",
+          "time": 1,
+          "texture": "floralwine.png",
+          "tileindex": 0,
+          "materials": [
+            {
+              "item": "Mint",
+              "stack": 4
+            }
+          ]
+        },
+		{
+          "name": "Wine",
+          "decription": "A sweet and delicious spiced wine",
+          "prefix": true,
+          "colored": false,
+          "index": 348,
+          "price": "(100 + input) * 4",
+          "time": 1,
+          "texture": "floralwine.png",
+          "tileindex": 0,
+          "materials": [
+            {
+              "item": "Poblano Chile",
+              "stack": 4
+            }
+          ]
+        },
+		{
+          "name": "Wine",
+          "decription": "A sweet and delicious spiced wine",
+          "prefix": true,
+          "colored": false,
+          "index": 348,
+          "price": "(100 + input) * 4",
+          "time": 1,
+          "texture": "floralwine.png",
+          "tileindex": 0,
+          "materials": [
+            {
+              "item": "Rosemary",
+              "stack": 4
+            }
+          ]
+        },
+		{
+          "name": "Wine",
+          "decription": "A sweet and delicious spiced wine",
+          "prefix": true,
+          "colored": false,
+          "index": 348,
+          "price": "(100 + input) * 4",
+          "time": 1,
+          "texture": "floralwine.png",
+          "tileindex": 0,
+          "materials": [
+            {
+              "item": "Sage",
+              "stack": 4
+            }
+          ]
+        },
+		{
+          "name": "Wine",
+          "decription": "A sweet and delicious spiced wine",
+          "prefix": true,
+          "colored": false,
+          "index": 348,
+          "price": "(100 + input) * 4",
+          "time": 1,
+          "texture": "floralwine.png",
+          "tileindex": 0,
+          "materials": [
+            {
+              "item": "Serrano Chile",
+              "stack": 4
+            }
+          ]
+        },
+		{
+          "name": "Wine",
+          "decription": "A sweet and delicious spiced wine",
+          "prefix": true,
+          "colored": false,
+          "index": 348,
+          "price": "(100 + input) * 4",
+          "time": 1,
+          "texture": "floralwine.png",
+          "tileindex": 0,
+          "materials": [
+            {
+              "item": "Sugar Beet",
+              "stack": 4
+            }
+          ]
+        },
+		{
+          "name": "Wine",
+          "decription": "A sweet and delicious spiced wine",
+          "prefix": true,
+          "colored": false,
+          "index": 348,
+          "price": "(100 + input) * 4",
+          "time": 1,
+          "texture": "floralwine.png",
+          "tileindex": 0,
+          "materials": [
+            {
+              "item": "Thyme",
+              "stack": 4
+            }
+          ]
+        },
+		// And, bizarrely enough, it turns out that you can make nut wine. So I'm going to include nuts in here, too.
+		{
+          "name": "Wine",
+          "decription": "A sweet and delicious spiced wine",
+          "prefix": true,
+          "colored": false,
+          "index": 348,
+          "price": "(100 + input) * 4",
+          "time": 1,
+          "texture": "floralwine.png",
+          "tileindex": 0,
+          "materials": [
+            {
+              "item": "Almond",
+              "stack": 4
+            }
+          ]
+        },
+		{
+          "name": "Wine",
+          "decription": "A sweet and delicious spiced wine",
+          "prefix": true,
+          "colored": false,
+          "index": 348,
+          "price": "(100 + input) * 4",
+          "time": 1,
+          "texture": "floralwine.png",
+          "tileindex": 0,
+          "materials": [
+            {
+              "item": "Cashew",
+              "stack": 4
+            }
+          ]
+        },
+		{
+          "name": "Wine",
+          "decription": "A sweet and delicious spiced wine",
+          "prefix": true,
+          "colored": false,
+          "index": 348,
+          "price": "(100 + input) * 4",
+          "time": 1,
+          "texture": "floralwine.png",
+          "tileindex": 0,
+          "materials": [
+            {
+              "item": "Hazelnut",
+              "stack": 4
+            }
+          ]
+        },
+		{
+          "name": "Wine",
+          "decription": "A sweet and delicious spiced wine",
+          "prefix": true,
+          "colored": false,
+          "index": 348,
+          "price": "(100 + input) * 4",
+          "time": 1,
+          "texture": "floralwine.png",
+          "tileindex": 0,
+          "materials": [
+            {
+              "item": "Pecan",
+              "stack": 4
+            }
+          ]
+        },
+		{
+          "name": "Wine",
+          "decription": "A sweet and delicious spiced wine",
+          "prefix": true,
+          "colored": false,
+          "index": 348,
+          "price": "(100 + input) * 4",
+          "time": 1,
+          "texture": "floralwine.png",
+          "tileindex": 0,
+          "materials": [
+            {
+              "item": "Pistachio",
+              "stack": 4
+            }
+          ]
+        },
+		{
+          "name": "Wine",
+          "decription": "A sweet and delicious spiced wine",
+          "prefix": true,
+          "colored": false,
+          "index": 348,
+          "price": "(100 + input) * 4",
+          "time": 1,
+          "texture": "floralwine.png",
+          "tileindex": 0,
+          "materials": [
+            {
+              "item": "Walnut",
+              "stack": 4
+            }
+          ]
+        },
+		{
+          "name": "Wine",
+          "decription": "A sweet and delicious spiced wine",
+          "prefix": true,
+          "colored": false,
+          "index": 348,
+          "price": "(100 + input) * 4",
+          "time": 1,
+          "texture": "floralwine.png",
+          "tileindex": 0,
+          "materials": [
+            {
+              "item": "Peanut",
+              "stack": 4
+            }
+          ]
+        },
+		// Now on to the actual flowers!
+        {
+          "name": "Wine",
+          "decription": "A light and delicious floral wine",
+          "prefix": true,
+          "colored": false,
+          "index": 348,
+          "price": "(100 + input) * 4",
+          "time": 1,
+          "texture": "floralwine.png",
+          "tileindex": 0,
+          "materials": [
+            {
+              "index": -80,
+              "stack": 4
+            }
+          ]
+        },
+
+		// And, for good measure, this lets you pretend you got to pick the fruit tree blossoms instead of the fruit! 
+		// Note: It still requires sugar and four fruit, since you need a LOT of blossoms and sugar to make wine, but the price goes up due to the complexity.
+		{
+          "name": "Blossom Wine",
+          "decription": "A light and delicious floral wine",
+          "prefix": true,
+          "colored": false,
+          "index": 348,
+          "price": "(100 + input) * 4",
+          "time": 1,
+          "texture": "floralwine.png",
+          "tileindex": 0,
+          "materials": [
+            {
+              "index": -79,
+              "stack": 4
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

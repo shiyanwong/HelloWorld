@@ -1,0 +1,12 @@
+{
+   "Name": "Darker Dirt and Cliffs",
+   "Author": "Nanomatic",
+   "Version": "2.0.0",
+   "Description": "This is a mod to make the dirt, cliffs, and hoed/watered dirt darker. NexusID:2931",
+   "UniqueID": "Nanomatic.DarkerDirtAndCliffs",
+   "MinimumApiVersion": "2.5.2",
+   "UpdateKeys": [ "" ],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   }
+}

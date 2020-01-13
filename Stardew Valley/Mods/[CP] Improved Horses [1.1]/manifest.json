@@ -1,0 +1,12 @@
+{
+  "Name": "ImprovedHorses",
+  "Author": "Gweniaczek",
+  "Version": "1.1",
+  "Description": "Changed animation and different colors",
+  "UniqueID": "Gweniaczek.ImprovedHorses",
+  "UpdateKeys": ["Nexus:1903"],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher",
+  }
+}
+

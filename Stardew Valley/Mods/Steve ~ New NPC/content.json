@@ -1,0 +1,419 @@
+
+{
+	"Format": "1.6", 
+	"Changes": [
+	
+		{
+		
+			"LogName": "NPC Manifestation", 
+			"Action": "EditData", 
+			"Target": "Data/NPCDispositions",
+			"Entries": { 
+			
+				"Steve": "teen/polite/outgoing/neutral/male/datable/Gus/Other/fall 1//JoshHouse 14 5 2/Steve",
+				
+				
+			},
+		},
+		
+		{
+		
+			"LogName": "NPC Gift Tastes", 
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"Entries": {
+				"Steve": "Hey woah! Thanks so much I love this!/72 74 346 206 233/I like this, you're not a bad gift giver./60 62 64 66 68 70 597 591 595/This...uh, yeah not a fan./80 330/There is no way in the world I could find a way to compliment that. Literal garbage./2 684/Cool! Thanks, that's nice of you./-4/",
+				
+			},
+		},
+		
+		{
+		
+			"LogName": "Animations", 
+			"Action": "EditData",
+			"Target": "Data/animationDescriptions",
+			"Entries": {
+				"steve_lift": "29/29 29 30 30 30 31 31 31 32 32 32 31 31 31 30 30 30 29 29/29"
+
+			 
+				
+			},	
+		},
+		
+		{
+		
+			"LogName": "Engagement Dialogue", 
+			"Action": "EditData",
+			"Target": "Data/EngagementDialogue",
+			"Entries": {
+				"Steve0": "I get to spend the rest of my life with you.", 
+				"Steve1": "You really are my soulmate.", 
+			},
+		},
+		
+		{
+		
+			"LogName": "Steve Portraits", 
+			"Action": "Load",
+			"Target": "Portraits/Steve",
+			"FromFile": "assets/Image/Steveportraits.png",
+			
+		},
+		
+		{
+
+			"LogName": "Marriage Dialogue",
+			"Action": "Load",
+			"Target": "Characters/Dialogue/MarriageDialogueSteve",
+			"FromFile": "assets/Dialogue/MarriageDialogue.json",
+		},
+		
+		{
+		
+			"LogName": "Steve Sprites", 
+			"Action": "Load",
+			"Target": "Characters/Steve",
+			"FromFile": "assets/Image/Stevesprite.png",
+			
+		},
+		
+		{
+		
+			"LogName": "Dialogue", 
+			"Action": "Load",
+			"Target": "Characters/Dialogue/Steve",
+			"FromFile": "assets/Dialogue/Dialogue.json",
+			
+		},
+
+		{
+		
+			"LogName": "Schedule Dialogue", 
+			"Action": "Load",
+			"Target": "Strings/schedules/Steve",
+			"FromFile": "assets/Schedule/ScheduleDialogue.json",
+			
+		},
+		
+		{
+		
+			"LogName": "Schedule", 
+			"Action": "Load",
+			"Target": "Characters/schedules/Steve",
+			"FromFile": "assets/Schedule/Schedule.json",
+			
+		},
+	
+ 		{ 
+
+      			"Action": "EditData",
+      			"Target": "data/festivals/spring13",
+      			"Entries": {
+        			"Steve": "All the food tastes so good, but I'm stuffed!$1"
+      		}
+
+
+    		},
+
+    		{
+
+      			"Action": "EditData",
+      			"Target": "data/festivals/spring13",
+      			"Entries": {
+        			"Steve": "Did you see Pam? Gus told me she was going to add an 'extra kick' to the punch.#$b#I wonder what that could mean...$3"
+      		},
+      			"When": {
+	       			"Spouse:Steve": "True"
+      		}
+
+    		},
+
+    		{
+      			"Action": "EditData",
+      			"Target": "data/festivals/spring24",
+      			"Entries": {
+        			"Steve": "Sorry, I would like to dance but I have two left feet.$1#$b#Oh! Have you tried the jelly? It's all anyone can talk about! I helped Emily make it, we used the wild berries I collected."
+      		}
+
+    		},
+
+    		{
+
+      			"Action": "EditData",
+      			"Target": "data/festivals/spring24",
+      			"Entries": {
+        			"Steve": "I don't mind if you dance with someone else, honey. I would dance with you but I can't dance.$2#$b#*wistful sigh* Spring leaves us yet again.$2"
+      		},
+      			"When": {
+        			"Spouse:Steve": "True"
+     		}
+
+    		},
+
+    		{
+
+      			"Action": "EditData",
+      			"Target": "data/festivals/summer11",
+      			"Entries": {
+        			"Steve": "Heard someone was going to put some purple shorts in the soup as a joke! I doubt Lewis would find it very funny.$1",
+        			"Steve_spouse": "We have some beautiful veggies in our farm. Are you going to add any,@?#$e#Soup is good, but it could easily be perfect if it was YOU adding something.$4"
+      		}
+
+    		},
+
+    		{
+
+      			"Action": "EditData",
+      			"Target": "data/festivals/summer28",
+      			"Entries": {
+        			"Steve": "This is my favourite event of the year. Those beautiful blue beams of light, giving the dark water a luminous glow.",
+        			"Steve_spouse": "Hi there honey! I brought my camera so we can take pictures of the jellies!$1#$b#But the beauty of those jellies is nothing compared to you$4."
+      		}
+
+    		},
+
+    		{
+
+      			"Action": "EditData",
+      			"Target": "data/festivals/summer28",
+      			"Entries": {
+        			"Steve": "Those glowing jellies look quite cool, not gonna lie."
+      		},
+
+      			"When": {
+        			"Spouse:Steve": "True"
+      		}
+
+    		},
+
+    		{
+
+      			"Action": "EditData",
+      			"Target": "data/festivals/fall16",
+      			"Entries": {
+        			"Steve": "I tried the Strength Game out but I was a bit intimidated by that dude.$1#$e#But then I beat him so, all's good.",
+        			"Steve_spouse": "Hi hon, how are you doing today?$4"
+      		}
+
+    		},
+
+    		{
+
+      			"Action": "EditData",
+      			"Target": "data/festivals/fall16",
+      			"Entries": {
+        			"Steve": "Bet I could take on those skeletons."
+      		},
+
+      			"When": {
+        			"Spouse:Steve": "True"
+      		}
+
+    		},
+
+    		{
+
+      			"Action": "EditData",
+      			"Target": "data/festivals/fall27",
+      			"Entries": {
+        			"Steve": "Halloween! Bet you I can scare ya. These decorations aren't scary at all, though. And trust me, I've seen scary.$1",
+        			"Steve_spouse": "I'll protect you if you get scared, but there isn't much to be scared of here..."
+      		}
+
+    		},
+
+    		{
+
+      			"Action": "EditData",
+      			"Target": "data/festivals/winter8",
+      			"Entries": {
+        			"Steve": "It's so cold! Oh but what do you think of my snowman?$1"
+      		}
+
+    		},
+
+    		{
+
+      			"Action": "EditData",
+      			"Target": "data/festivals/winter8",
+      			"Entries": {
+        			"Steve": "I'll be watching and cheering you on hon! Go get 'em!"
+      		},
+
+      			"When": {
+        			"Spouse:Steve": "True"
+      		}
+
+    		},
+
+    		{
+
+      			"Action": "EditData",
+      			"Target": "data/festivals/winter25",
+      			"Entries": {
+        			"Steve": "Wow! The food tastes so good. Like, so so good. This festival is one of my favourites, I mean, look at all the snow!$4"
+      		}
+
+    		},
+
+    		{
+
+      			"Action": "EditData",
+      			"Target": "data/festivals/winter25",
+      			"Entries": {
+        			"Steve": "Hon, you didn't need to get me a present. You being mine is the best present I could have.$4"
+      		},
+
+      			"When": {
+        			"Spouse:Steve": "True"
+      		}
+
+    		},
+
+
+
+   		{ 
+
+      			"Action": "EditData",
+      			"Target": "strings/StringsFromCSFiles",
+      			"Entries": {
+        			"Utility.cs.5371": "Steve... @... #$b# As the mayor of Pelican Town, and regional bearer of the matrimonial seal, I now pronounce you husband and husband!$h",
+        			"Utility.cs.5377": "Steve... @... #$b# As the mayor of Pelican Town, and regional bearer of the matrimonial seal, I now pronounce you husband and wife!$h",
+
+        			"Utility.cs.5367": "When @ first arrived in Pelican Town, no one knew if he'd fit in with our community...#$b#But from this day forward, @ is going to be as much a part of this town as any of us!$h#$b#It is my great honor on this day {0} of {1}, to unite @ and Steve in the bonds of marriage.",
+        			"Utility.cs.5369": "When @ first arrived in Pelican Town, no one knew if she'd fit in with our community...#$b#But from this day forward, @ is going to be as much a part of this town as any of us!$h#$b#It is my great honor on this day {0} of {1}, to unite @ and Steve in the bonds of marriage."
+      		},
+
+      			"When": {
+        			"Relationship:Steve": "Engaged, Married"
+      		}
+
+    		},
+
+
+
+
+
+
+
+
+//Locations: Town 42 72 2 (Stood outside Pierre's), Town 50 49 1 (Stood by tree in town), ArchaeologyHouse 17 10 0 (Library stood at bookshelf), AnimalShop 13 14 2 (Marnie's ranch)
+
+
+		{ //2 heart event, museum 6:30 am - 10:00 am
+
+      		
+      			"LogName": "SteveEvent",
+      			"Action": "EditData",
+      			"Target": "Data/Events/ArchaeologyHouse",
+      			"Entries": {
+        			"958563/f Steve 500/t 630 1000/w sunny": "playful/17 5/farmer 15 5 1 Steve 17 5 0/skippable/move farmer 1 0 0/speak Steve \"Oh hey @. What are you doing here?$1\"/faceDirection farmer 1/emote farmer 8/speak Steve \"Looking for a book?$1#$b#Oh me? I come here sometimes, but I'm not a dork or anything, I just like...reading.\"/faceDirection Steve 3/speak Steve \"So, what's it like on the farm? Is it hard? I've never been much of a farmer myself, more of an adventurer.$3#$b#Out fighting monsters, that kinda stuff, ya know?\"/pause 1000/faceDirection Steve 0/pause 1000/speak Steve \"Oh here we are. Been looking for this one. S'all about weapons.$3#$b#Don't get the wrong idea! I'm not a violent person, don't worry. My interest in weapons made Clint and I buds.$7#$b#He's pretty cool to hang around with. Do you know him?$1#$b#And Alex, him too. But I don't think I really fit in with anyone else here.$9\"/question fork1 \"#Well don't worry too much about it. It takes time to get to know people. Maybe you should get to know Robin, the carpenter. She's really nice!#\"/fork noResponse/pause 1000/speak Steve \"Oh, thanks for that.$3#$b#We seem to get along well, don't we?$1\"/pause 200/emote farmer 60/speak Steve \"Guess I'll see you around, farmer.$1\"/move Steve 0 1 3/faceDirection farmer 2/speak Steve \"I'll go now to, erm, read this.$4\"/move Steve -10 0 3 true/faceDirection farmer 3/pause 500/globalFade/viewport -1000 -1000/end",
+        		"noResponse": "pause 500/emote Steve 28/speak Steve \"Oh, yeah, sorry I don't know you that well.$9\"/move Steve 2 0 3/faceDirection farmer 1/speak Steve\"Okay, this is awkward. Bye.$2\"/faceDirection Steve 0/move farmer -7 0 0/pause 500/globalFade/viewport -1000 -1000/end"
+
+
+ 
+      		}
+
+    		},
+
+
+
+		{ //4 heart event, town 8:00 am - 1:00 pm
+
+      			"LogName": "SteveEvent",
+      			"Action": "EditData",
+      			"Target": "Data/Events/Town",
+      			"Entries": {
+        			"958564/f Steve 1000/t 800 1300/w sunny": "playful/26 22/farmer 22 27 0 Steve 26 22 2/skippable/move farmer 0 -5 1/speak Steve \"Hey @! Get over here.$3\"/move farmer 3 0 2/faceDirection farmer 2/speak Steve \"Hey. How's your day going?$1\"/faceDirection farmer 1/pause 500/emote farmer 20/speak Steve \"Why are we looking at a fountain? I dunno. It's pretty.#$b#$1\"/pause 500/speak Steve \"And you didn't hear me say that.$5\"/emote farmer 16/speak Steve \"Anyways, change of subject, I heard your farm's really coming on. I don't think I'd be a good farmer.$1\"/faceDirection Steve 2/emote farmer 32/speak Steve \"Haha I'd probably mess it all up. Plant the carrots where the parsnips should be.#$b#And I can see that's a really lame example so anyways$9#$b#Sorry, I tell bad jokes when I'm around pretty people.$4#$b#Eh! That's not what I meant to say- It came out wrong!$7\"/stopAnimation Steve/faceDirection farmer 1/pause 500/faceDirection Steve 3/pause 500/speak Steve \"Oh yeah! I just remembered! Later this afternoon I'm off to play football with Alex. And I was just wondering if you wanted to come along.$3\"/pause 500/speak Steve \"But just to hang out, y'know. I told Alex about you earlier, he said he wants to get to know you.$1\"/pause 500/speak Steve \"And if you wanted, you could stay for lunch. But I'm not pressuring you to do anything, don't worry.$1#$b#Don't think I'm forcing you to come over if you don't want to.$9\"/emote farmer 8/pause 500/speak Steve \"Haha, you're right. I am being stupid.$1\"/pause 500/pause 200/speak Steve \"So what's your family like, @?\"/faceDirection farmer 2/pause 500/speak Steve \"You know, what are your parents like? Did they want you to move here?\"/question fork1 \"#Yeah. I admit I hated my old job. My parents said it paid well, but they knew I couldn't stand it. Life here is much better, and my grandfather used to love life here too.#...\"/fork noResponse/pause 500/faceDirection farmer 1/speak Steve \"Well hey! That's pretty cool. I've heard Lewis tell stories about your grandfather. He was a good man.$1\"/pause 500/faceDirection Steve 3/speak Steve \"And one last thing, just so you know, if your farming life just isn't all it's cracked up to be, or you just wanna hang out with someone.$1\"/pause 500/speak Steve \"Just call me. I'll be here.$1\"/pause 1000/emote farmer 28/speak Steve \"What's wrong?$2#$b#Don't be sad about your grandpa. He'll be watching over you.$1\"/pause 1000/speak Steve \"I would stay and talk more but George wants me to fix the TV. Old man broke it again haha.$3\"/pause 500/faceDirection Steve 3/speak Steve \"See ya around, farmer!$1\"/move Steve 7 0 1 true/faceDirection farmer 1/pause 500/globalFade/viewport -1000 -1000/end",
+			"noResponse": "pause500/speak Steve \"Shoot. I didn't mean to pry. Sorry about that.$2\"/pause 500/speak Steve \"Y...yeah I'll uh, see ya later. Sorry again.$2\"/move Steve 2 7 2/pause 500/globalFade/viewport -1000 -1000/end"
+	
+      		}
+
+    		},
+
+
+
+  		{ //6 heart event, enter Alex's house 12:00pm - 3:00pm
+
+      			"LogName": "SteveEvent",
+      			"Action": "EditData",
+      			"Target": "Data/Events/JoshHouse",
+      			"Entries": {
+        			"958565/f Steve 1500/t 1200 1500": "playful/13 5/farmer 10 10 0 Steve 11 5 1 Alex 13 5 3/skippable/pause 500/speak Steve \"Alex come on! You know it was an accident.$5\"/pause 500/emote Alex 12/pause 500/speak Alex \"Dude! Look what you did to my weights!$5#$b#And I TOLD you not to touch any of my fitness stuff! I don't touch your bat!$5\"/pause 200/emote Steve 28/pause 500/speak Steve \"Look, man, I'll just buy new ones for you.$9\"/pause 200/speak Alex \"NO! You can't! They were limited edition!$5#$b#I NEEDED them!$5\"/pause 500/emote Steve 28/speak Steve \"Okay, I get they mean a lot to you. I'll just sell something of mine, kay?$5\"/pause 200/speak Alex \"And waste all your money on me? Dude, you're just unbeleivable. Why would I want that?$5\"/pause 200/speak Steve \"I'll just sell my car or something.$5\"/emote farmer 16/pause 1000/speak Alex \"No. Don't sell your damn car. Jesus, if you had never moved here this wouldn't have happened.$5\"/pause 100/warp farmer 10 7 0/pause 100/move farmer 2 0 0/faceDirection Steve 2/faceDirection Alex 2/pause 500/emote farmer 12/pause 200/speak Alex \"@? What are you doing here?$2\"/pause 500/speak Alex \"You heard everything? Good. That means you're on my side. Now tell Steve to clear off.$5\"/pause 200/faceDirection Steve 1/speak Steve \"Excuse me?$5\"/pause 500/speak Alex \"You know what that means.$5\"/question fork1 \"#STOP IT! Don't talk to eachother like that! Alex you're meant to be his friend, and some friend you're acting like. How could you say things like that to him!?#Alex is right. Steve you literally can't follow instructions. I mean, is it really too much to ask for you to leave his stuff alone?\"/fork rejection/pause 500/speak Alex \"Unbeleivable. I'm going out.$7\"/pause 500/faceDirection farmer 3/move Alex 0 1 2/pause 100/move Alex -3 0 2/pause 100/move Alex 0 16 2/playSound doorClose/textAboveHead Steve \"God's sake.\"/move farmer 0 -2 1/faceDirection farmer 3/pause 500/emote Steve 28/pause 500/speak Steve \"I've only gone and ruined everything, haven't I?$2\"/pause 500/textAboveHead farmer \"That's not true.\"/pause 500/speak Steve \"He was right, though. If I hadn't have moved here he would still have his stupid limited edition weights...$2#$b#I'm just a screw up.$2\"/question fork1 \"#Friends fight, Steve. Don't worry about it. Alex will calm down, trust me. He doesn't mean it.\"/pause 500/speak Steve \"I...I guess you're right. Thanks for sticking up for me, farmer.$1#$b#I still feel pretty lame, though... I'll make it up to him.$2\"/pause 500/faceDirection Steve 1/speak Steve \"Can we hang out? Just for a little while. I don't think Clint's is open today.$2\"/pause 500/emote farmer 32/pause 1000/globalFade/viewport -1000 -1000/pause 600/stopAnimation farmer/end warpOut",
+			"rejection": "pause 500/emote Alex 32/speak Alex \"You're right. Steve, clear off.$5\"/pause 200/emote Steve 28/speak Steve \"Fine. But let me know when you stop whining like a baby about your stupid toys.$5\"/speak Alex \"Just leave, man.$5\"/pause 500/faceDirection farmer 3/move Steve -1 0 2/pause 100/move Steve 0 16 2/pause 1000/globalFade/viewport -1000 -1000/end"
+      		}
+    		},
+
+
+		{ //7 heart event, 9:00 pm - 12:00 am, town must be raining
+
+			"LogName": "SteveEvent",
+      			"Action": "EditData",
+      			"Target": "Data/Events/Town",
+      			"Entries": {
+        			"958566/f Steve 1750/t 2100 2400/w rainy": "rain/52 64/farmer 46 64 1 Steve 55 64 2/skippable/move farmer 8 0 1/pause 500/speak Steve \"You're up late.$9\"/faceDirection farmer 2/speak Steve \"You should head home, y'know. I'm sure you have things to do tomorrow and in this weather it's pretty easy to get sick.$9\"/emote farmer 40/faceDirection farmer 1/pause 500/faceDirection farmer 2/speak Steve \"*sigh* I feel so stupid.$2\"/playMusic echos/pause 4000/speak Steve \"I'm being selfish. I act like a selfish person.$2#$b#And you have no idea what I'm talking about. Might as well start somewhere.$2\"/pause 500/speak Steve \"Can you hear me out?$2\"/faceDirection farmer 1/emote farmer 8/speak Steve \"It's just... I guess I'm homesick.$2#$b#I had the dorkiest, wierdest friends back where I used to live. And I miss them a bunch. And yet, here you come along, and make me laugh harder than I've ever laughed in my life.$2\"/pause 400/speak Steve \"I don't know if I ever told you about my old friends. Or why I left them. I just want you to know that, when I hang around with you, life feels normal again. You actually make me like really, really happy.$2#$b#But I won't get any closer to you, without you knowing why I can't sleep at night.$2#$b#I used to be a jerk. Like, highschool jock jerk kinda guy. Got a girlfriend, who I definitely didn't deserve, and then her friend died. I was pretty horrible to her, but she's done her fair share of bad stuff too, okay? Don't go about this all wrong that I'm some horrible jerk. People died, all around me from there onwards. And this is pretty dark, but I want you to know this.$2#$b#@, when I met you in the museum the other day, I told you I hunted monsters. That was true. And I won't let myself fall for you if that means there's a small chance you could be in danger.$2\"/pause 1000/speak Steve \"But you've also fought monsters, haven't you? You can handle yourself.$2\"/pause 500/speak Steve \"*sigh* -I guess only now I have the confidence to speak my mind to you.$2\"/emote farmer 16/jump farmer/speak Steve \"@, I really like you. I can't stop thinking about you.$4\"/question fork1 \"#I really like you too, Steve. I think we have something here.#I'm sorry... I don't like you like that. Maybe I gave the wrong impression, but I'm not... I'm not interested.\"/fork rejection/pause 500/pause 500/speak Steve \"Phew, you don't know how good it feels to hear that, @.$4#$b#I always thought I would never find a soulmate. But here you are.$1\"/emote farmer 60/faceDirection farmer 2 true/stopAnimation Steve/pause 500/speak Steve \"Meeting you was probably one of the best days of my life.$4\"/showFrame Steve 0/faceDirection Steve 3/faceDirection farmer 1/speak Steve \"I can't tell you how good I feel right now.$4\"/emote farmer 32/speak Steve \"Come on, let's get you inside before you get sick.$4\"/globalFade/viewport -1000 -1000/end",
+        	"rejection": "pause 500/emote Steve 28/speak Steve \"I'm sorry. Dammit, I mess everything up.$7\"/pause 500/stopAnimation Steve/pause 500/speak Steve \"I'm sorry for saying all that, I shouldn't have expected for this to be anything more. I get it. I'll leave you alone from now on.$2\"/move Steve 2 0 1/faceDirection farmer 1/move Steve 0 -1 0/warp Steve 43 65/playSound doorClose/faceDirection farmer 2/emote farmer 40/pause 500/move farmer -15 0 3 true/globalFade/viewport -1000 -1000/end"
+
+     		}
+    		},
+
+
+		
+		{ //8 heart event, 4:00 pm - 
+
+
+      			"LogName": "SteveEvent",
+      			"Action": "EditData",
+      			"Target": "Data/Events/Mine",
+      			"Entries": {
+        			"985822/f Steve 2000/t 1600 2400": "Of Dwarves/19 9/farmer 18 12 0 Steve 19 9 2/showFrame Steve 35/skippable/pause 500/emote farmer 28/move farmer 0 -3 1/pause 500/speak Steve \"Farmer...is that you?$2\"/pause 200/speak Steve \"Can - can you help me up?$2\"/pause 800/emote farmer 20/speak Steve \"Oh,  and by the way, I think I might be about to pass out. But I don't wanna inconvenience you.$1\"/emote farmer 16/pause 500/speak Steve \"You're right. Let's get outta here. Can you help me up? I'm sorta stuck on the floor here.$2\"/pause 800/speak Steve \"I'm so sorry you found me like this. I was tryna -$2#$b#Ever since I moved here I've been haunted. I thought if I killed a bunch of monsters...$2\"/pause 500/emote Steve 24/pause 500/emote farmer 16/pause 500/globalFade/viewport -1000 -1000/end"
+		}
+    		},
+
+
+
+		{ //9 heart event, 10:00 am - 5:00 pm, hospital
+
+      			"LogName": "SteveEvent",
+      			"Action": "EditData",
+      			"Target": "Data/Events/Hospital",
+      			"Entries": {
+				"958568/f Steve 2250/t 1000 1700/w sunny": "playful/13 15/farmer 19 5 1 Steve 20 4 2 Alex 13 15 2 Evelyn 13 17 1 George 14 17 3 Harvey 3 15 0/skippable/pause 2000/speak George \"That poor kid.$2\"/pause 500/speak Evelyn \"Thank goodness that lovely farmer rescued our Steve.$2#$b#Oh my poor boy, I hope he's okay.$2\"/pause 500/emote George 28/textAboveHead Alex \"Dammit.\"/pause 500/speak Alex \"He should have told me he what he was gonna do today!$5#$b#He could have been killed!$5\"/pause 500/speak George \"You're right there. Steve goes off doing god-knows-what at all hours. It's a wonder that boy hasn't been-nevermind.$2#$b#When I was younger, I wouldn't dare do anything like this.$2\"/pause 200/speak Evelyn \"He'll be okay, dear. I think he's learnt his lesson.$2\"/pause 500/textAboveHead George \"I guess.\"/pause 500/speak Evelyn \"Perhaps I should pop home and bring him the pie I made. It's in the fridge, waiting for him.$2\"/pause 200/speak George \"No, dear. What if that doctor says we can see our Steve when you're gone?$2\"/pause 200/speak Alex \"Grandpa's got a point.$2\"/pause 200/move Harvey 4 0 0/pause 100/move Harvey 0 -1 1/pause 100/move Harvey 1 0 1/pause 100/move Harvey 2 0 1/pause 100/move Harvey 0 4 1/pause 100/move Harvey 4 0 0/pause 500/move Alex 0 1 2/pause 100/faceDirection Evelyn 2/pause 100/faceDirection George 2/pause 500/speak Harvey \"You'll be able to see Steve now. @ is currently with him.\"/pause 500/showFrame Steve 43/viewport move 6 -11 900/pause 500/speak Steve \"Mmmph.$8\"/pause 500/emote farmer 28/speak Steve \"@...$8\"/pause 200/emote farmer 60/pause 500/speak Steve \"@? What are you doin' here?$10\"/pause 200/speak Steve \"You came to see...me? Why would you wanna waste time out of your day on me?$11\"/pause 200/speak Steve \"Oh... you were the one who found me. God, I'm so sorry. I must have scared you, lying like that on the floor...$10\"/pause 200/emote farmer 60/speak Steve \"Yeah... I guess you're wondering what I was doing there anyway.$10#$b#Well, I was down to do a bit of mining, and fighting those seriously annoying slime-things. I actually got really far down the mine!$11#$b# But then... well, I ran outta food. I couldn't take 'em. I think adrenaline got me to the elevator then I passed out when I got back.$10#$b#I dunno how long I was there for, all I remember was you finding me.$10#$b#Thanks - thanks for finding me...$11#$b#God, I'm literally exhausted.$10#$b#I just need to tell you something while I'm high as a kite and have the confidence to.$8#$b#@, I'm completely falling in love with you.$11\"/question fork1 \"#You're an adorable nutcase, you know that, right? You know, I think I'm falling for you too.#Uhm, I think that medication is doing something to your head? Falling in love with me? Maybe... n..not yet, Steve.\"/fork rejection/pause 500/pause 500/speak Steve \"I want to smile so bad but my face hurts.$8#$b#But if I stay awake any longer I think I might...$8#$b#...$8#$b#Night hon.$8\"/emote farmer 60/move farmer 0 1 2/pause 50/move farmer 1 0 2/pause 50/move farmer 0 2 2/pause 50/move farmer -5 0 0/pause 50/move farmer 0 -1 0/pause 50/move farmer -5 0 3/pause 50/move farmer 0 5 2/warp farmer 10 18 2/pause 100/warp Harvey 10 11 0/pause 50/move Harvey 0 -4 1/pause 50/move Harvey 6 0 1/pause 50/move Harvey 0 1 1/pause 50/move Harvey 4 0 0/pause 50/move Harvey 0 -2 0/pause 50/move Harvey -2 0 0/pause 50/move Harvey 0 -2 2/pause 50/warp Alex 10 11 0/pause 50/move Alex 0 -4 1/pause 50/move Alex 6 0 0/pause 50/move Alex 0 1 1/pause 50/move Alex 4 0 0/pause 50/move Alex 0 -2 0/pause 50/move Alex -1 0 3/pause 50/move Alex 0 -1 1/pause 50/warp George 10 11 0/move George 0 -4 1/pause 50/move George 6 0 0/pause 50/move George 0 1 1/pause 50/move George 4 0 0/pause 50/move George 0 -2 0/pause 50/move George 1 0 0/pause 50/warp Evelyn 10 11 0/pause 50/move Evelyn 0 -4 1/pause 50/move Evelyn 6 0 0/pause 50/move Evelyn 0 1 1/pause 50/move Evelyn 4 0 0/pause 50/move Evelyn 0 -2 0/pause 500/speak Harvey \"Steve appears to still be asleep. Alex, you can wake your friend up if you want.\"/pause 200/pause 200/speak Alex \"Are... you sure he'll wanna see me? I haven't been the greatest friend in the world. What if he doesn't want me here?$2\"/pause 50/speak Steve \"Dude, obviously I want to see you.$11\"/pause 50/emote Alex 32/pause 50/speak Alex \"I'm sorry bro, I've been pretty rude to you. Can we still be friends?$2\"/pause 200/speak Steve \"Alright.$11\"/pause 400/speak Harvey \"How are you feeling, Steve?\"/pause 200/speak Steve \"Could be better, but I'm alright.$11\"/pause 50/speak Evelyn \"Can he come home soon?$1\"/pause 200/speak Harvey \"I'll have to run a few more tests, but yes he should be able to go home soon.$1\"/pause 200/globalFade/viewport -1000 -1000/end", 
+			"rejection": "pause 500/emote Steve 60/speak Steve \"Yeah.. you're probably right anyways.$8\"/pause 500/move farmer 0 1 2/pause 50/move farmer 1 0 2/pause 50/move farmer 0 2 2/pause 50/move farmer -5 0 0/pause 50/move farmer 0 -1 0/pause 50/move farmer -5 0 3/pause 50/move farmer 0 5 2/warp farmer 10 18 2/globalFade/viewport -1000 -1000/end"																					
+      		}
+    		},
+
+
+		{ //10 heart event, 6:00 pm - 10:00 pm, town
+
+      			"LogName": "SteveEvent",
+      			"Action": "EditData",
+      			"Target": "Data/Events/Town",
+      			"Entries": {
+				"958569/f Steve 2500/t 1800 2400/w sunny": "playful/61 64/farmer 48 64 1 Steve 61 64 2/skippable/pause 200/move farmer 12 0 2/pause 200/faceDirection Steve 3/pause 50/speak Steve \"@? Oh hey! This is the first time I've seen you all week! It's great to see you again!$1\"/pause 100/emote farmer 20/pause 200/faceDirection farmer 1/speak Steve \"So...how have you been?\"/pause 1000/speak Steve \"Oh god. You can't stop thinking about what I said at the hospital? What did I say?!$7\"/pause 500/emote farmer 40/pause 200/emote farmer 60/pause 200/speak Steve \"I said I was falling in love with you...? Oh wow. Oh jeez. I'm sorry, really. What did you say in return?$7\"/question fork1 \"#I told you that I loved you too.\"/pause 500/pause 500/speak Steve \"Oh...I...I didn't expect that. God, I wish I remembered! Well, yeah, I do like you. Actually, I'm gonna say it. No, I love you.$4\"/question fork1 \"#I love you too, Steve.\"/pause 1000/emote Steve 60/pause 200/speak Steve \"I gotta say...this might just be the best day of my life.$1\"/pause 500/speak Steve \"But before anything else happens, I just want to ask you something...$1\"/pause 400/speak Steve \"@, could you imagine a life together? A life with me? Because it's all good saying we love eachother...$2#$b#But if you can't imagine having a life with me... what's the point?$2#$b#@, I think about you all the time. I can imagine myself living on your farm with you, becoming one-with-nature or whatever.#$b#Can you imagine that?$2\"/pause 1000/emote farmer 40/pause 50/emote farmer 20/speak Steve \"That's great! We could- we could actually have a life together!$1#$b#That is, i-if you want to.$4\"/pause 50/emote farmer 60/speak Steve \"Come on, let's go inside for lunch. Evelyn's got apple pie.\"/pause 200/globalFade/viewport -1000 -1000/end"
+				
+
+		}
+		},
+
+
+
+
+
+
+
+
+
+	]
+}
+
+
+
+
+
+       
+
+
+
+
+		

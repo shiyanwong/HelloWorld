@@ -1,0 +1,12 @@
+1. The application of a systematic , disciplined, quantifiable approach to the development, operation and maintenance of software.
+2. Requirement Gathering, Design, Implementation, Validation, Maintenance 
+3. Plan-driven ==> Waterfall process, systematic, document driven, usually adopted by government project
+    Agile, requirements and processes can be easily changes and feedback can be easily gathered.
+4. So that we know what the client expect the system to do 
+
+
+Answer for miniQuiz 1:
+1.The application of a systematic, disciplined, quantifiable approach to the development, operation and maintenance of software.
+2. Requirement Engineering, Design, Implementation (prototyping), Validation, Maintenance 
+3. Plan Driven: Structurted development where all activities are planned in advance, Progress is measured against this plan
+4. Success rate of project

@@ -1,0 +1,12 @@
+{
+	"Name": "Universe Swords",
+    "Author": "Vanillin",
+    "Version": "1.1.0",
+    "MinimumApiVersion": "3.0.0",
+    "Description": "Blades for JsonAssets",
+    "UniqueID": "Vanillin.UniverseSwords",
+	"UpdateKeys": [ "Nexus:4662" ],
+    "ContentPackFor": {
+    "UniqueID": "spacechase0.JsonAssets"
+    },
+}

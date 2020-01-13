@@ -1,0 +1,31 @@
+run the game with smapi to create the config.json file.
+
+List of existing options :
+
+Auto : true or false. True : childrens will look like the spouse (including hairs in some cases). False : if you want to customize the outfit, hair and eyes colors.
+You can still customize the style of outfit even with this config on true.
+
+AutoSkin : true or false. True : color of the skin is based on the parent (if possible) and the skin of the toddler (light or dark). Example, a child of maru will use maru's skintone if they are themselve of dark skintone, but the default one for light skintone.
+ColorSkinLight and ColorSkinDark : the color of the skin of the light version and the dark version of the childrens. Options : 01 to 10, farmer, abigail, alex, elliott, emily, haley, harvey, john, leah, lyell, maru, penny, raphtalia, sam, sandy, sebastian, shane, sorren, victor, wizard, custom01, custom02, custom03, custom04.  (See reference image)
+
+
+Following options have setting for girl and boy, but images are the same and you can totally use the outfit you want for each of them.
+
+ClothesGirl and ClothesBoy : color of the outfit based on the character. Options : classic, farmer, abigail, alex, elliott, emily, haley, harvey, john, leah, lyell, maru, penny, raphtalia, sam, sandy, sebastian, shane, sorren, victor, wizard, custom01, custom02, custom03, custom04.
+ClothesColorGirl and ClothesColorBoy : main color of the outfit. All character have a main color and a secondary color. Options : A or B.
+ClothesStyleGirl and ClothesStyleBoy : style of the outfit. (See reference image). Options : 01 to 09.
+
+HairsGirl and HairsBoy :  color of the haircut based on the character. Options : classic, farmer, abigail, alex, elliott, emily, haley, harvey, john, leah, lyell, maru, penny, raphtalia, sam, sandy, sebastian, shane, sorren, victor, wizard, custom01, custom02, custom03, custom04.
+HairStyleGirl and HairStyleBoy : style of the haircut, can now be based on some characters too ! (See reference image). Options : 01 to 10, classicGirl, farmerBoy, abigailGirl, alexBoy, elliottBoy, emilyGirl, haleyGirl, harveyBoy, leahGirl, maruGirl, pennyGirl, samBoy, shaneBoy, sebastianBoy
+
+Eyes : Option : plain or vibrant
+EyesShade : Option : light or dark
+ColorEyesGirl and ColorEyesBoy  color of the eyes based on the character. Options : classic, farmer, abigail, alex, elliott, emily, haley, harvey, john, leah, lyell, maru, penny, raphtalia, sam, sandy, sebastian, shane, sorren, victor, wizard, custom01, custom02, custom03, custom04.
+
+Glasses : kind of glasses. Options : sunglasses or glasses
+GlassesOnGirl and GlassesOnBoy : glasses or no glasses. Options : True, Summer, False
+
+CostumeGirl and CostumeBoy : fairy, flower, fortuneteller, ghost, mouse, mummy, owl, queensauce, snowman, witch
+
+Note : there is currently no way to get married to sandy or the wizard, i added them anyway. Farmer theme is based on the default image when you start a new game. Classic is the default colors of the childrens. Sorren, Victor, Raphtalia, John and Lyell, are custom NPC (all coming of different mods, see all the links in the nexus page).
+Custom options are based on colors i wanted or found interesting to add. Custom 1 : Teal and pink clothes, blond hairs. Custom 2 : Green and yellow clothes, purple hairs. Custom 3 : Pink and lilac clothes, black hairs. Custom 4 : Red and black clothes, light blond hairs.

@@ -1,0 +1,1689 @@
+[
+//Vanilla Seeds
+//Spring Seeds
+	{ //Green Bean
+		"ProducerName": "Seed Maker",
+		"InputIdentifier": "188",
+		"MinutesUntilReady": 20,
+		"OutputIdentifier": "473",
+		"OutputStack": 1,
+		"OutputMaxStack": 3,
+		"SilverQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "473",
+			"OutputStack": 2,
+			"OutputMaxStack": 4
+		},        
+		"GoldQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "473",
+			"OutputStack": 3,
+			"OutputMaxStack": 5
+		},        
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "473",
+			"OutputStack": 4,
+			"OutputMaxStack": 6
+		},
+		"AdditionalOutputs": [
+			{
+				"OutputProbability": 0.005,
+				"OutputIdentifier": "499",
+				"OutputStack": 1
+			},
+			{
+				"OutputProbability": 0.0199,
+				"OutputIdentifier": "770",
+				"OutputStack": 1,
+				"OutputMaxStack": 4
+			}
+		],
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Cauliflower
+		"ProducerName": "Seed Maker",
+		"InputIdentifier": "190",
+		"MinutesUntilReady": 20,
+		"OutputIdentifier": "474",
+		"OutputStack": 1,
+		"OutputMaxStack": 3,
+		"SilverQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "474",
+			"OutputStack": 2,
+			"OutputMaxStack": 4
+		},        
+		"GoldQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "474",
+			"OutputStack": 3,
+			"OutputMaxStack": 5
+		},        
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "474",
+			"OutputStack": 4,
+			"OutputMaxStack": 6
+		},
+		"AdditionalOutputs": [
+			{
+				"OutputProbability": 0.005,
+				"OutputIdentifier": "499",
+				"OutputStack": 1
+			},
+			{
+				"OutputProbability": 0.0199,
+				"OutputIdentifier": "770",
+				"OutputStack": 1,
+				"OutputMaxStack": 4
+			}
+		],
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Garlic
+		"ProducerName": "Seed Maker",
+		"InputIdentifier": "248",
+		"MinutesUntilReady": 20,
+		"OutputIdentifier": "476",
+		"OutputStack": 1,
+		"OutputMaxStack": 3,
+		"SilverQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "476",
+			"OutputStack": 2,
+			"OutputMaxStack": 4
+		},        
+		"GoldQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "476",
+			"OutputStack": 3,
+			"OutputMaxStack": 5
+		},        
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "476",
+			"OutputStack": 4,
+			"OutputMaxStack": 6
+		},
+		"AdditionalOutputs": [
+			{
+				"OutputProbability": 0.005,
+				"OutputIdentifier": "499",
+				"OutputStack": 1
+			},
+			{
+				"OutputProbability": 0.0199,
+				"OutputIdentifier": "770",
+				"OutputStack": 1,
+				"OutputMaxStack": 4
+			}
+		],
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Blue Jazz
+		"ProducerName": "Seed Maker",
+		"InputIdentifier": "597",
+		"MinutesUntilReady": 20,
+		"OutputIdentifier": "429",
+		"OutputStack": 1,
+		"OutputMaxStack": 3,
+		"SilverQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "429",
+			"OutputStack": 2,
+			"OutputMaxStack": 4
+		},        
+		"GoldQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "429",
+			"OutputStack": 3,
+			"OutputMaxStack": 5
+		},        
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "429",
+			"OutputStack": 4,
+			"OutputMaxStack": 6
+		},
+		"AdditionalOutputs": [
+			{
+				"OutputProbability": 0.005,
+				"OutputIdentifier": "499",
+				"OutputStack": 1
+			},
+			{
+				"OutputProbability": 0.0199,
+				"OutputIdentifier": "770",
+				"OutputStack": 1,
+				"OutputMaxStack": 4
+			}
+		],
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Kale
+		"ProducerName": "Seed Maker",
+		"InputIdentifier": "250",
+		"MinutesUntilReady": 20,
+		"OutputIdentifier": "477",
+		"OutputStack": 1,
+		"OutputMaxStack": 3,
+		"SilverQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "477",
+			"OutputStack": 2,
+			"OutputMaxStack": 4
+		},        
+		"GoldQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "477",
+			"OutputStack": 3,
+			"OutputMaxStack": 5
+		},        
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "477",
+			"OutputStack": 4,
+			"OutputMaxStack": 6
+		},
+		"AdditionalOutputs": [
+			{
+				"OutputProbability": 0.005,
+				"OutputIdentifier": "499",
+				"OutputStack": 1
+			},
+			{
+				"OutputProbability": 0.0199,
+				"OutputIdentifier": "770",
+				"OutputStack": 1,
+				"OutputMaxStack": 4
+			}
+		],
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Parsnip
+		"ProducerName": "Seed Maker",
+		"InputIdentifier": "24",
+		"MinutesUntilReady": 20,
+		"OutputIdentifier": "472",
+		"OutputStack": 1,
+		"OutputMaxStack": 3,
+		"SilverQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "472",
+			"OutputStack": 2,
+			"OutputMaxStack": 4
+		},        
+		"GoldQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "472",
+			"OutputStack": 3,
+			"OutputMaxStack": 5
+		},        
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "472",
+			"OutputStack": 4,
+			"OutputMaxStack": 6
+		},
+		"AdditionalOutputs": [
+			{
+				"OutputProbability": 0.005,
+				"OutputIdentifier": "499",
+				"OutputStack": 1
+			},
+			{
+				"OutputProbability": 0.0199,
+				"OutputIdentifier": "770",
+				"OutputStack": 1,
+				"OutputMaxStack": 4
+			}
+		],
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Potato
+		"ProducerName": "Seed Maker",
+		"InputIdentifier": "192",
+		"MinutesUntilReady": 20,
+		"OutputIdentifier": "475",
+		"OutputStack": 1,
+		"OutputMaxStack": 3,
+		"SilverQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "475",
+			"OutputStack": 2,
+			"OutputMaxStack": 4
+		},        
+		"GoldQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "475",
+			"OutputStack": 3,
+			"OutputMaxStack": 5
+		},        
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "475",
+			"OutputStack": 4,
+			"OutputMaxStack": 6
+		},
+		"AdditionalOutputs": [
+			{
+				"OutputProbability": 0.005,
+				"OutputIdentifier": "499",
+				"OutputStack": 1
+			},
+			{
+				"OutputProbability": 0.0199,
+				"OutputIdentifier": "770",
+				"OutputStack": 1,
+				"OutputMaxStack": 4
+			}
+		],
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Rice
+		"ProducerName": "Seed Maker",
+		"InputIdentifier": "271",
+		"MinutesUntilReady": 20,
+		"OutputIdentifier": "273",
+		"OutputStack": 1,
+		"OutputMaxStack": 3,
+		"SilverQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "273",
+			"OutputStack": 2,
+			"OutputMaxStack": 4
+		},        
+		"GoldQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "273",
+			"OutputStack": 3,
+			"OutputMaxStack": 5
+		},        
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "273",
+			"OutputStack": 4,
+			"OutputMaxStack": 6
+		},
+		"AdditionalOutputs": [
+			{
+				"OutputProbability": 0.005,
+				"OutputIdentifier": "499",
+				"OutputStack": 1
+			},
+			{
+				"OutputProbability": 0.0199,
+				"OutputIdentifier": "770",
+				"OutputStack": 1,
+				"OutputMaxStack": 4
+			}
+		],
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Rhubarb
+		"ProducerName": "Seed Maker",
+		"InputIdentifier": "252",
+		"MinutesUntilReady": 20,
+		"OutputIdentifier": "478",
+		"OutputStack": 1,
+		"OutputMaxStack": 3,
+		"SilverQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "478",
+			"OutputStack": 2,
+			"OutputMaxStack": 4
+		},        
+		"GoldQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "478",
+			"OutputStack": 3,
+			"OutputMaxStack": 5
+		},        
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "478",
+			"OutputStack": 4,
+			"OutputMaxStack": 6
+		},
+		"AdditionalOutputs": [
+			{
+				"OutputProbability": 0.005,
+				"OutputIdentifier": "499",
+				"OutputStack": 1
+			},
+			{
+				"OutputProbability": 0.0199,
+				"OutputIdentifier": "770",
+				"OutputStack": 1,
+				"OutputMaxStack": 4
+			}
+		],
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Strawberry
+		"ProducerName": "Seed Maker",
+		"InputIdentifier": "400",
+		"MinutesUntilReady": 20,
+		"OutputIdentifier": "745",
+		"OutputStack": 1,
+		"OutputMaxStack": 3,
+		"SilverQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "745",
+			"OutputStack": 2,
+			"OutputMaxStack": 4
+		},        
+		"GoldQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "745",
+			"OutputStack": 3,
+			"OutputMaxStack": 5
+		},        
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "745",
+			"OutputStack": 4,
+			"OutputMaxStack": 6
+		},
+		"AdditionalOutputs": [
+			{
+				"OutputProbability": 0.005,
+				"OutputIdentifier": "499",
+				"OutputStack": 1
+			},
+			{
+				"OutputProbability": 0.0199,
+				"OutputIdentifier": "770",
+				"OutputStack": 1,
+				"OutputMaxStack": 4
+			}
+		],
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Tulip
+		"ProducerName": "Seed Maker",
+		"InputIdentifier": "591",
+		"MinutesUntilReady": 20,
+		"OutputIdentifier": "427",
+		"OutputStack": 1,
+		"OutputMaxStack": 3,
+		"SilverQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "427",
+			"OutputStack": 2,
+			"OutputMaxStack": 4
+		},        
+		"GoldQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "427",
+			"OutputStack": 3,
+			"OutputMaxStack": 5
+		},        
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "427",
+			"OutputStack": 4,
+			"OutputMaxStack": 6
+		},
+		"AdditionalOutputs": [
+			{
+				"OutputProbability": 0.005,
+				"OutputIdentifier": "499",
+				"OutputStack": 1
+			},
+			{
+				"OutputProbability": 0.0199,
+				"OutputIdentifier": "770",
+				"OutputStack": 1,
+				"OutputMaxStack": 4
+			}
+		],
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Wild Horseradish
+		"ProducerName": "Seed Maker",
+		"InputIdentifier": "16",
+		"MinutesUntilReady": 20,
+		"OutputIdentifier": "495",
+		"OutputStack": 1,
+		"OutputMaxStack": 3,
+		"SilverQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "495",
+			"OutputStack": 2,
+			"OutputMaxStack": 4
+		},        
+		"GoldQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "495",
+			"OutputStack": 3,
+			"OutputMaxStack": 5
+		},        
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "495",
+			"OutputStack": 4,
+			"OutputMaxStack": 6
+		},
+		"AdditionalOutputs": [
+			{
+				"OutputProbability": 0.005,
+				"OutputIdentifier": "499",
+				"OutputStack": 1
+			},
+			{
+				"OutputProbability": 0.0199,
+				"OutputIdentifier": "770",
+				"OutputStack": 1,
+				"OutputMaxStack": 4
+			}
+		],
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+//Summer Seeds
+	{ //Blueberry
+		"ProducerName": "Seed Maker",
+		"InputIdentifier": "258",
+		"MinutesUntilReady": 20,
+		"OutputIdentifier": "481",
+		"OutputStack": 1,
+		"OutputMaxStack": 3,
+		"SilverQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "481",
+			"OutputStack": 2,
+			"OutputMaxStack": 4
+		},        
+		"GoldQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "481",
+			"OutputStack": 3,
+			"OutputMaxStack": 5
+		},        
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "481",
+			"OutputStack": 4,
+			"OutputMaxStack": 6
+		},
+		"AdditionalOutputs": [
+			{
+				"OutputProbability": 0.005,
+				"OutputIdentifier": "499",
+				"OutputStack": 1
+			},
+			{
+				"OutputProbability": 0.0199,
+				"OutputIdentifier": "770",
+				"OutputStack": 1,
+				"OutputMaxStack": 4
+			}
+		],
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Corn
+		"ProducerName": "Seed Maker",
+		"InputIdentifier": "270",
+		"MinutesUntilReady": 20,
+		"OutputIdentifier": "487",
+		"OutputStack": 1,
+		"OutputMaxStack": 3,
+		"SilverQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "487",
+			"OutputStack": 2,
+			"OutputMaxStack": 4
+		},        
+		"GoldQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "487",
+			"OutputStack": 3,
+			"OutputMaxStack": 5
+		},        
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "487",
+			"OutputStack": 4,
+			"OutputMaxStack": 6
+		},
+		"AdditionalOutputs": [
+			{
+				"OutputProbability": 0.005,
+				"OutputIdentifier": "499",
+				"OutputStack": 1
+			},
+			{
+				"OutputProbability": 0.0199,
+				"OutputIdentifier": "770",
+				"OutputStack": 1,
+				"OutputMaxStack": 4
+			}
+		],
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Hops
+		"ProducerName": "Seed Maker",
+		"InputIdentifier": "304",
+		"MinutesUntilReady": 20,
+		"OutputIdentifier": "302",
+		"OutputStack": 1,
+		"OutputMaxStack": 3,
+		"SilverQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "302",
+			"OutputStack": 2,
+			"OutputMaxStack": 4
+		},        
+		"GoldQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "302",
+			"OutputStack": 3,
+			"OutputMaxStack": 5
+		},        
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "302",
+			"OutputStack": 4,
+			"OutputMaxStack": 6
+		},
+		"AdditionalOutputs": [
+			{
+				"OutputProbability": 0.005,
+				"OutputIdentifier": "499",
+				"OutputStack": 1
+			},
+			{
+				"OutputProbability": 0.0199,
+				"OutputIdentifier": "770",
+				"OutputStack": 1,
+				"OutputMaxStack": 4
+			}
+		],
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Melon
+		"ProducerName": "Seed Maker",
+		"InputIdentifier": "254",
+		"MinutesUntilReady": 20,
+		"OutputIdentifier": "479",
+		"OutputStack": 1,
+		"OutputMaxStack": 3,
+		"SilverQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "479",
+			"OutputStack": 2,
+			"OutputMaxStack": 4
+		},        
+		"GoldQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "479",
+			"OutputStack": 3,
+			"OutputMaxStack": 5
+		},        
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "479",
+			"OutputStack": 4,
+			"OutputMaxStack": 6
+		},
+		"AdditionalOutputs": [
+			{
+				"OutputProbability": 0.005,
+				"OutputIdentifier": "499",
+				"OutputStack": 1
+			},
+			{
+				"OutputProbability": 0.0199,
+				"OutputIdentifier": "770",
+				"OutputStack": 1,
+				"OutputMaxStack": 4
+			}
+		],
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Hot Pepper
+		"ProducerName": "Seed Maker",
+		"InputIdentifier": "260",
+		"MinutesUntilReady": 20,
+		"OutputIdentifier": "482",
+		"OutputStack": 1,
+		"OutputMaxStack": 3,
+		"SilverQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "482",
+			"OutputStack": 2,
+			"OutputMaxStack": 4
+		},        
+		"GoldQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "482",
+			"OutputStack": 3,
+			"OutputMaxStack": 5
+		},        
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "482",
+			"OutputStack": 4,
+			"OutputMaxStack": 6
+		},
+		"AdditionalOutputs": [
+			{
+				"OutputProbability": 0.005,
+				"OutputIdentifier": "499",
+				"OutputStack": 1
+			},
+			{
+				"OutputProbability": 0.0199,
+				"OutputIdentifier": "770",
+				"OutputStack": 1,
+				"OutputMaxStack": 4
+			}
+		],
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Poppy
+		"ProducerName": "Seed Maker",
+		"InputIdentifier": "376",
+		"MinutesUntilReady": 20,
+		"OutputIdentifier": "453",
+		"OutputStack": 1,
+		"OutputMaxStack": 3,
+		"SilverQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "453",
+			"OutputStack": 2,
+			"OutputMaxStack": 4
+		},        
+		"GoldQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "453",
+			"OutputStack": 3,
+			"OutputMaxStack": 5
+		},        
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "453",
+			"OutputStack": 4,
+			"OutputMaxStack": 6
+		},
+		"AdditionalOutputs": [
+			{
+				"OutputProbability": 0.005,
+				"OutputIdentifier": "499",
+				"OutputStack": 1
+			},
+			{
+				"OutputProbability": 0.0199,
+				"OutputIdentifier": "770",
+				"OutputStack": 1,
+				"OutputMaxStack": 4
+			}
+		],
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Radish
+		"ProducerName": "Seed Maker",
+		"InputIdentifier": "264",
+		"MinutesUntilReady": 20,
+		"OutputIdentifier": "484",
+		"OutputStack": 1,
+		"OutputMaxStack": 3,
+		"SilverQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "484",
+			"OutputStack": 2,
+			"OutputMaxStack": 4
+		},        
+		"GoldQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "484",
+			"OutputStack": 3,
+			"OutputMaxStack": 5
+		},        
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "484",
+			"OutputStack": 4,
+			"OutputMaxStack": 6
+		},
+		"AdditionalOutputs": [
+			{
+				"OutputProbability": 0.005,
+				"OutputIdentifier": "499",
+				"OutputStack": 1
+			},
+			{
+				"OutputProbability": 0.0199,
+				"OutputIdentifier": "770",
+				"OutputStack": 1,
+				"OutputMaxStack": 4
+			}
+		],
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Red Cabbage
+		"ProducerName": "Seed Maker",
+		"InputIdentifier": "266",
+		"MinutesUntilReady": 20,
+		"OutputIdentifier": "485",
+		"OutputStack": 1,
+		"OutputMaxStack": 3,
+		"SilverQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "485",
+			"OutputStack": 2,
+			"OutputMaxStack": 4
+		},        
+		"GoldQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "485",
+			"OutputStack": 3,
+			"OutputMaxStack": 5
+		},        
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "485",
+			"OutputStack": 4,
+			"OutputMaxStack": 6
+		},
+		"AdditionalOutputs": [
+			{
+				"OutputProbability": 0.005,
+				"OutputIdentifier": "499",
+				"OutputStack": 1
+			},
+			{
+				"OutputProbability": 0.0199,
+				"OutputIdentifier": "770",
+				"OutputStack": 1,
+				"OutputMaxStack": 4
+			}
+		],
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Summer Spangle
+		"ProducerName": "Seed Maker",
+		"InputIdentifier": "593",
+		"MinutesUntilReady": 20,
+		"OutputIdentifier": "455",
+		"OutputStack": 1,
+		"OutputMaxStack": 3,
+		"SilverQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "455",
+			"OutputStack": 2,
+			"OutputMaxStack": 4
+		},        
+		"GoldQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "455",
+			"OutputStack": 3,
+			"OutputMaxStack": 5
+		},        
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "455",
+			"OutputStack": 4,
+			"OutputMaxStack": 6
+		},
+		"AdditionalOutputs": [
+			{
+				"OutputProbability": 0.005,
+				"OutputIdentifier": "499",
+				"OutputStack": 1
+			},
+			{
+				"OutputProbability": 0.0199,
+				"OutputIdentifier": "770",
+				"OutputStack": 1,
+				"OutputMaxStack": 4
+			}
+		],
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Sunflower
+		"ProducerName": "Seed Maker",
+		"InputIdentifier": "421",
+		"MinutesUntilReady": 20,
+		"OutputIdentifier": "431",
+		"OutputStack": 1,
+		"OutputMaxStack": 3,
+		"SilverQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "431",
+			"OutputStack": 2,
+			"OutputMaxStack": 4
+		},        
+		"GoldQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "431",
+			"OutputStack": 3,
+			"OutputMaxStack": 5
+		},        
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "431",
+			"OutputStack": 4,
+			"OutputMaxStack": 6
+		},
+		"AdditionalOutputs": [
+			{
+				"OutputProbability": 0.005,
+				"OutputIdentifier": "499",
+				"OutputStack": 1
+			},
+			{
+				"OutputProbability": 0.0199,
+				"OutputIdentifier": "770",
+				"OutputStack": 1,
+				"OutputMaxStack": 4
+			}
+		],
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Starfruit
+		"ProducerName": "Seed Maker",
+		"InputIdentifier": "268",
+		"MinutesUntilReady": 20,
+		"OutputIdentifier": "486",
+		"OutputStack": 1,
+		"OutputMaxStack": 3,
+		"SilverQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "486",
+			"OutputStack": 2,
+			"OutputMaxStack": 4
+		},        
+		"GoldQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "486",
+			"OutputStack": 3,
+			"OutputMaxStack": 5
+		},        
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "486",
+			"OutputStack": 4,
+			"OutputMaxStack": 6
+		},
+		"AdditionalOutputs": [
+			{
+				"OutputProbability": 0.005,
+				"OutputIdentifier": "499",
+				"OutputStack": 1
+			},
+			{
+				"OutputProbability": 0.0199,
+				"OutputIdentifier": "770",
+				"OutputStack": 1,
+				"OutputMaxStack": 4
+			}
+		],
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Tomato
+		"ProducerName": "Seed Maker",
+		"InputIdentifier": "256",
+		"MinutesUntilReady": 20,
+		"OutputIdentifier": "480",
+		"OutputStack": 1,
+		"OutputMaxStack": 3,
+		"SilverQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "480",
+			"OutputStack": 2,
+			"OutputMaxStack": 4
+		},        
+		"GoldQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "480",
+			"OutputStack": 3,
+			"OutputMaxStack": 5
+		},        
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "480",
+			"OutputStack": 4,
+			"OutputMaxStack": 6
+		},
+		"AdditionalOutputs": [
+			{
+				"OutputProbability": 0.005,
+				"OutputIdentifier": "499",
+				"OutputStack": 1
+			},
+			{
+				"OutputProbability": 0.0199,
+				"OutputIdentifier": "770",
+				"OutputStack": 1,
+				"OutputMaxStack": 4
+			}
+		],
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Wheat
+		"ProducerName": "Seed Maker",
+		"InputIdentifier": "262",
+		"MinutesUntilReady": 20,
+		"OutputIdentifier": "483",
+		"OutputStack": 1,
+		"OutputMaxStack": 3,
+		"SilverQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "483",
+			"OutputStack": 2,
+			"OutputMaxStack": 4
+		},        
+		"GoldQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "483",
+			"OutputStack": 3,
+			"OutputMaxStack": 5
+		},        
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "483",
+			"OutputStack": 4,
+			"OutputMaxStack": 6
+		},
+		"AdditionalOutputs": [
+			{
+				"OutputProbability": 0.005,
+				"OutputIdentifier": "499",
+				"OutputStack": 1
+			},
+			{
+				"OutputProbability": 0.0199,
+				"OutputIdentifier": "770",
+				"OutputStack": 1,
+				"OutputMaxStack": 4
+			}
+		],
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Spice Berry
+		"ProducerName": "Seed Maker",
+		"InputIdentifier": "396",
+		"MinutesUntilReady": 20,
+		"OutputIdentifier": "496",
+		"OutputStack": 1,
+		"OutputMaxStack": 3,
+		"SilverQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "496",
+			"OutputStack": 2,
+			"OutputMaxStack": 4
+		},        
+		"GoldQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "496",
+			"OutputStack": 3,
+			"OutputMaxStack": 5
+		},        
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "496",
+			"OutputStack": 4,
+			"OutputMaxStack": 6
+		},
+		"AdditionalOutputs": [
+			{
+				"OutputProbability": 0.005,
+				"OutputIdentifier": "499",
+				"OutputStack": 1
+			},
+			{
+				"OutputProbability": 0.0199,
+				"OutputIdentifier": "770",
+				"OutputStack": 1,
+				"OutputMaxStack": 4
+			}
+		],
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+//Fall Seeds
+	{ //Amaranth
+		"ProducerName": "Seed Maker",
+		"InputIdentifier": "300",
+		"MinutesUntilReady": 20,
+		"OutputIdentifier": "299",
+		"OutputStack": 1,
+		"OutputMaxStack": 3,
+		"SilverQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "299",
+			"OutputStack": 2,
+			"OutputMaxStack": 4
+		},        
+		"GoldQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "299",
+			"OutputStack": 3,
+			"OutputMaxStack": 5
+		},        
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "299",
+			"OutputStack": 4,
+			"OutputMaxStack": 6
+		},
+		"AdditionalOutputs": [
+			{
+				"OutputProbability": 0.005,
+				"OutputIdentifier": "499",
+				"OutputStack": 1
+			},
+			{
+				"OutputProbability": 0.0199,
+				"OutputIdentifier": "770",
+				"OutputStack": 1,
+				"OutputMaxStack": 4
+			}
+		],
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Artichoke
+		"ProducerName": "Seed Maker",
+		"InputIdentifier": "274",
+		"MinutesUntilReady": 20,
+		"OutputIdentifier": "489",
+		"OutputStack": 1,
+		"OutputMaxStack": 3,
+		"SilverQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "489",
+			"OutputStack": 2,
+			"OutputMaxStack": 4
+		},        
+		"GoldQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "489",
+			"OutputStack": 3,
+			"OutputMaxStack": 5
+		},        
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "489",
+			"OutputStack": 4,
+			"OutputMaxStack": 6
+		},
+		"AdditionalOutputs": [
+			{
+				"OutputProbability": 0.005,
+				"OutputIdentifier": "499",
+				"OutputStack": 1
+			},
+			{
+				"OutputProbability": 0.0199,
+				"OutputIdentifier": "770",
+				"OutputStack": 1,
+				"OutputMaxStack": 4
+			}
+		],
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Beet
+		"ProducerName": "Seed Maker",
+		"InputIdentifier": "284",
+		"MinutesUntilReady": 20,
+		"OutputIdentifier": "494",
+		"OutputStack": 1,
+		"OutputMaxStack": 3,
+		"SilverQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "494",
+			"OutputStack": 2,
+			"OutputMaxStack": 4
+		},        
+		"GoldQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "494",
+			"OutputStack": 3,
+			"OutputMaxStack": 5
+		},        
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "494",
+			"OutputStack": 4,
+			"OutputMaxStack": 6
+		},
+		"AdditionalOutputs": [
+			{
+				"OutputProbability": 0.005,
+				"OutputIdentifier": "499",
+				"OutputStack": 1
+			},
+			{
+				"OutputProbability": 0.0199,
+				"OutputIdentifier": "770",
+				"OutputStack": 1,
+				"OutputMaxStack": 4
+			}
+		],
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Bok Choy
+		"ProducerName": "Seed Maker",
+		"InputIdentifier": "278",
+		"MinutesUntilReady": 20,
+		"OutputIdentifier": "491",
+		"OutputStack": 1,
+		"OutputMaxStack": 3,
+		"SilverQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "491",
+			"OutputStack": 2,
+			"OutputMaxStack": 4
+		},        
+		"GoldQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "491",
+			"OutputStack": 3,
+			"OutputMaxStack": 5
+		},        
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "491",
+			"OutputStack": 4,
+			"OutputMaxStack": 6
+		},
+		"AdditionalOutputs": [
+			{
+				"OutputProbability": 0.005,
+				"OutputIdentifier": "499",
+				"OutputStack": 1
+			},
+			{
+				"OutputProbability": 0.0199,
+				"OutputIdentifier": "770",
+				"OutputStack": 1,
+				"OutputMaxStack": 4
+			}
+		],
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Cranberry
+		"ProducerName": "Seed Maker",
+		"InputIdentifier": "238",
+		"MinutesUntilReady": 20,
+		"OutputIdentifier": "493",
+		"OutputStack": 1,
+		"OutputMaxStack": 3,
+		"SilverQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "493",
+			"OutputStack": 2,
+			"OutputMaxStack": 4
+		},        
+		"GoldQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "493",
+			"OutputStack": 3,
+			"OutputMaxStack": 5
+		},        
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "493",
+			"OutputStack": 4,
+			"OutputMaxStack": 6
+		},
+		"AdditionalOutputs": [
+			{
+				"OutputProbability": 0.005,
+				"OutputIdentifier": "499",
+				"OutputStack": 1
+			},
+			{
+				"OutputProbability": 0.0199,
+				"OutputIdentifier": "770",
+				"OutputStack": 1,
+				"OutputMaxStack": 4
+			}
+		],
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Eggplant
+		"ProducerName": "Seed Maker",
+		"InputIdentifier": "272",
+		"MinutesUntilReady": 20,
+		"OutputIdentifier": "488",
+		"OutputStack": 1,
+		"OutputMaxStack": 3,
+		"SilverQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "488",
+			"OutputStack": 2,
+			"OutputMaxStack": 4
+		},        
+		"GoldQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "488",
+			"OutputStack": 3,
+			"OutputMaxStack": 5
+		},        
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "488",
+			"OutputStack": 4,
+			"OutputMaxStack": 6
+		},
+		"AdditionalOutputs": [
+			{
+				"OutputProbability": 0.005,
+				"OutputIdentifier": "499",
+				"OutputStack": 1
+			},
+			{
+				"OutputProbability": 0.0199,
+				"OutputIdentifier": "770",
+				"OutputStack": 1,
+				"OutputMaxStack": 4
+			}
+		],
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Fairy Rose
+		"ProducerName": "Seed Maker",
+		"InputIdentifier": "595",
+		"MinutesUntilReady": 20,
+		"OutputIdentifier": "425",
+		"OutputStack": 1,
+		"OutputMaxStack": 3,
+		"SilverQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "425",
+			"OutputStack": 2,
+			"OutputMaxStack": 4
+		},        
+		"GoldQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "425",
+			"OutputStack": 3,
+			"OutputMaxStack": 5
+		},        
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "425",
+			"OutputStack": 4,
+			"OutputMaxStack": 6
+		},
+		"AdditionalOutputs": [
+			{
+				"OutputProbability": 0.005,
+				"OutputIdentifier": "499",
+				"OutputStack": 1
+			},
+			{
+				"OutputProbability": 0.0199,
+				"OutputIdentifier": "770",
+				"OutputStack": 1,
+				"OutputMaxStack": 4
+			}
+		],
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Grape
+		"ProducerName": "Seed Maker",
+		"InputIdentifier": "398",
+		"MinutesUntilReady": 20,
+		"OutputIdentifier": "301",
+		"OutputStack": 1,
+		"OutputMaxStack": 3,
+		"SilverQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "301",
+			"OutputStack": 2,
+			"OutputMaxStack": 4
+		},        
+		"GoldQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "301",
+			"OutputStack": 3,
+			"OutputMaxStack": 5
+		},        
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "301",
+			"OutputStack": 4,
+			"OutputMaxStack": 6
+		},
+		"AdditionalOutputs": [
+			{
+				"OutputProbability": 0.005,
+				"OutputIdentifier": "499",
+				"OutputStack": 1
+			},
+			{
+				"OutputProbability": 0.0199,
+				"OutputIdentifier": "770",
+				"OutputStack": 1,
+				"OutputMaxStack": 4
+			}
+		],
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Pumpkin
+		"ProducerName": "Seed Maker",
+		"InputIdentifier": "276",
+		"MinutesUntilReady": 20,
+		"OutputIdentifier": "490",
+		"OutputStack": 1,
+		"OutputMaxStack": 3,
+		"SilverQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "490",
+			"OutputStack": 2,
+			"OutputMaxStack": 4
+		},        
+		"GoldQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "490",
+			"OutputStack": 3,
+			"OutputMaxStack": 5
+		},        
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "490",
+			"OutputStack": 4,
+			"OutputMaxStack": 6
+		},
+		"AdditionalOutputs": [
+			{
+				"OutputProbability": 0.005,
+				"OutputIdentifier": "499",
+				"OutputStack": 1
+			},
+			{
+				"OutputProbability": 0.0199,
+				"OutputIdentifier": "770",
+				"OutputStack": 1,
+				"OutputMaxStack": 4
+			}
+		],
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Sweet Gem Berry
+		"ProducerName": "Seed Maker",
+		"InputIdentifier": "417",
+		"MinutesUntilReady": 20,
+		"OutputIdentifier": "347",
+		"OutputStack": 1,
+		"OutputMaxStack": 3,
+		"SilverQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "347",
+			"OutputStack": 2,
+			"OutputMaxStack": 4
+		},        
+		"GoldQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "347",
+			"OutputStack": 3,
+			"OutputMaxStack": 5
+		},        
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "347",
+			"OutputStack": 4,
+			"OutputMaxStack": 6
+		},
+		"AdditionalOutputs": [
+			{
+				"OutputProbability": 0.005,
+				"OutputIdentifier": "499",
+				"OutputStack": 1
+			},
+			{
+				"OutputProbability": 0.0199,
+				"OutputIdentifier": "770",
+				"OutputStack": 1,
+				"OutputMaxStack": 4
+			}
+		],
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Yam
+		"ProducerName": "Seed Maker",
+		"InputIdentifier": "280",
+		"MinutesUntilReady": 20,
+		"OutputIdentifier": "492",
+		"OutputStack": 1,
+		"OutputMaxStack": 3,
+		"SilverQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "492",
+			"OutputStack": 2,
+			"OutputMaxStack": 4
+		},        
+		"GoldQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "492",
+			"OutputStack": 3,
+			"OutputMaxStack": 5
+		},        
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "492",
+			"OutputStack": 4,
+			"OutputMaxStack": 6
+		},
+		"AdditionalOutputs": [
+			{
+				"OutputProbability": 0.005,
+				"OutputIdentifier": "499",
+				"OutputStack": 1
+			},
+			{
+				"OutputProbability": 0.0199,
+				"OutputIdentifier": "770",
+				"OutputStack": 1,
+				"OutputMaxStack": 4
+			}
+		],
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Common Mushroom
+		"ProducerName": "Seed Maker",
+		"InputIdentifier": "404",
+		"MinutesUntilReady": 20,
+		"OutputIdentifier": "497",
+		"OutputStack": 1,
+		"OutputMaxStack": 3,
+		"SilverQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "497",
+			"OutputStack": 2,
+			"OutputMaxStack": 4
+		},        
+		"GoldQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "497",
+			"OutputStack": 3,
+			"OutputMaxStack": 5
+		},        
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "497",
+			"OutputStack": 4,
+			"OutputMaxStack": 6
+		},
+		"AdditionalOutputs": [
+			{
+				"OutputProbability": 0.005,
+				"OutputIdentifier": "499",
+				"OutputStack": 1
+			},
+			{
+				"OutputProbability": 0.0199,
+				"OutputIdentifier": "770",
+				"OutputStack": 1,
+				"OutputMaxStack": 4
+			}
+		],
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+//Winter Seeds
+	{ //Winter Root
+		"ProducerName": "Seed Maker",
+		"InputIdentifier": "412",
+		"MinutesUntilReady": 20,
+		"OutputIdentifier": "498",
+		"OutputStack": 1,
+		"OutputMaxStack": 3,
+		"SilverQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "498",
+			"OutputStack": 2,
+			"OutputMaxStack": 4
+		},        
+		"GoldQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "498",
+			"OutputStack": 3,
+			"OutputMaxStack": 5
+		},        
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "498",
+			"OutputStack": 4,
+			"OutputMaxStack": 6
+		},
+		"AdditionalOutputs": [
+			{
+				"OutputProbability": 0.005,
+				"OutputIdentifier": "499",
+				"OutputStack": 1
+			},
+			{
+				"OutputProbability": 0.0199,
+				"OutputIdentifier": "770",
+				"OutputStack": 1,
+				"OutputMaxStack": 4
+			}
+		],
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+//Other Seeds
+	{ //Ancient Fruit
+		"ProducerName": "Seed Maker",
+		"InputIdentifier": "454",
+		"MinutesUntilReady": 20,
+		"OutputIdentifier": "499",
+		"OutputStack": 1,
+		"OutputMaxStack": 3,
+		"SilverQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "499",
+			"OutputStack": 2,
+			"OutputMaxStack": 4
+		},        
+		"GoldQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "499",
+			"OutputStack": 3,
+			"OutputMaxStack": 5
+		},        
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "499",
+			"OutputStack": 4,
+			"OutputMaxStack": 6
+		},
+		"AdditionalOutputs": [
+			{
+				"OutputProbability": 0.005,
+				"OutputIdentifier": "499",
+				"OutputStack": 1
+			},
+			{
+				"OutputProbability": 0.0199,
+				"OutputIdentifier": "770",
+				"OutputStack": 1,
+				"OutputMaxStack": 4
+			}
+		],
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Cactus
+		"ProducerName": "Seed Maker",
+		"InputIdentifier": "90",
+		"MinutesUntilReady": 20,
+		"OutputIdentifier": "802",
+		"OutputStack": 1,
+		"OutputMaxStack": 3,
+		"SilverQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "802",
+			"OutputStack": 2,
+			"OutputMaxStack": 4
+		},        
+		"GoldQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "802",
+			"OutputStack": 3,
+			"OutputMaxStack": 5
+		},        
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "802",
+			"OutputStack": 4,
+			"OutputMaxStack": 6
+		},
+		"AdditionalOutputs": [
+			{
+				"OutputProbability": 0.005,
+				"OutputIdentifier": "499",
+				"OutputStack": 1
+			},
+			{
+				"OutputProbability": 0.0199,
+				"OutputIdentifier": "770",
+				"OutputStack": 1,
+				"OutputMaxStack": 4
+			}
+		],
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+]

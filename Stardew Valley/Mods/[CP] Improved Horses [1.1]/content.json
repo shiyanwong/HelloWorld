@@ -1,0 +1,32 @@
+{
+  "Format": "1.9",
+  
+  "ConfigSchema": {
+        "horse": {"AllowValues": "brown, grey, vanilla, white",
+                  "Default": "brown"},
+	"saddle": {"AllowValues": "green, blue, pink, vanilla",
+                  "Default": "green"},
+	},
+	
+
+  "Changes": [
+
+       // horse sprites
+        {
+          "Action": "Load",
+          "Target": "Animals/horse",
+          "FromFile": "assets/{{horse}}_{{saddle}}.png"
+        },
+
+       // horse head in iventory
+        {
+	  "Action": "EditImage",
+	  "PatchMode": "Overlay",
+          "Target": "LooseSprites/Cursors",
+          "FromFile": "assets/{{horse}}.png",
+          "When": {
+              "horse": "brown, grey, white",
+                  },
+	},
+    ]
+}

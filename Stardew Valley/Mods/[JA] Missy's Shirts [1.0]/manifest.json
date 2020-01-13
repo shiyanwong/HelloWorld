@@ -1,0 +1,12 @@
+{
+   "Name": "Missy's Shirts For JsonAssets",
+   "Author": "MissyDiabolical (original) 2Retr0 (convertion)",
+   "Version": "1.0",
+   "Description": "Missy's Shirts converted for JsonAssets",
+   "UniqueID": "2Retr0.MissyShirtsja",
+   "MinimumApiVersion": "2.10.2",
+   "UpdateKeys": [ "Nexus:5163" ],
+   "ContentPackFor": {
+    	"UniqueID": "spacechase0.JsonAssets"
+    }
+}

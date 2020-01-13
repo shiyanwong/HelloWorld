@@ -1,0 +1,55 @@
+{
+	"useid": "Warilized.GetWater",
+	"machines": [
+	{
+		"id": 0,
+		"name": "Water Pump",
+		"description": "Pumps water from the mother Earth. Produce 20 cups of Raw Water. Only works outdoor.",
+		"category": "Crafting",
+        "crafting": "388 15 390 10 771 5",
+		"texture": "Waterpump.png",
+		"tileindex": 0,
+		"readyindex": 1,
+		"pulsate": false,
+		"frames": 0,
+		"forsale": true,
+		"shop": "Robin",
+		"price": 750,
+		
+		"workconditions": "LC caller.location.IsOutdoors",
+		"conditionalanimation": true,
+		"production": [
+		{
+			"item": "Raw Water",
+			"time": 300,
+			// default 300
+			"stack": 20,
+		}]
+	},
+	{
+		"id": 1,
+		"name": "Rainwater Tank",
+		"description": "Gather rainwater. Produce 10 cups of Raw Water while raining.",
+		"category": "Crafting",
+        "crafting": "388 10 390 10 771 5",
+		"texture": "Rainwatertank.png",
+		"tileindex": 0,
+		"readyindex": 1,
+		"pulsate": true,
+		"frames": 0,
+		"forsale": true,
+		"shop": "Robin",
+		"price": 500,
+		
+		"workconditions": "w rainy",
+		//LC caller.location.IsOutdoors & w rainy
+		"production": [
+		{
+			"item": "Raw Water",
+			"time": 100,
+			//default 100
+			"stack": 10,
+		}]
+	}
+	]
+}

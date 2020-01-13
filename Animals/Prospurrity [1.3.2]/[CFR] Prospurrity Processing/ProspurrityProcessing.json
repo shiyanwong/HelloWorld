@@ -1,0 +1,102 @@
+{
+	"name": "Prospurrity Processing Machines",
+	"author": "lanterncat",
+	"version": "1.0.0",
+	"machines":
+	[
+		{
+			"id": 0,
+			"name": "Aquarium",
+			"description": "What's inside your fish bag?",
+			"category": "Crafting",
+			"crafting": "685 100 390 50 397 1",
+			"pulsate": false,
+			"lightsource": true,
+			"worklight": true,
+			"lightcolor": [ 0, 139, 139, 255 ],
+			"lightradius": 0.5,
+			"texture": "aquarium.png",
+			"shop": "Willy",
+			"forsale": true,
+			"price": 10000,
+			"readyindex": 7,
+			"frames":6,
+			"production":
+			[
+				{
+					"item": "random:Anchovy,Sardine,Bream,Smallmouth Bass,Rainbow Trout,Perch,Carp,Sunfish,Herring,Red Snapper,Ghostfish,Chub,Shad,Cockle,Mussel,Clam,Shrimp,Snail,Periwinkle,Oyster","time": 400,"materials": [{"name": "Fish Bag","stack": 1}]
+				},
+				{
+					"item": "random:Pufferfish,Tuna,Largemouth Bass,Salmon,Walleye,Catfish,Pike,Red Mullet,Eel,Octopus,Squid,Sea Cucumber,Super Cucumber,Stonefish,Ice Pip,Lava Eel,Sandfish,Scorpion Carp,Sturgeon,Tiger Trout,Bullhead,Tilapia,Dorado,Albacore,Lingcod,Halibut,Woodskip,Void Salmon,Slimejack,Midnight Squid,Spook Fish,Blobfish,Lobster,Crayfish,Crab,Flounder,Midnight Carp","time": 400,"materials": [{"name": "Deluxe Fish Bag","stack": 1}]
+
+				}
+			]
+		},
+		{
+			"id": 1,
+			"name": "Sweet Dispenser",
+			"description": "Insert a ticket and you'll get something sweet",
+			"category": "Crafting",
+			"crafting": "245 10 388 25 344 1",
+			"texture": "dispenser.png",
+			"pulsate": true,
+			"readyindex": 0,
+			"production":
+			[
+				{
+					"item": "random:Chocolate Cake,Pink Cake,Cookie,Black Cat Cake,Chocolate Cat Cake,Lemon Cat Cake,Matcha Cat Cake,Melon Cat Cake,Orange Cat Cake,Premium Ticket,Watermelon Cat Cupcake,Grape Cat Cupcake,Mystery Flavor Cat Cupcake,Vanilla Cat Cupcake","time": 200,"materials": [{"name": "Ticket","stack": 1}]
+				},
+				{
+					"item": "random:Dark Chocolate Cat,Milk Chocolate Cat,White Chocolate Cat,Maple Bar,Special Limited Ticket","time": 200,"stack": 1,"materials": [{"name": "Premium Ticket","stack": 1}]
+				},
+				{
+					"item": "Exquisite Limited Edition Mint Chocolate Cat","time": 100,"materials": [{"name": "Special Limited Ticket","stack": 1}]
+				}
+			]
+		},
+		{
+			"id": 2,
+			"name": "Ice Cream Maker",
+			"description": "Makes frozen cat desserts!",
+			"category": "Crafting",
+			"crafting": "335 10 84 5",
+			"pulsate": false,
+			"texture": "icecream.png",
+			"readyindex": 7,
+			"frames":6,
+			"starter": {
+				"index": 245
+			},	
+			"production":
+			[
+				{
+					"item": "Charcoal Cat Ice Cream","time": 250,"materials": [{"index": 382,"stack": 1}]
+				},
+				{
+					"item": "Mint Cat Ice Cream","time": 250,"materials": [{"name": "Mint","stack": 1}]
+				},
+				{
+					"item": "Blueberry Cat Ice Cream","time": 250,"materials": [{"index": 258,"stack": 1}]
+				},
+				{
+					"item": "Sweet Potato Cat Ice Cream","time": 250,"materials": [{"name": "Sweet Potato","stack": 1}]
+				},
+				{
+					"item": "Cherry Cat Ice Cream","time": 250,"materials": [{"index": 638,"stack": 1}]
+				},
+				{
+					"item": "Passion Fruit Cat Ice Cream","time": 250,"materials": [{"name": "Passion Fruit","stack": 1}]
+				},
+				{
+					"item": "Peach Cat Ice Cream","time": 250,"materials": [{"index": 636,"stack": 1}]
+				},
+				{
+					"item": "Gooseberry Cat Sorbet","time": 250,"materials": [{"name": "Gooseberry","stack": 1}]
+				},
+				{
+					"item": "Sweet Gem Cat Ice Cream","time": 250,"materials": [{"index": 417,"stack": 1}]
+				}
+			]
+		}
+	]
+}

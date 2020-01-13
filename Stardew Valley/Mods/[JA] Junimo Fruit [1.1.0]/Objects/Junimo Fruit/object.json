@@ -1,0 +1,16 @@
+{
+  "Name": "Junimo Fruit",
+  "Description": "Nutritional value is very high. Everyone loves this fruit.",
+  "Category": "Fruit",
+  "Edibility": 100,
+  "EdibleBuffs": {
+    "Luck": 5,
+    "Duration": 500
+  },
+  "Price": 400,
+  "IsColored": false,
+  "GiftTastes": {
+    "Love": ["Caroline", "Jodi", "Vincent", "Dwarf", "Elliott", "Jas", "Krobus", "Leah", "Lewis", "Linus", "Pam", "Penny", "Pierre", "Robin", "Sandy", "Demetrius", "Alex", "Emily", "Evelyn", "George", "Gus", "Haley", "Harvey", "Kent", "Marnie", "Maru", "Sam", "Shane", "Willy", "Clint", "Abigail", "Sebastian", "Wizard"]
+  },
+  "Recipe": null
+}

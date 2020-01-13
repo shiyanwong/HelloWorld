@@ -1,0 +1,17 @@
+﻿{
+  "Name": "Trent's Animal Machines",
+  "Author": "TrentXV",
+  "Version": "2.0.0",
+  "Description": "Adds New Machines",
+  "UniqueID": "NewMachine",
+  "ContentPackFor": {
+    "UniqueID": "Platonymous.CustomFarming",
+    "MinimumVersion": "2.9.10"
+  },
+   "Dependencies": [
+   {
+      "UniqueID": "Trent.NewAnimals",
+      "IsRequired": true
+   },
+  ],
+}

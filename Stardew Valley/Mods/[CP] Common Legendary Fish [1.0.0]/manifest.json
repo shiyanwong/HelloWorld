@@ -1,0 +1,12 @@
+{
+   "Name": "CommonLegendaryFish",
+   "Author": "zhanx1224",
+   "Version": "1.0.0",
+   "Description": "Common Legendary Fish",
+   "UniqueID": "zhanx1224.legend",
+   "MinimumApiVersion": "2.5",
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   },
+	 "UpdateKeys": [ "Nexus:4478" ]
+}

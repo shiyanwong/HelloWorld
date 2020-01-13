@@ -1,0 +1,90 @@
+[
+//Farmer to Florist Tree Produce Saplings
+//Spring Trees
+	{ //Magnolia
+		"ProducerName": "Seed Maker",
+		"InputIdentifier": "Magnolia",
+		"MinutesUntilReady": 20,
+		"OutputIdentifier": "Magnolia Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"SilverQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "Magnolia Sapling",
+			"OutputStack": 2,
+			"OutputMaxStack": 2
+		},        
+		"GoldQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "Magnolia Sapling",
+			"OutputStack": 3,
+			"OutputMaxStack": 3
+		},        
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "Magnolia Sapling",
+			"OutputStack": 4,
+			"OutputMaxStack": 4
+		},
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+//Summer Trees
+	{ //Hibiscus
+		"ProducerName": "Seed Maker",
+		"InputIdentifier": "Hibiscus",
+		"MinutesUntilReady": 20,
+		"OutputIdentifier": "Hibiscus Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"SilverQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "Hibiscus Sapling",
+			"OutputStack": 2,
+			"OutputMaxStack": 2
+		},        
+		"GoldQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "Hibiscus Sapling",
+			"OutputStack": 3,
+			"OutputMaxStack": 3
+		},        
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "Hibiscus Sapling",
+			"OutputStack": 4,
+			"OutputMaxStack": 4
+		},
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+//Fall Trees
+	{ //Jasmine
+		"ProducerName": "Seed Maker",
+		"InputIdentifier": "Jasmine",
+		"MinutesUntilReady": 20,
+		"OutputIdentifier": "Jasmine Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"SilverQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "Jasmine Sapling",
+			"OutputStack": 2,
+			"OutputMaxStack": 2
+		},        
+		"GoldQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "Jasmine Sapling",
+			"OutputStack": 3,
+			"OutputMaxStack": 3
+		},        
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "Jasmine Sapling",
+			"OutputStack": 4,
+			"OutputMaxStack": 4
+		},
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+]

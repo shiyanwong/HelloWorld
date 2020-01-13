@@ -1,0 +1,16 @@
+{
+  "Name": "[PFM] Produce to Sapling - Guava Tree",
+  "Author": "metalax",
+  "Version": "1.0.0",
+  "Description": "This allows Guava Fruit Tree produce to be processed in the Seed Maker to produce Saplings.",
+  "UniqueID": "metalax.ProduceToSaplingGuavaTree",
+  "MinimumApiVersion": "3.0.0",
+  "UpdateKeys": [ "Nexus: 5081" ],
+  "Dependencies": [
+	  { "UniqueID": "Digus.ProducerFrameworkMod", "MinimumVersion": "1.1.0" },
+	  { "UniqueID": "hung2563hn.Guava",},
+  ],
+  "ContentPackFor": {
+    "UniqueID": "Digus.ProducerFrameworkMod"
+  }
+}

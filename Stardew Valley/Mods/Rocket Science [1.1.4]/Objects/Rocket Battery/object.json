@@ -1,0 +1,20 @@
+{
+  "Name": "Rocket Battery",
+  "Description": "Every Farm Rocket need this.",
+  "Category": "Gem",
+  "Edibility": -300,
+  "Price": 50000,
+  "IsColored": false,
+  "Recipe": {
+    "ResultCount": 1,
+    "Ingredients":
+	[
+      { "Object": 454, "Count": 50, },
+    ],
+    "CanPurchase": true,
+    "PurchaseFrom": "Krobus",
+    "PurchasePrice": 100000,
+    "PurchaseRequirements":
+[ "y 3", ],
+},  
+}

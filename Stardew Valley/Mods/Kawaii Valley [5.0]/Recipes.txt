@@ -1,0 +1,62 @@
+RECIPES:
+
+Beauty Machine:
+Clay + Rainbow Shell = Palette
+Clay + Coral = Blush
+Clay + Fire Quartz = Lipstick
+Clay + Coal = Mascara
+Goat Milk + Solar Essence = Sunscreen
+Goat Milk + Void Essence = Night Cream
+Goat Milk + Coconut = Lotion
+
+Artist Machine:
+Beeswax + Miner's Treat = Crayons
+Clay + Miner's Trea = Magic Clay
+Slime + Miner's Treat = Magic Marker
+Oil + Miner's Treat = Magic Paint
+Wood + Fiber = Paint Brush
+Stone + Miner's Treat = Watercolors
+
+Dye Machine:
+REQUIRED: Oil
+Yellow: Daffodil
+Orange: Spice Berry
+Pink: Sweetpea Flower
+Red: Salmonberry
+Purple: Crocus
+Blue: Crystal Fruit
+Turquoise: Clam
+Green: Fiddle-head Fern
+Black: Coal
+
+Lollipop Maker:
+REQUIRED: Sugar
+Lemon, Orange, Strawberry, Mint, Starfruit, Prismatic Shard, Blueberry, Grape, Joja Cola
+
+Macaron Over:
+REQUIRED: Sugar
+Chocolate + Raspberry = Chocoberry Macaron
+Peach
+Ancient Fruit
+Lemon
+Orange
+Fairy Rose
+Shaded Violet
+Mint
+Chocolate + Coffe = Chocoffee Macaron
+Vanilla + Strawberry = Vaniberry Macaron
+
+Nail Polish Maker:
+REQUIRED: Earth Crystal
+Thunder Egg, Frozen Tear, Star Shards, Opal, Rainbow Shell, Duck Feather, Ghost Crystal, Coral
+
+
+
+
+
+
+
+
+
+
+

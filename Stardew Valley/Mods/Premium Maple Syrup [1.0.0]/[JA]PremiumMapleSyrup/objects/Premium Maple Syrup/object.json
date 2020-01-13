@@ -1,0 +1,13 @@
+{
+  "Name": "Premium Maple Syrup",
+  "Description": "The purest maple syrup.",
+  "Category": "Syrup",
+  "Edibility": 50,
+  "Price": 1200,
+  "IsColored": false,
+  "Recipe": null,
+  "GiftTastes": {
+    "Like": ["Abigail", "Alex", "Emily", "Leah", "Sam", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Evelyn", "George", "Gus", "Haley", "Harvey", "Jas", "Jodi", "Kent", "Krobus", "Lewis", "Linus", "Marnie", "Pam", "Penny", "Pierre","Robin", "Sandy", "Sebastian", "Shane", "Vincent", "Willy", "Wizard"],
+    "Dislike": ["Maru"],
+  },
+}

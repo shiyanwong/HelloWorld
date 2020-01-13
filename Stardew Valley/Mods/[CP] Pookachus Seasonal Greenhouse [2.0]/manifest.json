@@ -1,0 +1,12 @@
+{
+    "Name": "Pookachus Seasonal Greenhouse",
+    "Author": "Pookachu",
+    "Version": "2.0",
+    "Description": "A Seasonal Greenhouse",
+    "UniqueID": "Pookachu.SeasonalGreenhouse",
+    "MinimumApiVersion": "2.0",
+    "UpdateKeys": ["Nexus.4280"],
+    "ContentPackFor": {
+       "UniqueID": "Pathoschild.ContentPatcher"
+     }
+}

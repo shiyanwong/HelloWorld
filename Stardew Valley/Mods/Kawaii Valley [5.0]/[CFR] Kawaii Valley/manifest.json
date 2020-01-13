@@ -1,0 +1,16 @@
+{
+   "Name": "Kawaii Valley",
+   "Author": "PoppiPan",
+   "Description": "Kawaii Valley CustomFarmingRedux file ",
+   "Version": "5.0",
+   "UniqueID": "Kawaii_Valley_CFR",
+   "ContentPackFor": {
+       "UniqueID": "Platonymous.CustomFarming"
+    },
+"Dependencies": [
+   {
+      "UniqueID": "Kawaii_Valley_MG",
+      "IsRequired": true,
+   },
+]
+}

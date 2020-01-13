@@ -1,0 +1,11 @@
+{
+	"Name": "Christmas Crops",
+    "Author": "S24Sammy",
+    "Version": "0.2.0",
+    "Description": "Adds various festive crops and craftables for Christmas.",
+    "UniqueID": "S24Sammy.ChristmasCrops",
+	"UpdateKeys": ["Nexus:4993"],
+    "ContentPackFor": {
+    	"UniqueID": "spacechase0.JsonAssets"
+    },
+}

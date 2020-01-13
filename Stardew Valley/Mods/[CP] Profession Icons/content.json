@@ -1,0 +1,11 @@
+{
+    "Format": "1.9",
+    "Changes": [
+    {
+         "Action": "EditImage",
+         "Target": "LooseSprites/Cursors",
+         "FromFile": "assets/Profession_Icons.png",
+         "ToArea": { "X": 0, "Y": 624, "Width": 96, "Height": 80 }
+     }
+    ]
+}

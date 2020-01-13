@@ -1,0 +1,16 @@
+{
+  "Name": "[PFM] Produce to Sapling - Fresh Meat",
+  "Author": "metalax",
+  "Version": "1.0.0",
+  "Description": "This allows Fresh Meat Tree produce to be processed in the Seed Maker to produce Saplings.",
+  "UniqueID": "metalax.ProduceToSaplingFreshMeat",
+  "MinimumApiVersion": "3.0.0",
+  "UpdateKeys": [ "Nexus: 5079" ],
+  "Dependencies": [
+	  { "UniqueID": "Digus.ProducerFrameworkMod", "MinimumVersion": "1.1.0" },
+	  { "UniqueID": "paradigmnomad.freshmeat",},
+  ],
+  "ContentPackFor": {
+    "UniqueID": "Digus.ProducerFrameworkMod"
+  }
+}

@@ -1,0 +1,25 @@
+{
+    "Name": "Meteor Potato",
+    "Product": "Meteor Potato",
+    "Price": "200",
+    "SeedName": "Space Potato Fossil",
+    "SeedDescription": "Plant these in Spring. Takes 6 days to mature",
+    "Type": "Vegetable",
+
+    "Seasons": [ "spring",],
+    "Phases": [1,1,1,1,1],
+    "RegrowthPhase": -1 ,
+    "HarvestWithScythe": false,
+    "TrellisCrop": false,
+    "Colors": null,
+    "Bonus":
+    {
+        "MinimumPerHarvest": 1,
+        "MaximumPerHarvest": 2,
+        "ExtraChance": 0.2,
+    },
+    "SeedPurchasePrice": 200,
+    "SeedPurchaseRequirements": [
+        "y 99"
+    ],
+}

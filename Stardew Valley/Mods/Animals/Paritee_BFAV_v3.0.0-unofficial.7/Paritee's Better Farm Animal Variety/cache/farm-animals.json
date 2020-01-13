@@ -1,0 +1,684 @@
+{
+  "Categories": [
+    {
+      "Category": "Chicken",
+      "Types": [
+        {
+          "Type": "White Chicken",
+          "Data": null,
+          "DeluxeProduceLuck": 0.0,
+          "Sprites": {
+            "Baby": null,
+            "Adult": null,
+            "ReadyForHarvest": null
+          },
+          "Localization": {}
+        },
+        {
+          "Type": "Brown Chicken",
+          "Data": null,
+          "DeluxeProduceLuck": 0.0,
+          "Sprites": {
+            "Baby": null,
+            "Adult": null,
+            "ReadyForHarvest": null
+          },
+          "Localization": {}
+        },
+        {
+          "Type": "Blue Chicken",
+          "Data": null,
+          "DeluxeProduceLuck": 0.0,
+          "Sprites": {
+            "Baby": null,
+            "Adult": null,
+            "ReadyForHarvest": null
+          },
+          "Localization": {}
+        },
+        {
+          "Type": "Void Chicken",
+          "Data": null,
+          "DeluxeProduceLuck": 0.0,
+          "Sprites": {
+            "Baby": null,
+            "Adult": null,
+            "ReadyForHarvest": null
+          },
+          "Localization": {}
+        }
+      ],
+      "Buildings": [
+        "Coop",
+        "Big Coop",
+        "Deluxe Coop"
+      ],
+      "AnimalShop": {
+        "Name": "Chicken",
+        "Description": "Well cared-for adult chickens lay eggs every day.",
+        "Icon": "D:\\Stardew Valley\\Mods\\Animals\\Paritee_BFAV_v3.0.0-unofficial.7\\Paritee's Better Farm Animal Variety\\assets\\AnimalShop\\Chicken.png",
+        "Exclude": [
+          "Void Chicken"
+        ]
+      }
+    },
+    {
+      "Category": "Dairy Cow",
+      "Types": [
+        {
+          "Type": "White Cow",
+          "Data": null,
+          "DeluxeProduceLuck": 0.0,
+          "Sprites": {
+            "Baby": null,
+            "Adult": null,
+            "ReadyForHarvest": null
+          },
+          "Localization": {}
+        },
+        {
+          "Type": "Brown Cow",
+          "Data": null,
+          "DeluxeProduceLuck": 0.0,
+          "Sprites": {
+            "Baby": null,
+            "Adult": null,
+            "ReadyForHarvest": null
+          },
+          "Localization": {}
+        }
+      ],
+      "Buildings": [
+        "Barn",
+        "Big Barn",
+        "Deluxe Barn"
+      ],
+      "AnimalShop": {
+        "Name": "Dairy Cow",
+        "Description": "Adults can be milked daily. A milk pail is required to harvest the milk.",
+        "Icon": "D:\\Stardew Valley\\Mods\\Animals\\Paritee_BFAV_v3.0.0-unofficial.7\\Paritee's Better Farm Animal Variety\\assets\\AnimalShop\\DairyCow.png",
+        "Exclude": []
+      }
+    },
+    {
+      "Category": "Goat",
+      "Types": [
+        {
+          "Type": "Goat",
+          "Data": null,
+          "DeluxeProduceLuck": 0.0,
+          "Sprites": {
+            "Baby": null,
+            "Adult": null,
+            "ReadyForHarvest": null
+          },
+          "Localization": {}
+        }
+      ],
+      "Buildings": [
+        "Big Barn",
+        "Deluxe Barn"
+      ],
+      "AnimalShop": {
+        "Name": "Goat",
+        "Description": "Happy adults provide goat milk every other day. A milk pail is required to harvest the milk.",
+        "Icon": "D:\\Stardew Valley\\Mods\\Animals\\Paritee_BFAV_v3.0.0-unofficial.7\\Paritee's Better Farm Animal Variety\\assets\\AnimalShop\\Goat.png",
+        "Exclude": []
+      }
+    },
+    {
+      "Category": "Duck",
+      "Types": [
+        {
+          "Type": "Duck",
+          "Data": null,
+          "DeluxeProduceLuck": 0.01,
+          "Sprites": {
+            "Baby": null,
+            "Adult": null,
+            "ReadyForHarvest": null
+          },
+          "Localization": {}
+        }
+      ],
+      "Buildings": [
+        "Big Coop",
+        "Deluxe Coop"
+      ],
+      "AnimalShop": {
+        "Name": "Duck",
+        "Description": "Happy adults lay duck eggs every other day.",
+        "Icon": "D:\\Stardew Valley\\Mods\\Animals\\Paritee_BFAV_v3.0.0-unofficial.7\\Paritee's Better Farm Animal Variety\\assets\\AnimalShop\\Duck.png",
+        "Exclude": []
+      }
+    },
+    {
+      "Category": "Sheep",
+      "Types": [
+        {
+          "Type": "Sheep",
+          "Data": null,
+          "DeluxeProduceLuck": 0.0,
+          "Sprites": {
+            "Baby": null,
+            "Adult": null,
+            "ReadyForHarvest": null
+          },
+          "Localization": {}
+        },
+        {
+          "Type": "Black Sheep",
+          "Data": "2/4/Black Wool/-1/sheep/24/64/84/64/24/64/84/64/1/true/Barn/32/32/32/32/15/5/Shears/644/8000/Black Sheep/Barn",
+          "DeluxeProduceLuck": 0.0,
+          "Sprites": {
+            "Baby": "D:\\Stardew Valley\\Mods\\Animals\\Trent's New Animals [2.2.5]\\[BFAV] Trent's New Animals\\assets\\BabyBlack_Sheep.png",
+            "Adult": "D:\\Stardew Valley\\Mods\\Animals\\Trent's New Animals [2.2.5]\\[BFAV] Trent's New Animals\\assets\\ShearedBlack_Sheep.png",
+            "ReadyForHarvest": "D:\\Stardew Valley\\Mods\\Animals\\Trent's New Animals [2.2.5]\\[BFAV] Trent's New Animals\\assets\\Black_Sheep.png"
+          },
+          "Localization": {}
+        }
+      ],
+      "Buildings": [
+        "Deluxe Barn"
+      ],
+      "AnimalShop": {
+        "Name": "Sheep",
+        "Description": "Adults can be shorn for wool. Sheep who form a close bond with their owners can grow wool faster. A pair of shears is required to harvest the wool.",
+        "Icon": "D:\\Stardew Valley\\Mods\\Animals\\Paritee_BFAV_v3.0.0-unofficial.7\\Paritee's Better Farm Animal Variety\\assets\\AnimalShop\\Sheep.png",
+        "Exclude": []
+      }
+    },
+    {
+      "Category": "Rabbit",
+      "Types": [
+        {
+          "Type": "Rabbit",
+          "Data": null,
+          "DeluxeProduceLuck": 0.02,
+          "Sprites": {
+            "Baby": null,
+            "Adult": null,
+            "ReadyForHarvest": null
+          },
+          "Localization": {}
+        }
+      ],
+      "Buildings": [
+        "Deluxe Coop"
+      ],
+      "AnimalShop": {
+        "Name": "Rabbit",
+        "Description": "These are wooly rabbits! They shed precious wool every few days.",
+        "Icon": "D:\\Stardew Valley\\Mods\\Animals\\Paritee_BFAV_v3.0.0-unofficial.7\\Paritee's Better Farm Animal Variety\\assets\\AnimalShop\\Rabbit.png",
+        "Exclude": []
+      }
+    },
+    {
+      "Category": "Pig",
+      "Types": [
+        {
+          "Type": "Pig",
+          "Data": null,
+          "DeluxeProduceLuck": 0.0,
+          "Sprites": {
+            "Baby": null,
+            "Adult": null,
+            "ReadyForHarvest": null
+          },
+          "Localization": {}
+        }
+      ],
+      "Buildings": [
+        "Deluxe Barn"
+      ],
+      "AnimalShop": {
+        "Name": "Pig",
+        "Description": "These pigs are trained to find truffles!",
+        "Icon": "D:\\Stardew Valley\\Mods\\Animals\\Paritee_BFAV_v3.0.0-unofficial.7\\Paritee's Better Farm Animal Variety\\assets\\AnimalShop\\Pig.png",
+        "Exclude": []
+      }
+    },
+    {
+      "Category": "Dinosaur",
+      "Types": [
+        {
+          "Type": "Dinosaur",
+          "Data": null,
+          "DeluxeProduceLuck": 0.0,
+          "Sprites": {
+            "Baby": null,
+            "Adult": null,
+            "ReadyForHarvest": null
+          },
+          "Localization": {}
+        }
+      ],
+      "Buildings": [
+        "Big Coop",
+        "Deluxe Coop"
+      ],
+      "AnimalShop": null
+    },
+    {
+      "Category": "Cat",
+      "Types": [
+        {
+          "Type": "Himalayan Cat",
+          "Data": "1/0/Fish Bag/Deluxe Fish Bag/cat/0/0/0/0/0/0/0/0/1/false/Barn/32/32/32/32/100/30/Milk Pail/0/3500/Himalayan Cat/Barn",
+          "DeluxeProduceLuck": 0.6,
+          "Sprites": {
+            "Baby": null,
+            "Adult": "D:\\Stardew Valley\\Mods\\Animals\\Prospurrity [1.3.2]\\[BFAV] Prospurrity\\assets\\himalayan.png",
+            "ReadyForHarvest": null
+          },
+          "Localization": {}
+        },
+        {
+          "Type": "Tortoiseshell Cat",
+          "Data": "2/0/225/204/cat/0/0/0/0/0/0/0/0/1/false/Barn/32/32/32/32/100/30/Milk Pail/0/3500/Tortoiseshell Cat/Barn",
+          "DeluxeProduceLuck": 0.3,
+          "Sprites": {
+            "Baby": null,
+            "Adult": "D:\\Stardew Valley\\Mods\\Animals\\Prospurrity [1.3.2]\\[BFAV] Prospurrity\\assets\\tortoiseshell.png",
+            "ReadyForHarvest": null
+          },
+          "Localization": {}
+        },
+        {
+          "Type": "Russian Blue Cat",
+          "Data": "1/0/Ticket/Premium Ticket/cat/0/0/0/0/0/0/0/0/1/false/Barn/32/32/32/32/100/30/Milk Pail/0/3500/Russian Blue Cat/Barn",
+          "DeluxeProduceLuck": 0.5,
+          "Sprites": {
+            "Baby": null,
+            "Adult": "D:\\Stardew Valley\\Mods\\Animals\\Prospurrity [1.3.2]\\[BFAV] Prospurrity\\assets\\russianblue.png",
+            "ReadyForHarvest": null
+          },
+          "Localization": {}
+        },
+        {
+          "Type": "Magical Cat",
+          "Data": "1/0/395/253/cat/0/0/0/0/0/0/0/0/1/false/Barn/32/32/32/32/100/30/Milk Pail/0/3500/Magical Cat/Barn",
+          "DeluxeProduceLuck": 0.3,
+          "Sprites": {
+            "Baby": null,
+            "Adult": "D:\\Stardew Valley\\Mods\\Animals\\Prospurrity [1.3.2]\\[BFAV] Prospurrity\\assets\\magical.png",
+            "ReadyForHarvest": null
+          },
+          "Localization": {}
+        }
+      ],
+      "Buildings": [
+        "Barn",
+        "Big Barn",
+        "Deluxe Barn"
+      ],
+      "AnimalShop": {
+        "Name": "Cat",
+        "Description": "A variety of cats, all adorable.",
+        "Icon": "D:\\Stardew Valley\\Mods\\Animals\\Prospurrity [1.3.2]\\[BFAV] Prospurrity\\assets\\animal_shop_magical.png",
+        "Exclude": [
+          "Void Chicken"
+        ]
+      }
+    },
+    {
+      "Category": "Silkworm",
+      "Types": [
+        {
+          "Type": "Silkworm",
+          "Data": "2/8/-1/Silk Cocoon/none/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/5/1/null/684/15000/Silkworm/Coop",
+          "DeluxeProduceLuck": 0.02,
+          "Sprites": {
+            "Baby": "D:\\Stardew Valley\\Mods\\Animals\\Trent's New Animals [2.2.5]\\[BFAV] Trent's New Animals\\assets\\Silkworm_Baby.png",
+            "Adult": "D:\\Stardew Valley\\Mods\\Animals\\Trent's New Animals [2.2.5]\\[BFAV] Trent's New Animals\\assets\\Silkworm.png",
+            "ReadyForHarvest": null
+          },
+          "Localization": {}
+        }
+      ],
+      "Buildings": [
+        "Deluxe Coop"
+      ],
+      "AnimalShop": {
+        "Name": "Silkworm",
+        "Description": "Happy adults have a chance of producing silk cocoons that can be used to make silk cloth, as very valuable type of cloth.",
+        "Icon": "D:\\Stardew Valley\\Mods\\Animals\\Trent's New Animals [2.2.5]\\[BFAV] Trent's New Animals\\assets\\animal_shop_silkworm.png",
+        "Exclude": [
+          "Void Chicken"
+        ]
+      }
+    },
+    {
+      "Category": "Armadillos",
+      "Types": [
+        {
+          "Type": "Armadillo",
+          "Data": "1/4/535/749/rabbit/8/32/48/32/8/32/48/32/1/false/Coop/16/16/16/16/1/8/null/644/2500/Armadillo/Coop",
+          "DeluxeProduceLuck": 0.0,
+          "Sprites": {
+            "Baby": "D:\\Stardew Valley\\Mods\\Animals\\Trent's New Animals [2.2.5]\\[BFAV] Trent's New Animals\\assets\\babyarmadillo.png",
+            "Adult": "D:\\Stardew Valley\\Mods\\Animals\\Trent's New Animals [2.2.5]\\[BFAV] Trent's New Animals\\assets\\armadillo.png",
+            "ReadyForHarvest": null
+          },
+          "Localization": {}
+        }
+      ],
+      "Buildings": [
+        "Big Coop",
+        "Deluxe Coop"
+      ],
+      "AnimalShop": {
+        "Name": "Armadillo",
+        "Description": "These armadillos knows how to find good geodes.",
+        "Icon": "D:\\Stardew Valley\\Mods\\Animals\\Trent's New Animals [2.2.5]\\[BFAV] Trent's New Animals\\assets\\animal_shop_dillo.png",
+        "Exclude": null
+      }
+    },
+    {
+      "Category": "Buffalo",
+      "Types": [
+        {
+          "Type": "Buffalo",
+          "Data": "1/6/Buffalo Milk/L. Buffalo Milk/cow/24/64/84/64/24/64/84/64/1/false/Barn/32/32/32/32/15/5/Milk Pail/639/2500/Buffalo/Barn",
+          "DeluxeProduceLuck": 0.0,
+          "Sprites": {
+            "Baby": "D:\\Stardew Valley\\Mods\\Animals\\Trent's New Animals [2.2.5]\\[BFAV] Trent's New Animals\\assets\\babyBuffalo.png",
+            "Adult": "D:\\Stardew Valley\\Mods\\Animals\\Trent's New Animals [2.2.5]\\[BFAV] Trent's New Animals\\assets\\Buffalo.png",
+            "ReadyForHarvest": null
+          },
+          "Localization": {}
+        }
+      ],
+      "Buildings": [
+        "Big Barn",
+        "Deluxe Barn"
+      ],
+      "AnimalShop": {
+        "Name": "Buffalo",
+        "Description": "A domesticated buffalo that produces milk once adult.",
+        "Icon": "D:\\Stardew Valley\\Mods\\Animals\\Trent's New Animals [2.2.5]\\[BFAV] Trent's New Animals\\assets\\animal_shop_buffalo.png",
+        "Exclude": [
+          "Void Chicken"
+        ]
+      }
+    },
+    {
+      "Category": "Mole",
+      "Types": [
+        {
+          "Type": "Mole",
+          "Data": "1/4/770/114/rabbit/8/32/48/32/8/32/48/32/1/false/Coop/16/16/16/16/1/8/null/644/500/Mole/Coop",
+          "DeluxeProduceLuck": 0.005,
+          "Sprites": {
+            "Baby": "D:\\Stardew Valley\\Mods\\Animals\\Trent's New Animals [2.2.5]\\[BFAV] Trent's New Animals\\assets\\babymole.png",
+            "Adult": "D:\\Stardew Valley\\Mods\\Animals\\Trent's New Animals [2.2.5]\\[BFAV] Trent's New Animals\\assets\\mole.png",
+            "ReadyForHarvest": null
+          },
+          "Localization": {}
+        }
+      ],
+      "Buildings": [
+        "Coop",
+        "Big Coop",
+        "Deluxe Coop"
+      ],
+      "AnimalShop": {
+        "Name": "Mole",
+        "Description": "A mole that can dig out seeds from the ground.",
+        "Icon": "D:\\Stardew Valley\\Mods\\Animals\\Trent's New Animals [2.2.5]\\[BFAV] Trent's New Animals\\assets\\animal_shop_mole.png",
+        "Exclude": [
+          "Void Chicken"
+        ]
+      }
+    },
+    {
+      "Category": "Peacock",
+      "Types": [
+        {
+          "Type": "Peacock",
+          "Data": "2/10/Peacock Feather/-1/parrot/24/64/84/64/24/64/84/64/0/false/Barn/32/32/32/32/15/5/null/641/12000/Peacock/Barn",
+          "DeluxeProduceLuck": 0.0,
+          "Sprites": {
+            "Baby": "D:\\Stardew Valley\\Mods\\Animals\\Trent's New Animals [2.2.5]\\[BFAV] Trent's New Animals\\assets\\babypeacock.png",
+            "Adult": "D:\\Stardew Valley\\Mods\\Animals\\Trent's New Animals [2.2.5]\\[BFAV] Trent's New Animals\\assets\\peacock.png",
+            "ReadyForHarvest": null
+          },
+          "Localization": {}
+        }
+      ],
+      "Buildings": [
+        "Deluxe Barn"
+      ],
+      "AnimalShop": {
+        "Name": "Peacock",
+        "Description": "Peacocks lay one of the most beautiful feathers among all birds.",
+        "Icon": "D:\\Stardew Valley\\Mods\\Animals\\Trent's New Animals [2.2.5]\\[BFAV] Trent's New Animals\\assets\\animal_shop_peacock.png",
+        "Exclude": null
+      }
+    },
+    {
+      "Category": "Deer",
+      "Types": [
+        {
+          "Type": "Deer",
+          "Data": "3/12/Deer Milk/L. Deer Milk/none/24/64/84/64/24/64/84/64/1/false/Barn/32/32/32/32/15/5/Milk Pail/644/10000/Deer/Barn",
+          "DeluxeProduceLuck": 0.0,
+          "Sprites": {
+            "Baby": "D:\\Stardew Valley\\Mods\\Animals\\Trent's New Animals [2.2.5]\\[BFAV] Trent's New Animals\\assets\\BabyDeer.png",
+            "Adult": "D:\\Stardew Valley\\Mods\\Animals\\Trent's New Animals [2.2.5]\\[BFAV] Trent's New Animals\\assets\\Deer.png",
+            "ReadyForHarvest": null
+          },
+          "Localization": {}
+        }
+      ],
+      "Buildings": [
+        "Deluxe Barn"
+      ],
+      "AnimalShop": {
+        "Name": "Deer",
+        "Description": "Domesticated deer that produces milk.",
+        "Icon": "D:\\Stardew Valley\\Mods\\Animals\\Trent's New Animals [2.2.5]\\[BFAV] Trent's New Animals\\assets\\animal_shop_deer.png",
+        "Exclude": null
+      }
+    },
+    {
+      "Category": "Raccoon",
+      "Types": [
+        {
+          "Type": "Gray Raccoon",
+          "Data": "1/2/Gray Raccoon's Loot/-1/rabbit/24/64/84/64/24/64/84/64/0/false/Barn/32/32/32/32/15/5/null/641/500/Gray Raccoon/Barn",
+          "DeluxeProduceLuck": 0.0,
+          "Sprites": {
+            "Baby": "D:\\Stardew Valley\\Mods\\Animals\\Trent's New Raccoons [1.1.4]\\[BFAV] Raccoon\\assets\\babyraccoon.png",
+            "Adult": "D:\\Stardew Valley\\Mods\\Animals\\Trent's New Raccoons [1.1.4]\\[BFAV] Raccoon\\assets\\gray_raccoon.png",
+            "ReadyForHarvest": null
+          },
+          "Localization": {}
+        },
+        {
+          "Type": "Brown Raccoon",
+          "Data": "1/2/Brown Raccoon's Loot/-1/rabbit/24/64/84/64/24/64/84/64/0/false/Barn/32/32/32/32/15/5/null/641/500/Brown Raccoon/Barn",
+          "DeluxeProduceLuck": 0.0,
+          "Sprites": {
+            "Baby": "D:\\Stardew Valley\\Mods\\Animals\\Trent's New Raccoons [1.1.4]\\[BFAV] Raccoon\\assets\\babybrownraccoon.png",
+            "Adult": "D:\\Stardew Valley\\Mods\\Animals\\Trent's New Raccoons [1.1.4]\\[BFAV] Raccoon\\assets\\brown_raccoon.png",
+            "ReadyForHarvest": null
+          },
+          "Localization": {}
+        },
+        {
+          "Type": "Blonde Raccoon",
+          "Data": "1/2/Blonde Raccoon's Loot/-1/rabbit/24/64/84/64/24/64/84/64/0/false/Barn/32/32/32/32/15/5/null/641/500/Blonde Raccoon/Barn",
+          "DeluxeProduceLuck": 0.0,
+          "Sprites": {
+            "Baby": "D:\\Stardew Valley\\Mods\\Animals\\Trent's New Raccoons [1.1.4]\\[BFAV] Raccoon\\assets\\babyblonderaccoon.png",
+            "Adult": "D:\\Stardew Valley\\Mods\\Animals\\Trent's New Raccoons [1.1.4]\\[BFAV] Raccoon\\assets\\blonde_raccoon.png",
+            "ReadyForHarvest": null
+          },
+          "Localization": {}
+        },
+        {
+          "Type": "Tropical Raccoon",
+          "Data": "1/2/Tropical Raccoon's Loot/-1/rabbit/24/64/84/64/24/64/84/64/0/false/Barn/32/32/32/32/15/5/null/641/500/Tropical Raccoon/Barn",
+          "DeluxeProduceLuck": 0.0,
+          "Sprites": {
+            "Baby": "D:\\Stardew Valley\\Mods\\Animals\\Trent's New Raccoons [1.1.4]\\[BFAV] Raccoon\\assets\\babytropicalraccoon.png",
+            "Adult": "D:\\Stardew Valley\\Mods\\Animals\\Trent's New Raccoons [1.1.4]\\[BFAV] Raccoon\\assets\\tropical_raccoon.png",
+            "ReadyForHarvest": null
+          },
+          "Localization": {}
+        },
+        {
+          "Type": "Chubby Raccoon",
+          "Data": "1/2/Chubby Raccoon's Loot/-1/rabbit/24/64/84/64/24/64/84/64/0/false/Barn/32/32/32/32/15/5/null/641/500/Chubby Raccoon/Barn",
+          "DeluxeProduceLuck": 0.0,
+          "Sprites": {
+            "Baby": "D:\\Stardew Valley\\Mods\\Animals\\Trent's New Raccoons [1.1.4]\\[BFAV] Raccoon\\assets\\babyraccoon.png",
+            "Adult": "D:\\Stardew Valley\\Mods\\Animals\\Trent's New Raccoons [1.1.4]\\[BFAV] Raccoon\\assets\\chubby_raccoon.png",
+            "ReadyForHarvest": null
+          },
+          "Localization": {}
+        }
+      ],
+      "Buildings": [
+        "Big Barn",
+        "Deluxe Barn"
+      ],
+      "AnimalShop": {
+        "Name": "Raccoon",
+        "Description": "Those are rescued raccoons that were found in several areas of the valley. Gray ones in the city, blonde ones in the forest, tropical ones in the beach and near the river and brown ones in the mountains. They used to belong in raccoon gangs that would break into people's place and steal their stuff, so they might still have some habits from their past.",
+        "Icon": "D:\\Stardew Valley\\Mods\\Animals\\Trent's New Raccoons [1.1.4]\\[BFAV] Raccoon\\assets\\animal_shop_raccoon.png",
+        "Exclude": [
+          "Void Chicken"
+        ]
+      }
+    },
+    {
+      "Category": "Bull",
+      "Types": [
+        {
+          "Type": "Bull",
+          "Data": "1/5/Manure/-1/cow/24/64/84/64/24/64/84/64/0/false/Barn/32/32/32/32/15/5/null/644/1500/Bull/Barn",
+          "DeluxeProduceLuck": 0.0,
+          "Sprites": {
+            "Baby": "D:\\Stardew Valley\\Mods\\Animals\\[BFAV] Bulls\\assets\\babybull.png",
+            "Adult": "D:\\Stardew Valley\\Mods\\Animals\\[BFAV] Bulls\\assets\\Bull.png",
+            "ReadyForHarvest": null
+          },
+          "Localization": {}
+        }
+      ],
+      "Buildings": [
+        "Big Barn",
+        "Deluxe Barn"
+      ],
+      "AnimalShop": {
+        "Name": "Bull",
+        "Description": "You can use the adults manure to produce fertilizer",
+        "Icon": "D:\\Stardew Valley\\Mods\\Animals\\[BFAV] Bulls\\assets\\animal_shop_bull.png",
+        "Exclude": [
+          "Void Chicken"
+        ]
+      }
+    },
+    {
+      "Category": "Bear",
+      "Types": [
+        {
+          "Type": "Black Bear",
+          "Data": "1/5/138/699/grunt/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/20/5/null/639/2500/Black Bear/Barn",
+          "DeluxeProduceLuck": 1.0,
+          "Sprites": {
+            "Baby": "D:\\Stardew Valley\\Mods\\Animals\\[BFAV] Bears [1.0.2]\\assets\\BabyBlack Bear.png",
+            "Adult": "D:\\Stardew Valley\\Mods\\Animals\\[BFAV] Bears [1.0.2]\\assets\\Black Bear.png",
+            "ReadyForHarvest": null
+          },
+          "Localization": {}
+        },
+        {
+          "Type": "Brown Bear",
+          "Data": "1/5/139/698/grunt/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/20/5/null/639/2500/Brown Bear/Barn",
+          "DeluxeProduceLuck": 1.0,
+          "Sprites": {
+            "Baby": "D:\\Stardew Valley\\Mods\\Animals\\[BFAV] Bears [1.0.2]\\assets\\BabyBrown Bear.png",
+            "Adult": "D:\\Stardew Valley\\Mods\\Animals\\[BFAV] Bears [1.0.2]\\assets\\Brown Bear.png",
+            "ReadyForHarvest": null
+          },
+          "Localization": {}
+        },
+        {
+          "Type": "Panda Bear",
+          "Data": "1/5/154/155/grunt/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/20/5/null/639/2500/Panda Bear/Barn",
+          "DeluxeProduceLuck": 1.0,
+          "Sprites": {
+            "Baby": "D:\\Stardew Valley\\Mods\\Animals\\[BFAV] Bears [1.0.2]\\assets\\BabyPanda Bear.png",
+            "Adult": "D:\\Stardew Valley\\Mods\\Animals\\[BFAV] Bears [1.0.2]\\assets\\Panda Bear.png",
+            "ReadyForHarvest": null
+          },
+          "Localization": {}
+        },
+        {
+          "Type": "Polar Bear",
+          "Data": "1/5/717/715/grunt/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/20/5/null/639/2500/Polar Bear/Barn",
+          "DeluxeProduceLuck": 1.0,
+          "Sprites": {
+            "Baby": "D:\\Stardew Valley\\Mods\\Animals\\[BFAV] Bears [1.0.2]\\assets\\BabyPolar Bear.png",
+            "Adult": "D:\\Stardew Valley\\Mods\\Animals\\[BFAV] Bears [1.0.2]\\assets\\Polar Bear.png",
+            "ReadyForHarvest": null
+          },
+          "Localization": {}
+        }
+      ],
+      "Buildings": [
+        "Big Barn",
+        "Deluxe Barn"
+      ],
+      "AnimalShop": {
+        "Name": "Bear",
+        "Description": "Adult bears are expert fishermen and will sometimes share their catch.",
+        "Icon": "D:\\Stardew Valley\\Mods\\Animals\\[BFAV] Bears [1.0.2]\\assets\\animal_shop_bears.png",
+        "Exclude": [
+          "Void Chicken"
+        ]
+      }
+    },
+    {
+      "Category": "Quail",
+      "Types": [
+        {
+          "Type": "Japanese Quail",
+          "Data": "1/5/Quail Egg/Large Quail Egg/cluck/36/64/64/64/36/64/64/64/0/false/Coop/16/16/16/16/15/5/null/639/1000/Japanese Quail/Coop",
+          "DeluxeProduceLuck": 0.2,
+          "Sprites": {
+            "Baby": "D:\\Stardew Valley\\Mods\\Animals\\[BFAV] Quails [1.2.1]\\assets\\BabyJapaneseQuail.png",
+            "Adult": "D:\\Stardew Valley\\Mods\\Animals\\[BFAV] Quails [1.2.1]\\assets\\JapaneseQuail.png",
+            "ReadyForHarvest": null
+          },
+          "Localization": {}
+        },
+        {
+          "Type": "Button Quail",
+          "Data": "1/5/Quail Egg/Large Quail Egg/cluck/36/64/64/64/36/64/64/64/0/false/Coop/16/16/16/16/15/5/null/639/1000/Button Quail/Coop",
+          "DeluxeProduceLuck": 0.2,
+          "Sprites": {
+            "Baby": "D:\\Stardew Valley\\Mods\\Animals\\[BFAV] Quails [1.2.1]\\assets\\BabyButtonQuail.png",
+            "Adult": "D:\\Stardew Valley\\Mods\\Animals\\[BFAV] Quails [1.2.1]\\assets\\ButtonQuail.png",
+            "ReadyForHarvest": null
+          },
+          "Localization": {}
+        }
+      ],
+      "Buildings": [
+        "Deluxe Coop"
+      ],
+      "AnimalShop": {
+        "Name": "Quail",
+        "Description": "These birds produce valuable eggs.",
+        "Icon": "D:\\Stardew Valley\\Mods\\Animals\\[BFAV] Quails [1.2.1]\\assets\\animal_shop_quails.png",
+        "Exclude": [
+          "Void Chicken"
+        ]
+      }
+    }
+  ]
+}

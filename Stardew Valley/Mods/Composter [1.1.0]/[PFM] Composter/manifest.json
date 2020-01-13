@@ -1,0 +1,18 @@
+﻿{
+  "Name": "Composter (PFM)",
+  "Author": "furyx639",
+  "Version": "1.1.0",
+  "Description": "Produces quality fertilizer from sap and fish. May produce more depending on the quality of the fish.",
+  "UniqueID": "furyx639.ComposterPFM",
+  "MinimumApiVersion": "3.0.0",
+  "UpdateKeys": [ "Nexus:5085" ],
+	"Dependencies": [
+   	{
+      "UniqueID": "furyx639.ComposterJA",
+      "IsRequired": true
+   	}
+	],
+	"ContentPackFor": {
+		"UniqueID": "DIGUS.ProducerFrameworkMod"
+	}
+}

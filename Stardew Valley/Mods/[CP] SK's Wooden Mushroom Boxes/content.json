@@ -1,0 +1,22 @@
+{
+    "Format": "1.8",
+    "ConfigSchema": {
+        "Variant": {
+            "AllowValues": "BurntSienna, Vanilla, disabled",
+            "Default": "BurntSienna"
+        }
+    },
+    "Changes": [
+        {
+            "Action": "EditImage",
+            "Target": "TileSheets/Craftables",
+            "FromFile": "assets/{{Variant}}.png",
+            "ToArea": {
+                "X": 0,
+                "Y": 512,
+                "Width": 32,
+                "Height": 32
+            }
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+﻿{
+    "Format": "1.9",
+    "Changes": [
+        {
+            "Action": "EditImage",
+            "Target": "Maps/springobjects",
+            "FromFile": "assets/lower_bottle.png",
+            "ToArea": {
+                "X": 32,
+                "Y": 112,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Maps/springobjects",
+            "FromFile": "assets/upper_bottle.png",
+            "ToArea": {
+                "X": 48,
+                "Y": 112,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/ObjectInformation",
+            "Fields": {
+                "170":{
+                    "0": "Broken Bottle Piece",
+                    "4": "Broken Bottle Piece",
+                    "5": "The lower half of the broken bottle."
+                },
+                "171":{
+                    "0": "Broken Bottle Piece",
+                    "4": "Broken Bottle Piece",
+                    "5": "The upper half of the broken bottle."
+                },
+            }
+            }
+    ]
+}
+

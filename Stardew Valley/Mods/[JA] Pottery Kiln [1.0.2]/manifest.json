@@ -1,0 +1,22 @@
+{
+   "Name": "Pottery Kiln Machine Goods",
+   "Author": "sylvarmyst",
+   "Description": "Items for the kiln that makes pots out of clay and minerals/ore. Requires CFR and JA to work properly.",
+   "Version": "1.0.1",
+   "MinimumApiVersion": "2.10.1",
+   "UniqueID": "sylvarmyst.potterygoods",
+   "ContentPackFor": {
+       "UniqueID": "spacechase0.JsonAssets"
+    },
+   "Dependencies": [
+   {
+      "UniqueID": "sylvarmyst.pottery",
+      "IsRequired": true,
+   },
+ {
+      "UniqueID": "Platonymous.CustomFarming",
+      "IsRequired": true,
+   },
+],
+"UpdateKeys": [ "Nexus:4362" ],
+}

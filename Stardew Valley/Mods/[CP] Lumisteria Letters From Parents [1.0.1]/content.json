@@ -1,0 +1,96 @@
+{
+  "Format": "1.9",
+	
+	"ConfigSchema": {
+	
+	"Parents": {"AllowValues": "1, 2",
+				"Default": "2"},	
+	"ChangeMails": {"AllowValues": "True, False",
+				"Default": "True"},	
+	"MoreMails": {"AllowValues": "True, False",
+				"Default": "True"},
+	
+	"Parent1": {"Default": "Mom"},	
+	"Parent2": {"Default": "Mumsi"},	
+	},
+	
+	
+  "Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/mail",
+			"Entries": {
+				"mom1": "Dear @,^  How are you doing, sweety? I've missed you so much since you left. I hope the farming life is everything you hoped for. ^  Love, {{Parent1}}.   ^   P.S. I sent your favorite cookies < %item object 223 1 %%",
+				"mom2": "Dear @,^  It's been so long since I heard from you, dear. Things are the same as ever back home. {{Parent1}} and I miss you very much. ^  Love, {{Parent2}} ^ P.S. Found an envelope with some money Grandpa left for you. %item money 500 501 %%",
+				"mom3": "Dear @,^  I saw an article about you in the local paper! It sounds like the country life is a good fit for you! I'm so proud of you. Take care, sweety.  ^  Love, {{Parent1}}",
+				"mom4": "Dear @,^ How are things going? You must really be making a fortune on that farm. Don't forget your dear old {{Parent2}} and {{Parent1}} when you're a millionaire! ^  Love, {{Parent2}}  ^   P.S. Enjoy the cake!%item object 221 1 %%",
+				"dad1": "Dear @,^  Have you settled into your new life yet? I can't believe you're all grown up now... Time sure flies. Now that you're gone I have all this extra money laying around, so I included a little gift.^  Love, {{Parent2}}.%item money 500 501 %%",
+				"dad2": "Dear @,^  How is the country life going for you? It's been lonely here without you, but {{Parent2}} and I are proud of what you're doing.^  Love, {{Parent1}}  ^  P.S. Found an envelope with some money Grandpa left for you. %item money 500 501 %%",
+				"dad3": "Dear @,^  I read an article about you in the local paper! I'm so impressed with your progress on the farm! Keep this up and dear old {{Parent2}} and {{Parent1}} might be retiring in a Fern Islands luxury bungalow after all ;).^  Love, {{Parent2}}",
+				"dad4": "Dear @,^ I know you're busy on the farm and that's why you can't visit. I understand. You've been working so hard... keep it up and you can accomplish anything! ^  Love, {{Parent1}}  ^  P.S. Included some quality stone %item object 390 30 %%",
+			},
+			"When": {
+				"Parents": "2",
+				"ChangeMails": "True",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/mail",
+			"Entries": {
+				"mom1": "Dear @,^  How are you doing, sweety? I've missed you so much since you left. I hope the farming life is everything you hoped for. ^  Love, {{Parent1}}.   ^   P.S. I sent your favorite cookies < %item object 223 1 %%",
+				"mom2": "Dear @,^  It's been so long since I heard from you, dear. Things are the same as ever back home. I miss you very much. ^  Love, {{Parent1}} ^ P.S. Found an envelope with some money Grandpa left for you. %item money 500 501 %%",
+				"mom3": "Dear @,^  I saw an article about you in the local paper! It sounds like the country life is a good fit for you! I'm so proud of you. Take care, sweety. ^  Love, {{Parent1}}",
+				"mom4": "Dear @,^ How are things going? You must really be making a fortune on that farm. Don't forget your dear old {{Parent1}} when you're a millionaire! ^  Love, {{Parent1}}  ^   P.S. Enjoy the cake!%item object 221 1 %%",
+				"dad1": "Dear @,^  Have you settled into your new life yet? I can't believe you're all grown up now... Time sure flies. Now that you're gone I have all this extra money laying around, so I included a little gift.^  Love, {{Parent1}}.%item money 500 501 %%",
+				"dad2": "Dear @,^  How is the country life going for you? It's been lonely here without you, but I'm proud of what you're doing. ^  Love, {{Parent1}}  ^  P.S. Found an envelope with some money Grandpa left for you. %item money 500 501 %%",
+				"dad3": "Dear @,^  I read an article about you in the local paper! I'm so impressed with your progress on the farm! Keep this up and dear old {{Parent1}} might be retiring in a Fern Islands luxury bungalow after all ;). ^  Love, {{Parent1}}",
+				"dad4": "Dear @,^ I know you're busy on the farm and that's why you can't visit. I understand. You've been working so hard... keep it up and you can accomplish anything! ^  Love, {{Parent1}}  ^  P.S. Included some quality stone %item object 390 30 %%",
+			},
+			"When": {
+				"Parents": "1",
+				"ChangeMails": "True",
+			},
+		},
+		//new mails
+		{
+			"Action": "EditData",
+			"Target": "Data/Mail",
+			"Entries": {
+			"ParentsEggFestivalY1": "Dear @,^ {{Parent1}} and I hope you are happy in the valley. Are you excited for today's festival ? I remember when we were painting eggs together when you were younger. Festivals are so much fun. ^  Love, {{Parent2}}.",
+			"ParentsMidsummerY1": "Dear @,^ It's midsummer. I remember how lovely the valley was during summer when i was young. But it can be hot here, so be careful. Here is a coconut for our recent travel. Did you know that coconut water is very refreshing ? ^  Love, {{Parent1}}. %item object 88 1 %% ",
+			"ParentsFallY1": "Dear @,^ I know you are always impatient for {{Parent1}} and I to make our homemade jellies like we do every year. Here are some for you to enjoy! I included your favorite flavours. Do you make jelly at {{farmname}} ? ^  Love, {{Parent2}}. %item object 344 4 %% ",
+			"ParentsWinterFeastY1": "Dear @,^ The house is a bit emtpy today without you, {{Parent2}} cooked too much for just two people. We both hope you are happy in the valley, and ready for the upcoming year. Merry Winter Feast! ^  Love, {{Parent1}}^ P.S. Here are some extra muffins made by {{Parent2}}. %item object 651 4 %% ",
+			},
+			"When": {
+				"Parents": "2",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Mail",
+			"Entries": {
+			"ParentsEggFestivalY1": "Dear @,^ I hope you are happy in the valley. Are you excited for today's festival ? I remember when we were painting eggs together when you were younger. Festivals are so much fun. ^  Love, {{Parent1}}.",
+			"ParentsMidsummerY1": "Dear @,^ It's midsummer. I remember how lovely the valley was during summer when i was young. But it can be hot here, so be careful. Here is a coconut for a recent travel. Did you know that coconut water is very refreshing ? ^  Love, {{Parent1}}. %item object 88 1 %% ",
+			"ParentsFallY1": "Dear @,^ I know you are always impatient for my homemade jellies. Here are some for you to enjoy! I included your favorite flavours. Do you make jelly at {{farmname}} ? ^  Love, {{Parent1}}. %item object 344 4 %% ",
+			"ParentsWinterFeastY1": "Dear @,^ The house is a bit emtpy today without you, I cooked too much food. I hope you are happy in the valley, and ready for the upcoming year. Merry Winter Feast! ^  Love, {{Parent1}}^ P.S. Here are some extra muffins. %item object 651 4 %% ",
+			},
+			"When": {
+				"Parents": "1",
+			},
+		},
+
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/Farm",
+			"Entries": {
+			"58440001/u 12/y 1/z summer/z winter/z fall/x ParentsEggFestivalY1": "null",
+			"58440002/u 14/y 1/z spring/z winter/z fall/x ParentsMidsummerY1": "null",
+			"58440003/u 8/y 1/z spring/z winter/z summer/x ParentsFallY1": "null",
+			"58440004/u 24/y 1/z spring/z fall/z summer/x ParentsWinterFeastY1": "null",
+
+						},
+			"When": {"MoreMails": "True",},
+		},
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "Name": "Prismatic Shard Pieces",
+  "Description": "Crushed Prismatic Shard Why did you do this?",
+  "Category": "Gem",
+  "Edibility": -300,
+  "EdibleIsDrink": false,
+  "EdibleBuffs": null,
+  "Price": 300,
+  "IsColored": false,
+  "Recipe": {
+    "ResultCount": 6,
+    "Ingredients": [
+      { "Object": 74, "Count": 1, },
+      { "Object": 288, "Count": 5, },
+    ],
+    "CanPurchase": true,
+    "PurchaseFrom": "Dwarf",
+    "PurchasePrice": 15000,
+    "PurchaseRequirements":
+[ "y 2", ],
+},  
+}

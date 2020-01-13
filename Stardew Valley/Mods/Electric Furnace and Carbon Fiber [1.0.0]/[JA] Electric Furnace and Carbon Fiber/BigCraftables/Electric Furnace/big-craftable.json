@@ -1,0 +1,30 @@
+﻿  {
+    "Name": "Electric Furnace",
+    "Description": "Electricity powered furnace that doesn't require fuel and cuts production time by half.",
+    "Price": 1,
+    "ProvidesLight": true,
+    "ReserveNextIndex": true,
+    "Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients": 
+    [
+        {
+            "Object": 390,
+            "Count": 50,
+        },
+        {
+            "Object": "Carbon Fiber",
+            "Count": 1,
+        },
+        {
+            "Object": 787,
+            "Count": 1,
+        }, 
+    ],
+        "CanPurchase": true,
+        "IsDefault": false,
+        "PurchaseFrom": "Dwarf",
+        "PurchasePrice": 2500,
+    }
+}

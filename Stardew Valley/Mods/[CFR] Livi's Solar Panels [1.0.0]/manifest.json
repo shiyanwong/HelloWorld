@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Livi's Solar Panels",
+  "Author": "livipup",
+  "Version": "1.0.0",
+  "Description": "Adds solar panels which produce batteries without the need for stormy weather.",
+  "UniqueID": "livipup.CustomFarming.livisSolarPanels",
+  "UpdateKeys": [ "Nexus:4599" ],
+  "ContentPackFor": {
+    "UniqueID": "Platonymous.CustomFarming",
+    "MinimumVersion": "2.10.16"
+  }
+}

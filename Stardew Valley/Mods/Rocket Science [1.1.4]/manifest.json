@@ -1,0 +1,13 @@
+﻿{
+  "Name": "RocketScience",
+  "Author": "pirstmem",
+  "Version": "1.1.4",
+  "Description": "Endgame Content",
+  "UniqueID": "pirstmem.RocketScience",
+  "ContentPackFor":
+    {
+        "UniqueID": "spacechase0.JsonAssets"
+    },
+  "MinimumApiVersion": "2.11.3",
+  "UpdateKeys": ["Nexus:4930"]
+}

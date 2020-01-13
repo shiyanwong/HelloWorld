@@ -1,0 +1,15 @@
+{
+  "Name": “Sakura’s Cafe”,
+  "Author": “Sakura”,
+  "Version": "1.0.0",
+  "Description": “A fun mod that adds in cliche and nice coffee shop items!”,
+  "UniqueID": “Sakura.SakurasCafe”,
+  "MinimumApiVersion": "2.10.0",
+  "UpdateKeys": [],
+  "ContentPackFor": {
+    "UniqueID": "spacechase0.JsonAssets"
+  }
+}
+
+
+

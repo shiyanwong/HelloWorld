@@ -1,0 +1,13 @@
+﻿  {
+    "Name": "Carbon Fiber",
+    "Description": "Strong, lightweight material infused with Carbon",
+    "Category": "ArtisanGoods",
+    "Edibility": -300,
+    "Price": 780,
+    "IsColored": false,
+    "Recipe": null,
+    "GiftTastes":
+    {
+        "Love": ["Maru", "Clint", "Emily"]
+    }
+}

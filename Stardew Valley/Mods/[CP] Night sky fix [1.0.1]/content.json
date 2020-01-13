@@ -1,0 +1,16 @@
+{
+  "Format": "1.4",
+
+	
+  "Changes": [
+
+       {
+        "Action": "EditImage",
+        "Target": "LooseSprites/Cursors",
+        "FromFile": "assets/sky.png",
+		"FromArea": { "X": 639, "Y": 857, "Width": 1, "Height": 184 }, 
+        "ToArea": { "X": 639, "Y": 857, "Width": 1, "Height": 184 },
+       }
+
+	]
+}

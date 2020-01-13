@@ -1,0 +1,12 @@
+{
+   "Name": "Mi's and Eemie's Butterflies",
+   "Author": "mioudew and eemiestardew",
+   "Version": "1.0.0",
+   "Description": "Replace the old butterflies with more detailed ones",
+   "UniqueID": "Mi.Eemie.Butterflies",
+   "MinimumApiVersion": "2.5.2",
+   "UpdateKeys": [ "" ],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   }
+}

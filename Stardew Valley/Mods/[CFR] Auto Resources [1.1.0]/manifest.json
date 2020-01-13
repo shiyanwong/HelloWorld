@@ -1,0 +1,12 @@
+{
+	"Name": "Auto Resources",
+	"Author": "Slammy",
+	"Version": "1.1",
+	"Description": "Adds machines that automatically generate important resources!",
+	"UniqueID": "Slammy.CustomFarming.AutoResources",
+	"UpdateKeys": ["Nexus:4134"],
+	"ContentPackFor": {
+		"UniqueID": "Platonymous.CustomFarming",
+		"MinimumVersion": "2.9.10"
+	}
+}

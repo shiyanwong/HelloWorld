@@ -1,0 +1,44 @@
+[
+//Winter Lychee Seeds
+	{ //Winter Lychee
+		"ProducerName": "Seed Maker",
+		"InputIdentifier": "Winter Lychee",
+		"MinutesUntilReady": 20,
+		"OutputIdentifier": "Winter Lychee Seeds",
+		"OutputStack": 1,
+		"OutputMaxStack": 3,
+		"SilverQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "Winter Lychee Seeds",
+			"OutputStack": 2,
+			"OutputMaxStack": 4
+		},        
+		"GoldQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "Winter Lychee Seeds",
+			"OutputStack": 3,
+			"OutputMaxStack": 5
+		},        
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "Winter Lychee Seeds",
+			"OutputStack": 4,
+			"OutputMaxStack": 6
+		},
+		"AdditionalOutputs": [
+			{
+				"OutputProbability": 0.005,
+				"OutputIdentifier": "499",
+				"OutputStack": 1
+			},
+			{
+				"OutputProbability": 0.0199,
+				"OutputIdentifier": "770",
+				"OutputStack": 1,
+				"OutputMaxStack": 4
+			}
+		],
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+]

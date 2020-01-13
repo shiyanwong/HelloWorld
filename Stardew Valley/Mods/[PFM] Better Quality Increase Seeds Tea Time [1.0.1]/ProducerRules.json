@@ -1,0 +1,44 @@
+[
+//Tea Time Seeds
+	{ //Mint_Tea_Plant
+		"ProducerName": "Seed Maker",
+		"InputIdentifier": "Fresh Mint Leaf",
+		"MinutesUntilReady": 20,
+		"OutputIdentifier": "Fresh Mint Seeds",
+		"OutputStack": 1,
+		"OutputMaxStack": 3,
+		"SilverQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "Fresh Mint Seeds",
+			"OutputStack": 2,
+			"OutputMaxStack": 4
+		},        
+		"GoldQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "Fresh Mint Seeds",
+			"OutputStack": 3,
+			"OutputMaxStack": 5
+		},        
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "Fresh Mint Seeds",
+			"OutputStack": 4,
+			"OutputMaxStack": 6
+		},
+		"AdditionalOutputs": [
+			{
+				"OutputProbability": 0.005,
+				"OutputIdentifier": "499",
+				"OutputStack": 1
+			},
+			{
+				"OutputProbability": 0.0199,
+				"OutputIdentifier": "770",
+				"OutputStack": 1,
+				"OutputMaxStack": 4
+			}
+		],
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+]

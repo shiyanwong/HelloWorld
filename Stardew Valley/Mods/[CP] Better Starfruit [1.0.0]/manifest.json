@@ -1,0 +1,10 @@
+{
+   "Name": "Better Starfruit",
+   "Author": "cometkins",
+   "Version": "1.0",
+   "Description": "A nicer looking starfruit once harvested.",
+   "UniqueID": "cometkins.BetterStarfruit",
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher",
+   }
+}

@@ -1,0 +1,12 @@
+{
+   "Name": "Improved Desert",
+   "Author": "Erasercat",
+   "Version": "2.0.3",
+   "Description": "Enlarges the pond for gold quality fish and changes the color of the Desert Oasis.",
+   "UniqueID": "Erasercat.ImprvDesrt",
+   "MinimumApiVersion": "2.5",
+   "UpdateKeys": ["Nexus:4032"],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   }
+}

@@ -1,0 +1,16 @@
+{
+  "Name": "Gingerbread Man",
+  "Description": "",
+  "Price": 1000,
+  "ProvidesLight": false, 
+  "Recipe": {
+    "ResultCount": 1,
+    "Ingredients": [
+      {
+        "Object": "Gingerbread",
+        "Count": 10,
+      }
+    ],
+    "IsDefault": true,
+  }
+}

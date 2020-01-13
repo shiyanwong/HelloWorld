@@ -1,0 +1,13 @@
+{
+  "Name": "A Spirit's Eve Hunt Foraging",
+  "Author": "Vadie",
+  "Version": "1.1.0",
+  "Description": "This FTM pack is for the Spirit's Eve Hunt~!",
+  "UniqueID": "vadie.SpiritsEveHuntFTM",
+  "MinimumApiVersion": "2.5",
+  "UpdateKeys": [ "Nexus:4597" ],
+  "ContentPackFor": {
+    "UniqueID": "Esca.FarmTypeManager",
+    "MinimumVersion": "1.4.4"
+   },
+}

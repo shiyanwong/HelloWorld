@@ -1,0 +1,33 @@
+{
+  "useid": "dorian.premiumsyrup",
+  "machines": [
+    {
+      "id": 0,
+      "name": "Evaporator",
+      "description": "Converts Maple Syrup to Premium Maple Syrup",
+      "category": "Crafting",
+      "texture": "Evaporator.png",
+      "tileindex": 0,
+      "readyindex": 0,
+      "pulsate": true,
+      "crafting": "335 3 390 25 388 75",
+	  "starter":
+      {
+		"index": 388,
+		"stack": 5
+	  },
+      "production": [
+        {
+          "item": "Premium Maple Syrup",
+          "time": 10080,
+		  "materials": [
+            {
+              "name": "Maple Syrup",
+              "stack": 2
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "Name": "Meteor Potato",
+  "Description": "Can't chew.",
+  "Category": "Vegetable",
+  "Edibility": -300,
+  "Price": 1500,
+  "IsColored": false,
+    "Recipe": {
+    "ResultCount": 1,
+    "Ingredients":
+	[
+      { "Object": "Disc", "Count": 3, },
+    ],
+    "CanPurchase": true,
+    "PurchaseFrom": "Krobus",
+    "PurchasePrice": 1000,
+    "PurchaseRequirements":
+[ "y 3", ],
+},  
+
+}

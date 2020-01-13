@@ -1,0 +1,41 @@
+{
+  "Name": "Galaxy Lunch",
+  "Description": "= Dish from space itself =",
+  "Category": "Cooking",
+  "Edibility": 250,
+  "EdibleIsDrink": false,
+  "EdibleBuffs":
+   {
+    "Farming": 10,
+    "Fishing": 10,
+    "Mining": 10,
+	"Foraging": 10,
+    "Luck": 20,
+	"MaxStamina": 200,
+    "MagnetRadius": 2000,
+	"Speed": 5,
+	"Defense": 10,
+	"Attack": 10,
+    "Duration": 1440,
+   },
+  "Price": 12500,
+  "IsColored": false,
+  "Recipe": {
+    "ResultCount": 1,
+    "Ingredients":
+	[
+      { "Object": 268, "Count": 5, },
+      { "Object": 454, "Count": 5, },
+      { "Object": 417, "Count": 1, },
+      { "Object": 254, "Count": 10, },
+      { "Object": 386, "Count": 20, },
+      { "Object": "Bag with Gems", "Count": 1, },
+      { "Object": "Prismatic Shard Pieces", "Count": 1, }
+    ],
+    "CanPurchase": true,
+    "PurchaseFrom": "Krobus",
+    "PurchasePrice": 250000,
+    "PurchaseRequirements":
+[ "y 3", ],
+},  
+}

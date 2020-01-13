@@ -1,0 +1,26 @@
+{
+   "Format": "1.11.0",
+   "Changes": [
+      {
+		 "Action": "EditData",
+		 "Target": "Data/ClothingInformation",
+		 "Entries": {
+				"1994": "Skirt/Prismatic Skirt/A cute skirt shimmering with Prismatic Energy./3/-1/50/255 235 203/false/Pants/Prismatic", 
+				"1995": "Pleated Skirt/Prismatic Pleated Skirt/A cute pleated skirt shimmering with Prismatic Energy./4/-1/50/255 235 203/false/Pants/Prismatic/Pants", 
+				"1996": "Dress/Prismatic Long Dress/A long, flowy dress. It's shimmering with Prismatic Energy./2/-1/50/255 235 203/false/Pants/Prismatic", 
+				"1993": "Simple Dress/Prismatic Simple Dress/A soft, smooth, medium length dress. It's shimmering with Prismatic Energy./11/-1/50/255 235 203/false/Pants/Prismatic"
+				}
+			},
+		{
+            "Action": "EditData",
+            "Target": "Data/TailoringRecipes",
+            "Fields": {
+                "item_cloth|item_prismatic_shard": {
+                    "CraftedItemIDs": [
+                        "1994", "1995", "1996", "1993"
+					]
+				}
+			}
+        }
+	]
+}

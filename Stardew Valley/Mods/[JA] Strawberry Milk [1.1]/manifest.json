@@ -1,0 +1,14 @@
+{
+  "Name": "Strawberry Milk for JsonAssets",
+  "Author": "wildskies",
+  "Description": "Adds new cooking recipe, Strawberry Milk, to game",
+  "Version": "1.1.0",
+  "UniqueID": "wildskies.strawberrymilk",
+  "ContentPackFor": {
+    "UniqueID": "spacechase0.JsonAssets"
+  },
+  "UpdateKeys": [ ],
+  "Dependencies": [
+    
+  ]
+}

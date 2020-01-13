@@ -1,0 +1,711 @@
+{
+   "name": "Kawaii Valley Machines",
+   "author": "PoppiPan",
+   "version": "3.0",
+   "machines":
+   [
+	   {
+		   "id": 0,
+		   "name": "Artist Machine",
+		   "description": "Can craft many different supplies.",
+		   "category": "Crafting",
+		   "crafting" : "766 15 330 10 388 55",
+		   "pulsate": true,
+		   "texture": "artistmachine.png",
+		   "shop": "Clint",
+		   "forsale": true,
+		   "price": 10000,
+		   "production":
+			[
+				{
+					"item": "Crayons",
+					"time": 2000,
+					"materials":
+					[
+						{
+							"name": "Beeswax",
+							"stack": 1
+						},
+						{
+							"index": 243,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Magic Clay",
+					"time": 2000,
+					"materials":
+					[
+						{
+							"index": 330,
+							"stack": 1
+						},
+						{
+							"index": 243,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Magic Marker",
+					"time": 2000,
+					"materials":
+					[
+						{
+							"index": 766,
+							"stack": 1
+						},
+						{
+							"index": 243,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Magic Paint",
+					"time": 2000,
+					"materials":
+					[
+						{
+							"index": 247,
+							"stack": 1
+						},
+						{
+							"index": 243,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Paint Brush",
+					"time": 2000,
+					"materials":
+					[
+						{
+							"index": 388,
+							"stack": 2
+						},
+						{
+							"name": "Fiber",
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Watercolors",
+					"time": 2000,
+					"materials":
+					[
+						{
+							"index": 390,
+							"stack": 1
+						},
+						{
+							"index": 243,
+							"stack": 1
+						}
+					]
+				},
+			],
+	   },
+  	   {
+		   "id": 1,
+		   "name": "Beauty Machine",
+		   "description": "Used to make beauty products.",
+		   "category": "Crafting",
+		   "crafting" : "766 20 330 5 388 50",
+		   "pulsate": true,
+		   "texture": "beautymachine.png",
+		   "shop": "Clint",
+		   "forsale": true,
+		   "price": 50000,
+		   "readyindex": 1,
+		   "tileindex": 0,
+		   "frames": 1,
+		   "production":
+			[
+				{
+					"item": "Palette",
+					"time": 2000,
+					"materials":
+					[
+						{
+							"index": 330,
+							"stack": 1
+						},
+						{
+							"index": 394,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Blush",
+					"time": 2000,
+					"materials":
+					[
+						{
+							"index": 330,
+							"stack": 1
+						},
+						{
+							"index": 393,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Lipstick",
+					"time": 2000,
+					"materials":
+					[
+						{
+							"index": 330,
+							"stack": 1
+						},
+						{
+							"index": 82,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Mascara",
+					"time": 2000,
+					"materials":
+					[
+						{
+							"index": 330,
+							"stack": 1
+						},
+						{
+							"index": 382,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Night Cream",
+					"time": 2000,
+					"materials":
+					[
+						{
+							"index": 436,
+							"stack": 1
+						},
+						{
+							"index": 769,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Sunscreen",
+					"time": 2000,
+					"materials":
+					[
+						{
+							"index": 436,
+							"stack": 1
+						},
+						{
+							"index": 768,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Lotion",
+					"time": 2000,
+					"materials":
+					[
+						{
+							"index": 436,
+							"stack": 1
+						},
+						{
+							"index": 88,
+							"stack": 1
+						}
+					]
+				},
+			],
+	   },
+  	   {
+		   "id": 2,
+		   "name": "Dye Machine",
+		   "description": "Used to make bright dyes.",
+		   "category": "Crafting",
+		   "crafting" : "709 10 335 5 388 20",
+		   "pulsate": true,
+		   "texture": "dyemachine.png",
+		   "shop": "Clint",
+		   "forsale": true,
+		   "price": 20000,
+		   "starter":
+			{
+				"index": 247,
+				"stack": 1
+			},
+
+		   "production":
+			[
+				{
+					"item": "Yellow Dye",
+					"time": 1000,
+					"materials":
+					[
+						{
+							"index": 18
+						}
+					]
+				},
+				{
+					"item": "Orange Dye",
+					"time": 1000,
+					"materials":
+					[
+						{
+							"index": 396
+						}
+					]
+				},
+				{
+					"item": "Red Dye",
+					"time": 1000,
+					"materials":
+					[
+						{
+							"index": 296
+						}
+					]
+				},
+				{
+					"item": "Pink Dye",
+					"time": 1000,
+					"materials":
+					[
+						{
+							"index": 402
+						}
+					]
+				},
+				{
+					"item": "Purple Dye",
+					"time": 1000,
+					"materials":
+					[
+						{
+							"index": 418
+						}
+					]
+				},
+				{
+					"item": "Blue Dye",
+					"time": 1000,
+					"materials":
+					[
+						{
+							"index": 414
+						}
+					]
+				},
+				{
+					"item": "Green Dye",
+					"time": 1000,
+					"materials":
+					[
+						{
+							"index": 259
+						}
+					]
+				},
+				{
+					"item": "Black Dye",
+					"time": 1000,
+					"materials":
+					[
+						{
+							"index": 382
+						}
+					]
+				},
+				{
+					"item": "Turquoise Dye",
+					"time": 1000,
+					"materials":
+					[
+						{
+							"index": 372
+						}
+					]
+				},
+			],
+	   },
+   	   {
+		   "id": 3,
+		   "name": "Lollipop Maker",
+		   "description": "Used to make tasty candy.",
+		   "category": "Crafting",
+		   "crafting" : "245 10 335 10 388 10",
+		   "pulsate": true,
+		   "readyindex": 1,
+		   "tileindex": 0,
+		   "frames": 1,
+		   "texture": "lollipopmachine.png",
+		   "shop": "Clint",
+		   "forsale": true,
+		   "price": 20000,
+		   "starter":
+			{
+				"index": 245,
+				"stack": 1
+			},
+
+		   "production":
+			[
+				{
+					"item": "Lemon Lollipop",
+					"time": 1000,
+					"materials":
+					[
+						{
+							"name": "Lemon"
+						}
+					]
+				},
+				{
+					"item": "Orange Lollipop",
+					"time": 1000,
+					"materials":
+					[
+						{
+							"index": 635
+						}
+					]
+				},
+				{
+					"item": "Strawberry Lollipop",
+					"time": 1000,
+					"materials":
+					[
+						{
+							"index": 400
+						}
+					]
+				},
+				{
+					"item": "Starfruit Lollipop",
+					"time": 1000,
+					"materials":
+					[
+						{
+							"index": 268
+						}
+					]
+				},
+				{
+					"item": "Mint Lollipop",
+					"time": 1000,
+					"materials":
+					[
+						{
+							"name": "Mint"
+						}
+					]
+				},
+				{
+					"item": "Blueberry Lollipop",
+					"time": 1000,
+					"materials":
+					[
+						{
+							"index": 258
+						}
+					]
+				},
+				{
+					"item": "Rainbow Lollipop",
+					"time": 1000,
+					"materials":
+					[
+						{
+							"index": 74
+						}
+					]
+				},
+				{
+					"item": "Grape Lollipop",
+					"time": 1000,
+					"materials":
+					[
+						{
+							"index": 398
+						}
+					]
+				},
+				{
+					"item": "Cola Lollipop",
+					"time": 1000,
+					"materials":
+					[
+						{
+							"index": 167
+						}
+					]
+				},
+			],
+	   },
+   	   {
+		   "id": 4,
+		   "name": "Macaron Oven",
+		   "description": "Used to bake delicate macarons.",
+		   "category": "Crafting",
+		   "crafting" : "245 10 335 10 388 10",
+		   "pulsate": true,
+		   "readyindex": 1,
+		   "tileindex": 0,
+		   "frames": 1,
+		   "texture": "macaronoven.png",
+		   "shop": "Clint",
+		   "forsale": true,
+		   "price": 25000,
+		   "starter":
+			{
+				"name": "Almond Flour",
+				"stack": 1
+			},
+		   "production":
+			[
+				{
+					"item": "Chocoberry Macaron",
+					"time": 1000,
+					"materials":
+					[
+						{
+							"name": "Raspberry",
+							"stack": 1
+						},
+						{
+							"name": "Chocolate",
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Peach Macaron",
+					"time": 1000,
+					"materials":
+					[
+						{
+							"index": 636,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Vaniberry Macaron",
+					"time": 1000,
+					"materials":
+					[
+						{
+							"name": "Vanilla",
+							"stack": 1
+						},
+						{
+							"name": "Strawberry",
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Lemon Macaron",
+					"time": 1000,
+					"materials":
+					[
+						{
+							"name": "Lemon",
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Orange Macaron",
+					"time": 1000,
+					"materials":
+					[
+						{
+							"index": 635,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Chocoffee Macaron",
+					"time": 1000,
+					"materials":
+					[
+						{
+							"index": 433,
+							"stack": 1
+						},
+						{
+							"name": "Chocolate",
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Fairy Macaron",
+					"time": 1000,
+					"materials":
+					[
+						{
+							"index": 595,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Violet Macaron",
+					"time": 1000,
+					"materials":
+					[
+						{
+							"name": "Shaded Violet",
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Ancient Macaron",
+					"time": 1000,
+					"materials":
+					[
+						{
+							"index": 454,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Mint Macaron",
+					"time": 1000,
+					"materials":
+					[
+						{
+							"name": "Mint",
+							"stack": 1
+						}
+					]
+				},
+			],
+	   },
+   	   {
+		   "id": 5,
+		   "name": "Nail Polish Maker",
+		   "description": "Used to make pretty polishes.",
+		   "category": "Crafting",
+		   "crafting" : "709 15 766 20 388 10",
+		   "pulsate": true,
+		   "readyindex": 1,
+		   "tileindex": 0,
+		   "frames": 1,
+		   "texture": "nailpolishmaker.png",
+		   "shop": "Clint",
+		   "forsale": true,
+		   "price": 20000,
+		   "starter":
+			{
+				"index": 86,
+				"stack": 1
+			},
+
+		   "production":
+			[
+				{
+					"item": "Sunset Polish",
+					"time": 1000,
+					"materials":
+					[
+						{
+							"index": 558
+						}
+					]
+				},
+				{
+					"item": "Frozen Polish",
+					"time": 1000,
+					"materials":
+					[
+						{
+							"index": 84
+						}
+					]
+				},
+				{
+					"item": "Candy Polish",
+					"time": 1000,
+					"materials":
+					[
+						{
+							"index": 578
+						}
+					]
+				},
+				{
+					"item": "Holographic Polish",
+					"time": 1000,
+					"materials":
+					[
+						{
+							"index": 564
+						}
+					]
+				},
+				{
+					"item": "Lagoon Polish",
+					"time": 1000,
+					"materials":
+					[
+						{
+							"index": 394
+						}
+					]
+				},
+				{
+					"item": "Glamour Polish",
+					"time": 1000,
+					"materials":
+					[
+						{
+							"index": 393
+						}
+					]
+				},				{
+					"item": "Midnight Polish",
+					"time": 1000,
+					"materials":
+					[
+						{
+							"index": 561
+						}
+					]
+				},
+				{
+					"item": "Magic Polish",
+					"time": 1000,
+					"materials":
+					[
+						{
+							"index": 444
+						}
+					]
+				}
+			]
+	   }
+   ]
+   
+   
+}

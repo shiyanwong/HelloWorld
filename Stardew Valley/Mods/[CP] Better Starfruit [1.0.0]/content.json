@@ -1,0 +1,12 @@
+{
+   "Format": "1.9",
+   "Changes": [
+		{
+		"LogName": "Better Starfruit",
+		"Action": "EditImage",
+		"Target": "Maps/springobjects",
+		"FromFile": "assets/objects/starfruit.png",
+		"ToArea": { "X": 64, "Y": 176, "Width": 16, "Height": 16 },
+		}   
+        ]
+}

@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Fish Breeding Tank",
+  "Author": "TrentXV",
+  "Version": "2.1.0",
+  "Description": "Adds Fish Tank that lets you breed fish",
+  "UniqueID": "FsihBreedTank",
+  "UpdateKeys": [ "Nexus:3498" ],
+  "ContentPackFor": {
+    "UniqueID": "Platonymous.CustomFarming",
+    "MinimumVersion": "2.9.10"
+  }
+}

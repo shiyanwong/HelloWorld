@@ -1,0 +1,12 @@
+{
+    "Name": "Letters From Parents",
+    "Author": "Lumisteria",
+    "Version": "1.0.1",
+    "Description": "Changes the letters to have both parents involved, adds some custom letters, and allows free choice of the parents.",
+    "UniqueID": "Lumisteria.LettersFromParents",
+    "MinimumApiVersion": "2.11.2",
+    "UpdateKeys": ["Nexus:4538"],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}

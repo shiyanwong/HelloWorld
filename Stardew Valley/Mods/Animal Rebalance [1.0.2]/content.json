@@ -1,0 +1,18 @@
+{
+    "Format": "1.4",
+    "Changes": [
+    {
+        "Action": "EditData",
+        "Target": "Data/ObjectInformation",
+        "Entries": {
+            "444": "Duck Feather/350/-300/Basic -18/Duck Feather/It's so colorful.",
+
+            "107": "Dinosaur Egg/1250/-300/Arch/Dinosaur Egg/A giant dino egg... The entire shell is still intact!/Mine .01 Mountain .008/Item 1 107",
+
+            "426": "Goat Cheese/470/50/Basic -26/Goat Cheese/Soft cheese made from goat's milk.",
+
+	    "446": "Rabbit's Foot/600/-300/Basic -18/Rabbit's Foot/Some say it's lucky.",
+        },
+    },
+    ]
+}

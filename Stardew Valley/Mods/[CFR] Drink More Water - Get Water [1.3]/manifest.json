@@ -1,0 +1,18 @@
+﻿{
+  "Name": "Drink More Water - Get Water",
+  "Author": "Warilized",
+  "Version": "1.3",
+  "Description": "Machines that help produces and processes water. Uses Custom Farming Redux.",
+  "UniqueID": "Warilized.GetWater",
+  "ContentPackFor": {
+     "UniqueID": "Platonymous.CustomFarming",
+     "MinimumVersion": "2.9.10"
+  },
+  "Dependencies": [
+   {
+      "UniqueID": "Warilized.plsRehydrateYourself",
+      "IsRequired": true,
+   },
+   ],
+  "UpdateKeys": [ "Nexus:4384" ]
+}

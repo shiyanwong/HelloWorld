@@ -1,0 +1,26 @@
+{
+  "Name": "Fertilizer Mixer",
+  "Description": "Produces fertilizer in scale using manure. Quantity will vary according to item used. Sap and Fiber produce quality fertilizer, while pine tar and oak resin produce Deluxe Speed-Gro.",
+  "Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": 335,
+            "Count": 10,
+        },
+        ],
+        "CanPurchase": false,
+		"SkillUnlockName": "Farming", 
+		"SkillUnlockLevel": 9,
+    },
+  "ProvidesLight": false,
+	"CanPurchase": true,
+	"PurchaseFrom": "SheilaShopIcon",
+	"PurchasePrice": 25000,
+	"PurchaseRequirements": null,
+	
+  // Translations
+  "NameLocalization": { "es": "" },
+  "DescriptionLocalization": { "es": "" },
+}

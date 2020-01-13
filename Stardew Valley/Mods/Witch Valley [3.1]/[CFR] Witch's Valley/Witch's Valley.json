@@ -1,0 +1,452 @@
+{
+   "name": "Witch's Valley Machines",
+   "author": "PoppiPan",
+   "version": "1.0.0",
+   "machines":
+   [
+	   {
+		   "id": 0,
+		   "name": "Sachet Maker",
+		   "description": "A workshop for magical sachets.",
+		   "category": "Crafting",
+		   "crafting" : "428 5 388 20 384 10",
+		   "pulsate": false,
+		   "texture": "sachetmaker.png",
+		   "shop": "Clint",
+		   "forsale": true,
+		   "price": 10000,
+		   "readyindex": 8,
+		   "tileindex": 0,
+		   "frames": 7,
+		   "starter":
+			{
+				"name": "Fiber",
+				"stack": 1
+			},
+		   "production":
+			[
+				{
+					"item": "Good Dreams Sachet",
+					"time": 700,
+					"materials":
+					[
+						{
+							"name": "Celestine",
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Good Luck Sachet",
+					"time": 700,
+					"materials":
+					[
+						{
+							"index": 548,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Protection Sachet",
+					"time": 700,
+					"materials":
+					[
+						{
+							"name": "Clay",
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Strength Sachet",
+					"time": 700,
+					"materials":
+					[
+						{
+							"index": 769,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Wealth Sachet",
+					"time": 700,
+					"materials":
+					[
+						{
+							"index": 60,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Love Sachet",
+					"time": 700,
+					"materials":
+					[
+						{
+							"index": 578,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Friendship Sachet",
+					"time": 700,
+					"materials":
+					[
+						{
+							"name": "Amethyst",
+							"stack": 1
+						}
+					]
+				},
+			],
+	   },
+  	   {
+		   "id": 1,
+		   "name": "Glass Furnace",
+		   "description": "Used to mold glass into various shapes.",
+		   "category": "Crafting",
+		   "crafting" : "709 15 390 20 335 10",
+		   "pulsate": true,
+		   "readyindex": 1,
+		   "tileindex": 0,
+		   "frames": 1,
+		   "texture": "glassfurnace.png",
+		   "shop": "Clint",
+		   "forsale": true,
+		   "price": 15000,
+		   "starter":
+			{
+				"index": 382,
+				"stack": 1
+			},
+
+		   "production":
+			[
+				{
+					"item": "Spinned Glass",
+					"time": 700,
+					"materials":
+					[
+						{
+							"name": "Iridium Ore"
+						},
+						{
+							"index": 338
+						}
+					]
+				},
+				{
+					"item": "Marbles",
+					"time": 700,
+					"materials":
+					[
+						{
+							"index": 562
+						},
+						{
+							"index": 338
+						}
+					]
+				},
+				{
+					"item": "Stained Glass",
+					"time": 700,
+					"materials":
+					[
+						{
+							"index": 593
+						},
+						{
+							"index": 338
+						}
+					]
+				},
+			],
+	   },
+  	   {
+		   "id": 2,
+		   "name": "Sigil Table",
+		   "description": "Designed to craft enchanted sigils.",
+		   "category": "Crafting",
+		   "crafting" : "576 1 378 20 709 15",
+		   "pulsate": false,
+		   "readyindex": 7,
+		   "tileindex": 0,
+		   "frames": 6,
+		   "texture": "sigiltable.png",
+		   "shop": "Clint",
+		   "forsale": true,
+		   "price": 10000,
+		   "starter":
+			{
+				"index": 380,
+				"stack": 3
+			},
+
+		   "production":
+			[
+				{
+					"item": "Pentagram",
+					"time": 700,
+					"materials":
+					[
+						{
+							"index": 330
+						}
+					]
+				},
+				{
+					"item": "Septagram",
+					"time": 700,
+					"materials":
+					[
+						{
+							"index": 80
+						}
+					]
+				},
+				{
+					"item": "Protection Sigil",
+					"time": 700,
+					"materials":
+					[
+						{
+							"index": 66
+						}
+					]
+				},
+				{
+					"item": "Water Sigil",
+					"time": 700,
+					"materials":
+					[
+						{
+							"index": 62
+						}
+					]
+				},
+				{
+					"item": "Air Sigil",
+					"time": 700,
+					"materials":
+					[
+						{
+							"index": 542
+						}
+					]
+				},
+				{
+					"item": "Earth Sigil",
+					"time": 700,
+					"materials":
+					[
+						{
+							"index": 86
+						}
+					]
+				},
+				{
+					"item": "Fire Sigil",
+					"time": 700,
+					"materials":
+					[
+						{
+							"index": 82
+						}
+					]
+				},
+			],
+	   },
+   	   {
+		   "id": 3,
+		   "name": "Ritual Forge",
+		   "description": "Many magical things can be made here.",
+		   "category": "Crafting",
+		   "crafting" : "336 10 709 20 768 10",
+		   "pulsate": true,
+		   "readyindex": 1,
+		   "tileindex": 0,
+		   "frames": 1,
+		   "texture": "ritualforge.png",
+		   "shop": "Clint",
+		   "forsale": true,
+		   "price": 20000,
+		   "starter":
+			{
+				"index": 335,
+				"stack": 1
+			},
+
+		   "production":
+			[
+				{
+					"item": "Wind Athame",
+					"time": 700,
+					"materials":
+					[
+						{
+							"name": "Calcite"
+						}
+					]
+				},
+				{
+					"item": "Storm Athame",
+					"time": 700,
+					"materials":
+					[
+						{
+							"index": 767
+						}
+					]
+				},
+				{
+					"item": "Ocean Chalice",
+					"time": 700,
+					"materials":
+					[
+						{
+							"index": 394
+						}
+					]
+				},
+				{
+					"item": "Lake Chalice",
+					"time": 700,
+					"materials":
+					[
+						{
+							"index": 550
+						}
+					]
+				},
+				{
+					"item": "Thunder Wand",
+					"time": 700,
+					"materials":
+					[
+						{
+							"index": 562
+						}
+					]
+				},
+				{
+					"item": "Ember Wand",
+					"time": 700,
+					"materials":
+					[
+						{
+							"index": 64
+						}
+					]
+				},
+				{
+					"item": "Statuette of Yoba",
+					"time": 700,
+					"materials":
+					[
+						{
+							"index": 553
+						}
+					]
+				},
+				{
+					"item": "Hindsight Crystal",
+					"time": 700,
+					"materials":
+					[
+						{
+							"index": 575
+						}
+					]
+				},
+				{
+					"item": "Foresight Crystal",
+					"time": 700,
+					"materials":
+					[
+						{
+							"index": 561
+						}
+					]
+				},
+				{
+					"item": "Bells",
+					"time": 700,
+					"materials":
+					[
+						{
+							"index": 338
+						}
+					]
+				},
+			],
+	   },
+   	   {
+		   "id": 4,
+		   "name": "Ornament Maker",
+		   "description": "Makes the perfect celebratory decorations.",
+		   "category": "Crafting",
+		   "crafting" : "334 10 80 5 388 50",
+		   "pulsate": true,
+		   "texture": "ornamentmaker.png",
+		   "shop": "Clint",
+		   "forsale": true,
+		   "price": 5000,
+		   "starter":
+			{
+				"index": 338,
+				"stack": 1
+			},
+		   "production":
+			[
+				{
+					"item": "Yule Ornament",
+					"time": 700,
+					"materials":
+					[
+						{
+							"index": 283
+						}
+					]
+				},
+				{
+					"item": "Ostara Ornament",
+					"time": 700,
+					"materials":
+					[
+						{
+							"name": "Large Egg",
+						}
+					]
+				},
+				{
+					"item": "Litha Ornament",
+					"time": 700,
+					"materials":
+					[
+						{
+							"name": "Coral"
+						}
+					]
+				},
+				{
+					"item": "Samhain Ornament",
+					"time": 700,
+					"materials":
+					[
+						{
+							"index": 309,
+							"stack": 1
+						}
+					]
+				}
+			]
+	   }
+   ]
+   
+   
+}

@@ -1,0 +1,20 @@
+{
+  "Name": "Buffalo Milk Yogurt",
+  "Description": "Nutritious yogurt made from water buffalo milk.",
+  "Category": "ArtisanGoods",
+  "Edibility": 36,
+  "Price": 200,
+  "IsColored": false,
+  "Recipe": null,
+  "EnableWithMod": "ppja.artisanvalleymachinegoods",
+  "ContextTags": 
+        [
+        "color_sand"
+        ],
+  "GiftTastes": {
+	"Love": ["Sheila","Gregory"],
+	"Like": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Haley", "Harvey", "Jodi", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Willy", "Wizard", "Joel"],
+	"Dislike": ["Jas", "Kent", "Vincent"],
+	"Hate": ["Sebastian"],
+  }
+}

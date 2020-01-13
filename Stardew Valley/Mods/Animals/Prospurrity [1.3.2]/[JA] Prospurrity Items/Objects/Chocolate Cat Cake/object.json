@@ -1,0 +1,9 @@
+{
+  "Name": "Chocolate Cat Cake",
+  "Description": "This cake is too delicious to describe.",
+  "Category": "Cooking",
+  "Edibility": 100,
+  "Price": 200,
+  "IsColored": false,
+  "Recipe": null,
+}

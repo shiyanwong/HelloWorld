@@ -1,0 +1,23 @@
+{
+  "Name": "Bionic Rocket part",
+  "Description": "Sell Expensive in City, Lab, Government.",
+  "Category": "Gem",
+  "Edibility": -300,
+  "Price": 100000,
+  "IsColored": false,
+  "Recipe": {
+    "ResultCount": 1,
+    "Ingredients":
+	[
+      { "Object": -75, "Count": 50, },
+      { "Object": -79, "Count": 20, },
+      { "Object": -80, "Count": 50, },
+      { "Object": -81, "Count": 10, },
+    ],
+    "CanPurchase": true,
+    "PurchaseFrom": "Krobus",
+    "PurchasePrice": 100000,
+    "PurchaseRequirements":
+[ "y 3", ],
+},  
+}

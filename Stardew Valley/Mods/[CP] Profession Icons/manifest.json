@@ -1,0 +1,12 @@
+{
+   "Name": "Profession Icons Redone",
+   "Author": "IllogicalMoodSwing",
+   "Version": "1.0.0",
+   "Description": "Spring and summer UI icon retextures",
+   "UniqueID": "4163",
+   "MinimumApiVersion": "2.9",
+   "UpdateKeys": [],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   }
+}

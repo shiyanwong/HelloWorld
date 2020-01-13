@@ -1,0 +1,11 @@
+﻿{
+  "Name": "Composter (JA)",
+  "Author": "furyx639",
+  "Version": "1.1.0",
+  "Description": "Adds the Composter recipe and object to the game.",
+  "UniqueID": "furyx639.ComposterJA",
+  "UpdateKeys": [ "Nexus:5085" ],
+  "ContentPackFor": {
+    "UniqueID": "spacechase0.JsonAssets"
+ }
+}

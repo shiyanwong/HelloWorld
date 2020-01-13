@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Christmas Pudding",
+  "Author": "pirstmem",
+  "Version": "1.0.0",
+  "Description": "Christmas!",
+  "UniqueID": "pirstmem.ChristmasPudding",
+  "ContentPackFor":
+    {
+        "UniqueID": "spacechase0.JsonAssets"
+    },
+  "MinimumApiVersion": "2.11.3",
+  "UpdateKeys": []
+}

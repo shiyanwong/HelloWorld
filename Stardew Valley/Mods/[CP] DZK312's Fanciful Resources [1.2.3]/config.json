@@ -1,0 +1,17 @@
+{
+  "Resources": "Wood, Stone, Sap, Fiber, Clay, Coal, Ores, Bars, Gems, Prismatic, Crystals, Drops",
+  "Animals": "Eggs, Milk, Feather, Rabbit, Wool, Truffle, Mayo, Cheese",
+  "Miscellaneous": "Fertilizer, Bombs, Carrot, Battery, Seeds, Mushrooms, Taps, Shells, Trash",
+  "Animations": "Essence, Trash",
+  "Sap": "Pouch",
+  "Clay": "Red",
+  "Metal Ores": "Nodes",
+  "Gems": "Elegant",
+  "Prismatic Shard": "Fragment",
+  "Bug Meat": "Pulp",
+  "Magic Essence": "Pouches",
+  "Duck Feather": "Duck",
+  "Rabbit Charm": "Foot",
+  "Truffle": "Black",
+  "Mayonnaise": "Wide"
+}

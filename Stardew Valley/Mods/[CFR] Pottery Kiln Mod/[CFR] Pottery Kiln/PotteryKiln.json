@@ -1,0 +1,160 @@
+{
+   "useid": "PotteryKiln",
+   "machines":
+   [
+	   {
+		   "id": 0,
+		   "legacy": "sylvarmyst.Pottery.PotteryKiln.json",
+		   "name": "Pottery Kiln",
+		   "description": "Turns clay and ore/minerals into glazed pottery.",
+		   "category": "Crafting",
+		   "crafting" : "",
+		   "pulsate": true,
+		   "texture": "PotteryKiln.png",
+		   "shop": "Clint",
+		   "forsale": true,
+		   "price": 5000,
+		   "readyindex": 1,
+		   "frames":1,
+		   "starter":
+			{
+				"index": 330,
+				"stack": 5
+			},
+		   "production":
+			[
+				{
+					"item": "Blue Ceramic Pot",
+					"time": 180,
+					"materials":
+					[
+						{
+							"index": 62,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Green Ceramic Pot",
+					"time": 60,
+					"materials":
+					[
+						{
+							"index": 380,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Iridescent Ceramic Pot",
+					"time": 300,
+					"materials":
+					[
+						{
+							"index": 394,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Jade Ceramic Pot",
+					"time": 180,
+					"materials":
+					[
+						{
+							"index": 70,
+							"stack": 1
+						}
+					]
+				},				{
+					"item": "Magenta Ceramic Pot",
+					"time": 300,
+					"materials":
+					[
+						{
+							"index": 578,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Celadon Ceramic Pot",
+					"time": 300,
+					"materials":
+					[
+						{
+							"index": 546,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Orange Ceramic Pot",
+					"time": 60,
+					"materials":
+					[
+						{
+							"index": 378,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Purple Ceramic Pot",
+					"time": 60,
+					"materials":
+					[
+						{
+							"index": 386,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Rainbow Ceramic Pot",
+					"time": 180,
+					"materials":
+					[
+						{
+							"index": 60,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Red Ceramic Pot",
+					"time": 180,
+					"materials":
+					[
+						{
+							"index": 64,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "White Ceramic Pot",
+					"time": 60,
+					"materials":
+					[
+						{
+							"index": 80,
+							"stack": 1
+						}
+					]
+				},
+				{
+					"item": "Yellow Ceramic Pot",
+					"time": 60,
+					"materials":
+					[
+						{
+							"index": 384,
+							"stack": 1
+						}
+					]
+				}
+			]
+	   }
+   ]  
+}

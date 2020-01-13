@@ -1,0 +1,11 @@
+{
+   "Name": "Dinosaur Shirt for JsonAssets",
+   "Author": "MouseyPounds",
+   "Version": "1.0.0",
+   "Description": "A dinosaur shirt to complement the hat and pants from the base game.",
+   "UniqueID": "MouseyPounds.DinosaurShirt",
+   "UpdateKeys": ["Nexus:4996"],
+   "ContentPackFor": {
+    	"UniqueID": "spacechase0.JsonAssets"
+    },
+}

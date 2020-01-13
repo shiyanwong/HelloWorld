@@ -1,0 +1,31 @@
+
+
+{
+
+	"Introduction": "Oh hi there. The name's Steve.#$b#New around here, I'm guessing?#$b#Well, uh, welcome!",
+	"Mon": "What's up @?, I got a quick question for you. Answer completely honestly.#$b#$q 6000/6001 mon_template#Does my hair look okay?#$r 6000 250 mon_yes#Is that even a question?#$r 6001 100 mon_no#Ew no.",
+	"mon_yes": "Good answer.$1#$e#",
+	"mon_no": "Harsh much?$s#$b#",
+	"mon_template": "$p 6000#Rain actually sounds kinda nice.",
+	"Tue": "I've been thinking about getting back into football.#$b#Alex better play with me from time to time.#$b#Course I'll beat him.$1",
+	"Wed": "Man, Alex is way too sporty.$h#$b#I mean, I consider myself a very athletic type, but there's a point when it's excessive.#$e#Have you seen how big his weights are?!",
+	"Thu": "Evelyn's actually really nice, and she makes the best pancakes.#$e#You should come over and try them some time.$4#$e#",
+	"Fri": "Thought you might want one of these.$h#$b# [138]#$b#I dunno. Been spending too much time with Willy.",
+	"summer_Wed": "Lookin' good farmer!$6#$e#",
+	"Sat": "Y'know, Evelyn's got me into these berry pies and I gotta say... they're delicious as hell.#$e#What? I have a thing for her cooking.",
+	"Sun": "Why do I go to Marnie's ranch? I dunno, I like to keep an eye on Jas. She gets in trouble sometimes.$2#$e#",
+	"Fri8": "Hey farmer! Wanna go out for dinner one night?$4#$e#Only if you want to - of course.",
+	"Mon2": "Oh hey! Nice to see you.$1#$e#",
+	"Thu2": "One day, I'm gonna get you to try and lift one of ALex's weights.",
+	"spring_Tue4": "Are you going to that dumb festival?#$e#Yeah?$2#$e#Oh. What did I say about it being dumb? Nevermind. Wanna go with me?",
+	"winter_Fri6": "We are so having a snowball fight!$1#$e#And you're on my side.",
+	"fall_1": "Fall's my favourite season.#$e#What's yours?.",
+	"danceRejection": "I'm not sticking around for the dance. Sorry. Maybe next time.#$e#It's not my fault I was born with two left feet.#$e#Okay don't rub it in.$2",
+	"divorced": "Please just leave me alone. I don't wanna talk.$s#$b#Why don't I wanna talk? Take a WILD guess.$s#$e#STILL don't understand? How dumb are you?$1",
+	"dumped_Guys": "Hi. Hmm? What do you want?$s#$b#",
+	"secondChange_Guys": "Are you sure you really want to be with me again? I know I'm not sure.$s#$b#It's a bit decision.",
+	"Tue2": "*hums and swings bat to the beat* Ever heard of the song-#$e#Nevermind.$4",
+	"Wed2": "Hey there @! How's your day going?#$e#Well, I can see you're busy so you can go now if you want.",
+	"Fri2": "I once saw this show about this boy and girl#$e#Yes it was a rom-com$3#$e#And anyways, I was just thinking about showing it to you.",
+
+}

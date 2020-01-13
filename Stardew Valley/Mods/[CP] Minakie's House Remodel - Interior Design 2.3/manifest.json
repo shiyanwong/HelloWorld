@@ -1,0 +1,12 @@
+{
+   "Name": "Minakie's House Remodel - Interior Design", // https://www.nexusmods.com/stardewvalley/mods/753
+   "Author": "Minakie",
+   "Version": "2.3",
+   "Description": "This mod provides color variations for the kitchen, beds, crib, fireplace, and column. It also adds optional decorations, birds and cats to place atop the fireplace.",
+   "UniqueID": "Minakie.InteriorDesign",
+   "MinimumApiVersion": "2.11.2", // requires SMAPI https://smapi.io/
+   "UpdateKeys": ["Nexus:753"], 
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher", // requires Content Patcher https://www.nexusmods.com/stardewvalley/mods/1915
+      "MinimumVersion": "1.10.0"}
+}

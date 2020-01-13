@@ -1,0 +1,83 @@
+{
+  "Format": "1.5",
+  "Changes": [
+    // ------------------------------------------------------------------------
+    // Data/FarmAnimals Entry
+    // ------------------------------------------------------------------------
+
+    {
+      "Action": "EditData",
+      "Target": "Data/FarmAnimals",
+      "Entries": {
+        "Scorpion": "1/5/809/810/rabbit/36/64/64/64/36/64/64/64/1/false/Barn/32/32/32/32/15/5/Milk Pail/639/1500/Scorpion",
+        "Spider": "1/3/809/810/rabbit/36/64/64/64/36/64/64/64/1/false/Coop/16/16/16/16/4/7/Milk Pail/639/1500/Spider",
+      }
+    },
+    // ------------------------------------------------------------------------
+    // Sprites
+    // ------------------------------------------------------------------------
+    {
+      "Action": "Load",
+      "Target": "Animals/Scorpion",
+      "FromFile": "assets/scorpion.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Animals/BabyScorpion",
+      "FromFile": "assets/scorpion.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Animals/Spider",
+      "FromFile": "assets/spider.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Animals/BabySpider",
+      "FromFile": "assets/spider.png"
+    },
+
+	   	// Venom
+       {
+        "Action": "EditImage",
+        "Target": "Maps/springobjects",
+        "FromFile": "assets/Venom.png",
+	"FromArea": { "X": 272, "Y": 528, "Width": 16, "Height": 16 }, 
+        "ToArea": { "X": 272, "Y": 528, "Width": 16, "Height": 16 },
+	   },
+	   
+	   // Venom Description
+       {
+          "Action": "EditData",
+          "Target": "Data/ObjectInformation",
+          "Entries": {
+             "809": "Venom/150/-300/Basic -18/Venom/Venom is used for paralyzing and killing prey."},		
+          },
+
+            // Powerful Venom
+       {
+        "Action": "EditImage",
+        "Target": "Maps/springobjects",
+        "FromFile": "assets/Venom.png",
+	"FromArea": { "X": 288, "Y": 528, "Width": 16, "Height": 16 }, 
+        "ToArea": { "X": 288, "Y": 528, "Width": 16, "Height": 16 },
+	   },
+
+           // Powerful Venom Description
+       {
+          "Action": "EditData",
+          "Target": "Data/ObjectInformation",
+          "Entries": {
+             "810": "Powerful Venom/250/-300/Basic -18/Powerful Venom/Venom is used for paralyzing and killing prey."},
+        },
+		{
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+	  "Universal_Hate": "0 -20 -21 92 110 111 112 142 152 153 157 178 105 168 170 171 172 374 376 378 380 397 420 684 721 766 767 772 203 308 809 810",
+	  "Wizard": "Ahh, this is imbued with potent arcane energies. It's very useful for my studies. Thank you!/155 422 769 768 805 804/Many thanks. This item has some very interesting properties./-12 72 82 84/This?... I suppose I'll cast it into the flames and see what happens./-5 -6 -81 2 16 330 766/Ughh... These are utterly mundane. Please refrain from bothering me with this in the future.//Thank you. This will prove useful, I think.// ",
+	  "Krobus": "This is an amazing gift. For my people it is a great honor to receive something like this./72 16 276 337 305 308 804 805/Thank you very much./66 336 340/Humans have... interesting tastes./-7 -81 2 330/Oh... Um. I guess I'll accept it.//Thank you.// ",},
+	  "Abigail": "I seriously love this! You're the best, @!/66 128 220 226 276 611/Hey, how'd you know I was hungry? This looks delicious!/804/What am I supposed to do with this?/-5 -75 -79 16 245 246/What were you thinking? This is awful!/330/You brought me a present? Thanks.// ",
+     },
+   ]
+}

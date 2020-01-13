@@ -1,0 +1,11 @@
+{
+  "Name": "Pottery Kiln",
+   "author": "sylvarmyst",
+  "Version": "1.0.2",
+  "Description": "A kiln that makes pots out of clay and minerals/ore",
+  "UniqueID": "sylvarmyst.pottery",
+  "ContentPackFor": {
+    "UniqueID": "Platonymous.CustomFarming",
+    "MinimumVersion": "2.9.10"
+  }
+}

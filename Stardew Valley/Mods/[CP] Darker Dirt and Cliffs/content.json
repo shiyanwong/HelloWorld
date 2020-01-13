@@ -1,0 +1,93 @@
+{
+  "Format": "1.3",
+  "Changes": [
+       {
+          "Action": "EditImage",
+          "Target": "Maps/spring_outdoorsTileSheet",
+          "FromFile": "Assets/Maps/spring_outdoorsTileSheet.xnb",
+		  "PatchMode": "Overlay",
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Maps/summer_outdoorsTileSheet",
+          "FromFile": "Assets/Maps/summer_outdoorsTileSheet.xnb",
+		  "PatchMode": "Overlay",
+       },
+	   {
+          "Action": "EditImage",
+          "Target": "Maps/fall_outdoorsTileSheet",
+          "FromFile": "Assets/Maps/fall_outdoorsTileSheet.xnb",
+		  "PatchMode": "Overlay",
+       },
+       {
+          "Action": "EditImage",
+          "Target": "TerrainFeatures/hoeDirt",
+          "FromFile": "Assets/TerrainFeatures/hoeDirt.xnb",
+       },
+	   {
+          "Action": "EditImage",
+          "Target": "TerrainFeatures/hoeDirtDark",
+          "FromFile": "Assets/TerrainFeatures/hoeDirtDark.xnb",
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Maps/spring_town",
+          "FromFile": "Assets/Maps/spring_town.xnb",
+		  "PatchMode": "Overlay",
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Maps/summer_town",
+          "FromFile": "Assets/Maps/summer_town.xnb",
+		  "PatchMode": "Overlay",
+       },
+	   {
+          "Action": "EditImage",
+          "Target": "Maps/fall_town",
+          "FromFile": "Assets/Maps/fall_town.xnb",
+		  "PatchMode": "Overlay",
+       },
+	   {
+          "Action": "EditImage",
+          "Target": "LooseSprites/Cursors",
+          "FromFile": "Assets/LooseSprites/Cursors.xnb",
+		  "PatchMode": "Overlay",
+       },
+	   {
+          "Action": "EditImage",
+          "Target": "spring_outdoorsTileSheet",
+          "FromFile": "Assets/spring_outdoorsTileSheet.xnb",
+		  "PatchMode": "Overlay",
+       },
+   	   {
+          "Action": "EditImage",
+          "Target": "fall_outdoorsTileSheet",
+          "FromFile": "Assets/fall_outdoorsTileSheet.xnb",
+		  "PatchMode": "Overlay",
+       },
+       {
+          "Action": "EditImage",
+          "Target": "spring_town",
+          "FromFile": "Assets/spring_town.xnb",
+		  "PatchMode": "Overlay",
+       },
+	   {
+          "Action": "EditImage",
+          "Target": "fall_town",
+          "FromFile": "Assets/fall_town.xnb",
+		  "PatchMode": "Overlay",
+       },
+	   {
+          "Action": "EditImage",
+          "Target": "townInterior",
+          "FromFile": "Assets/townInterior.xnb",
+		  "PatchMode": "Overlay",
+       },
+	   {
+          "Action": "EditImage",
+          "Target": "Maps/townInterior",
+          "FromFile": "Assets/Maps/townInterior.xnb",
+		  "PatchMode": "Overlay",
+       }
+    ]
+}

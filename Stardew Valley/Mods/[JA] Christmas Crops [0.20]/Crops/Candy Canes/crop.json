@@ -1,0 +1,25 @@
+{
+    "Name": "Candy Canes",
+    "Product": "Candy Cane",
+    "SeedName": "Candy Cane Seeds",
+    "SeedDescription": "A delicious, sugary treat! Plant in any season. Matures in 8 days.",
+    "Type": "ArtisanGoods",
+
+    "Seasons": ["spring", "summer", "fall", "winter"],
+    "Phases": [ 1, 2, 2, 1, 2], 
+    "RegrowthPhase": -1, 
+    "HarvestWithScythe": true,
+    "TrellisCrop": false,
+    "Colors": null,
+    "Bonus": {
+        "MinimumPerHarvest": 1, 
+        "MaximumPerHarvest": 3,
+        "MaxIncreasePerFarmLevel": 12,
+        "ExtraChance": 0.18, 
+    },
+  "SeedPurchaseFrom": "Pierre",
+  "SeedPurchasePrice": 80,
+  "SeedPurchaseRequirements": [
+    "z summer",
+  ],
+}

@@ -1,0 +1,29 @@
+Config Guide 1.2.3
+
+Reskins (Choose Multiple):
+<< Resources >>
+• Wood		• Stone		• Sap		• Fiber
+• Clay		• Coal		• Ores		• Bars
+• Gems		• Prismatic	• Crystals	• Drops
+<< Animals >>
+• Eggs		• Milk		• Feather	• Rabbit
+• Wool		• Truffle	• Mayo		• Cheese
+<< Miscellaneous >>
+• Fertilizer	• Bombs		• Carrot	• Battery
+• Seeds		• Mushrooms	• Taps		• Shells
+• Trash
+<< Animations >>	(Only Applicable with Content Patcher Animations Mod)
+• Gems		• Prismatic	• Essence	• Trash
+
+Alternate Sprites (Choose One):
+Sap>		• Pouch		• Vial
+Clay>		• Red		• Grey
+Metal Ores>	• Nodes		• Clusters	• Niblets
+Gems>		• Quaint	• Elegant
+Prismatic Shard>• Fragment	• Crystalball	• Prism
+Bug Meat>	• Pulp		• Innards
+Magic Essences>	• Elements	• Pouches
+Duck Feather>	• Duck		• Mallard
+Rabbit Charm>	• Foot		• Clover
+Truffle>	• Black		• White
+Mayonnaise Jars>• Wide		• Narrow

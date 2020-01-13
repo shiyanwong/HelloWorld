@@ -1,0 +1,12 @@
+{
+   "Name": "Animal Rebalance",
+   "Author": "TrentXV",
+   "Version": "1.0.2",
+   "Description": "Balances Goats, Rabbits, Ducks and Dinosaurs.",
+   "UniqueID": "TrentXV",
+   "MinimumApiVersion": "2.8",
+   "UpdateKeys": ["Nexus:3485"],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   }
+}

@@ -1,0 +1,21 @@
+This is version 3.0.0-unofficial.7 by MouseyPounds
+
+The BFAV code is based on the Github "bfav-3.0.0" branch <https://github.com/paritee/Paritee.StardewValley.Frameworks/tree/bfav-3.0.0>, with the following changes:
+- Updated Nuget packages for mod build config to 3.0.0 and Newtonsoft JSON to 12.0.3
+- Added a static ModEntry instance to ModEntry in order to access Helper from other classes, spacechase-style (sorry Pathos)
+
+- Changed all the PariteeCore.Utilities.Mod.Path references to instead use ModEntry.Instance.Helper.DirectoryPath to work around GetExecutingAssembly().Location failing on Mac & Linux
+- Changed the Harmony patching from an attribute-based PatchAll to individual API Patch calls for compatibility with Mac & Linux
+- Changed some of the error-message handling related to invalid items, suppressing errors related to meat values unless Animal Husbandry is installed and implementing the SaveNotLoaded exception
+- Added some extra checks to the AnimalHouse.resetSharedState patch to avoid "egg-hatching" messages when any animal building was entered
+- Changed some of the FarmAnimal.DayUpdate() logic to avoid having double-products and leftover "produce ready" as well as send "laid" items to auto-grabbers.
+- Adjust width of PurchaseAnimalsMenu to accomodate the 5-icon rows (see below)
+
+The rest of the mods in the Framework solution have not been touched and were just ignored when building; they are not included in this source package.
+
+The Paritee Core code is based on the Github master branch <https://github.com/paritee/Paritee.StardewValley.Core/tree/master> with the following changes:
+- Changed a dailyLuck call to Game1.player.dailyLuck for 1.4 compatibility
+- Changed a sound cue reference to use ICue
+- Changed the method which populates the animal shop menu to use rows of 5 icons instead of 3.
+
+Note that the BFAV source was actually built against the Paritee Core 2.0.1 Nuget package, and the Core DLL was then replaced with the updated version afterwards.

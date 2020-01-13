@@ -1,0 +1,9 @@
+{
+  "Name": "Passion Fruit Cat Ice Cream",
+  "Description": "An intensely fruity experience.",
+  "Category": "Cooking",
+  "Edibility": 20,
+  "Price": 550,
+  "IsColored": false,
+  "Recipe": null,
+}

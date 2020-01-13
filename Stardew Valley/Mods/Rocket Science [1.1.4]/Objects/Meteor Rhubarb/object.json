@@ -1,0 +1,21 @@
+{
+  "Name": "Meteor Rhubarb",
+  "Description": "Strong as Rubber.",
+  "Category": "Vegetable",
+  "Edibility": -300,
+  "Price": 7000,
+  "IsColored": false,
+    "Recipe": {
+    "ResultCount": 1,
+    "Ingredients":
+	[
+      { "Object": "Disc", "Count": 8, },
+    ],
+    "CanPurchase": true,
+    "PurchaseFrom": "Krobus",
+    "PurchasePrice": 1000,
+    "PurchaseRequirements":
+[ "y 3", ],
+},  
+
+}

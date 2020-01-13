@@ -1,0 +1,11 @@
+﻿{
+  "Name": "RecoveryMachine",
+  "Author": "TrentXV",
+  "Version": "1.0.0",
+  "Description": "Adds a New Machine to turn animal loot to random items.",
+  "UniqueID": "RecoveryMachine",
+  "ContentPackFor": {
+    "UniqueID": "Platonymous.CustomFarming",
+    "MinimumVersion": "2.9.10"
+  },
+}

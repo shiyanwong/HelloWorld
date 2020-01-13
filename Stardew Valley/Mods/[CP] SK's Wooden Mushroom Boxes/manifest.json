@@ -1,0 +1,17 @@
+{
+  "Name": "SK's Wooden Mushroom Boxes",
+  "Author": "SchrodingersKit",
+  "Version": "1.1.0",
+  "Description": "Recolors the mushroom box from green to a nicer wood finish of your choice",
+  "UniqueID": "SchrodingersKit.MushroomBoxes",
+  "MinimumApiVersion": "2.5",
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher",
+    "MinimumVersion": "1.8.0"
+  },
+  "UpdateKeys": [ "Nexus:1899" ],
+  "Meta:Changelog": {
+    "1.0": "Original conversion by m2pt5/Emtu",
+    "1.1.0": "Selectable conversion by pepoluan"
+  }
+}

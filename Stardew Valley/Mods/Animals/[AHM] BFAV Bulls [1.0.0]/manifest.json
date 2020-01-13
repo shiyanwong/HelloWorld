@@ -1,0 +1,17 @@
+﻿{
+	"Name": "[AHM] BFAV Bulls",
+	"Author": "TrentXV",
+	"Version": "1.0.0",
+	"Description": "Adds configuration of my Raccoons for Animal Husbandry Mod.",
+	"UniqueID": "AHMBulls",
+	"MinimumApiVersion": "2.11.2",
+	"UpdateKeys": [],
+	"Dependencies": [
+		{
+			"UniqueID": "BFAVBulls"
+		}
+	],
+	"ContentPackFor": {
+		"UniqueID": "DIGUS.ANIMALHUSBANDRYMOD"
+	}
+}

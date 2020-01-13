@@ -1,0 +1,12 @@
+{
+  "Name": "Scorpions",
+  "Author": "Neighgoth",
+  "Version": "1.0.1",
+  "Description": "Adds Scorpions as a new entry to Data/FarmAnimals",
+  "UniqueID": "Neighgoth.Scorpion",
+  "MinimumApiVersion": "2.5",
+  "UpdateKeys": [ "Nexus:3517"],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  }
+}

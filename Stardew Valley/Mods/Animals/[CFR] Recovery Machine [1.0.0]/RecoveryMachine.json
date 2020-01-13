@@ -1,0 +1,232 @@
+{
+  "name": "[CFR] Revocery Machine",
+  "author": "TrentXV",
+  "version": "1.0.0",
+  "machines": [
+		{
+      "id": 20,
+      "name": "Recovery Machine",
+      "description": "Can recover animal loots, producing random items.",
+      "category": "Crafting",
+	  "shop": "Marnie",
+	  "price": 10000,
+	  "condition": "r 0.25",
+	  "forsale": true,
+	  "pulsate": true,
+      "texture": "Recovery_Machine.png",
+
+      "production": [
+        {
+          "item": "random:Acorn,Amethyst,Anchovy,Aquamarine,Autumn's Bounty,Baked Fish,Bean Hotpot,Blackberry,Blueberry Tart,Bread,Bream,Carp Surprise,Carp,Catfish,Cave Carrot,Cheese Cauliflower,Chocolate Cake,Coal,Common Mushroom,Complete Breakfast,Cookie,Copper Bar,Copper Ore,Cranberry Sauce,Crispy Bass,Crocus,Crystal Fruit,Daffodil,Dandelion,Diamond,Earth Crystal,Eel,Eggplant Parmesan,Emerald,Field Snack,Fire Quartz,Fish Taco,Fried Calamari,Fried Eel,Fried Egg,Fried Mushroom,Frozen Tear,Geode,Glazed Yams,Gold Bar,Grape,Hashbrowns,Hazelnut,Herring,Ice Cream,Iron Bar,Iron Ore,Jade,Joja Cola,Largemouth Bass,Leek,Lucky Lunch,Maki Roll,Maple Seed,Octopus,Omelet,Omni Geode,Pancakes,Parsnip Soup,Pepper Poppers,Perch,Pike,Pine Cone,Pink Cake,Pizza,Pufferfish,Pumpkin Soup,Purple Mushroom,Quartz,Rainbow Trout,Red Mullet,Red Mushroom,Red Plate,Red Snapper,Refined Quartz,Rhubarb Pie,Rice Pudding,Ruby,Salad,Salmon Dinner,Salmon,Sardine,Sashimi,Sea Cucumber,Smallmouth Bass,Snow Yam,Spaghetti,Spice Berry,Spicy Eel,Squid,Strange Bun,Strawberry,Stuffing,Sunfish,Super Cucumber,Super Meal,Sweet Pea,Tom Kha Soup,Topaz,Tortilla,Trout Soup,Tuna,Vegetable Medley,Walleye,Wild Horseradish,Wild Plum,Winter Root,Demetrius' Lost Microscope,Gil's Lost Pipe,Linus' Lost Basket,Marlon's Lost Eyepatch,Maru's Lost Wrench,Robin's Lost Axe,Sebby's Lost Bong",
+
+		  "quality": 0,
+          "time": 120,
+          "stack": 1,
+		  "materials": [
+            {
+             "name": "Brown Raccoon's Loot", 
+			 "quality": 0,
+              "stack": 1
+            },
+			],
+            },
+			{
+          "item": "random:Acorn,Amethyst,Anchovy,Aquamarine,Autumn's Bounty,Baked Fish,Bean Hotpot,Blackberry,Blueberry Tart,Bread,Bream,Carp Surprise,Carp,Catfish,Cave Carrot,Cheese Cauliflower,Chocolate Cake,Coal,Common Mushroom,Complete Breakfast,Cookie,Copper Bar,Copper Ore,Cranberry Sauce,Crispy Bass,Crocus,Crystal Fruit,Daffodil,Dandelion,Diamond,Earth Crystal,Eel,Eggplant Parmesan,Emerald,Field Snack,Fire Quartz,Fish Taco,Fried Calamari,Fried Eel,Fried Egg,Fried Mushroom,Frozen Tear,Geode,Glazed Yams,Gold Bar,Grape,Hashbrowns,Hazelnut,Herring,Ice Cream,Iron Bar,Iron Ore,Jade,Joja Cola,Largemouth Bass,Leek,Lucky Lunch,Maki Roll,Maple Seed,Octopus,Omelet,Omni Geode,Pancakes,Parsnip Soup,Pepper Poppers,Perch,Pike,Pine Cone,Pink Cake,Pizza,Pufferfish,Pumpkin Soup,Purple Mushroom,Quartz,Rainbow Trout,Red Mullet,Red Mushroom,Red Plate,Red Snapper,Refined Quartz,Rhubarb Pie,Rice Pudding,Ruby,Salad,Salmon Dinner,Salmon,Sardine,Sashimi,Sea Cucumber,Smallmouth Bass,Snow Yam,Spaghetti,Spice Berry,Spicy Eel,Squid,Strange Bun,Strawberry,Stuffing,Sunfish,Super Cucumber,Super Meal,Sweet Pea,Tom Kha Soup,Topaz,Tortilla,Trout Soup,Tuna,Vegetable Medley,Walleye,Wild Horseradish,Wild Plum,Winter Root,Jas' Lost Ribbon,Leah's Lost Whittler,Marnie's Lost Alarm Clock,Shane's Lost Video Game,Wizard's Lost Scroll,Jodi's Lost Earrings,Sam's Lost Guitar,Vincent's Lost Toy",
+
+		  "quality": 0,
+          "time": 120,
+          "stack": 1,
+		  "materials": [
+            {
+             "name": "Blonde Raccoon's Loot",
+             "quality": 0,			 
+              "stack": 1
+            },
+			],
+            },
+			{
+          "item": "random:Acorn,Amethyst,Anchovy,Aquamarine,Autumn's Bounty,Baked Fish,Bean Hotpot,Blackberry,Blueberry Tart,Bread,Bream,Carp Surprise,Carp,Catfish,Cave Carrot,Cheese Cauliflower,Chocolate Cake,Coal,Common Mushroom,Complete Breakfast,Cookie,Copper Bar,Copper Ore,Cranberry Sauce,Crispy Bass,Crocus,Crystal Fruit,Daffodil,Dandelion,Diamond,Earth Crystal,Eel,Eggplant Parmesan,Emerald,Field Snack,Fire Quartz,Fish Taco,Fried Calamari,Fried Eel,Fried Egg,Fried Mushroom,Frozen Tear,Geode,Glazed Yams,Gold Bar,Grape,Hashbrowns,Hazelnut,Herring,Ice Cream,Iron Bar,Iron Ore,Jade,Joja Cola,Largemouth Bass,Leek,Lucky Lunch,Maki Roll,Maple Seed,Octopus,Omelet,Omni Geode,Pancakes,Parsnip Soup,Pepper Poppers,Perch,Pike,Pine Cone,Pink Cake,Pizza,Pufferfish,Pumpkin Soup,Purple Mushroom,Quartz,Rainbow Trout,Red Mullet,Red Mushroom,Red Plate,Red Snapper,Refined Quartz,Rhubarb Pie,Rice Pudding,Ruby,Salad,Salmon Dinner,Salmon,Sardine,Sashimi,Sea Cucumber,Smallmouth Bass,Snow Yam,Spaghetti,Spice Berry,Spicy Eel,Squid,Strange Bun,Strawberry,Stuffing,Sunfish,Super Cucumber,Super Meal,Sweet Pea,Tom Kha Soup,Topaz,Tortilla,Trout Soup,Tuna,Vegetable Medley,Walleye,Wild Horseradish,Wild Plum,Winter Root,Clint's Lost Hammer,Gunther's Lost Magnifier,Joja's Cola Secret Formula,Alex's Lost Bat,George's Chair Lub,Evelyn's Lost Garden Trowel",
+
+		  "quality": 0,
+          "time": 120,
+          "stack": 1,
+		  "materials": [
+            {
+             "name": "Gray Raccoon's Loot", 
+			 "quality": 0,
+              "stack": 1
+            },
+			],
+            },
+			{
+          "item": "random:Acorn,Amethyst,Anchovy,Aquamarine,Autumn's Bounty,Baked Fish,Bean Hotpot,Blackberry,Blueberry Tart,Bread,Bream,Carp Surprise,Carp,Catfish,Cave Carrot,Cheese Cauliflower,Chocolate Cake,Coal,Common Mushroom,Complete Breakfast,Cookie,Copper Bar,Copper Ore,Cranberry Sauce,Crispy Bass,Crocus,Crystal Fruit,Daffodil,Dandelion,Diamond,Earth Crystal,Eel,Eggplant Parmesan,Emerald,Field Snack,Fire Quartz,Fish Taco,Fried Calamari,Fried Eel,Fried Egg,Fried Mushroom,Frozen Tear,Geode,Glazed Yams,Gold Bar,Grape,Hashbrowns,Hazelnut,Herring,Ice Cream,Iron Bar,Iron Ore,Jade,Joja Cola,Largemouth Bass,Leek,Lucky Lunch,Maki Roll,Maple Seed,Octopus,Omelet,Omni Geode,Pancakes,Parsnip Soup,Pepper Poppers,Perch,Pike,Pine Cone,Pink Cake,Pizza,Pufferfish,Pumpkin Soup,Purple Mushroom,Quartz,Rainbow Trout,Red Mullet,Red Mushroom,Red Plate,Red Snapper,Refined Quartz,Rhubarb Pie,Rice Pudding,Ruby,Salad,Salmon Dinner,Salmon,Sardine,Sashimi,Sea Cucumber,Smallmouth Bass,Snow Yam,Spaghetti,Spice Berry,Spicy Eel,Squid,Strange Bun,Strawberry,Stuffing,Sunfish,Super Cucumber,Super Meal,Sweet Pea,Tom Kha Soup,Topaz,Tortilla,Trout Soup,Tuna,Vegetable Medley,Walleye,Wild Horseradish,Wild Plum,Winter Root,Abby's Lost Plachette,Caroline's Lost Wedding Ring,Gus' Lost Recipe Book,Harvey's Lost Mallet,Pierres's Lost Secret Stash,Harvey's Lost Mallet",
+
+		  "quality": 0,
+          "time": 120,
+          "stack": 1,
+		  "materials": [
+            {
+             "name": "Chubby Raccoon's Loot", 
+			 "quality": 0,
+              "stack": 1
+            },
+			],
+            },
+			{
+          "item": "random:Acorn,Amethyst,Anchovy,Aquamarine,Autumn's Bounty,Baked Fish,Bean Hotpot,Blackberry,Blueberry Tart,Bread,Bream,Carp Surprise,Carp,Catfish,Cave Carrot,Cheese Cauliflower,Chocolate Cake,Coal,Common Mushroom,Complete Breakfast,Cookie,Copper Bar,Copper Ore,Cranberry Sauce,Crispy Bass,Crocus,Crystal Fruit,Daffodil,Dandelion,Diamond,Earth Crystal,Eel,Eggplant Parmesan,Emerald,Field Snack,Fire Quartz,Fish Taco,Fried Calamari,Fried Eel,Fried Egg,Fried Mushroom,Frozen Tear,Geode,Glazed Yams,Gold Bar,Grape,Hashbrowns,Hazelnut,Herring,Ice Cream,Iron Bar,Iron Ore,Jade,Joja Cola,Largemouth Bass,Leek,Lucky Lunch,Maki Roll,Maple Seed,Octopus,Omelet,Omni Geode,Pancakes,Parsnip Soup,Pepper Poppers,Perch,Pike,Pine Cone,Pink Cake,Pizza,Pufferfish,Pumpkin Soup,Purple Mushroom,Quartz,Rainbow Trout,Red Mullet,Red Mushroom,Red Plate,Red Snapper,Refined Quartz,Rhubarb Pie,Rice Pudding,Ruby,Salad,Salmon Dinner,Salmon,Sardine,Sashimi,Sea Cucumber,Smallmouth Bass,Snow Yam,Spaghetti,Spice Berry,Spicy Eel,Squid,Strange Bun,Strawberry,Stuffing,Sunfish,Super Cucumber,Super Meal,Sweet Pea,Tom Kha Soup,Topaz,Tortilla,Trout Soup,Tuna,Vegetable Medley,Walleye,Wild Horseradish,Wild Plum,Winter Root,Elliott's Lost Pencil,Lewis' Lost Shorts,Willy's Lost Rod,Emily's Lost Scissors,Haley's Lost Iron,Pam's Lost Bus Key,Penny's Lost Fryer",
+
+		  "quality": 0,
+          "time": 120,
+          "stack": 1,
+		  "materials": [
+            {
+             "name": "Tropical Raccoon's Loot",
+			"quality": 0,			 
+              "stack": 1
+            },
+			],
+            },
+			{
+          "item": "random:Amethyst,Anchovy,Aquamarine,Autumn's Bounty,Baked Fish,Bean Hotpot,Blueberry Tart,Bread,Bream,Carp Surprise,Carp,Catfish,Cave Carrot,Cheese Cauliflower,Chocolate Cake,Coal,Common Mushroom,Complete Breakfast,Cookie,Copper Bar,Cranberry Sauce,Crispy Bass,Crocus,Crystal Fruit,Daffodil,Dandelion,Diamond,Earth Crystal,Eel,Eggplant Parmesan,Emerald,Fire Quartz,Fish Taco,Fried Calamari,Fried Eel,Fried Egg,Fried Mushroom,Frozen Tear,Geode,Glazed Yams,Gold Bar,Grape,Hashbrowns,Hazelnut,Herring,Ice Cream,Iridium Bar,Iron Bar,Jade,Largemouth Bass,Leek,Lucky Lunch,Maki Roll,Octopus,Omelet,Omni Geode,Pancakes,Parsnip Soup,Pepper Poppers,Perch,Pike,Pink Cake,Pizza,Prismatic Shard,Pufferfish,Pumpkin Soup,Purple Mushroom,Quartz,Rainbow Trout,Red Mullet,Red Mushroom,Red Plate,Red Snapper,Refined Quartz,Rhubarb Pie,Rice Pudding,Ruby,Salad,Salmon Dinner,Salmon,Sardine,Sashimi,Sea Cucumber,Smallmouth Bass,Snow Yam,Spaghetti,Spice Berry,Spicy Eel,Squid,Strange Bun,Strawberry,Stuffing,Sunfish,Super Cucumber,Super Meal,Sweet Pea,Tom Kha Soup,Topaz,Tortilla,Trout Soup,Tuna,Vegetable Medley,Walleye,Wild Horseradish,Wild Plum,Winter Root,Demetrius' Lost Microscope,Gil's Lost Pipe,Linus' Lost Basket,Marlon's Lost Eyepatch,Maru's Lost Wrench,Robin's Lost Axe,Sebby's Lost Bong",
+
+		  "quality": 0,
+          "time": 120,
+          "stack": 1,
+		  "materials": [
+            {
+             "name": "Brown Raccoon's Loot",
+			"quality": 2,			 
+              "stack": 1
+            },
+			],
+            },
+			{
+          "item": "random:Amethyst,Anchovy,Aquamarine,Autumn's Bounty,Baked Fish,Bean Hotpot,Blueberry Tart,Bread,Bream,Carp Surprise,Carp,Catfish,Cave Carrot,Cheese Cauliflower,Chocolate Cake,Coal,Common Mushroom,Complete Breakfast,Cookie,Copper Bar,Cranberry Sauce,Crispy Bass,Crocus,Crystal Fruit,Daffodil,Dandelion,Diamond,Earth Crystal,Eel,Eggplant Parmesan,Emerald,Fire Quartz,Fish Taco,Fried Calamari,Fried Eel,Fried Egg,Fried Mushroom,Frozen Tear,Geode,Glazed Yams,Gold Bar,Grape,Hashbrowns,Hazelnut,Herring,Ice Cream,Iridium Bar,Iron Bar,Jade,Largemouth Bass,Leek,Lucky Lunch,Maki Roll,Octopus,Omelet,Omni Geode,Pancakes,Parsnip Soup,Pepper Poppers,Perch,Pike,Pink Cake,Pizza,Prismatic Shard,Pufferfish,Pumpkin Soup,Purple Mushroom,Quartz,Rainbow Trout,Red Mullet,Red Mushroom,Red Plate,Red Snapper,Refined Quartz,Rhubarb Pie,Rice Pudding,Ruby,Salad,Salmon Dinner,Salmon,Sardine,Sashimi,Sea Cucumber,Smallmouth Bass,Snow Yam,Spaghetti,Spice Berry,Spicy Eel,Squid,Strange Bun,Strawberry,Stuffing,Sunfish,Super Cucumber,Super Meal,Sweet Pea,Tom Kha Soup,Topaz,Tortilla,Trout Soup,Tuna,Vegetable Medley,Walleye,Wild Horseradish,Wild Plum,Winter Root,Jas' Lost Ribbon,Leah's Lost Whittler,Marnie's Lost Alarm Clock,Shane's Lost Video Game,Wizard's Lost Scroll,Jodi's Lost Earrings,Sam's Lost Guitar,Vincent's Lost Toy",
+
+		  "quality": 0,
+          "time": 120,
+          "stack": 1,
+		  "materials": [
+            {
+             "name": "Blonde Raccoon's Loot",
+			 "quality": 2,			 
+              "stack": 1
+            },
+			],
+            },
+			{
+          "item": "random:Amethyst,Anchovy,Aquamarine,Autumn's Bounty,Baked Fish,Bean Hotpot,Blueberry Tart,Bread,Bream,Carp Surprise,Carp,Catfish,Cave Carrot,Cheese Cauliflower,Chocolate Cake,Coal,Common Mushroom,Complete Breakfast,Cookie,Copper Bar,Cranberry Sauce,Crispy Bass,Crocus,Crystal Fruit,Daffodil,Dandelion,Diamond,Earth Crystal,Eel,Eggplant Parmesan,Emerald,Fire Quartz,Fish Taco,Fried Calamari,Fried Eel,Fried Egg,Fried Mushroom,Frozen Tear,Geode,Glazed Yams,Gold Bar,Grape,Hashbrowns,Hazelnut,Herring,Ice Cream,Iridium Bar,Iron Bar,Jade,Largemouth Bass,Leek,Lucky Lunch,Maki Roll,Octopus,Omelet,Omni Geode,Pancakes,Parsnip Soup,Pepper Poppers,Perch,Pike,Pink Cake,Pizza,Prismatic Shard,Pufferfish,Pumpkin Soup,Purple Mushroom,Quartz,Rainbow Trout,Red Mullet,Red Mushroom,Red Plate,Red Snapper,Refined Quartz,Rhubarb Pie,Rice Pudding,Ruby,Salad,Salmon Dinner,Salmon,Sardine,Sashimi,Sea Cucumber,Smallmouth Bass,Snow Yam,Spaghetti,Spice Berry,Spicy Eel,Squid,Strange Bun,Strawberry,Stuffing,Sunfish,Super Cucumber,Super Meal,Sweet Pea,Tom Kha Soup,Topaz,Tortilla,Trout Soup,Tuna,Vegetable Medley,Walleye,Wild Horseradish,Wild Plum,Winter Root,Clint's Lost Hammer,Gunther's Lost Magnifier,Joja's Cola Secret Formula,Alex's Lost Bat,Geroge's Chair Lub,Evelyn's Lost Garden Trowel",
+
+		  "quality": 0,
+          "time": 120,
+          "stack": 1,
+		  "materials": [
+            {
+             "name": "Gray Raccoon's Loot",
+             "quality": 2,				 
+              "stack": 1
+            },
+			],
+            },
+			{
+          "item": "random:Amethyst,Anchovy,Aquamarine,Autumn's Bounty,Baked Fish,Bean Hotpot,Blueberry Tart,Bread,Bream,Carp Surprise,Carp,Catfish,Cave Carrot,Cheese Cauliflower,Chocolate Cake,Coal,Common Mushroom,Complete Breakfast,Cookie,Copper Bar,Cranberry Sauce,Crispy Bass,Crocus,Crystal Fruit,Daffodil,Dandelion,Diamond,Earth Crystal,Eel,Eggplant Parmesan,Emerald,Fire Quartz,Fish Taco,Fried Calamari,Fried Eel,Fried Egg,Fried Mushroom,Frozen Tear,Geode,Glazed Yams,Gold Bar,Grape,Hashbrowns,Hazelnut,Herring,Ice Cream,Iridium Bar,Iron Bar,Jade,Largemouth Bass,Leek,Lucky Lunch,Maki Roll,Octopus,Omelet,Omni Geode,Pancakes,Parsnip Soup,Pepper Poppers,Perch,Pike,Pink Cake,Pizza,Prismatic Shard,Pufferfish,Pumpkin Soup,Purple Mushroom,Quartz,Rainbow Trout,Red Mullet,Red Mushroom,Red Plate,Red Snapper,Refined Quartz,Rhubarb Pie,Rice Pudding,Ruby,Salad,Salmon Dinner,Salmon,Sardine,Sashimi,Sea Cucumber,Smallmouth Bass,Snow Yam,Spaghetti,Spice Berry,Spicy Eel,Squid,Strange Bun,Strawberry,Stuffing,Sunfish,Super Cucumber,Super Meal,Sweet Pea,Tom Kha Soup,Topaz,Tortilla,Trout Soup,Tuna,Vegetable Medley,Walleye,Wild Horseradish,Wild Plum,Winter Root,Abby's Lost Plachette,Caroline's Lost Wedding Ring,Gus' Lost Recipe Book,Harvey's Lost Mallet,Pierres's Lost Secret Stash,Harvey's Lost Mallet",
+
+		  "quality": 0,
+          "time": 120,
+          "stack": 1,
+		  "materials": [
+            {
+             "name": "Chubby Raccoon's Loot",
+			"quality": 2,	
+              "stack": 1
+            },
+			],
+            },
+			{
+          "item": "random:Amethyst,Anchovy,Aquamarine,Autumn's Bounty,Baked Fish,Bean Hotpot,Blueberry Tart,Bread,Bream,Carp Surprise,Carp,Catfish,Cave Carrot,Cheese Cauliflower,Chocolate Cake,Coal,Common Mushroom,Complete Breakfast,Cookie,Copper Bar,Cranberry Sauce,Crispy Bass,Crocus,Crystal Fruit,Daffodil,Dandelion,Diamond,Earth Crystal,Eel,Eggplant Parmesan,Emerald,Fire Quartz,Fish Taco,Fried Calamari,Fried Eel,Fried Egg,Fried Mushroom,Frozen Tear,Geode,Glazed Yams,Gold Bar,Grape,Hashbrowns,Hazelnut,Herring,Ice Cream,Iridium Bar,Iron Bar,Jade,Largemouth Bass,Leek,Lucky Lunch,Maki Roll,Octopus,Omelet,Omni Geode,Pancakes,Parsnip Soup,Pepper Poppers,Perch,Pike,Pink Cake,Pizza,Prismatic Shard,Pufferfish,Pumpkin Soup,Purple Mushroom,Quartz,Rainbow Trout,Red Mullet,Red Mushroom,Red Plate,Red Snapper,Refined Quartz,Rhubarb Pie,Rice Pudding,Ruby,Salad,Salmon Dinner,Salmon,Sardine,Sashimi,Sea Cucumber,Smallmouth Bass,Snow Yam,Spaghetti,Spice Berry,Spicy Eel,Squid,Strange Bun,Strawberry,Stuffing,Sunfish,Super Cucumber,Super Meal,Sweet Pea,Tom Kha Soup,Topaz,Tortilla,Trout Soup,Tuna,Vegetable Medley,Walleye,Wild Horseradish,Wild Plum,Winter Root,,Elliott's Lost Pencil,Lewis' Lost Shorts,Willy's Lost Rod,Emily's Lost Scissors,Haley's Lost Iron,Pam's Lost Bus Key,Penny's Lost Fryer",
+
+		  "quality": 0,
+          "time": 120,
+          "stack": 1,
+		  "materials": [
+            {
+             "name": "Tropical Raccoon's Loot",
+             "quality": 2,				 
+              "stack": 1
+            },
+			],
+			},
+			{
+          "item": "random:Amethyst,Anchovy,Aquamarine,Autumn's Bounty,Baked Fish,Bean Hotpot,Blueberry Tart,Bread,Bream,Carp Surprise,Carp,Catfish,Cave Carrot,Cheese Cauliflower,Chocolate Cake,Coal,Common Mushroom,Complete Breakfast,Cookie,Copper Bar,Cranberry Sauce,Crispy Bass,Crocus,Crystal Fruit,Daffodil,Dandelion,Diamond,Earth Crystal,Eel,Eggplant Parmesan,Emerald,Fire Quartz,Fish Taco,Fried Calamari,Fried Eel,Fried Egg,Fried Mushroom,Frozen Tear,Geode,Glazed Yams,Gold Bar,Grape,Hashbrowns,Hazelnut,Herring,Ice Cream,Iridium Bar,Iron Bar,Jade,Largemouth Bass,Leek,Lucky Lunch,Maki Roll,Octopus,Omelet,Omni Geode,Pancakes,Parsnip Soup,Pepper Poppers,Perch,Pike,Pink Cake,Pizza,Prismatic Shard,Pufferfish,Pumpkin Soup,Purple Mushroom,Quartz,Rainbow Trout,Red Mullet,Red Mushroom,Red Plate,Red Snapper,Refined Quartz,Rhubarb Pie,Rice Pudding,Ruby,Salad,Salmon Dinner,Salmon,Sardine,Sashimi,Sea Cucumber,Smallmouth Bass,Snow Yam,Spaghetti,Spice Berry,Spicy Eel,Squid,Strange Bun,Strawberry,Stuffing,Sunfish,Super Cucumber,Super Meal,Sweet Pea,Tom Kha Soup,Topaz,Tortilla,Trout Soup,Tuna,Vegetable Medley,Walleye,Wild Horseradish,Wild Plum,Winter Root,,Elliott's Lost Pencil,Lewis' Lost Shorts,Willy's Lost Rod,Emily's Lost Scissors,Haley's Lost Iron,Pam's Lost Bus Key,Penny's Lost Fryer",
+
+		  "quality": 0,
+          "time": 120,
+          "stack": 1,
+		  "materials": [
+            {
+             "name": "Tropical Raccoon's Loot",
+             "quality": 2,				 
+              "stack": 1
+            },
+			],
+			},			
+{
+          "item": "random:Jazz Seeds,Amaranth Seeds,Grape Starter,Hops Starter,Fairy Seeds,Tulip Bulb,Sunflower Seeds,Coffee Bean,Poppy Seeds,Spangle Seeds,Parsnip Seeds,Bean Starter,Cauliflower Seeds,Potato Seeds,Garlic Seeds,Kale Seeds,Rhubarb Seeds,Melon Seeds,Tomato Seeds,Blueberry Seeds,Pepper Seeds,Wheat Seeds,Radish Seeds,Red Cabbage Seeds,Corn Seeds,Eggplant Seeds,Artichoke Seeds,Pumpkin Seeds,Bok Choy Seeds,Yam Seeds,Cranberry Seeds,Beet Seeds,Spring Seeds,Summer Seeds,Fall Seeds,Winter Seeds,Strawberry Seeds,Cactus Seeds",
+
+          "quality": 0,
+          "time": 120,
+          "stack": 30,
+          "materials": [
+            {
+             "name": "Fox Treasure", 
+             "quality": 0,
+              "stack": 1
+            },
+            ],
+            },
+{
+          "item": "random:Rare Seed,Ancient Seeds,Starfruit Seeds",
+
+          "quality": 0,
+          "time": 120,
+          "stack": 10,
+          "materials": [
+            {
+             "name": "Fox Treasure", 
+             "quality": 2,
+              "stack": 1
+            },
+            ],
+            },
+{
+          "item": "random:Strange Doll (green),Strange Doll (yellow),Golden Mask,Dinosaur Egg,Ornamental Fan,Rare Disc,Golden Relic,Elvish Jewelry,Dwarf Gadget,Amphibian Fossil,Ancient Sword,Anchor,Bone Flute,Dwarvish Helm,Ancient Drum,Prehistoric Scapula,Prehistoric Skull,Skeletal Hand,Prehistoric Rib,Prehistoric Vertebra,Skeletal Tail,Palm Fossil,Nautilus Fossil,Ancient Doll,Chewing Stick,Chicken Statue,Prehistoric Tool,Prehistoric Handaxe,Trilobite,Chipped Amphora,Arrowhead,Dried Starfish,Rusty Spoon,Rusty Spur,Rusty Cog,Glass Shards,Ancient Seed,Dwarf Scroll I,Dwarf Scroll II,Dwarf Scroll III,Dwarf Scroll IV",
+
+          "quality": 0,
+          "time": 120,
+          "stack": 1,
+          "materials": [
+            {
+             "name": "Mysterious Artifact", 
+             "quality": 0,
+              "stack": 1
+            },
+            ],
+            },
+{
+          "item": "random:Strange Doll (green),Strange Doll (yellow),Golden Mask,Dinosaur Egg,Ornamental Fan,Rare Disc,Golden Relic,Elvish Jewelry,Dwarf Gadget,Amphibian Fossil",
+
+          "quality": 0,
+          "time": 120,
+          "stack": 1,
+          "materials": [
+            {
+             "name": "Mysterious Artifact", 
+             "quality": 2,
+              "stack": 1
+            },
+			],
+			},
+		],
+		},
+		]
+		}

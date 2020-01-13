@@ -1,0 +1,24 @@
+{
+    "Name": "Beacon",
+    "Product": "Disc",
+    "Price": "150",
+    "SeedName": "Disc bit",
+    "SeedDescription": "Is this seed..?Don't plant in winter.",
+    "Type": "Seeds",
+
+    "Seasons": ["spring", "summer","fall",],
+    "Phases": [1,1,2,2,2,1],
+    "RegrowthPhase": 5 ,
+    "HarvestWithScythe": false,
+    "TrellisCrop": false,
+    "Colors": null,
+    "Bonus":
+    {
+        "MinimumPerHarvest": 1,
+        "MaximumPerHarvest": 1,
+    },
+    "SeedPurchasePrice": 150,
+    "SeedPurchaseRequirements": [
+        "y 99"
+    ],
+}

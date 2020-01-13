@@ -1,0 +1,21 @@
+{
+  "Name": "Disc",
+  "Description": "Come From Space",
+  "Category": "Fruit",
+  "Edibility": -300,
+  "Price": 5000,
+  "IsColored": false,
+    "Recipe": {
+    "ResultCount": 5,
+    "Ingredients":
+	[
+      { "Object": "Farm Rocket", "Count": 1, },
+    ],
+    "CanPurchase": true,
+    "PurchaseFrom": "Krobus",
+    "PurchasePrice": 1000,
+    "PurchaseRequirements":
+[ "y 3", ],
+},  
+
+}

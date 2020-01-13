@@ -1,0 +1,11 @@
+{
+   "Name": "Harvey Marriage Expansion",
+   "Author": "Tarlonniel",
+   "Description": "Adds post-marriage dialogue and 12 heart event",
+   "Version": "1.2",
+   "UniqueID": "tar.HarveyMarriage",
+   "ContentPackFor": {
+       "UniqueID": "Pathoschild.ContentPatcher"
+    },
+   "UpdateKeys": [ "Nexus:2542" ],
+}

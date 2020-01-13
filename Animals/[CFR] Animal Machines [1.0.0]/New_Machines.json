@@ -1,0 +1,377 @@
+{
+  "name": "[CFR] New Machines",
+  "author": "TrentXV",
+  "version": "1.0.0",
+  "machines": [
+    {
+      "id": 12,
+      "name": "Deluxe Loom",
+      "description": "Can produce better types of Cloth from Cotton and Silk, also produces cloth faster from wool.",
+      "category": "Crafting",
+      "texture": "Deluxe_Loom.png",
+      "tileindex": 0,
+      "readyindex": 16,
+      "frames": 15,
+      "forsale": true,
+	  "shop": "Marnie",
+	  "price": 75000,
+      "condition": "r 0.25",
+      "pulsate": false,
+      "fps": 10,
+      "production": [
+        {
+          "name": "Silk Cloth",
+          "time": 1200,
+          "materials": [
+            {
+              "name": "Silk Cocoon",
+            }
+          ]
+        },
+        {
+          "name": "Satin Cloth",
+          "time": 240,
+          "materials": [
+            {
+              "Name": "Cotton Boll",
+              "stack": 5
+            }
+          ]
+        },
+        {
+          "index": 428,
+          "time": 120,
+          "materials": [
+            {
+              "index": 440,
+              "stack": 1
+            }
+          ]
+        },
+		{
+          "name": "Black Cloth",
+          "time": 120,
+          "materials": [
+            {
+              "Name": "Black Wool",
+              "stack": 1
+            }
+          ]
+        }
+      ]
+    },
+	{
+      "id": 18,
+      "name": "Deluxe Cheese Press",
+      "description": "Produces a better variety of cheese. Cheddar using Cow Milk, Caprino Cheese using Goat Milk, Buffalo Cheese using Buffalo Milk.",
+      "category": "Crafting",
+	  "shop": "Marnie",
+	  "price": 50000,
+      "condition": "r 0.25",
+	  "forsale": true,
+	  "pulsate": true,
+      "texture": "Deluxe_Cheese_Press.png",
+
+      "production": [
+        {
+          "Name": "Cheddar",
+		  "quality": 0,
+          "time": 1800,
+          "stack": 1,
+          "materials": [
+            {
+             "index": 184, 
+              "stack": 1,
+			  },
+          ]
+        },
+		{
+          "name": "Cheddar",
+          "time": 1800,
+		  "quality": 2,
+          "stack": 1,
+          "materials": [
+            {
+              "index": 186,
+			  "stack": 1
+            }
+          ]
+        },
+		 {
+          "Name": "Caprino Cheese",
+		  "quality": 0,
+          "time": 1800,
+          "stack": 1,
+          "materials": [
+            {
+             "index": 436, 
+              "stack": 1
+            }
+          ]
+        },
+       {
+          "Name": "Caprino Cheese",
+		  "quality": 2,
+          "time": 1800,
+          "stack": 1,
+          "materials": [
+            {
+             "index": 438, 
+              "stack": 1
+            }
+			]
+			},
+			{
+          "Name": "Buffalo Cheese",
+		  "quality": 0,
+          "time": 200,
+          "stack": 1,
+          "materials": [
+            {
+             "name": "Buffalo Milk", 
+              "stack": 1
+            }
+          ]
+        },
+       {
+          "Name": "Buffalo Cheese",
+		  "quality": 2,
+          "time": 200,
+          "stack": 1,
+          "materials": [
+            {
+             "name": "L. Buffalo Milk", 
+              "stack": 1
+            },
+            ],
+			},
+{
+          "Name": "Deer Cheese",
+		  "quality": 0,
+          "time": 200,
+          "stack": 1,
+          "materials": [
+            {
+             "name": "Deer Milk", 
+              "stack": 1
+            },
+            ],
+			},
+{
+          "Name": "Deer Cheese",
+		  "quality": 2,
+          "time": 200,
+          "stack": 1,
+          "materials": [
+            {
+             "name": "L. Deer Milk", 
+              "stack": 1
+            },
+            ],
+			},			
+      ],
+    },
+	{
+      "id": 19,
+      "name": "Bug Trap",
+      "description": "Bugs are attracted to the light and get stuck inside, usefull to get bug meat.",
+      "category": "Crafting",
+	  "shop": "Willy",
+	  "price": 25000,
+      "condition": "r 0.25",
+      "forsale": true,
+	  "pulsate": true,
+	  "workconditions": "LC caller.location.IsOutdoors",
+	  "lightsource": true,
+	  "worklight": true,
+	  "lightcolor": [6,200,250,255],
+	  "lightradius": 1.5,
+      "texture": "Bug_Trap.png",
+
+      "production": [
+        {
+          "Item": "Bug Meat",
+		  "quality": 0,
+          "time": 1440,
+          "stack": 2,
+          
+            }
+          ]
+        },
+		{
+      "id": 21,
+      "name": "Cheese Aging Cabinet",
+      "description": "A place to age your cheese, works with all types of cheese.",
+      "category": "Crafting",
+	  "shop": "Pierre",
+	  "price": 75000,
+	  "condition": "r 0.25",
+	  "forsale": true,
+	  "pulsate": false,
+	  "fps": 1,
+	  "tileindex": 0,
+      "readyindex": 3,
+      "frames": 2,
+      "texture": "Cheese_Aging_Cabinet.png",
+
+      "production": [
+	  {
+          "name": "Cheddar",
+		  "quality": 4,
+          "time": 20160,
+          "stack": 1,
+          "materials": [
+            {
+             "name": "Cheddar", 
+			 "exactquality": 0,			 
+              "stack": 1,
+			  },
+          ]
+        },
+		{
+          "name": "Cheddar",
+		  "quality": 4,
+          "time": 10080,
+          "stack": 1,
+          "materials": [
+            {
+             "name": "Cheddar", 
+              "stack": 1,
+			  "exactquality": 2,
+			  },
+          ]
+        },
+	  {
+          "name": "Caprino Cheese",
+		  "quality": 4,
+          "time": 20160,
+          "stack": 1,
+          "materials": [
+            {
+             "name": "Caprino Cheese", 
+			 "exactquality": 0,			 
+              "stack": 1,
+			  },
+          ]
+        },
+		{
+          "name": "Caprino Cheese",
+		  "quality": 4,
+          "time": 10080,
+          "stack": 1,
+          "materials": [
+            {
+             "name": "Caprino Cheese", 
+              "stack": 1,
+			  "exactquality": 2,
+			  },
+          ]
+        },
+		{
+          "name": "Buffalo Cheese",
+		  "quality": 4,
+          "time": 20160,
+          "stack": 1,
+          "materials": [
+            {
+             "name": "Buffalo Cheese", 
+			 "exactquality": 0,			 
+              "stack": 1,
+			  },
+          ]
+        },
+		{
+          "name": "Buffalo Cheese",
+		  "quality": 4,
+          "time": 10080,
+          "stack": 1,
+          "materials": [
+            {
+             "name": "Buffalo Cheese", 
+              "stack": 1,
+			  "exactquality": 2,
+			  },
+          ]
+        },
+		{
+          "name": "Deer Cheese",
+		  "quality": 4,
+          "time": 20160,
+          "stack": 1,
+          "materials": [
+            {
+             "name": "Deer Cheese", 
+			 "exactquality": 0,			 
+              "stack": 1,
+			  },
+          ]
+        },
+		{
+          "name": "Deer Cheese",
+		  "quality": 4,
+          "time": 10080,
+          "stack": 1,
+          "materials": [
+            {
+             "name": "Deer Cheese", 
+              "stack": 1,
+			  "exactquality": 2,
+			  },
+          ]
+        },
+		{
+          "index": 424,
+		  "quality": 4,
+          "time": 20160,
+          "stack": 1,
+          "materials": [
+            {
+             "index": 424,
+			 "exactquality": 0,			 
+              "stack": 1,
+			  },
+          ]
+        },
+		{
+          "index": 424,
+		  "quality": 4,
+          "time": 10080,
+          "stack": 1,
+          "materials": [
+            {
+             "index": 424,
+              "stack": 1,
+			  "exactquality": 2,
+			  },
+          ]
+        },
+		{
+          "index": 426,
+		  "quality": 4,
+          "time": 20160,
+          "stack": 1,
+          "materials": [
+            {
+             "index": 426,
+			 "exactquality": 0,			 
+              "stack": 1,
+			  },
+          ]
+        },
+		{
+          "index": 426,
+		  "quality": 4,
+          "time": 10080,
+          "stack": 1,
+          "materials": [
+            {
+             "index": 426,
+              "stack": 1,
+			  "exactquality": 2,
+			  },
+          ]
+        },
+		],
+		},
+		]
+		}

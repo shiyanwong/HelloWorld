@@ -1,0 +1,37 @@
+{
+	"Format": "1.10.0",
+	"Changes": [
+	{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/MarriageDialogueHarvey",
+		"Entries": {
+			"Good_5": "I love you, @.$l",
+			"Neutral_2": "Taking a break? That's good. I don't want you overexerting yourself.",
+			"Neutral_7": "I feel a bit run-down today. Maybe I'll just take it easy.",
+			"spring_3": "Ah, spring. Birds singing, flowers blooming, and young men's fancy turning...$h#$e#Maybe I should wait until tonight to finish that thought.$l",
+			"spring_13": "I wonder who will win the egg hunt today? Abigail seems hard to beat.",
+			"spring_19": "You still need regular check-ups, even though you're married to a doctor.#$e#You'll be healthier and I'll get to enjoy your visits to the clinic.$h",
+			"spring_24": "I'm running over the Flower Dance steps in my mind. I don't want to forget them once the music starts.",
+			"summer_8": "Fewer people get sick during the summer, but accident rates increase. Be careful out there, dear.",
+			"summer_11": "I always overeat at the luau. I can't help myself. Gus's food is so good!$h",
+			"summer_19": "In medical school, we used to talk about what our ideal practice would look like.#$e#Most of the other students wanted money, famous clients, prestigious awards...#$e#I don't know if they ever got what they wanted, but I did!$h#$e#",
+			"summer_28": "Can we watch the jellies together tonight, @?#$e#They'll be even lovelier reflected in your eyes.$l",
+			"fall_9": "It would be nice to take a vacation together. Somewhere interesting. Exotic.#$e#Low to the ground.$s#$e#I'm still working on my fear of heights.$h",
+			"fall_16": "It's Fair day!$h#$e#I enjoy seeing all of our friends' hard work on display.",
+			"fall_27": "Spirit's Eve...$s#$e#Stay close to me tonight, will you, dear?$l",
+			"winter_8": "Be sure to bundle up warmly for the festival today. What do you think of having some mulled wine when we get home afterwards?",
+			"winter_9": "I'm tired today.$s#$e#We shouldn't have stayed up so late last night...$l",
+			"winter_14": "Any special plans for today?#$e#It's cold out there, I know...$s#$e#Perhaps we can find something to do indoors.$l",
+			"winter_22": "There are some people in town whose health really worries me.$s#$e#But I can't talk about their problems with anyone, not even you. That wouldn't be right.$s#$e#It's hard sometimes...$s",
+			"winter_25": "Did you find a gift for your secret friend? I spent hours trying to decide on one for mine.",
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/HarveyRoom",
+			"Entries": {
+			"111111111/f Harvey 2990/t 0900 1500": "sappypiano/7 7/farmer 6 12 0 Harvey 6 6 2/skippable/playSound doorClose/move farmer 0 -1 0/speak Harvey \"Hello, dear. Need anything?\"/pause 200/emote farmer 8/pause 200/speak Harvey \"Oh, I was just wondering what we should do with this apartment. Do you know anyone in town who might want to live here?\"/pause 200/faceDirection Harvey 1/speak Harvey \"It's a comfortable little place. I wish I had better memories of it.$s\"/faceDirection Harvey 2/pause 200/move farmer 0 -3 0/emote farmer 28/pause 200/speak Harvey \"I wouldn't call them bad memories. It's just...\"/move Harvey 2 0 2/move Harvey 0 2 3/faceDirection farmer 1/speak Harvey \"So often, I would come back here after a long day at the clinic.\"/pause 200/faceDirection Harvey 1/speak Harvey \"I'd make a quick but unhealthy microwave dinner. Alone.$s\"/pause 200/faceDirection Harvey 3/speak Harvey \"I'd sit and eat and try to forget my stressful day. Alone.$s\"/pause 200/faceDirection Harvey 0/speak Harvey \"I'd spend a few hours reading, or monitoring the radio, wishing I had someone to talk to.$s\"/pause 200/faceDirection Harvey 3/speak Harvey \"Then I'd usually go to bed early. Alone, of course.$s\"/pause 200/emote Harvey 40/faceDirection Harvey 3/speak Harvey \"I'm so glad you rescued me, @.$l\"/move farmer 1 0 1/emote farmer 20/pause 100/showFrame Harvey 31/positionOffset Harvey 0 20/positionOffset farmer 15 0/showFrame 101/pause 2000/globalFade/viewport -1000 -1000/end"
+			}
+		},
+	]	
+}

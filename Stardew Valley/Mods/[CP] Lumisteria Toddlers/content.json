@@ -1,0 +1,535 @@
+{
+    "Format": "1.9",
+    "DynamicTokens": [
+
+    ],
+
+    "ConfigSchema":
+    {
+        "Auto":
+        {
+            "AllowValues": "True, False",
+            "Default": "True"
+        },
+        "AutoSkin":
+        {
+            "AllowValues": "True, False",
+            "Default": "True"
+        },
+        "LightColorSkin":
+        {
+            "AllowValues": "@default, 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, farmer, abigail, alex, elliott, emily, haley, harvey, john, leah, lyell, maru, penny, raphtalia, sam, sandy, sebastian, shane, sorren, victor, wizard, custom01, custom02, custom03, custom04",
+            "Default": "03"
+        },
+        "DarkColorSkin":
+        {
+            "AllowValues": "@default, 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, farmer, abigail, alex, elliott, emily, haley, harvey, john, leah, lyell, maru, penny, raphtalia, sam, sandy, sebastian, shane, sorren, victor, wizard, custom01, custom02, custom03, custom04",
+            "Default": "05"
+        },
+        "ClothesGirl":
+        {
+            "AllowValues": "@default, classic, farmer, abigail, alex, elliott, emily, haley, harvey, john, leah, lyell, maru, penny, raphtalia, sam, sandy, sebastian, shane, sorren, victor, wizard, custom01, custom02, custom03, custom04",
+            "Default": "farmer"
+        },
+        "ClothesBoy":
+        {
+            "AllowValues": "@default, classic,  farmer, abigail, alex, elliott, emily, haley, harvey, john, leah, lyell, maru, penny, raphtalia, sam, sandy, sebastian, shane, sorren, victor, wizard, custom01, custom02, custom03, custom04",
+            "Default": "farmer"
+        },
+        "ClothesColorGirl":
+        {
+            "AllowValues": "@default, A, B",
+            "Default": "A"
+        },
+        "ClothesColorBoy":
+        {
+            "AllowValues": "@default, A, B",
+            "Default": "A"
+        },
+        "ClothesStyleGirl":
+        {
+            "AllowValues": "@default, 01, 02, 03, 04, 05, 06, 07, 08, 09",
+            "Default": "04"
+        },
+        "ClothesStyleBoy":
+        {
+            "AllowValues": "@default, 01, 02, 03, 04, 05, 06, 07, 08, 09",
+            "Default": "03"
+        },
+        "HairsGirl":
+        {
+            "AllowValues": "@default, classic,  farmer, abigail, alex, elliott, emily, haley, harvey, john, leah, lyell, maru, penny, raphtalia, sam, sandy, sebastian, shane, sorren, victor, wizard, custom01, custom02, custom03, custom04",
+            "Default": "farmer"
+        },
+        "HairsBoy":
+        {
+            "AllowValues": "@default, classic,  farmer, abigail, alex, elliott, emily, haley, harvey, john, leah, lyell, maru, penny, raphtalia, sam, sandy, sebastian, shane, sorren, victor, wizard, custom01, custom02, custom03, custom04",
+            "Default": "farmer"
+        },
+        "HairStyleGirl":
+        {
+            "AllowValues": "@default, 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, classicGirl, farmerBoy, abigailGirl, alexBoy, elliottBoy, emilyGirl, haleyGirl, harveyBoy, leahGirl, maruGirl, pennyGirl, samBoy, shaneBoy, sebastianBoy",
+            "Default": "03"
+        },
+        "HairStyleBoy":
+        {
+            "AllowValues": "@default, 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, classicGirl, farmerBoy, abigailGirl, alexBoy, elliottBoy, emilyGirl, haleyGirl, harveyBoy, leahGirl, maruGirl, pennyGirl, samBoy, shaneBoy, sebastianBoy",
+            "Default": "05"
+        },
+        "Eyes":
+        {
+            "AllowValues": "@default, plain, vibrant",
+            "Default": "plain"
+        },
+        "EyesShade":
+        {
+            "AllowValues": "@default, light, dark",
+            "Default": "light"
+        },
+        "ColorEyesGirl":
+        {
+            "AllowValues": "@default, classic,  farmer, abigail, alex, elliott, emily, haley, harvey, john, leah, lyell, maru, penny, raphtalia, sam, sandy, sebastian, shane, sorren, victor, wizard, custom01, custom02, custom03, custom04",
+            "Default": "abigail"
+        },
+        "ColorEyesBoy":
+        {
+            "AllowValues": "@default, classic,  farmer, abigail, alex, elliott, emily, haley, harvey, john, leah, lyell, maru, penny, raphtalia, sam, sandy, sebastian, shane, sorren, victor, wizard, custom01, custom02, custom03, custom04",
+            "Default": "abigail"
+        },
+        "Glasses":
+        {
+            "AllowValues": "glasses, sunglasses",
+            "Default": "glasses"
+        },
+        "GlassesOnGirl":
+        {
+            "AllowValues": "True, Summer, False",
+            "Default": "False"
+        },
+        "GlassesOnBoy":
+        {
+            "AllowValues": "True, Summer, False",
+            "Default": "False"
+        },
+        "CostumeBoy":
+        {
+            "AllowValues": "fairy, flower, fortuneteller, ghost, mouse, mummy, owl, queensauce, snowman, witch",
+            "Default": "mouse"
+        },
+        "CostumeGirl":
+        {
+            "AllowValues": "fairy, flower, fortuneteller, ghost, mouse, mummy, owl, queensauce, snowman, witch",
+            "Default": "mummy"
+        },
+        "CostumeSpiritsEveOnly":
+        {
+            "AllowValues": "True, False",
+            "Default": "True"
+        }
+    },
+
+    "Changes": [
+
+        //Body (Light, Dark)
+
+        {
+        	"LogName": "Toddler Boy & Girl - Body Light",
+            "Action": "EditImage",
+            "Target": "Characters/Toddler, Characters/Toddler_girl",
+            "FromFile": "assets/body/{{LightColorSkin}}.png",
+        },
+        {
+        	"LogName": "Toddler Boy & Girl - Body Light",
+            "Action": "EditImage",
+            "Target": "Characters/Toddler, Characters/Toddler_girl",
+            "FromFile": "assets/body/{{spouse}}.png",
+            "Patchmode": "Overlay",
+            "When":
+            {
+                "Auto": "True",
+                "AutoSkin": "True",
+                "Spouse": "abigail, alex, elliot, emily, haley, harvey, leah, penny, raphtalia, sam, sandy, sebastian, shane, sorren, victor, wizard",
+            }
+        },
+        {
+        	"LogName": "Toddler Boy & Girl - Body Dark",
+            "Action": "EditImage",
+            "Target": "Characters/Toddler_dark, Characters/Toddler_girl_dark",
+            "FromFile": "assets/body/{{DarkColorSkin}}.png",
+        },
+        {
+        	"LogName": "Toddler Boy & Girl - Body Dark",
+            "Action": "EditImage",
+            "Target": "Characters/Toddler_dark, Characters/Toddler_girl_dark",
+            "FromFile": "assets/body/{{spouse}}.png",
+            "When":
+            {
+                "Auto": "True",
+                "AutoSkin": "True",
+                "Spouse": "john, lyell, maru",
+            }
+        },
+
+
+        //Auto Clothes
+
+        {
+        	"LogName": "Toddler Girl - Auto Clothes No Spouse",
+            "Action": "EditImage",
+            "Target": "Characters/Toddler_girl, Characters/Toddler_girl_dark",
+            "FromFile": "assets/clothes/farmer/{{ClothesColorGirl}}{{ClothesStyleGirl}}.png",
+            "Patchmode": "Overlay",
+            "When":
+            {
+                "Auto": "True",
+            }
+        },
+        {
+        	"LogName": "Toddler Boy - Auto Clothes No Spouse",
+            "Action": "EditImage",
+            "Target": "Characters/Toddler, Characters/Toddler_dark",
+            "FromFile": "assets/clothes/farmer/{{ClothesColorBoy}}{{ClothesStyleBoy}}.png",
+            "Patchmode": "Overlay",
+            "When":
+            {
+                "Auto": "True",
+            }
+        },
+        {
+        	"LogName": "Toddler Girl - Auto Clothes",
+            "Action": "EditImage",
+            "Target": "Characters/Toddler_girl,Characters/Toddler_girl_dark",
+            "FromFile": "assets/clothes/{{spouse}}/{{ClothesColorGirl}}{{ClothesStyleGirl}}.png",
+            "Patchmode": "Overlay",
+            "When":
+            {
+                "Auto": "True",
+            }
+        },
+        {
+        	"LogName": "Toddler Boy - Auto Clothes",
+            "Action": "EditImage",
+            "Target": "Characters/Toddler,Characters/Toddler_dark",
+            "FromFile": "assets/clothes/{{spouse}}/{{ClothesColorBoy}}{{ClothesStyleBoy}}.png",
+            "Patchmode": "Overlay",
+            "When":
+            {
+                "Auto": "True",
+            }
+        },
+
+        //Auto Eyes
+
+        {
+        	"LogName": "Toddler Boy & Girl - Auto Eyes",
+            "Action": "EditImage",
+            "Target": "Characters/Toddler,Characters/Toddler_girl,Characters/Toddler_dark,Characters/Toddler_girl_dark",
+            "FromFile": "assets/eyes/{{Eyes}}{{EyesShade}}/{{spouse}}.png",
+            "Patchmode": "Overlay",
+            "When":
+            {
+                "Auto": "True",
+            }
+        },
+
+        //Auto Hair
+
+        {
+        	"LogName": "Toddler Girl - Auto Hair No Spouse",
+            "Action": "EditImage",
+            "Target": "Characters/Toddler_girl, Characters/Toddler_girl_dark",
+            "FromFile": "assets/hairs/farmer/{{HairStyleGirl}}.png",
+            "Patchmode": "Overlay",
+            "When":
+            {
+                "Auto": "True",
+                "HasFile:assets/hairs/{{spouse}}/{{spouse}}Girl.png": "false",
+            }
+        },
+        {
+        	"LogName": "Toddler Boy - Auto Hair No Spouse",
+            "Action": "EditImage",
+            "Target": "Characters/Toddler, Characters/Toddler_dark",
+            "FromFile": "assets/hairs/farmer/{{HairStyleBoy}}.png",
+            "Patchmode": "Overlay",
+            "When":
+            {
+                "Auto": "True",
+                "HasFile:assets/hairs/{{spouse}}/{{spouse}}Boy.png": "false",
+            }
+        },
+        {
+        	"LogName": "Toddler Girl - Auto Hair",
+            "Action": "EditImage",
+            "Target": "Characters/Toddler_girl, Characters/Toddler_girl_dark",
+            "FromFile": "assets/hairs/{{spouse}}/{{HairStyleGirl}}.png",
+            "Patchmode": "Overlay",
+            "When":
+            {
+                "Auto": "True",
+                "HasFile:assets/hairs/{{spouse}}/{{spouse}}Girl.png": "false",
+            }
+        },
+        {
+        	"LogName": "Toddler Girl - Auto Hair",
+            "Action": "EditImage",
+            "Target": "Characters/Toddler_girl, Characters/Toddler_girl_dark",
+            "FromFile": "assets/hairs/{{spouse}}/{{spouse}}Girl.png",
+            "Patchmode": "Overlay",
+            "When":
+            {
+                "Auto": "True",
+                "HasFile:assets/hairs/{{spouse}}/{{spouse}}Girl.png": "true",
+            }
+        },
+        {
+        	"LogName": "Toddler Boy - Auto Hair",
+            "Action": "EditImage",
+            "Target": "Characters/Toddler, Characters/Toddler_dark",
+            "FromFile": "assets/hairs/{{spouse}}/{{HairStyleBoy}}.png",
+            "Patchmode": "Overlay",
+            "When":
+            {
+                "Auto": "True",
+                "HasFile:assets/hairs/{{spouse}}/{{spouse}}Boy.png": "false",
+            }
+        },
+        {
+        	"LogName": "Toddler Boy - Auto Hair",
+            "Action": "EditImage",
+            "Target": "Characters/Toddler, Characters/Toddler_dark",
+            "FromFile": "assets/hairs/{{spouse}}/{{spouse}}Boy.png",
+            "Patchmode": "Overlay",
+            "When":
+            {
+                "Auto": "True",
+                "HasFile:assets/hairs/{{spouse}}/{{spouse}}Boy.png": "true",
+
+            }
+        },
+
+        //Clothes 
+
+        {
+        	"LogName": "Toddler Girl - Clothes",
+            "Action": "EditImage",
+            "Target": "Characters/Toddler_girl, Characters/Toddler_girl_dark",
+            "FromFile": "assets/clothes/{{ClothesGirl}}/{{ClothesColorGirl}}{{ClothesStyleGirl}}.png",
+            "Patchmode": "Overlay",
+            "When":
+            {
+                "Auto": "False",
+            }
+        },
+        {
+        	"LogName": "Toddler Boy - Clothes",
+            "Action": "EditImage",
+            "Target": "Characters/Toddler, Characters/Toddler_dark",
+            "FromFile": "assets/clothes/{{ClothesBoy}}/{{ClothesColorBoy}}{{ClothesStyleBoy}}.png",
+            "Patchmode": "Overlay",
+            "When":
+            {
+                "Auto": "False",
+            }
+        },
+
+        //Eyes
+
+        {
+        	"LogName": "Toddler Girl - Eyes",
+            "Action": "EditImage",
+            "Target": "Characters/Toddler_girl, Characters/Toddler_girl_dark",
+            "FromFile": "assets/eyes/{{Eyes}}{{EyesShade}}/{{ColorEyesGirl}}.png",
+            "Patchmode": "Overlay",
+            "When":
+            {
+                "Auto": "False",
+            }
+        },
+        {
+        	"LogName": "Toddler Boy - Eyes",
+            "Action": "EditImage",
+            "Target": "Characters/Toddler, Characters/Toddler_dark",
+            "FromFile": "assets/eyes/{{Eyes}}{{EyesShade}}/{{ColorEyesBoy}}.png",
+            "Patchmode": "Overlay",
+            "When":
+            {
+                "Auto": "False",
+            }
+        },
+
+        //Hair
+
+        {
+        	"LogName": "Toddler Girl - Hair",
+            "Action": "EditImage",
+            "Target": "Characters/Toddler_girl, Characters/Toddler_girl_dark",
+            "FromFile": "assets/hairs/{{HairsGirl}}/{{HairStyleGirl}}.png",
+            "Patchmode": "Overlay",
+            "When":
+            {
+                "Auto": "False",
+            }
+        },
+        {
+        	"LogName": "Toddler Boy - Hair",
+            "Action": "EditImage",
+            "Target": "Characters/Toddler, Characters/Toddler_dark",
+            "FromFile": "assets/hairs/{{HairsBoy}}/{{HairStyleBoy}}.png",
+            "Patchmode": "Overlay",
+            "When":
+            {
+                "Auto": "False",                
+            }
+        },
+
+        //Accessories
+
+        {
+        	"LogName": "Toddler Girl - Glasses",
+            "Action": "EditImage",
+            "Target": "Characters/Toddler_girl, Characters/Toddler_girl_dark",
+            "FromFile": "assets/accessories/{{Glasses}}.png",
+            "Patchmode": "Overlay",
+            "When":
+            {
+                "GlassesOnGirl": "True",
+            }
+        },
+        {
+        	"LogName": "Toddler Boy - Glasses",
+            "Action": "EditImage",
+            "Target": "Characters/Toddler, Characters/Toddler_dark",
+            "FromFile": "assets/accessories/{{Glasses}}.png",
+            "Patchmode": "Overlay",
+            "When":
+            {
+                "GlassesOnBoy": "True",
+            }
+        },
+        {
+        	"LogName": "Toddler Girl - Sunglasses",
+            "Action": "EditImage",
+            "Target": "Characters/Toddler_girl, Characters/Toddler_girl_dark",
+            "FromFile": "assets/accessories/{{Glasses}}.png",
+            "Patchmode": "Overlay",
+            "When":
+            {
+                "GlassesOnGirl": "summer",
+                "Season": "summer",
+            }
+        },
+        {
+        	"LogName": "Toddler Boy - Sunglasses",
+            "Action": "EditImage",
+            "Target": "Characters/Toddler, Characters/Toddler_dark",
+            "FromFile": "assets/accessories/{{Glasses}}.png",
+            "Patchmode": "Overlay",
+            "When":
+            {
+                "GlassesOnBoy": "summer",
+                "Season": "summer",
+            }
+        },
+
+        // Spirit's Eve
+
+		
+		
+        {
+        	"LogName": "Toddler Boy & Girl - SpiritEve Body Light",
+            "Action": "EditImage",
+            "Target": "Characters/Toddler, Characters/Toddler_girl",
+            "FromFile": "assets/body/{{LightColorSkin}}.png",
+            "When":
+            {
+                "CostumeSpiritsEveOnly": "true",
+                "DayEvent": "Spirit's Eve"
+            }
+        },
+        {
+        	"LogName": "Toddler Boy & Girl - SpiritEve Body Dark",
+            "Action": "EditImage",
+            "Target": "Characters/Toddler_dark, Characters/Toddler_girl_dark",
+            "FromFile": "assets/body/{{DarkColorSkin}}.png",
+            "When":
+            {
+                "CostumeSpiritsEveOnly": "true",
+                "DayEvent": "Spirit's Eve"
+            }
+        },
+        {
+        	"LogName": "Toddler Boy & Girl - SpiritEve Body Light",
+            "Action": "EditImage",
+            "Target": "Characters/Toddler, Characters/Toddler_girl",
+            "FromFile": "assets/body/{{LightColorSkin}}.png",
+            "When":
+            {
+                "CostumeSpiritsEveOnly": "false",
+                "Season": "fall"
+            }
+        },
+        {
+        	"LogName": "Toddler Boy & Girl - SpiritEve Body Dark",
+            "Action": "EditImage",
+            "Target": "Characters/Toddler_dark, Characters/Toddler_girl_dark",
+            "FromFile": "assets/body/{{DarkColorSkin}}.png",
+            "When":
+            {
+                "CostumeSpiritsEveOnly": "false",
+                "Season": "fall"
+            }
+        },
+
+
+        {
+        	"LogName": "Toddler Boy - Spirit's Eve",
+            "Action": "EditImage",
+            "Target": "Characters/Toddler, Characters/Toddler_dark",
+            "FromFile": "assets/costumes/{{CostumeBoy}}.png",
+            "Patchmode": "Overlay",
+            "When":
+            {
+                "CostumeSpiritsEveOnly": "true",
+                "DayEvent": "Spirit's Eve"
+            }
+        },
+        {
+        	"LogName": "Toddler Girl - Spirit's Eve",
+            "Action": "EditImage",
+            "Target": "Characters/Toddler_girl, Characters/Toddler_girl_dark",
+            "FromFile": "assets/costumes/{{CostumeGirl}}.png",
+            "Patchmode": "Overlay",
+            "When":
+            {
+                "CostumeSpiritsEveOnly": "true",
+                "DayEvent": "Spirit's Eve"
+            }
+        },
+
+        {
+        	"LogName": "Toddler Boy - Costume Fall",
+            "Action": "EditImage",
+            "Target": "Characters/Toddler, Characters/Toddler_dark",
+            "FromFile": "assets/costumes/{{CostumeBoy}}.png",
+            "Patchmode": "Overlay",
+            "When":
+            {
+                "CostumeSpiritsEveOnly": "false",
+                "Season": "fall"
+            }
+        },
+        {
+        	"LogName": "Toddler Girl - Costume Fall",
+            "Action": "EditImage",
+            "Target": "Characters/Toddler_girl, Characters/Toddler_girl_dark",
+            "FromFile": "assets/costumes/{{CostumeGirl}}.png",
+            "Patchmode": "Overlay",
+            "When":
+            {
+                "CostumeSpiritsEveOnly": "false",
+                "Season": "fall"
+            }
+        },
+    ]
+}

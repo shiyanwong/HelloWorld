@@ -1,0 +1,37 @@
+{
+	"Format": "1.0",
+	"Categories": [
+		{
+			"Action": "Create",
+			"Category": "Bull",
+			"Types": [
+				{
+					"Type": "Bull",
+					"DeluxeProduceLuck": 0.0,
+					"Data": "1/5/Manure/-1/cow/24/64/84/64/24/64/84/64/0/false/Barn/32/32/32/32/15/5/null/644/1500/Bull/Barn",
+					"Sprites": {
+						"Adult": "assets/Bull.png",
+						"Baby": "assets/babybull.png"
+					}
+				}
+			],
+			"Buildings": [
+				"Big Barn",
+				"Deluxe Barn",
+			],
+			"AnimalShop": {
+				"Name": "Bull",
+				"Description": "You can use the adults manure to produce fertilizer",
+				"Price": 1500,
+				"Icon": "assets\\animal_shop_bull.png",
+				"Exclude": [
+					"Void Chicken"
+				]
+			},
+			"ForceRemoveFromShop": false,
+			"ForceOverrideTypes": true,
+			"ForceOverrideBuildings": true,
+			"ForceOverrideExclude": true
+		}
+	]
+}

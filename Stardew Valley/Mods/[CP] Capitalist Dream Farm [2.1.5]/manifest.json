@@ -1,0 +1,12 @@
+{
+    "Name": "Capitalist Dream Farm",
+    "Author": "DaisyNiko",
+    "Version": "2.1.5",
+    "Description": "a very large, very organised farm with dedicated crop and building areas",
+    "UniqueID": "DaisyNiko.CapitalistDreamFarm",
+    "MinimumApiVersion": "2.11.0",
+    "UpdateKeys": ["Nexus:3679"],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}

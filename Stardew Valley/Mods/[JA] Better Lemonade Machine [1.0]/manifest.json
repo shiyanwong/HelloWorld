@@ -1,0 +1,20 @@
+{
+   "Name": "Lemonade Machine Goods",
+   "Author": "Krissy and Wren",
+   "Description": "A lemonade machine for use with custom fruit trees.",
+   "Version": "1.0.0",
+   "MinimumApiVersion": "2.10.1",
+   "UniqueID": "ja.lemonademachinegoods",
+   "ContentPackFor": {
+       "UniqueID": "spacechase0.JsonAssets"
+    },
+	"Dependencies": [
+   {
+      "UniqueID": "ppja.moretrees",
+      "IsRequired": false,
+   },
+    {
+      "UniqueID": "Platonymous.CustomFarming",
+      "IsRequired": true,
+   },]
+}

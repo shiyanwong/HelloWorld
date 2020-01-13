@@ -1,0 +1,284 @@
+{
+   "Format": "1.10.0",
+   "ConfigSchema": {
+
+    "ChangeKitchen": {
+      "AllowValues": "on, off",
+      "Default": "on"},
+    "KitchenColour": {
+      "AllowValues": "beige, chocolate",        
+      "Default": "chocolate"},
+
+    "ChangeFireplace": {
+      "AllowValues": "on, off",
+      "Default": "on"},
+    "FireplaceColour": {
+      "AllowValues": "white",        
+      "Default": "white"},
+    "FireplaceBird": {
+      "AllowValues": "on, off",
+      "Default": "off"},
+    "BirdName": {
+      "AllowValues": "babychick, blackbird, budgieblue, budgiegreen, dove, nightingale, parrot, pigeon, sparrow",        
+      "Default": "sparrow"},
+    "FireplaceCat": {
+      "AllowValues": "on, off",
+      "Default": "off"},
+    "CatColour": {
+      "AllowValues": "black, blue, brown, grey, liver, orange, siamese, silver, tabby, white, yellow",        
+      "Default": "tabby"},
+    "FireplaceDecor": {
+      "AllowValues": "on, off",
+      "Default": "off"},
+    "DecorName": {
+      "AllowValues": "books, juniplant, toys",        
+      "Default": "books"},
+
+    "ChangeColumn": {
+      "AllowValues": "on, off",
+      "Default": "on"},
+    "ColumnStyle": {
+      "AllowValues": "bathroom, books, clothes, food, gothic, misc, office, toys",        
+      "Default": "books"},
+    "1stHouseUpgradeColumnStyle": {
+      "AllowValues": "bathroom, books, clothes, food, gothic, misc, office, toys",        
+      "Default": "bathroom"},
+    "2ndHouseUpgradeColumnStyle": {
+      "AllowValues": "bathroom, books, clothes, food, gothic, misc, office, toys",        
+      "Default": "toys"},
+    "3rdHouseUpgradeColumnStyle": {
+      "AllowValues": "bathroom, books, clothes, food, gothic, misc, office, toys",        
+      "Default": "misc"},
+
+    "ChangeSingleBed": {
+      "AllowValues": "on, off",
+      "Default": "on"},
+    "SingleBedPillowColour": {
+      "AllowValues": "black, blue, brown, green, grey, orange, pink, purple, red, white, yellow",        
+      "Default": "white"},
+    "SingleBedSheetsTopColour": {
+      "AllowValues": "minakie, white",        
+      "Default": "minakie"},
+    "SingleBedSheetsBottomColour": {
+      "AllowValues": "minakie, white",        
+      "Default": "minakie"},
+
+    "ChangeDoubleBed": {
+      "AllowValues": "on, off",
+      "Default": "on"},
+    "DoubleBedPillowColour": {
+      "AllowValues": "black, blue, brown, green, grey, orange, pink, purple, red, white, yellow",        
+      "Default": "white"},
+    "DoubleBedSheetsColour": {
+      "AllowValues": "minakie, white",        
+      "Default": "minakie"},
+
+    "ChangeCrib": {
+      "AllowValues": "on, off",
+      "Default": "on"},
+    "CribColor": {
+      "AllowValues": "false, beech, birch, mahogany, oak, walnut, white",
+      "Default": "white"},
+    "CribSheetsColor": {
+      "AllowValues": "minakie, white",
+      "Default": "minakie"},
+    "CribToys": {
+      "AllowValues": "on, off",
+      "Default": "off"},
+    "ToysColor": {
+      "AllowValues": "black, blue, brown, green, grey, orange, pink, purple, red, white, yellow",
+      "Default": "yellow"},
+
+		    },
+   "Changes": [
+
+	// Kitchen
+
+    {"LogName": "Farmhouse Kitchen Main",
+      "Action": "EditImage",
+      "Target": "Maps/farmhouse_tiles",
+      "FromFile": "assets/kitchen/kitchenmain_{{KitchenColour}}.png",
+      "ToArea": { "X": 16, "Y": 192,"Width": 80, "Height": 48 },
+      "When": {"LocationName":"FarmHouse", "ChangeKitchen": "on"}},
+
+    {"LogName": "Farmhouse Kitchen Side",
+      "Action": "EditImage",
+      "Target": "Maps/farmhouse_tiles",
+      "FromFile": "assets/kitchen/kitchenside_{{KitchenColour}}.png",
+      "ToArea": { "X": 176, "Y": 192,"Width": 16, "Height": 128 },
+      "When": {"LocationName":"FarmHouse", "ChangeKitchen": "on"}},
+
+	// Fireplace
+
+    {"LogName": "Farmhouse Fireplace",
+      "Action": "EditImage",
+      "Target": "TileSheets/furniture",
+      "FromFile": "assets/fireplace/fireplace_{{FireplaceColour}}.png",
+      "ToArea": { "X": 32, "Y": 896,"Width": 32, "Height": 80 },
+      "When": {"LocationName":"FarmHouse", "ChangeFireplace": "on"}},
+
+    {"LogName": "Farmhouse Fireplace Bird",
+      "Action": "EditImage",
+      "Target": "TileSheets/furniture",
+      "FromFile": "assets/fireplace/bird_{{BirdName}}.png",
+      "ToArea": { "X": 32, "Y": 896,"Width": 32, "Height": 80 },
+      "PatchMode": "Overlay",
+      "When": {"LocationName":"FarmHouse", "FireplaceBird": "on",}},
+
+    {"LogName": "Farmhouse Fireplace Cat",
+      "Action": "EditImage",
+      "Target": "TileSheets/furniture",
+      "FromFile": "assets/fireplace/cat_{{CatColour}}.png",
+      "ToArea": { "X": 32, "Y": 896,"Width": 32, "Height": 80 },
+      "PatchMode": "Overlay",
+      "When": {"LocationName":"FarmHouse", "FireplaceCat": "on"}},
+
+    {"LogName": "Farmhouse Fireplace Decor",
+      "Action": "EditImage",
+      "Target": "TileSheets/furniture",
+      "FromFile": "assets/fireplace/decor_{{DecorName}}.png",
+      "ToArea": { "X": 32, "Y": 896,"Width": 32, "Height": 80 },
+      "PatchMode": "Overlay",
+      "When": {"LocationName":"FarmHouse", "FireplaceDecor": "on"}},
+
+	// Column
+
+    {"LogName": "Farmhouse Column HouseUpgrade 0",
+      "Action": "EditImage",
+      "Target": "Maps/farmhouse_tiles",
+      "FromFile": "assets/column/column_{{ColumnStyle}}.png",
+      "ToArea": { "X": 48, "Y": 128,"Width": 16, "Height": 64 },
+      "When": {"LocationName":"FarmHouse", "ChangeColumn": "on", "FarmhouseUpgrade": "0"}},
+    
+    {"LogName": "Farmhouse Column HouseUpgrade 1",
+      "Action": "EditImage",
+      "Target": "Maps/farmhouse_tiles",
+      "FromFile": "assets/column/column_{{1stHouseUpgradeColumnStyle}}.png",
+      "ToArea": { "X": 48, "Y": 128,"Width": 16, "Height": 64 },
+      "When": {"LocationName":"FarmHouse", "ChangeColumn": "on", "FarmhouseUpgrade": "1"}},
+
+    {"LogName": "Farmhouse Column HouseUpgrade 2",
+      "Action": "EditImage",
+      "Target": "Maps/farmhouse_tiles",
+      "FromFile": "assets/column/column_{{2ndHouseUpgradeColumnStyle}}.png",
+      "ToArea": { "X": 48, "Y": 128,"Width": 16, "Height": 64 },
+      "When": {"LocationName":"FarmHouse", "ChangeColumn": "on", "FarmhouseUpgrade": "2"}},
+
+    {"LogName": "Farmhouse Column HouseUpgrade 3",
+      "Action": "EditImage",
+      "Target": "Maps/farmhouse_tiles",
+      "FromFile": "assets/column/column_{{3rdHouseUpgradeColumnStyle}}.png",
+      "ToArea": { "X": 48, "Y": 128,"Width": 16, "Height": 64 },
+      "When": {"LocationName":"FarmHouse", "ChangeColumn": "on", "FarmhouseUpgrade": "3"}},
+
+	// Single Bed
+
+    {"LogName": "Farmhouse Single Bed Frame Top",
+      "Action": "EditImage",
+      "Target": "Maps/townInterior",
+      "FromFile": "assets/singlebed/singlebed_frame_top_minakie.png",
+      "ToArea": { "X": 64, "Y": 168,"Width": 32, "Height": 14 },
+      "PatchMode": "Overlay",
+      "When": {"LocationName":"FarmHouse", "ChangeSingleBed": "on"}},
+
+    {"LogName": "Farmhouse Single Bed Frame Middle",
+      "Action": "EditImage",
+      "Target": "Maps/townInterior",
+      "FromFile": "assets/singlebed/singlebed_frame_middle_minakie.png",
+      "ToArea": { "X": 96, "Y": 201,"Width": 32, "Height": 7 },
+      "PatchMode": "Overlay",
+      "When": {"LocationName":"FarmHouse", "ChangeSingleBed": "on"}},
+
+    {"LogName": "Farmhouse Single Bed Frame Bottom",
+      "Action": "EditImage",
+      "Target": "Maps/townInterior",
+      "FromFile": "assets/singlebed/singlebed_frame_bottom_minakie.png",
+      "ToArea": { "X": 0, "Y": 160,"Width": 32, "Height": 16 },
+      "PatchMode": "Overlay",
+      "When": {"LocationName":"FarmHouse", "ChangeSingleBed": "on"}},
+
+    {"LogName": "Farmhouse Single Bed Pillow",
+      "Action": "EditImage",
+      "Target": "Maps/townInterior",
+      "FromFile": "assets/singlebed/singlebed_pillow_{{SingleBedPillowColour}}.png",
+      "ToArea": { "X": 64, "Y": 178,"Width": 32, "Height": 14 },
+      "PatchMode": "Overlay",
+      "When": {"LocationName":"FarmHouse", "ChangeSingleBed": "on"}},
+
+    {"LogName": "Farmhouse Single Bed Sheets Top",
+      "Action": "EditImage",
+      "Target": "Maps/townInterior",
+      "FromFile": "assets/singlebed/singlebed_sheetstop_{{SingleBedSheetsTopColour}}.png",
+      "FromArea": { "X": 0, "Y": 0,"Width": 32, "Height": 26 },
+      "ToArea": { "X": 96, "Y": 182,"Width": 32, "Height": 26 },
+      "PatchMode": "Overlay",
+      "When": {"LocationName":"FarmHouse", "ChangeSingleBed": "on"}},
+
+    {"LogName": "Farmhouse Single Bed Sheets Bottom",
+      "Action": "EditImage",
+      "Target": "Maps/townInterior",
+      "FromFile": "assets/singlebed/singlebed_sheetsbottom_{{SingleBedSheetsBottomColour}}.png",
+      "FromArea": { "X": 0, "Y": 0,"Width": 14, "Height": 2 },
+      "ToArea": { "X": 9, "Y": 160,"Width": 14, "Height": 2 },
+      "PatchMode": "Overlay",
+      "When": {"LocationName":"FarmHouse", "ChangeSingleBed": "on"}},
+
+	// Double Bed
+
+    {"LogName": "Farmhouse Double Bed Frame",
+      "Action": "EditImage",
+      "Target": "Maps/farmhouse_tiles",
+      "FromFile": "assets/doublebed/doublebed_frame_minakie.png",
+      "ToArea": { "X": 128, "Y": 192,"Width": 48, "Height": 80 },
+      "PatchMode": "Overlay",
+      "When": {"LocationName":"FarmHouse", "ChangeDoubleBed": "on"}},
+
+    {"LogName": "Farmhouse Double Bed Pillows",
+      "Action": "EditImage",
+      "Target": "Maps/farmhouse_tiles",
+      "FromFile": "assets/doublebed/doublebed_pillows_{{DoubleBedPillowColour}}.png",
+      "ToArea": { "X": 128, "Y": 211,"Width": 48, "Height": 13 },
+      "PatchMode": "Overlay",
+      "When": {"LocationName":"FarmHouse", "ChangeDoubleBed": "on"}},
+
+    {"LogName": "Farmhouse Double Bed Sheets",
+      "Action": "EditImage",
+      "Target": "Maps/farmhouse_tiles",
+      "FromFile": "assets/doublebed/doublebed_sheets_{{DoubleBedSheetsColour}}.png",
+      "ToArea": { "X": 128, "Y": 229,"Width": 48, "Height": 29 },
+      "PatchMode": "Overlay",
+      "When": {"LocationName":"FarmHouse", "ChangeDoubleBed": "on"}},
+
+	// Crib
+
+    {"LogName": "Farmhouse Crib",
+      "Action": "EditImage",
+      "Target": "Maps/Farmhouse_tiles",
+      "FromFile": "assets/crib/crib_frame_{{CribColor}}.png",
+      "ToArea": {"X":80, "Y":240, "Width":48, "Height":64},
+      "When": {"LocationName":"FarmHouse", "ChangeCrib": "on"}},
+
+    {"LogName": "Farmhouse Crib Sheets",
+      "Action": "EditImage",
+      "Target": "Maps/Farmhouse_tiles",
+      "FromFile": "assets/crib/crib_sheets_{{CribSheetsColor}}.png",
+      "ToArea": {"X":84, "Y":261, "Width":41, "Height":21},
+      "When": {"LocationName":"FarmHouse", "ChangeCrib": "on"}},
+
+    {"LogName": "Farmhouse Crib Toys",
+      "Action": "EditImage",
+      "Target": "Maps/Farmhouse_tiles",
+      "FromFile": "assets/crib/crib_toys_{{ToysColor}}.png",
+      "ToArea": {"X":80, "Y":240, "Width":48, "Height":64},
+      "PatchMode": "Overlay",
+      "When": {"LocationName":"FarmHouse", "ChangeCrib": "on", "CribToys": "on"}},
+
+    {"LogName": "Farmhouse Crib Bars",
+      "Action": "EditImage",
+      "Target": "Maps/Farmhouse_tiles",
+      "FromFile": "assets/crib/crib_gate_{{CribColor}}.png",
+      "ToArea": {"X":128, "Y":299, "Width":48, "Height":15},
+      "When": {"LocationName":"FarmHouse", "ChangeCrib": "on"}},
+
+		]
+}

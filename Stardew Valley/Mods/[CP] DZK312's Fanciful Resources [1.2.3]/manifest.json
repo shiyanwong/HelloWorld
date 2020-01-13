@@ -1,0 +1,13 @@
+{
+   "Name": "DZK312's Fanciful Resources",
+   "Author": "DZK312",
+   "Version": "1.2.3",
+   "Description": "Changes basic resources into more fanciful or realistic versions",
+   "UniqueID": "DZK312.FancifulResources",
+   "MinimumApiVersion": "2.6",
+   "UpdateKeys": ["Nexus:4168"],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher",
+      "MinimumVersion": "1.7.0"
+   }
+}

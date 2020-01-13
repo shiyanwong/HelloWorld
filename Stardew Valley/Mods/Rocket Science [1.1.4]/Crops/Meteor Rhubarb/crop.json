@@ -1,0 +1,24 @@
+{
+    "Name": "Meteor Rhubarb",
+    "Product": "Meteor Rhubarb",
+    "Price": "200",
+    "SeedName": "Space Rhubarb Fossil",
+    "SeedDescription": "Plant these in Spring. Takes 18 days to mature",
+    "Type": "Vegetable",
+
+    "Seasons": [ "spring",],
+    "Phases": [4,4,4,4,2],
+    "RegrowthPhase": -1 ,
+    "HarvestWithScythe": false,
+    "TrellisCrop": false,
+    "Colors": null,
+    "Bonus":
+    {
+        "MinimumPerHarvest": 1,
+        "MaximumPerHarvest": 1,
+    },
+    "SeedPurchasePrice": 200,
+    "SeedPurchaseRequirements": [
+        "y 99"
+    ],
+}

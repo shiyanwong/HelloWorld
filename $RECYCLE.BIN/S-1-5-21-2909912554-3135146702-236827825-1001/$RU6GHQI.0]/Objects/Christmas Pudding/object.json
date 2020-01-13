@@ -1,0 +1,19 @@
+{
+  "Name": "Christmas Pudding",
+  "Description": "Ancient Recipe. For Ancient Santa.",
+  "Category": "Cooking",
+  "Edibility": 150,
+  "EdibleIsDrink": false,
+  "Price": 1000,
+  "IsColored": false,
+  "Recipe": {
+    "ResultCount": 1,
+    "Ingredients":
+	[
+      { "Object": 454, "Count": 5, },
+      { "Object": 283, "Count": 1, }
+    ],
+    "IsDefault": true,
+    
+},  
+}

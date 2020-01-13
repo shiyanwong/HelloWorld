@@ -1,0 +1,27 @@
+﻿{
+  "useid": "livipup.solarpanel",
+  "machines": [
+    {
+      "id": 0,
+      "name": "Solar Panel",
+      "description": "Converts sunlight into battery packs.",
+      "category": "Crafting",
+      "texture": "SolarPanel.png",
+      "tileindex": 0,
+      "readyindex": 0,
+      "pulsate": false,
+      "crafting": "334 1 335 1 338 3 553 1 556 1",
+      "forsale": true,
+      "shop": "Krobus",
+      "price": "25000",
+      "workconditions": "LC caller.location.IsOutdoors and (not Game1.isRaining) and (Game1.timeOfDay < 1900)",
+      "production": [
+        {
+          "item": "Battery Pack",
+          "time": 8400,
+          "stack": 1
+        }
+      ]
+    }
+  ]
+}

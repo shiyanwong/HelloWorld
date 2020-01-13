@@ -1,0 +1,9 @@
+{
+  "Name": "Black Cat Cake",
+  "Description": "Surprisingly, it tastes like strawberries!",
+  "Category": "Cooking",
+  "Edibility": 100,
+  "Price": 200,
+  "IsColored": false,
+  "Recipe": null,
+}

@@ -1,0 +1,10 @@
+{
+   "Name": "Jewelcraft",
+   "Author": "Undare",
+   "Description": "Items for Jewelcraft",
+   "Version": "1.3.0",
+   "UniqueID": "Undare.jewelcraftItems",
+   "ContentPackFor": {
+       "UniqueID": "spacechase0.JsonAssets"
+    },
+}

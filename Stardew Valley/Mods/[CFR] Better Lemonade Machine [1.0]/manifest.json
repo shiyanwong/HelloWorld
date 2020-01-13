@@ -1,0 +1,17 @@
+{
+   "Name": "Lemonade Stand Machine for More Fruit Trees (CFR)",
+   "Author": "Krissy, Wren",
+   "Description": "Create lemonade from fruit tree fruits, compatible with JA More Fruit Trees",
+   "Version": "1.0.0",
+   "UniqueID": "Krissy.LemonadeStand",
+   "UpdateKeys": [ "Nexus:4128" ],
+   "ContentPackFor": {
+       "UniqueID": "Platonymous.CustomFarming"
+    },
+"Dependencies": [
+   {
+      "UniqueID": "ja.lemonademachinegoods",
+      "IsRequired": true,
+   },
+]
+}

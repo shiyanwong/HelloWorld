@@ -1,0 +1,254 @@
+{
+  "name": "Better Lemonade Stand",
+  "author": "TNT, KM, Wren",
+  "version": "1.0.0",
+  "machines": [
+    {
+      "id": 0,
+      "name": "Lemonade Stand",
+      "description": "Turn fruit tree fruits into lemonade!",
+      "category": "Crafting",
+      "crafting": "388 20 390 30 86 1",
+      "texture": "better-IceLemonadestand.png",
+
+      "pulsate": true,
+
+      "production": [
+                {
+          "item": "Papaya Lemonade",
+          "description": "Papaya flavoured lemonade",
+          "time": 360,
+          "materials": [
+            {
+              "name": "Papaya",
+              "stack": 1
+            }
+          ]
+        },
+{
+          "item": "Apple Lemonade",
+          "description": "Apple flavoured lemonade",
+          "time": 360,
+          "materials": [
+            {
+              "name": "Apple",
+              "stack": 1
+            }
+          ]
+        },
+        {
+          "name": "Pomegranate Lemonade",
+          "description": "Pomegranate flavoured lemonade",
+          "time": 360,
+          "materials": [
+            {
+              "name": "Pomegranate",
+              "stack": 1
+            }
+          ]
+        },
+		{
+          "name": "Peach Lemonade",
+          "description": "Peach flavoured lemonade",       
+          "time": 360,
+          "materials": [
+            {
+              "name": "Peach",
+              "stack": 1
+            }
+          ]
+        },
+		{
+          "name": "Orange Lemonade",
+          "description": "Orange flavoured lemonade",
+          "time": 360,
+          "materials": [
+            {
+              "name": "Orange",
+              "stack": 1
+            }
+          ]
+        },
+		{
+          "name": "Cherry Lemonade",
+          "description": "Cherry flavoured lemonade",
+          "time": 360,
+          "materials": [
+            {
+              "name": "Cherry",
+              "stack": 1
+            }
+          ]
+        },
+		{
+          "name": "Apricot Lemonade",
+          "description": "Apricot flavoured lemonade",
+          "time": 360,
+          "materials": [
+            {
+              "name": "Apricot",
+              "stack": 1
+            }
+          ]
+        },
+			
+					{
+          "name": "Lime Lemonade",
+          "description": "Lime flavoured lemonade",
+          "time": 360,
+          "materials": [
+            {
+              "name": "Lime",
+              "stack": 1
+            }
+          ]
+        },
+		
+							{
+          "name": "Lemon Lemonade",
+          "description": "Lemon flavoured lemonade",
+          "time": 360,
+          "materials": [
+            {
+              "name": "Lemon",
+              "stack": 1
+            }
+          ]
+        },
+		
+									{
+          "name": "Asian Pear Lemonade",
+          "description": "Asian Pear flavoured lemonade",
+          "time": 360,
+          "materials": [
+            {
+              "name": "Asian Pear",
+              "stack": 1
+            }
+          ]
+        },
+		
+		
+
+		
+		
+											{
+          "name": "Banana Lemonade",
+          "description": "Banana flavoured lemonade",
+          "time": 360,
+          "materials": [
+            {
+              "name": "Banana",
+              "stack": 1
+            }
+          ]
+        },
+		
+		
+											{
+          "name": "Durian Lemonade",
+          "description": "Durian flavoured lemonade",
+          "time": 360,
+          "materials": [
+            {
+              "name": "Durian",
+              "stack": 1
+            }
+          ]
+        },
+		
+											{
+          "name": "Dragon Fruit Lemonade",
+          "description": "Dragon fruit flavoured lemonade",
+          "time": 360,
+          "materials": [
+            {
+              "name": "Dragon Fruit",
+              "stack": 1
+            }
+          ]
+        },
+		
+		
+											{
+          "name": "Fig Lemonade",
+          "description": "Fig flavoured lemonade",
+          "time": 360,
+          "materials": [
+            {
+              "name": "Fig",
+              "stack": 1
+            }
+          ]
+        },
+		
+		
+											{
+          "name": "Grapefruit Lemonade",
+          "description": "Grapefruit flavoured lemonade",
+          "time": 360,
+          "materials": [
+            {
+              "name": "Grapefruit",
+              "stack": 1
+            }
+          ]
+        },
+		
+		
+											{
+          "name": "Mango Lemonade",
+          "description": "Mango flavoured lemonade",
+          "time": 360,
+          "materials": [
+            {
+              "name": "Mango",
+              "stack": 1
+            }
+          ]
+        },
+		
+		
+											{
+          "name": "Pear Lemonade",
+          "description": "Pear flavoured lemonade",
+             "time": 360,
+          "materials": [
+            {
+              "name": "Pear",
+              "stack": 1
+            }
+          ]
+        },
+		
+		
+											{
+          "name": "Persimmon Lemonade",
+          "description": "Persimmon flavoured lemonade",
+          "time": 360,
+          "materials": [
+            {
+              "name": "Persimmon",
+              "stack": 1
+            }
+          ]
+        },
+		
+		
+													{
+          "name": "Pomelo Lemonade",
+          "description": "Pomelo flavoured lemonade",
+          "time": 360,
+          "materials": [
+            {
+              "name": "Pomelo",
+              "stack": 1
+            }
+          ]
+        }
+		
+		
+      ]
+    }
+  ]
+}

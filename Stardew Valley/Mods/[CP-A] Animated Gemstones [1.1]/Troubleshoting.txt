@@ -1,0 +1,14 @@
+The most common error is not installing the correct version of  "Content Patcher Animations"
+
+The correct version "1.4" is on the Developer Site linked in "Requirements" And not in the Nexus.
+
+
+
+
+Flickering animations may be caused by another mod editing the same tile space.
+
+For example : 
+The prismatic Test animation on CP-animations
+And this mod Prismatic Shard
+
+you fix it by removing/disabling one

@@ -1,0 +1,11 @@
+﻿{
+  "Name": "[CFR]Premium Maple Syrup",
+  "Author": "Discord42",
+  "Version": "1.0.0",
+  "Description": "New machine to create Premium Maple Syrup.",
+  "UniqueID": "discord.CustomFarming.premiummaplesyrup",
+  "ContentPackFor": {
+    "UniqueID": "Platonymous.CustomFarming",
+    "MinimumVersion": "2.10.16"
+  }
+}

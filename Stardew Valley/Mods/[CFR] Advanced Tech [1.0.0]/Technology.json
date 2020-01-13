@@ -1,0 +1,178 @@
+{
+   "name": "Advanced Tech",
+   "author": "Kove",
+   "version": "1.0.0",
+   "machines":
+   [
+	   {
+		   "id": 0,
+		   "name": "Micro Precise Instrument Workshop",
+		   "description": "Including variety functions,make it can product precise things.",
+		   "texture": "precise_workshop.png",
+		   "crafting": "787 10 335 30 334 5 336 5",
+		   "frames": 5,
+		   "readyindex": 6,
+		   "pulsate": false,
+		   "lightsource": true,
+           "worklight": true,
+           "lightcolor": [ 0, 0, 0, 255 ],
+           "lightradius": 2.0,
+		   "showitem": false,
+		   "itempos": [17,80],
+		   "itemzoom": 0.5,
+		   "production":
+			[
+				{
+					"item": "Integrated Circuit",
+					"time": 420,
+					"stack": 1,
+					"materials":
+					[
+						{
+							"item": "Silicon",
+							"stack": 1
+						}
+					]
+				},
+			]
+		},
+	    {
+		   "id": 1,
+		   "name": "Bitcoin Mining Machine",
+		   "description": "Giving it an integrated circuit, you'll get a bit coin after a month, need 2 battery to start.",
+		   "texture": "bitcoin_mining_machine.png",
+		   "crafting": "787 10 335 10 334 2 336 2 338 8",
+		   "frames": 2,
+		   "pulsate": false,
+		   "lightsource": true,
+           "worklight": true,
+           "lightcolor": [ 0, 0, 0, 255 ],
+           "lightradius": 1.0,
+		   "itempos": [17,48],
+		   "itemzoom": 0.5,
+           "starter": {
+                      "index": 787,
+                      "stack": 2
+                      },
+		   "production":
+			            [
+				            {
+					      "item": "Bit Coin",
+					      "time": 40000,
+	                      "materials": [
+                                           {
+                                            "item": "Integrated Circuit",
+                                            "stack": 1
+                                           }
+                                        ]
+				            }
+			            ]
+		},
+		{
+		   "id": 2,
+		   "name": "Electric Arc Furnace",
+		   "description": "Melting large number of ores everytime without using any coal.",
+		   "texture": "electricarcfurnace.png",
+		   "tileindex": 0,
+		   "pulsate": false,
+		   "frames": 3,
+		   "crafting": "787 10 334 10 335 20 336 10 337 5",
+		   "showitem": "false",
+		   "itempos": [17,64],
+		   "itemzoom": 0.5,
+		   "production":
+			[
+				{
+					"name": "Copper Bar",
+					"index": 334,
+					"time": 20,
+					"stack": 12,
+					"materials":
+					[
+						{
+							"index": 378,
+							"stack": 50
+						}
+					]
+				},
+				{
+					"name": "Iron Bar",
+					"index": 335,
+					"time": 60,
+					"stack": 12,
+					"materials":
+					[
+						{
+							"index": 380,
+							"stack": 50
+						}
+					]
+				},
+				{
+					"name": "Gold Bar",
+					"index": 336,
+					"time": 150,
+					"stack": 12,
+					"materials":
+					[
+						{
+							"index": 384,
+							"stack": 50
+						}
+					]
+				},
+				{
+					"name": "Iridium Bar",
+					"index": 337,
+					"time": 240,
+					"stack": 12,
+					"materials":
+					[
+						{
+							"index": 386,
+							"stack": 50
+						}
+					]
+				},
+				{
+					"name": "Refined Quartz",
+					"index": 338,
+					"time": 40,
+					"stack": 12,
+					"materials":
+					[
+						{
+							"index": 80,
+							"stack": 10
+						}
+					]
+				},
+				{
+					"name": "Refined Quartz",
+					"index": 338,
+					"time": 40,
+					"stack": 40,
+					"materials":
+					[
+						{
+							"index": 82,
+							"stack": 10
+						}
+					]
+				},
+			    {
+			        "name": "Silicon",
+			        "time": 240,
+			        "stack": 10,
+			        "materials": 
+					[
+				        {
+				            "name": "Clear Sand",
+				            "stack": 50
+				        }
+		            ]
+			    }
+			]
+	   },
+	]
+}

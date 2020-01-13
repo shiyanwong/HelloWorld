@@ -1,0 +1,86 @@
+{
+	"useid": "Slammy.AutoResources",
+	"machines" :
+	[
+		{
+			"id" : 0,
+			"name" : "Wood Machine",
+			"description" : "A machine imbued with small amounts of forest magic, produces wood or hardwood on a daily basis.",
+			"category" : "Crafting",
+			"texture" : "others.png",
+			"tileindex" : 0,
+			"crafting" : "388 80 709 20 768 10 268 1",
+			"pulsate" : true,
+			"production" :
+			[
+				{
+					"item": "random:Wood,Wood,Wood,Hardwood",
+					"stack": 10,
+					"time" : 1440,
+				},
+			]
+		},
+				{
+			"id" : 1,
+			"name" : "Fiber Bin",
+			"description" : "A bin designed to grow various weeds for the purpose of turning into fiber. Sometimes produces mixed seeds.",
+			"category" : "Crafting",
+			"texture" : "others.png",
+			"tileindex" : 1,
+			"crafting" : "771 100 709 10 768 10 368 20",
+			"pulsate" : true,
+			"production" :
+			[
+				{
+					"item": "random:Fiber,Fiber,Fiber,Fiber,Fiber,Mixed Seeds",
+					"stack": 10,
+					"time" : 10,
+				},
+			]
+		},
+		{
+			"id" : 2,
+			"name" : "Stone Drill",
+			"description" : "A drill specially designed to extract stone. Must be placed outdoors.",
+			"category" : "Crafting",
+			"texture" : "stonedriller.png",
+			"tileindex" : 0,
+			"readyindex" : 0,
+			"pulsate": false,
+			"frames": 3,
+			"workconditions": "LC caller.location.IsOutdoors",
+			"conditionalanimation": true,
+			"crafting" : "335 5 390 100 768 10 787 2",
+			"production" :
+			[
+				{
+					"index": 390,
+					"stack": 10,
+					"time" : 1440,
+				},
+			]
+		},
+				{
+			"id" : 3,
+			"name" : "Clay Drill",
+			"description" : "A drill specially designed to extract clay. Must be placed outdoors.",
+			"category" : "Crafting",
+			"texture" : "claydriller.png",
+			"tileindex" : 0,
+			"readyindex" : 0,
+			"pulsate": false,
+			"frames": 3,
+			"workconditions": "LC caller.location.IsOutdoors",
+			"conditionalanimation": true,
+			"crafting" : "335 5 330 100 768 10 787 2",
+			"production" :
+			[
+				{
+					"index": 330,
+					"stack": 10,
+					"time" : 1440,
+				},
+			]
+		}
+	]
+}

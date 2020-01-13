@@ -1,0 +1,23 @@
+{
+  "Name": "Rocket Engine",
+  "Description": "Important part of rocket!",
+  "Category": "Gem",
+  "Edibility": -300,
+  "Price": 100000,
+  "IsColored": false,
+  "Recipe": {
+    "ResultCount": 1,
+    "Ingredients":
+	[
+      { "Object": 787, "Count": 5, },
+      { "Object": 445, "Count": 2, },
+      { "Object": 807, "Count": 1, },
+      { "Object": 337, "Count": 10, },
+    ],
+    "CanPurchase": true,
+    "PurchaseFrom": "Krobus",
+    "PurchasePrice": 100000,
+    "PurchaseRequirements":
+[ "y 3", ],
+},  
+}
