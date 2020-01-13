@@ -1,0 +1,56 @@
+language: android
+
+jdk: oraclejdk8
+
+android:
+  components:
+    # Uncomment the lines below if you want to
+    # use the latest revision of Android SDK Tools
+    - tools
+    - platform-tools
+    - tools # appears twice as per Travis docs
+
+    # The BuildTools version used by your project
+    - build-tools-29.0.2
+    #- build-tools-28.0.3
+    #- build-tools-26.0.2
+    #- build-tools-27.0.3
+
+    # The SDK version used to compile your project
+    - android-29 
+    - android-28 # android 8.0
+    - android-22 # used for emulator
+
+    # Additional components
+    - extra-google-google_play_services
+    - extra-google-m2repository
+    - extra-android-m2repository
+    - addon-google_apis-google-29
+    #- addon-google_apis-google-28
+    - extra-android-support
+
+    # Specify at least one system image,
+    # if you need to run emulator(s) during your tests
+    #- sys-img-armeabi-v7a-android-16
+    #- sys-img-armeabi-v7a-android-21
+    - sys-img-armeabi-v7a-android-22
+    #- sys-img-armeabi-v7a-android-25
+
+  licenses:
+    - 'android-sdk-preview-license-.+'
+    - 'android-sdk-license-.+'
+    - 'google-gdk-license-.+'
+
+before_script:
+  # Create and start emulator (used to run automated tests)
+  - android list targets
+  - echo no | android create avd --force -n test -t android-22 --abi armeabi-v7a
+  - emulator -avd test -no-skin -no-audio -no-window &
+  - adb wait-for-device
+  #- while [[ `adb shell pm path android` == 'Error'* ]]; do sleep 2; done
+  - adb shell input keyevent 82 &
+
+# Uncomment and specify the correct key
+# for integration into Slack 
+notifications:
+  slack: ict2105:9ws2zomQbn6zgEODFj1HlMio
